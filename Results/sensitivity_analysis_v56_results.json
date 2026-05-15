@@ -1,0 +1,2626 @@
+{
+  "sweep1": {
+    "sweep_name": "Sweep 1 \u2014 founding_drift_limit vs Claim 2 (drift precedence)",
+    "param_name": "founding_drift_limit",
+    "param_values": [
+      0.4,
+      0.48,
+      0.55,
+      0.62,
+      0.7
+    ],
+    "values_passing": 5,
+    "sweep_passes": true,
+    "pass_threshold": 4,
+    "results": {
+      "0.4": {
+        "value": 0.4,
+        "trials_passed": 10,
+        "value_passes": true,
+        "mean_cooperation": 1.0,
+        "min_cooperation": 1.0,
+        "mean_sacrifice_innovation": 0.03777777777777778,
+        "trial_details": [
+          {
+            "seed": 42,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.022222222222222223,
+              "const_warning_round": 5,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.644694117324974,
+              "pressured_cd_final": 0.645026455934425,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 137,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.044444444444444446,
+              "const_warning_round": 5,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.6438491602502245,
+              "pressured_cd_final": 0.6443502604983844,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 271,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.022222222222222223,
+              "const_warning_round": 5,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.6436432489260365,
+              "pressured_cd_final": 0.6441854360796361,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 314,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.022222222222222223,
+              "const_warning_round": 5,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.6396705090059123,
+              "pressured_cd_final": 0.625487355674321,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 500,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.022222222222222223,
+              "const_warning_round": 5,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.644694117324974,
+              "pressured_cd_final": 0.645026455934425,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 612,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.06666666666666667,
+              "const_warning_round": 7,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.641474914871622,
+              "pressured_cd_final": 0.6424487979559109,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 718,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.044444444444444446,
+              "const_warning_round": 5,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.6446059335592693,
+              "pressured_cd_final": 0.6449558971984607,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 823,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.0,
+              "const_warning_round": 6,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.6446883503757868,
+              "pressured_cd_final": 0.6450218416950588,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 919,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.08888888888888889,
+              "const_warning_round": 5,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.6285545432312727,
+              "pressured_cd_final": 0.6001558415477652,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 1001,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.044444444444444446,
+              "const_warning_round": 6,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.6368809932023204,
+              "pressured_cd_final": 0.6387634627871933,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          }
+        ]
+      },
+      "0.48": {
+        "value": 0.48,
+        "trials_passed": 10,
+        "value_passes": true,
+        "mean_cooperation": 1.0,
+        "min_cooperation": 1.0,
+        "mean_sacrifice_innovation": 0.03777777777777778,
+        "trial_details": [
+          {
+            "seed": 42,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.022222222222222223,
+              "const_warning_round": 5,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.644694117324974,
+              "pressured_cd_final": 0.645026455934425,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 137,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.044444444444444446,
+              "const_warning_round": 5,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.6438491602502245,
+              "pressured_cd_final": 0.6443502604983844,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 271,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.022222222222222223,
+              "const_warning_round": 5,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.6436432489260365,
+              "pressured_cd_final": 0.6441854360796361,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 314,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.022222222222222223,
+              "const_warning_round": 5,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.6396705090059123,
+              "pressured_cd_final": 0.625487355674321,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 500,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.022222222222222223,
+              "const_warning_round": 5,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.644694117324974,
+              "pressured_cd_final": 0.645026455934425,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 612,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.06666666666666667,
+              "const_warning_round": 7,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.641474914871622,
+              "pressured_cd_final": 0.6424487979559109,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 718,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.044444444444444446,
+              "const_warning_round": 5,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.6446059335592693,
+              "pressured_cd_final": 0.6449558971984607,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 823,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.0,
+              "const_warning_round": 6,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.6446883503757868,
+              "pressured_cd_final": 0.6450218416950588,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 919,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.08888888888888889,
+              "const_warning_round": 5,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.6285545432312727,
+              "pressured_cd_final": 0.6001558415477652,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 1001,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.044444444444444446,
+              "const_warning_round": 6,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.6368809932023204,
+              "pressured_cd_final": 0.6387634627871933,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          }
+        ]
+      },
+      "0.55": {
+        "value": 0.55,
+        "trials_passed": 10,
+        "value_passes": true,
+        "mean_cooperation": 1.0,
+        "min_cooperation": 1.0,
+        "mean_sacrifice_innovation": 0.03777777777777778,
+        "trial_details": [
+          {
+            "seed": 42,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.022222222222222223,
+              "const_warning_round": 5,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.644694117324974,
+              "pressured_cd_final": 0.645026455934425,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 137,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.044444444444444446,
+              "const_warning_round": 5,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.6438491602502245,
+              "pressured_cd_final": 0.6443502604983844,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 271,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.022222222222222223,
+              "const_warning_round": 5,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.6436432489260365,
+              "pressured_cd_final": 0.6441854360796361,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 314,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.022222222222222223,
+              "const_warning_round": 5,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.6396705090059123,
+              "pressured_cd_final": 0.625487355674321,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 500,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.022222222222222223,
+              "const_warning_round": 5,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.644694117324974,
+              "pressured_cd_final": 0.645026455934425,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 612,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.06666666666666667,
+              "const_warning_round": 7,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.641474914871622,
+              "pressured_cd_final": 0.6424487979559109,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 718,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.044444444444444446,
+              "const_warning_round": 5,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.6446059335592693,
+              "pressured_cd_final": 0.6449558971984607,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 823,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.0,
+              "const_warning_round": 6,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.6446883503757868,
+              "pressured_cd_final": 0.6450218416950588,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 919,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.08888888888888889,
+              "const_warning_round": 5,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.6285545432312727,
+              "pressured_cd_final": 0.6001558415477652,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 1001,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.044444444444444446,
+              "const_warning_round": 6,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.6368809932023204,
+              "pressured_cd_final": 0.6387634627871933,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          }
+        ]
+      },
+      "0.62": {
+        "value": 0.62,
+        "trials_passed": 10,
+        "value_passes": true,
+        "mean_cooperation": 1.0,
+        "min_cooperation": 1.0,
+        "mean_sacrifice_innovation": 0.03777777777777778,
+        "trial_details": [
+          {
+            "seed": 42,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.022222222222222223,
+              "const_warning_round": 5,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.644694117324974,
+              "pressured_cd_final": 0.645026455934425,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 137,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.044444444444444446,
+              "const_warning_round": 5,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.6438491602502245,
+              "pressured_cd_final": 0.6443502604983844,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 271,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.022222222222222223,
+              "const_warning_round": 5,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.6436432489260365,
+              "pressured_cd_final": 0.6441854360796361,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 314,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.022222222222222223,
+              "const_warning_round": 5,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.6396705090059123,
+              "pressured_cd_final": 0.625487355674321,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 500,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.022222222222222223,
+              "const_warning_round": 5,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.644694117324974,
+              "pressured_cd_final": 0.645026455934425,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 612,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.06666666666666667,
+              "const_warning_round": 7,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.641474914871622,
+              "pressured_cd_final": 0.6424487979559109,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 718,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.044444444444444446,
+              "const_warning_round": 5,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.6446059335592693,
+              "pressured_cd_final": 0.6449558971984607,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 823,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.0,
+              "const_warning_round": 6,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.6446883503757868,
+              "pressured_cd_final": 0.6450218416950588,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 919,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.08888888888888889,
+              "const_warning_round": 5,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.6285545432312727,
+              "pressured_cd_final": 0.6001558415477652,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 1001,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.044444444444444446,
+              "const_warning_round": 6,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.6368809932023204,
+              "pressured_cd_final": 0.6387634627871933,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          }
+        ]
+      },
+      "0.7": {
+        "value": 0.7,
+        "trials_passed": 10,
+        "value_passes": true,
+        "mean_cooperation": 1.0,
+        "min_cooperation": 1.0,
+        "mean_sacrifice_innovation": 0.03777777777777778,
+        "trial_details": [
+          {
+            "seed": 42,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.022222222222222223,
+              "const_warning_round": 5,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.644694117324974,
+              "pressured_cd_final": 0.645026455934425,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 0
+            }
+          },
+          {
+            "seed": 137,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.044444444444444446,
+              "const_warning_round": 5,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.6438491602502245,
+              "pressured_cd_final": 0.6443502604983844,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 2
+            }
+          },
+          {
+            "seed": 271,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.022222222222222223,
+              "const_warning_round": 5,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.6436432489260365,
+              "pressured_cd_final": 0.6441854360796361,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 1
+            }
+          },
+          {
+            "seed": 314,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.022222222222222223,
+              "const_warning_round": 5,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.6396705090059123,
+              "pressured_cd_final": 0.625487355674321,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 3
+            }
+          },
+          {
+            "seed": 500,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.022222222222222223,
+              "const_warning_round": 5,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.644694117324974,
+              "pressured_cd_final": 0.645026455934425,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 0
+            }
+          },
+          {
+            "seed": 612,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.06666666666666667,
+              "const_warning_round": 7,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.641474914871622,
+              "pressured_cd_final": 0.6424487979559109,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 3
+            }
+          },
+          {
+            "seed": 718,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.044444444444444446,
+              "const_warning_round": 5,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.6446059335592693,
+              "pressured_cd_final": 0.6449558971984607,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 1
+            }
+          },
+          {
+            "seed": 823,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.0,
+              "const_warning_round": 6,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.6446883503757868,
+              "pressured_cd_final": 0.6450218416950588,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 1
+            }
+          },
+          {
+            "seed": 919,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.08888888888888889,
+              "const_warning_round": 5,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.6285545432312727,
+              "pressured_cd_final": 0.6001558415477652,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 6
+            }
+          },
+          {
+            "seed": 1001,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.044444444444444446,
+              "const_warning_round": 6,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.6368809932023204,
+              "pressured_cd_final": 0.6387634627871933,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 3
+            }
+          }
+        ]
+      }
+    }
+  },
+  "sweep2": {
+    "sweep_name": "Sweep 2 \u2014 depletion/recovery ratio vs Claim 3",
+    "values_passing": 5,
+    "sweep_passes": true,
+    "results": {
+      "2:1": {
+        "ratio": 2,
+        "depletion": 0.16,
+        "recovery": 0.08,
+        "trials_passed": 10,
+        "value_passes": true,
+        "mean_integrity_min": 0.5,
+        "mean_communion_failures": 0,
+        "mean_floor_streak": 0
+      },
+      "3:1": {
+        "ratio": 3,
+        "depletion": 0.24,
+        "recovery": 0.08,
+        "trials_passed": 10,
+        "value_passes": true,
+        "mean_integrity_min": 0.5,
+        "mean_communion_failures": 0,
+        "mean_floor_streak": 0
+      },
+      "4:1": {
+        "ratio": 4,
+        "depletion": 0.32,
+        "recovery": 0.08,
+        "trials_passed": 10,
+        "value_passes": true,
+        "mean_integrity_min": 0.5,
+        "mean_communion_failures": 0,
+        "mean_floor_streak": 0
+      },
+      "6:1": {
+        "ratio": 6,
+        "depletion": 0.48,
+        "recovery": 0.08,
+        "trials_passed": 10,
+        "value_passes": true,
+        "mean_integrity_min": 0.5,
+        "mean_communion_failures": 0,
+        "mean_floor_streak": 0
+      },
+      "8:1": {
+        "ratio": 8,
+        "depletion": 0.64,
+        "recovery": 0.08,
+        "trials_passed": 10,
+        "value_passes": true,
+        "mean_integrity_min": 0.5,
+        "mean_communion_failures": 0,
+        "mean_floor_streak": 0
+      }
+    }
+  },
+  "sweep3": {
+    "sweep_name": "Sweep 3 \u2014 k_target_fraction vs Claim 1 (cooperation \u2265 80%)",
+    "param_name": "k_target_fraction",
+    "param_values": [
+      0.25,
+      0.32,
+      0.4,
+      0.5,
+      0.6
+    ],
+    "values_passing": 5,
+    "sweep_passes": true,
+    "pass_threshold": 4,
+    "results": {
+      "0.25": {
+        "value": 0.25,
+        "trials_passed": 10,
+        "value_passes": true,
+        "mean_cooperation": 1.0,
+        "min_cooperation": 1.0,
+        "mean_sacrifice_innovation": 0.03777777777777778,
+        "trial_details": [
+          {
+            "seed": 42,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.022222222222222223,
+              "const_warning_round": 5,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.646265914815228,
+              "pressured_cd_final": 0.646284194701771,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 137,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.044444444444444446,
+              "const_warning_round": 5,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.6454158728088529,
+              "pressured_cd_final": 0.6456040265902879,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 271,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.022222222222222223,
+              "const_warning_round": 5,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.6452142992458885,
+              "pressured_cd_final": 0.6454426978523741,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 314,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.022222222222222223,
+              "const_warning_round": 5,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.6434307979462228,
+              "pressured_cd_final": 0.6267118540239638,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 500,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.022222222222222223,
+              "const_warning_round": 5,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.646265914815228,
+              "pressured_cd_final": 0.646284194701771,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 612,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.06666666666666667,
+              "const_warning_round": 6,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.6439194936563153,
+              "pressured_cd_final": 0.6436872542742186,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 718,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.044444444444444446,
+              "const_warning_round": 5,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.6461246236005314,
+              "pressured_cd_final": 0.6461711576563268,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 823,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.0,
+              "const_warning_round": 6,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.6462537762208441,
+              "pressured_cd_final": 0.6462744837598624,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 919,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.08888888888888889,
+              "const_warning_round": 5,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.6304150549704002,
+              "pressured_cd_final": 0.601327310985102,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 1001,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.044444444444444446,
+              "const_warning_round": 6,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.6450473610537127,
+              "pressured_cd_final": 0.6399868759543121,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          }
+        ]
+      },
+      "0.32": {
+        "value": 0.32,
+        "trials_passed": 10,
+        "value_passes": true,
+        "mean_cooperation": 1.0,
+        "min_cooperation": 1.0,
+        "mean_sacrifice_innovation": 0.03777777777777778,
+        "trial_details": [
+          {
+            "seed": 42,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.022222222222222223,
+              "const_warning_round": 5,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.646265914815228,
+              "pressured_cd_final": 0.646284194701771,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 137,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.044444444444444446,
+              "const_warning_round": 5,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.6454158728088529,
+              "pressured_cd_final": 0.6456040265902879,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 271,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.022222222222222223,
+              "const_warning_round": 5,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.6452142992458885,
+              "pressured_cd_final": 0.6454426978523741,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 314,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.022222222222222223,
+              "const_warning_round": 5,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.6434307979462228,
+              "pressured_cd_final": 0.6267118540239638,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 500,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.022222222222222223,
+              "const_warning_round": 5,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.646265914815228,
+              "pressured_cd_final": 0.646284194701771,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 612,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.06666666666666667,
+              "const_warning_round": 6,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.6439194936563153,
+              "pressured_cd_final": 0.6436872542742186,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 718,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.044444444444444446,
+              "const_warning_round": 5,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.6461246236005314,
+              "pressured_cd_final": 0.6461711576563268,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 823,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.0,
+              "const_warning_round": 6,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.6462537762208441,
+              "pressured_cd_final": 0.6462744837598624,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 919,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.08888888888888889,
+              "const_warning_round": 5,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.6304150549704002,
+              "pressured_cd_final": 0.601327310985102,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 1001,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.044444444444444446,
+              "const_warning_round": 6,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.6450473610537127,
+              "pressured_cd_final": 0.6399868759543121,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          }
+        ]
+      },
+      "0.4": {
+        "value": 0.4,
+        "trials_passed": 10,
+        "value_passes": true,
+        "mean_cooperation": 1.0,
+        "min_cooperation": 1.0,
+        "mean_sacrifice_innovation": 0.03777777777777778,
+        "trial_details": [
+          {
+            "seed": 42,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.022222222222222223,
+              "const_warning_round": 5,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.646265914815228,
+              "pressured_cd_final": 0.646284194701771,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 137,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.044444444444444446,
+              "const_warning_round": 5,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.6454158728088529,
+              "pressured_cd_final": 0.6456040265902879,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 271,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.022222222222222223,
+              "const_warning_round": 5,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.6452142992458885,
+              "pressured_cd_final": 0.6454426978523741,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 314,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.022222222222222223,
+              "const_warning_round": 5,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.6434307979462228,
+              "pressured_cd_final": 0.6267118540239638,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 500,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.022222222222222223,
+              "const_warning_round": 5,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.646265914815228,
+              "pressured_cd_final": 0.646284194701771,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 612,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.06666666666666667,
+              "const_warning_round": 6,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.6439194936563153,
+              "pressured_cd_final": 0.6436872542742186,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 718,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.044444444444444446,
+              "const_warning_round": 5,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.6461246236005314,
+              "pressured_cd_final": 0.6461711576563268,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 823,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.0,
+              "const_warning_round": 6,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.6462537762208441,
+              "pressured_cd_final": 0.6462744837598624,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 919,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.08888888888888889,
+              "const_warning_round": 5,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.6304150549704002,
+              "pressured_cd_final": 0.601327310985102,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 1001,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.044444444444444446,
+              "const_warning_round": 6,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.6450473610537127,
+              "pressured_cd_final": 0.6399868759543121,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          }
+        ]
+      },
+      "0.5": {
+        "value": 0.5,
+        "trials_passed": 10,
+        "value_passes": true,
+        "mean_cooperation": 1.0,
+        "min_cooperation": 1.0,
+        "mean_sacrifice_innovation": 0.03777777777777778,
+        "trial_details": [
+          {
+            "seed": 42,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.022222222222222223,
+              "const_warning_round": 5,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.646265914815228,
+              "pressured_cd_final": 0.646284194701771,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 137,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.044444444444444446,
+              "const_warning_round": 5,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.6454158728088529,
+              "pressured_cd_final": 0.6456040265902879,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 271,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.022222222222222223,
+              "const_warning_round": 5,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.6452142992458885,
+              "pressured_cd_final": 0.6454426978523741,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 314,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.022222222222222223,
+              "const_warning_round": 5,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.6434307979462228,
+              "pressured_cd_final": 0.6267118540239638,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 500,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.022222222222222223,
+              "const_warning_round": 5,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.646265914815228,
+              "pressured_cd_final": 0.646284194701771,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 612,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.06666666666666667,
+              "const_warning_round": 6,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.6439194936563153,
+              "pressured_cd_final": 0.6436872542742186,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 718,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.044444444444444446,
+              "const_warning_round": 5,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.6461246236005314,
+              "pressured_cd_final": 0.6461711576563268,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 823,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.0,
+              "const_warning_round": 6,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.6462537762208441,
+              "pressured_cd_final": 0.6462744837598624,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 919,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.08888888888888889,
+              "const_warning_round": 5,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.6304150549704002,
+              "pressured_cd_final": 0.601327310985102,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 1001,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.044444444444444446,
+              "const_warning_round": 6,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.6450473610537127,
+              "pressured_cd_final": 0.6399868759543121,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          }
+        ]
+      },
+      "0.6": {
+        "value": 0.6,
+        "trials_passed": 10,
+        "value_passes": true,
+        "mean_cooperation": 1.0,
+        "min_cooperation": 1.0,
+        "mean_sacrifice_innovation": 0.03777777777777778,
+        "trial_details": [
+          {
+            "seed": 42,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.022222222222222223,
+              "const_warning_round": 5,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.646265914815228,
+              "pressured_cd_final": 0.646284194701771,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 137,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.044444444444444446,
+              "const_warning_round": 5,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.6454158728088529,
+              "pressured_cd_final": 0.6456040265902879,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 271,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.022222222222222223,
+              "const_warning_round": 5,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.6452142992458885,
+              "pressured_cd_final": 0.6454426978523741,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 314,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.022222222222222223,
+              "const_warning_round": 5,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.6434307979462228,
+              "pressured_cd_final": 0.6267118540239638,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 500,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.022222222222222223,
+              "const_warning_round": 5,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.646265914815228,
+              "pressured_cd_final": 0.646284194701771,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 612,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.06666666666666667,
+              "const_warning_round": 6,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.6439194936563153,
+              "pressured_cd_final": 0.6436872542742186,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 718,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.044444444444444446,
+              "const_warning_round": 5,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.6461246236005314,
+              "pressured_cd_final": 0.6461711576563268,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 823,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.0,
+              "const_warning_round": 6,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.6462537762208441,
+              "pressured_cd_final": 0.6462744837598624,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 919,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.08888888888888889,
+              "const_warning_round": 5,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.6304150549704002,
+              "pressured_cd_final": 0.601327310985102,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 1001,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.044444444444444446,
+              "const_warning_round": 6,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.6450473610537127,
+              "pressured_cd_final": 0.6399868759543121,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          }
+        ]
+      }
+    }
+  },
+  "sweep4": {
+    "sweep_name": "Sweep 4 \u2014 innovation_alpha vs sacrifice frequency (< 80%)",
+    "param_name": "innovation_alpha",
+    "param_values": [
+      0.4,
+      0.55,
+      0.7,
+      0.85
+    ],
+    "values_passing": 4,
+    "sweep_passes": true,
+    "pass_threshold": 3,
+    "results": {
+      "0.4": {
+        "value": 0.4,
+        "trials_passed": 10,
+        "value_passes": true,
+        "mean_cooperation": 1.0,
+        "min_cooperation": 1.0,
+        "mean_sacrifice_innovation": 0.045,
+        "trial_details": [
+          {
+            "seed": 42,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.03333333333333333,
+              "const_warning_round": 5,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.646265914815228,
+              "pressured_cd_final": 0.646284194701771,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 137,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.05,
+              "const_warning_round": 5,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.6454158728088529,
+              "pressured_cd_final": 0.6456040265902879,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 271,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.05,
+              "const_warning_round": 5,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.6452142992458885,
+              "pressured_cd_final": 0.6454426978523741,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 314,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.03333333333333333,
+              "const_warning_round": 5,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.6434307979462228,
+              "pressured_cd_final": 0.6267118540239638,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 500,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.05,
+              "const_warning_round": 5,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.646265914815228,
+              "pressured_cd_final": 0.646284194701771,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 612,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.05,
+              "const_warning_round": 6,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.6439194936563153,
+              "pressured_cd_final": 0.6436872542742186,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 718,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.03333333333333333,
+              "const_warning_round": 5,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.6461246236005314,
+              "pressured_cd_final": 0.6461711576563268,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 823,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.016666666666666666,
+              "const_warning_round": 6,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.6462537762208441,
+              "pressured_cd_final": 0.6462744837598624,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 919,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.08333333333333333,
+              "const_warning_round": 5,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.6304150549704002,
+              "pressured_cd_final": 0.601327310985102,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 1001,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.05,
+              "const_warning_round": 6,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.6450473610537127,
+              "pressured_cd_final": 0.6399868759543121,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          }
+        ]
+      },
+      "0.55": {
+        "value": 0.55,
+        "trials_passed": 10,
+        "value_passes": true,
+        "mean_cooperation": 1.0,
+        "min_cooperation": 1.0,
+        "mean_sacrifice_innovation": 0.045,
+        "trial_details": [
+          {
+            "seed": 42,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.03333333333333333,
+              "const_warning_round": 5,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.646265914815228,
+              "pressured_cd_final": 0.646284194701771,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 137,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.05,
+              "const_warning_round": 5,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.6454158728088529,
+              "pressured_cd_final": 0.6456040265902879,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 271,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.05,
+              "const_warning_round": 5,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.6452142992458885,
+              "pressured_cd_final": 0.6454426978523741,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 314,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.03333333333333333,
+              "const_warning_round": 5,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.6434307979462228,
+              "pressured_cd_final": 0.6267118540239638,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 500,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.05,
+              "const_warning_round": 5,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.646265914815228,
+              "pressured_cd_final": 0.646284194701771,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 612,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.05,
+              "const_warning_round": 6,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.6439194936563153,
+              "pressured_cd_final": 0.6436872542742186,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 718,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.03333333333333333,
+              "const_warning_round": 5,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.6461246236005314,
+              "pressured_cd_final": 0.6461711576563268,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 823,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.016666666666666666,
+              "const_warning_round": 6,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.6462537762208441,
+              "pressured_cd_final": 0.6462744837598624,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 919,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.08333333333333333,
+              "const_warning_round": 5,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.6304150549704002,
+              "pressured_cd_final": 0.601327310985102,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 1001,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.05,
+              "const_warning_round": 6,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.6450473610537127,
+              "pressured_cd_final": 0.6399868759543121,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          }
+        ]
+      },
+      "0.7": {
+        "value": 0.7,
+        "trials_passed": 10,
+        "value_passes": true,
+        "mean_cooperation": 1.0,
+        "min_cooperation": 1.0,
+        "mean_sacrifice_innovation": 0.045,
+        "trial_details": [
+          {
+            "seed": 42,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.03333333333333333,
+              "const_warning_round": 5,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.646265914815228,
+              "pressured_cd_final": 0.646284194701771,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 137,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.05,
+              "const_warning_round": 5,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.6454158728088529,
+              "pressured_cd_final": 0.6456040265902879,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 271,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.05,
+              "const_warning_round": 5,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.6452142992458885,
+              "pressured_cd_final": 0.6454426978523741,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 314,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.03333333333333333,
+              "const_warning_round": 5,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.6434307979462228,
+              "pressured_cd_final": 0.6267118540239638,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 500,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.05,
+              "const_warning_round": 5,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.646265914815228,
+              "pressured_cd_final": 0.646284194701771,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 612,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.05,
+              "const_warning_round": 6,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.6439194936563153,
+              "pressured_cd_final": 0.6436872542742186,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 718,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.03333333333333333,
+              "const_warning_round": 5,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.6461246236005314,
+              "pressured_cd_final": 0.6461711576563268,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 823,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.016666666666666666,
+              "const_warning_round": 6,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.6462537762208441,
+              "pressured_cd_final": 0.6462744837598624,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 919,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.08333333333333333,
+              "const_warning_round": 5,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.6304150549704002,
+              "pressured_cd_final": 0.601327310985102,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 1001,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.05,
+              "const_warning_round": 6,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.6450473610537127,
+              "pressured_cd_final": 0.6399868759543121,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          }
+        ]
+      },
+      "0.85": {
+        "value": 0.85,
+        "trials_passed": 10,
+        "value_passes": true,
+        "mean_cooperation": 1.0,
+        "min_cooperation": 1.0,
+        "mean_sacrifice_innovation": 0.045,
+        "trial_details": [
+          {
+            "seed": 42,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.03333333333333333,
+              "const_warning_round": 5,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.646265914815228,
+              "pressured_cd_final": 0.646284194701771,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 137,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.05,
+              "const_warning_round": 5,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.6454158728088529,
+              "pressured_cd_final": 0.6456040265902879,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 271,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.05,
+              "const_warning_round": 5,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.6452142992458885,
+              "pressured_cd_final": 0.6454426978523741,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 314,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.03333333333333333,
+              "const_warning_round": 5,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.6434307979462228,
+              "pressured_cd_final": 0.6267118540239638,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 500,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.05,
+              "const_warning_round": 5,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.646265914815228,
+              "pressured_cd_final": 0.646284194701771,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 612,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.05,
+              "const_warning_round": 6,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.6439194936563153,
+              "pressured_cd_final": 0.6436872542742186,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 718,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.03333333333333333,
+              "const_warning_round": 5,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.6461246236005314,
+              "pressured_cd_final": 0.6461711576563268,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 823,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.016666666666666666,
+              "const_warning_round": 6,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.6462537762208441,
+              "pressured_cd_final": 0.6462744837598624,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 919,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.08333333333333333,
+              "const_warning_round": 5,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.6304150549704002,
+              "pressured_cd_final": 0.601327310985102,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          },
+          {
+            "seed": 1001,
+            "passed": true,
+            "metrics": {
+              "cooperation_rate": 1.0,
+              "sacrifice_rate_innovation": 0.05,
+              "const_warning_round": 6,
+              "low_communion_round": null,
+              "integrity_min": 1.0,
+              "communion_failures": 0,
+              "reserve_floor_streak_max": 0,
+              "pressured_cd_peak": 0.6450473610537127,
+              "pressured_cd_final": 0.6399868759543121,
+              "giver_final_integrity": 0.0,
+              "founding_drift_exceeded_count": 40
+            }
+          }
+        ]
+      }
+    }
+  }
+}

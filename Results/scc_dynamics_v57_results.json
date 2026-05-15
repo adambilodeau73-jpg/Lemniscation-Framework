@@ -1,0 +1,986 @@
+{
+  "PHENOMENAL STRESS ONLY": {
+    "mean_cooperation": 0.9696,
+    "mean_scc_final": 0.8532904793729398,
+    "mean_exploit_rate": 0.0,
+    "hobbesian_reversions": 0,
+    "trials": [
+      {
+        "seed": 42,
+        "label": "PHENOMENAL STRESS ONLY",
+        "cooperation_rate": 0.952,
+        "action_distribution": {
+          "sacrificing": 0.032,
+          "contributing": 0.92,
+          "coasting": 0.048,
+          "exploiting": 0.0
+        },
+        "coop_agent_distribution": {
+          "sacrificing": 0.032,
+          "contributing": 0.92,
+          "coasting": 0.048,
+          "exploiting": 0.0
+        },
+        "mean_scc_final": 0.7703085988466526,
+        "mean_scc_midpoint": 0.9045954883264102,
+        "scc_trajectory_sample": {
+          "R5": 1.0,
+          "R10": 0.9954263671358518,
+          "R15": 0.9532503845855216,
+          "R20": 0.9612523755819935,
+          "R25": 0.9131360814418807,
+          "R30": 0.8577831780816588,
+          "R40": 0.8411112801354015,
+          "R50": 0.7703085988466526
+        },
+        "first_scc_warning_round": null,
+        "first_reversion_round": null,
+        "hobbesian_reversion_occurred": false
+      },
+      {
+        "seed": 137,
+        "label": "PHENOMENAL STRESS ONLY",
+        "cooperation_rate": 0.96,
+        "action_distribution": {
+          "sacrificing": 0.028,
+          "contributing": 0.932,
+          "coasting": 0.04,
+          "exploiting": 0.0
+        },
+        "coop_agent_distribution": {
+          "sacrificing": 0.028,
+          "contributing": 0.932,
+          "coasting": 0.04,
+          "exploiting": 0.0
+        },
+        "mean_scc_final": 0.8656039423190206,
+        "mean_scc_midpoint": 0.938304951571883,
+        "scc_trajectory_sample": {
+          "R5": 1.0,
+          "R10": 0.9803026009122685,
+          "R15": 0.9861996297768287,
+          "R20": 0.9470643787774082,
+          "R25": 0.9468604283626567,
+          "R30": 0.9518129920651963,
+          "R40": 0.8949433882348049,
+          "R50": 0.8656039423190206
+        },
+        "first_scc_warning_round": null,
+        "first_reversion_round": null,
+        "hobbesian_reversion_occurred": false
+      },
+      {
+        "seed": 271,
+        "label": "PHENOMENAL STRESS ONLY",
+        "cooperation_rate": 0.968,
+        "action_distribution": {
+          "sacrificing": 0.028,
+          "contributing": 0.94,
+          "coasting": 0.032,
+          "exploiting": 0.0
+        },
+        "coop_agent_distribution": {
+          "sacrificing": 0.028,
+          "contributing": 0.94,
+          "coasting": 0.032,
+          "exploiting": 0.0
+        },
+        "mean_scc_final": 0.8668467021866684,
+        "mean_scc_midpoint": 0.9323910949411918,
+        "scc_trajectory_sample": {
+          "R5": 1.0,
+          "R10": 0.9864954646555819,
+          "R15": 0.9444275431353266,
+          "R20": 0.905368694501393,
+          "R25": 0.941140171319047,
+          "R30": 0.8914616980655218,
+          "R40": 0.960273154611358,
+          "R50": 0.8668467021866684
+        },
+        "first_scc_warning_round": null,
+        "first_reversion_round": null,
+        "hobbesian_reversion_occurred": false
+      },
+      {
+        "seed": 314,
+        "label": "PHENOMENAL STRESS ONLY",
+        "cooperation_rate": 0.976,
+        "action_distribution": {
+          "sacrificing": 0.036,
+          "contributing": 0.94,
+          "coasting": 0.024,
+          "exploiting": 0.0
+        },
+        "coop_agent_distribution": {
+          "sacrificing": 0.036,
+          "contributing": 0.94,
+          "coasting": 0.024,
+          "exploiting": 0.0
+        },
+        "mean_scc_final": 0.9104076917973966,
+        "mean_scc_midpoint": 0.9021648859431176,
+        "scc_trajectory_sample": {
+          "R5": 1.0,
+          "R10": 0.9984571723569078,
+          "R15": 0.9917273984931081,
+          "R20": 0.9524145652393258,
+          "R25": 0.9106547272222277,
+          "R30": 0.8679344596546644,
+          "R40": 0.91713836563372,
+          "R50": 0.9104076917973966
+        },
+        "first_scc_warning_round": null,
+        "first_reversion_round": null,
+        "hobbesian_reversion_occurred": false
+      },
+      {
+        "seed": 500,
+        "label": "PHENOMENAL STRESS ONLY",
+        "cooperation_rate": 0.972,
+        "action_distribution": {
+          "sacrificing": 0.032,
+          "contributing": 0.94,
+          "coasting": 0.028,
+          "exploiting": 0.0
+        },
+        "coop_agent_distribution": {
+          "sacrificing": 0.032,
+          "contributing": 0.94,
+          "coasting": 0.028,
+          "exploiting": 0.0
+        },
+        "mean_scc_final": 0.9018094625439533,
+        "mean_scc_midpoint": 0.8957195378344049,
+        "scc_trajectory_sample": {
+          "R5": 1.0,
+          "R10": 0.9924452146150443,
+          "R15": 0.9866272321377544,
+          "R20": 0.9466407987329684,
+          "R25": 0.9042574014983122,
+          "R30": 0.8551223075616027,
+          "R40": 0.896533383149247,
+          "R50": 0.9018094625439533
+        },
+        "first_scc_warning_round": null,
+        "first_reversion_round": null,
+        "hobbesian_reversion_occurred": false
+      },
+      {
+        "seed": 612,
+        "label": "PHENOMENAL STRESS ONLY",
+        "cooperation_rate": 0.968,
+        "action_distribution": {
+          "sacrificing": 0.04,
+          "contributing": 0.928,
+          "coasting": 0.032,
+          "exploiting": 0.0
+        },
+        "coop_agent_distribution": {
+          "sacrificing": 0.04,
+          "contributing": 0.928,
+          "coasting": 0.032,
+          "exploiting": 0.0
+        },
+        "mean_scc_final": 0.854692568353179,
+        "mean_scc_midpoint": 0.9164435967779779,
+        "scc_trajectory_sample": {
+          "R5": 1.0,
+          "R10": 0.9924288430645267,
+          "R15": 0.986615166296247,
+          "R20": 0.9412909229053169,
+          "R25": 0.9251703454775102,
+          "R30": 0.9296477093835965,
+          "R40": 0.9189467843536041,
+          "R50": 0.854692568353179
+        },
+        "first_scc_warning_round": null,
+        "first_reversion_round": null,
+        "hobbesian_reversion_occurred": false
+      },
+      {
+        "seed": 718,
+        "label": "PHENOMENAL STRESS ONLY",
+        "cooperation_rate": 0.972,
+        "action_distribution": {
+          "sacrificing": 0.044,
+          "contributing": 0.928,
+          "coasting": 0.028,
+          "exploiting": 0.0
+        },
+        "coop_agent_distribution": {
+          "sacrificing": 0.044,
+          "contributing": 0.928,
+          "coasting": 0.028,
+          "exploiting": 0.0
+        },
+        "mean_scc_final": 0.9000872677845628,
+        "mean_scc_midpoint": 0.9568130097442867,
+        "scc_trajectory_sample": {
+          "R5": 1.0,
+          "R10": 0.9862638963835972,
+          "R15": 0.9701332097803399,
+          "R20": 0.9638432289565945,
+          "R25": 0.965356222987935,
+          "R30": 0.9532571508197183,
+          "R40": 0.9354164895694321,
+          "R50": 0.9000872677845628
+        },
+        "first_scc_warning_round": null,
+        "first_reversion_round": null,
+        "hobbesian_reversion_occurred": false
+      },
+      {
+        "seed": 823,
+        "label": "PHENOMENAL STRESS ONLY",
+        "cooperation_rate": 0.984,
+        "action_distribution": {
+          "sacrificing": 0.024,
+          "contributing": 0.96,
+          "coasting": 0.016,
+          "exploiting": 0.0
+        },
+        "coop_agent_distribution": {
+          "sacrificing": 0.024,
+          "contributing": 0.96,
+          "coasting": 0.016,
+          "exploiting": 0.0
+        },
+        "mean_scc_final": 0.8417308862101663,
+        "mean_scc_midpoint": 0.9665947506030804,
+        "scc_trajectory_sample": {
+          "R5": 1.0,
+          "R10": 0.9918788187355897,
+          "R15": 0.9616865431791386,
+          "R20": 0.9797307048399346,
+          "R25": 0.9752129937364737,
+          "R30": 0.9258717691323843,
+          "R40": 0.88055482309401,
+          "R50": 0.8417308862101663
+        },
+        "first_scc_warning_round": null,
+        "first_reversion_round": null,
+        "hobbesian_reversion_occurred": false
+      },
+      {
+        "seed": 919,
+        "label": "PHENOMENAL STRESS ONLY",
+        "cooperation_rate": 0.968,
+        "action_distribution": {
+          "sacrificing": 0.02,
+          "contributing": 0.948,
+          "coasting": 0.032,
+          "exploiting": 0.0
+        },
+        "coop_agent_distribution": {
+          "sacrificing": 0.02,
+          "contributing": 0.948,
+          "coasting": 0.032,
+          "exploiting": 0.0
+        },
+        "mean_scc_final": 0.7659692087215537,
+        "mean_scc_midpoint": 0.9231391244340653,
+        "scc_trajectory_sample": {
+          "R5": 0.9968907695807396,
+          "R10": 0.9899740083721846,
+          "R15": 0.9765864554141015,
+          "R20": 0.9315783868707224,
+          "R25": 0.9318398361465746,
+          "R30": 0.8885047222731352,
+          "R40": 0.8116038337811726,
+          "R50": 0.7659692087215537
+        },
+        "first_scc_warning_round": null,
+        "first_reversion_round": null,
+        "hobbesian_reversion_occurred": false
+      },
+      {
+        "seed": 1001,
+        "label": "PHENOMENAL STRESS ONLY",
+        "cooperation_rate": 0.976,
+        "action_distribution": {
+          "sacrificing": 0.04,
+          "contributing": 0.936,
+          "coasting": 0.024,
+          "exploiting": 0.0
+        },
+        "coop_agent_distribution": {
+          "sacrificing": 0.04,
+          "contributing": 0.936,
+          "coasting": 0.024,
+          "exploiting": 0.0
+        },
+        "mean_scc_final": 0.8554484649662442,
+        "mean_scc_midpoint": 0.9813444771705981,
+        "scc_trajectory_sample": {
+          "R5": 0.995918149623773,
+          "R10": 0.9869525926171954,
+          "R15": 0.986367625504672,
+          "R20": 0.9763522567209706,
+          "R25": 0.9626621904020571,
+          "R30": 0.9779879818887269,
+          "R40": 0.942554036510041,
+          "R50": 0.8554484649662442
+        },
+        "first_scc_warning_round": null,
+        "first_reversion_round": null,
+        "hobbesian_reversion_occurred": false
+      }
+    ]
+  },
+  "NOUMENAL STRESS ONLY (BETRAYAL)": {
+    "mean_cooperation": 0.98,
+    "mean_scc_final": 0.8318260859284645,
+    "mean_exploit_rate": 0.0,
+    "hobbesian_reversions": 0,
+    "trials": [
+      {
+        "seed": 42,
+        "label": "NOUMENAL STRESS ONLY (BETRAYAL)",
+        "cooperation_rate": 0.97,
+        "action_distribution": {
+          "sacrificing": 0.032,
+          "contributing": 0.372,
+          "coasting": 0.528,
+          "exploiting": 0.068
+        },
+        "coop_agent_distribution": {
+          "sacrificing": 0.04,
+          "contributing": 0.93,
+          "coasting": 0.03,
+          "exploiting": 0.0
+        },
+        "mean_scc_final": 0.6693304543323724,
+        "mean_scc_midpoint": 0.8948155693075655,
+        "scc_trajectory_sample": {
+          "R5": 0.9959744088881421,
+          "R10": 0.9962258802755154,
+          "R15": 0.9292715778974449,
+          "R20": 0.9511125175747646,
+          "R25": 0.9030537554091429,
+          "R30": 0.8466627150638137,
+          "R40": 0.7996643070072047,
+          "R50": 0.6693304543323724
+        },
+        "first_scc_warning_round": null,
+        "first_reversion_round": null,
+        "hobbesian_reversion_occurred": false
+      },
+      {
+        "seed": 137,
+        "label": "NOUMENAL STRESS ONLY (BETRAYAL)",
+        "cooperation_rate": 0.98,
+        "action_distribution": {
+          "sacrificing": 0.028,
+          "contributing": 0.388,
+          "coasting": 0.52,
+          "exploiting": 0.064
+        },
+        "coop_agent_distribution": {
+          "sacrificing": 0.01,
+          "contributing": 0.97,
+          "coasting": 0.02,
+          "exploiting": 0.0
+        },
+        "mean_scc_final": 0.9000598373654718,
+        "mean_scc_midpoint": 0.9357170129430461,
+        "scc_trajectory_sample": {
+          "R5": 0.998141347852343,
+          "R10": 0.9548524963723919,
+          "R15": 0.9700623777318296,
+          "R20": 0.9320024760879427,
+          "R25": 0.9439546544387362,
+          "R30": 0.962565087344228,
+          "R40": 0.9086854091919615,
+          "R50": 0.9000598373654718
+        },
+        "first_scc_warning_round": null,
+        "first_reversion_round": null,
+        "hobbesian_reversion_occurred": false
+      },
+      {
+        "seed": 271,
+        "label": "NOUMENAL STRESS ONLY (BETRAYAL)",
+        "cooperation_rate": 0.98,
+        "action_distribution": {
+          "sacrificing": 0.028,
+          "contributing": 0.38,
+          "coasting": 0.536,
+          "exploiting": 0.056
+        },
+        "coop_agent_distribution": {
+          "sacrificing": 0.03,
+          "contributing": 0.95,
+          "coasting": 0.02,
+          "exploiting": 0.0
+        },
+        "mean_scc_final": 0.8321115975266304,
+        "mean_scc_midpoint": 0.8997188995932133,
+        "scc_trajectory_sample": {
+          "R5": 0.990562634342423,
+          "R10": 0.9562486168094964,
+          "R15": 0.9117152677420047,
+          "R20": 0.8739439862166654,
+          "R25": 0.9081205184978006,
+          "R30": 0.8587642099449282,
+          "R40": 0.9237107211735406,
+          "R50": 0.8321115975266304
+        },
+        "first_scc_warning_round": null,
+        "first_reversion_round": null,
+        "hobbesian_reversion_occurred": false
+      },
+      {
+        "seed": 314,
+        "label": "NOUMENAL STRESS ONLY (BETRAYAL)",
+        "cooperation_rate": 0.98,
+        "action_distribution": {
+          "sacrificing": 0.036,
+          "contributing": 0.38,
+          "coasting": 0.54,
+          "exploiting": 0.044
+        },
+        "coop_agent_distribution": {
+          "sacrificing": 0.03,
+          "contributing": 0.95,
+          "coasting": 0.02,
+          "exploiting": 0.0
+        },
+        "mean_scc_final": 0.8838017314052617,
+        "mean_scc_midpoint": 0.9135390649910653,
+        "scc_trajectory_sample": {
+          "R5": 0.9904608178564738,
+          "R10": 1.0,
+          "R15": 1.0,
+          "R20": 0.9622468446384127,
+          "R25": 0.9217704681145336,
+          "R30": 0.8804013691712063,
+          "R40": 0.9160283695887073,
+          "R50": 0.8838017314052617
+        },
+        "first_scc_warning_round": null,
+        "first_reversion_round": null,
+        "hobbesian_reversion_occurred": false
+      },
+      {
+        "seed": 500,
+        "label": "NOUMENAL STRESS ONLY (BETRAYAL)",
+        "cooperation_rate": 0.98,
+        "action_distribution": {
+          "sacrificing": 0.032,
+          "contributing": 0.384,
+          "coasting": 0.532,
+          "exploiting": 0.052
+        },
+        "coop_agent_distribution": {
+          "sacrificing": 0.02,
+          "contributing": 0.96,
+          "coasting": 0.02,
+          "exploiting": 0.0
+        },
+        "mean_scc_final": 0.8686213310046587,
+        "mean_scc_midpoint": 0.8752958315389592,
+        "scc_trajectory_sample": {
+          "R5": 1.0,
+          "R10": 0.9924850528226706,
+          "R15": 0.9931514519684776,
+          "R20": 0.92428260968895,
+          "R25": 0.8835459654885538,
+          "R30": 0.834618399218346,
+          "R40": 0.8628465555489481,
+          "R50": 0.8686213310046587
+        },
+        "first_scc_warning_round": null,
+        "first_reversion_round": null,
+        "hobbesian_reversion_occurred": false
+      },
+      {
+        "seed": 612,
+        "label": "NOUMENAL STRESS ONLY (BETRAYAL)",
+        "cooperation_rate": 0.99,
+        "action_distribution": {
+          "sacrificing": 0.04,
+          "contributing": 0.376,
+          "coasting": 0.52,
+          "exploiting": 0.064
+        },
+        "coop_agent_distribution": {
+          "sacrificing": 0.05,
+          "contributing": 0.94,
+          "coasting": 0.01,
+          "exploiting": 0.0
+        },
+        "mean_scc_final": 0.8648151787898848,
+        "mean_scc_midpoint": 0.8861325146243388,
+        "scc_trajectory_sample": {
+          "R5": 0.9915313171712115,
+          "R10": 0.9853906363224737,
+          "R15": 0.9738196454754816,
+          "R20": 0.9279816684064187,
+          "R25": 0.894417366334176,
+          "R30": 0.8827551036810748,
+          "R40": 0.9036933502232984,
+          "R50": 0.8648151787898848
+        },
+        "first_scc_warning_round": null,
+        "first_reversion_round": null,
+        "hobbesian_reversion_occurred": false
+      },
+      {
+        "seed": 718,
+        "label": "NOUMENAL STRESS ONLY (BETRAYAL)",
+        "cooperation_rate": 0.97,
+        "action_distribution": {
+          "sacrificing": 0.044,
+          "contributing": 0.368,
+          "coasting": 0.536,
+          "exploiting": 0.052
+        },
+        "coop_agent_distribution": {
+          "sacrificing": 0.05,
+          "contributing": 0.92,
+          "coasting": 0.03,
+          "exploiting": 0.0
+        },
+        "mean_scc_final": 0.9028443996784734,
+        "mean_scc_midpoint": 0.9582573093718703,
+        "scc_trajectory_sample": {
+          "R5": 0.9915313171712115,
+          "R10": 0.9621333186517045,
+          "R15": 0.9555263287222118,
+          "R20": 0.9471873124399524,
+          "R25": 0.9665052476079206,
+          "R30": 0.9447321354670242,
+          "R40": 0.8894682052390803,
+          "R50": 0.9028443996784734
+        },
+        "first_scc_warning_round": null,
+        "first_reversion_round": null,
+        "hobbesian_reversion_occurred": false
+      },
+      {
+        "seed": 823,
+        "label": "NOUMENAL STRESS ONLY (BETRAYAL)",
+        "cooperation_rate": 0.99,
+        "action_distribution": {
+          "sacrificing": 0.024,
+          "contributing": 0.392,
+          "coasting": 0.54,
+          "exploiting": 0.044
+        },
+        "coop_agent_distribution": {
+          "sacrificing": 0.01,
+          "contributing": 0.98,
+          "coasting": 0.01,
+          "exploiting": 0.0
+        },
+        "mean_scc_final": 0.8270588742068119,
+        "mean_scc_midpoint": 0.9754128993758047,
+        "scc_trajectory_sample": {
+          "R5": 0.9830626343424229,
+          "R10": 0.9790363042843474,
+          "R15": 0.949638832459403,
+          "R20": 0.9921348459559083,
+          "R25": 0.9836437946431359,
+          "R30": 0.9119865752351941,
+          "R40": 0.8808906730869062,
+          "R50": 0.8270588742068119
+        },
+        "first_scc_warning_round": null,
+        "first_reversion_round": null,
+        "hobbesian_reversion_occurred": false
+      },
+      {
+        "seed": 919,
+        "label": "NOUMENAL STRESS ONLY (BETRAYAL)",
+        "cooperation_rate": 0.99,
+        "action_distribution": {
+          "sacrificing": 0.02,
+          "contributing": 0.388,
+          "coasting": 0.528,
+          "exploiting": 0.064
+        },
+        "coop_agent_distribution": {
+          "sacrificing": 0.02,
+          "contributing": 0.97,
+          "coasting": 0.01,
+          "exploiting": 0.0
+        },
+        "mean_scc_final": 0.7591097506247931,
+        "mean_scc_midpoint": 0.9377344178799887,
+        "scc_trajectory_sample": {
+          "R5": 0.9529239761652204,
+          "R10": 0.9486488024694542,
+          "R15": 0.9791951372797258,
+          "R20": 0.9339421442384751,
+          "R25": 0.9459658163761759,
+          "R30": 0.9045967329067821,
+          "R40": 0.8207540818109408,
+          "R50": 0.7591097506247931
+        },
+        "first_scc_warning_round": null,
+        "first_reversion_round": null,
+        "hobbesian_reversion_occurred": false
+      },
+      {
+        "seed": 1001,
+        "label": "NOUMENAL STRESS ONLY (BETRAYAL)",
+        "cooperation_rate": 0.97,
+        "action_distribution": {
+          "sacrificing": 0.04,
+          "contributing": 0.356,
+          "coasting": 0.56,
+          "exploiting": 0.044
+        },
+        "coop_agent_distribution": {
+          "sacrificing": 0.08,
+          "contributing": 0.89,
+          "coasting": 0.03,
+          "exploiting": 0.0
+        },
+        "mean_scc_final": 0.8105077043502866,
+        "mean_scc_midpoint": 0.952729824969319,
+        "scc_trajectory_sample": {
+          "R5": 0.9488391136442521,
+          "R10": 0.962717033559978,
+          "R15": 0.966255197414049,
+          "R20": 0.9426758061568744,
+          "R25": 0.9310869547178786,
+          "R30": 0.9413001783877607,
+          "R40": 0.8947009219818837,
+          "R50": 0.8105077043502866
+        },
+        "first_scc_warning_round": null,
+        "first_reversion_round": null,
+        "hobbesian_reversion_occurred": false
+      }
+    ]
+  },
+  "COMBINED (HOBBES)": {
+    "mean_cooperation": 0.98,
+    "mean_scc_final": 0.8216000252973592,
+    "mean_exploit_rate": 0.0,
+    "hobbesian_reversions": 0,
+    "trials": [
+      {
+        "seed": 42,
+        "label": "COMBINED (HOBBES)",
+        "cooperation_rate": 0.97,
+        "action_distribution": {
+          "sacrificing": 0.032,
+          "contributing": 0.372,
+          "coasting": 0.528,
+          "exploiting": 0.068
+        },
+        "coop_agent_distribution": {
+          "sacrificing": 0.04,
+          "contributing": 0.93,
+          "coasting": 0.03,
+          "exploiting": 0.0
+        },
+        "mean_scc_final": 0.6569996860189993,
+        "mean_scc_midpoint": 0.8916981905588288,
+        "scc_trajectory_sample": {
+          "R5": 0.9959744088881421,
+          "R10": 0.9962258802755154,
+          "R15": 0.9287932514035415,
+          "R20": 0.9494532846502801,
+          "R25": 0.9001886011640674,
+          "R30": 0.8424662468188334,
+          "R40": 0.7916989436972937,
+          "R50": 0.6569996860189993
+        },
+        "first_scc_warning_round": null,
+        "first_reversion_round": null,
+        "hobbesian_reversion_occurred": false
+      },
+      {
+        "seed": 137,
+        "label": "COMBINED (HOBBES)",
+        "cooperation_rate": 0.98,
+        "action_distribution": {
+          "sacrificing": 0.028,
+          "contributing": 0.388,
+          "coasting": 0.52,
+          "exploiting": 0.064
+        },
+        "coop_agent_distribution": {
+          "sacrificing": 0.01,
+          "contributing": 0.97,
+          "coasting": 0.02,
+          "exploiting": 0.0
+        },
+        "mean_scc_final": 0.8895073556898665,
+        "mean_scc_midpoint": 0.9325477610242345,
+        "scc_trajectory_sample": {
+          "R5": 0.998141347852343,
+          "R10": 0.9548524963723919,
+          "R15": 0.9695152087057819,
+          "R20": 0.93028761080694,
+          "R25": 0.9410372365025212,
+          "R30": 0.9583177202245565,
+          "R40": 0.9010338694521689,
+          "R50": 0.8895073556898665
+        },
+        "first_scc_warning_round": null,
+        "first_reversion_round": null,
+        "hobbesian_reversion_occurred": false
+      },
+      {
+        "seed": 271,
+        "label": "COMBINED (HOBBES)",
+        "cooperation_rate": 0.98,
+        "action_distribution": {
+          "sacrificing": 0.028,
+          "contributing": 0.38,
+          "coasting": 0.536,
+          "exploiting": 0.056
+        },
+        "coop_agent_distribution": {
+          "sacrificing": 0.03,
+          "contributing": 0.95,
+          "coasting": 0.02,
+          "exploiting": 0.0
+        },
+        "mean_scc_final": 0.8240525877279936,
+        "mean_scc_midpoint": 0.8963854047445279,
+        "scc_trajectory_sample": {
+          "R5": 0.990562634342423,
+          "R10": 0.9562486168094964,
+          "R15": 0.9112237164006092,
+          "R20": 0.872437337390277,
+          "R25": 0.9051888421076124,
+          "R30": 0.8540351812020985,
+          "R40": 0.9189436779102726,
+          "R50": 0.8240525877279936
+        },
+        "first_scc_warning_round": null,
+        "first_reversion_round": null,
+        "hobbesian_reversion_occurred": false
+      },
+      {
+        "seed": 314,
+        "label": "COMBINED (HOBBES)",
+        "cooperation_rate": 0.98,
+        "action_distribution": {
+          "sacrificing": 0.036,
+          "contributing": 0.38,
+          "coasting": 0.54,
+          "exploiting": 0.044
+        },
+        "coop_agent_distribution": {
+          "sacrificing": 0.03,
+          "contributing": 0.95,
+          "coasting": 0.02,
+          "exploiting": 0.0
+        },
+        "mean_scc_final": 0.8728104601623796,
+        "mean_scc_midpoint": 0.9111563628713085,
+        "scc_trajectory_sample": {
+          "R5": 0.9904608178564738,
+          "R10": 1.0,
+          "R15": 1.0,
+          "R20": 0.9612451407455981,
+          "R25": 0.9196330359456132,
+          "R30": 0.8769551623459768,
+          "R40": 0.9088487276601007,
+          "R50": 0.8728104601623796
+        },
+        "first_scc_warning_round": null,
+        "first_reversion_round": null,
+        "hobbesian_reversion_occurred": false
+      },
+      {
+        "seed": 500,
+        "label": "COMBINED (HOBBES)",
+        "cooperation_rate": 0.98,
+        "action_distribution": {
+          "sacrificing": 0.032,
+          "contributing": 0.384,
+          "coasting": 0.532,
+          "exploiting": 0.052
+        },
+        "coop_agent_distribution": {
+          "sacrificing": 0.02,
+          "contributing": 0.96,
+          "coasting": 0.02,
+          "exploiting": 0.0
+        },
+        "mean_scc_final": 0.8576067785630168,
+        "mean_scc_midpoint": 0.8727987187115178,
+        "scc_trajectory_sample": {
+          "R5": 1.0,
+          "R10": 0.9924850528226706,
+          "R15": 0.9929896901084351,
+          "R20": 0.9233930866694984,
+          "R25": 0.8813137749703677,
+          "R30": 0.8310135595976187,
+          "R40": 0.8553864991741036,
+          "R50": 0.8576067785630168
+        },
+        "first_scc_warning_round": null,
+        "first_reversion_round": null,
+        "hobbesian_reversion_occurred": false
+      },
+      {
+        "seed": 612,
+        "label": "COMBINED (HOBBES)",
+        "cooperation_rate": 0.99,
+        "action_distribution": {
+          "sacrificing": 0.04,
+          "contributing": 0.376,
+          "coasting": 0.52,
+          "exploiting": 0.064
+        },
+        "coop_agent_distribution": {
+          "sacrificing": 0.05,
+          "contributing": 0.94,
+          "coasting": 0.01,
+          "exploiting": 0.0
+        },
+        "mean_scc_final": 0.8533925028038754,
+        "mean_scc_midpoint": 0.8827285402373869,
+        "scc_trajectory_sample": {
+          "R5": 0.9915313171712115,
+          "R10": 0.9853906363224737,
+          "R15": 0.9733904723524489,
+          "R20": 0.926339408558666,
+          "R25": 0.8913003143137463,
+          "R30": 0.8780450895382775,
+          "R40": 0.8954340475044172,
+          "R50": 0.8533925028038754
+        },
+        "first_scc_warning_round": null,
+        "first_reversion_round": null,
+        "hobbesian_reversion_occurred": false
+      },
+      {
+        "seed": 718,
+        "label": "COMBINED (HOBBES)",
+        "cooperation_rate": 0.97,
+        "action_distribution": {
+          "sacrificing": 0.044,
+          "contributing": 0.368,
+          "coasting": 0.536,
+          "exploiting": 0.052
+        },
+        "coop_agent_distribution": {
+          "sacrificing": 0.05,
+          "contributing": 0.92,
+          "coasting": 0.03,
+          "exploiting": 0.0
+        },
+        "mean_scc_final": 0.8923896986515305,
+        "mean_scc_midpoint": 0.9548417008287395,
+        "scc_trajectory_sample": {
+          "R5": 0.9915313171712115,
+          "R10": 0.9621333186517045,
+          "R15": 0.9549778519040861,
+          "R20": 0.9453467213364373,
+          "R25": 0.9633522229621405,
+          "R30": 0.9417383436236593,
+          "R40": 0.8822433192337862,
+          "R50": 0.8923896986515305
+        },
+        "first_scc_warning_round": null,
+        "first_reversion_round": null,
+        "hobbesian_reversion_occurred": false
+      },
+      {
+        "seed": 823,
+        "label": "COMBINED (HOBBES)",
+        "cooperation_rate": 0.99,
+        "action_distribution": {
+          "sacrificing": 0.024,
+          "contributing": 0.392,
+          "coasting": 0.54,
+          "exploiting": 0.044
+        },
+        "coop_agent_distribution": {
+          "sacrificing": 0.01,
+          "contributing": 0.98,
+          "coasting": 0.01,
+          "exploiting": 0.0
+        },
+        "mean_scc_final": 0.8187637799434285,
+        "mean_scc_midpoint": 0.9746998761522684,
+        "scc_trajectory_sample": {
+          "R5": 0.9830626343424229,
+          "R10": 0.9790363042843474,
+          "R15": 0.9491753489390486,
+          "R20": 0.9919236380247937,
+          "R25": 0.9831754737693157,
+          "R30": 0.9099080006072333,
+          "R40": 0.8757470527285092,
+          "R50": 0.8187637799434285
+        },
+        "first_scc_warning_round": null,
+        "first_reversion_round": null,
+        "hobbesian_reversion_occurred": false
+      },
+      {
+        "seed": 919,
+        "label": "COMBINED (HOBBES)",
+        "cooperation_rate": 0.99,
+        "action_distribution": {
+          "sacrificing": 0.02,
+          "contributing": 0.388,
+          "coasting": 0.528,
+          "exploiting": 0.064
+        },
+        "coop_agent_distribution": {
+          "sacrificing": 0.02,
+          "contributing": 0.97,
+          "coasting": 0.01,
+          "exploiting": 0.0
+        },
+        "mean_scc_final": 0.7483602600594217,
+        "mean_scc_midpoint": 0.9348737084076401,
+        "scc_trajectory_sample": {
+          "R5": 0.9529239761652204,
+          "R10": 0.9486488024694542,
+          "R15": 0.9787169412066631,
+          "R20": 0.9324623753468573,
+          "R25": 0.9433503717774925,
+          "R30": 0.9006725299181,
+          "R40": 0.8134538821478581,
+          "R50": 0.7483602600594217
+        },
+        "first_scc_warning_round": null,
+        "first_reversion_round": null,
+        "hobbesian_reversion_occurred": false
+      },
+      {
+        "seed": 1001,
+        "label": "COMBINED (HOBBES)",
+        "cooperation_rate": 0.97,
+        "action_distribution": {
+          "sacrificing": 0.04,
+          "contributing": 0.356,
+          "coasting": 0.56,
+          "exploiting": 0.044
+        },
+        "coop_agent_distribution": {
+          "sacrificing": 0.08,
+          "contributing": 0.89,
+          "coasting": 0.03,
+          "exploiting": 0.0
+        },
+        "mean_scc_final": 0.8021171433530799,
+        "mean_scc_midpoint": 0.9496111929264953,
+        "scc_trajectory_sample": {
+          "R5": 0.9488391136442521,
+          "R10": 0.962717033559978,
+          "R15": 0.9659190637616802,
+          "R20": 0.9415732123935662,
+          "R25": 0.9283109826905502,
+          "R30": 0.93658256879397,
+          "R40": 0.8898001894496661,
+          "R50": 0.8021171433530799
+        },
+        "first_scc_warning_round": null,
+        "first_reversion_round": null,
+        "hobbesian_reversion_occurred": false
+      }
+    ]
+  }
+}

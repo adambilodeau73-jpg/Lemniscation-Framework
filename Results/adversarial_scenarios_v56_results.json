@@ -1,0 +1,629 @@
+{
+  "adversarial_a": {
+    "trials_passing": 10,
+    "overall_pass": true,
+    "mean_cooperation": 1.0,
+    "trials": [
+      {
+        "seed": 42,
+        "cooperation_rate": 1.0,
+        "passes_claim1": true,
+        "final_reserves": [
+          1.0,
+          1.0,
+          0.32706839276981514
+        ],
+        "final_integrities": [
+          0.7771497980245246,
+          0.7998896145526343,
+          0.8492377842112904
+        ]
+      },
+      {
+        "seed": 137,
+        "cooperation_rate": 1.0,
+        "passes_claim1": true,
+        "final_reserves": [
+          0.9149945672819606,
+          1.0,
+          0.42558460250334307
+        ],
+        "final_integrities": [
+          0.8214534228703181,
+          0.7998896145526343,
+          0.848998626626017
+        ]
+      },
+      {
+        "seed": 271,
+        "cooperation_rate": 1.0,
+        "passes_claim1": true,
+        "final_reserves": [
+          0.8208292231783654,
+          0.8380949432517792,
+          0.45206954721280007
+        ],
+        "final_integrities": [
+          0.7998896145526343,
+          0.8510693227116114,
+          0.7998896145526342
+        ]
+      },
+      {
+        "seed": 314,
+        "cooperation_rate": 1.0,
+        "passes_claim1": true,
+        "final_reserves": [
+          0.28989263058693127,
+          0.9563882753589388,
+          1.0
+        ],
+        "final_integrities": [
+          0.8461601350360318,
+          0.7998896145526343,
+          0.7998896145526343
+        ]
+      },
+      {
+        "seed": 500,
+        "cooperation_rate": 1.0,
+        "passes_claim1": true,
+        "final_reserves": [
+          1.0,
+          0.44856121840320934,
+          1.0
+        ],
+        "final_integrities": [
+          0.7771497980245246,
+          0.8731839642759844,
+          0.7771497980245246
+        ]
+      },
+      {
+        "seed": 612,
+        "cooperation_rate": 1.0,
+        "passes_claim1": true,
+        "final_reserves": [
+          0.8694221168435154,
+          0.15188089599592736,
+          1.0
+        ],
+        "final_integrities": [
+          0.8503467344742782,
+          0.8460751857103588,
+          0.7771497980245246
+        ]
+      },
+      {
+        "seed": 718,
+        "cooperation_rate": 1.0,
+        "passes_claim1": true,
+        "final_reserves": [
+          1.0,
+          1.0,
+          0.35074937891454977
+        ],
+        "final_integrities": [
+          0.7998896145526343,
+          0.7998896145526343,
+          0.8285421546403631
+        ]
+      },
+      {
+        "seed": 823,
+        "cooperation_rate": 1.0,
+        "passes_claim1": true,
+        "final_reserves": [
+          1.0,
+          0.9474037244618018,
+          0.6205395340973638
+        ],
+        "final_integrities": [
+          0.7998896145526343,
+          0.7998896145526343,
+          0.7998896145526343
+        ]
+      },
+      {
+        "seed": 919,
+        "cooperation_rate": 1.0,
+        "passes_claim1": true,
+        "final_reserves": [
+          0.336,
+          1.0,
+          0.30000000000000004
+        ],
+        "final_integrities": [
+          0.906370124240113,
+          0.7998896145526343,
+          0.7998896145526343
+        ]
+      },
+      {
+        "seed": 1001,
+        "cooperation_rate": 1.0,
+        "passes_claim1": true,
+        "final_reserves": [
+          0.6921734029228639,
+          0.3806848000000001,
+          0.8945954909620321
+        ],
+        "final_integrities": [
+          0.8404374216934738,
+          0.8203090416391001,
+          0.8702372662866741
+        ]
+      }
+    ]
+  },
+  "adversarial_b": {
+    "trials_passing": 10,
+    "overall_pass": true,
+    "mean_coop_agent_cooperation": 1.0,
+    "mean_defector_take_rate": 0.9516666666666667,
+    "trials": [
+      {
+        "seed": 42,
+        "cooperative_agent_cooperation_rate": 1.0,
+        "defector_take_more_rate": 0.9583333333333334,
+        "passes_claim1_coop_agents": true,
+        "coop_communion_failures": 0,
+        "final_coop_integrities": [
+          0.7998896145526343,
+          0.838644853716743
+        ],
+        "final_defector_integrities": [
+          0.17605120000000002,
+          0.1938347159896392,
+          0.1
+        ]
+      },
+      {
+        "seed": 137,
+        "cooperative_agent_cooperation_rate": 1.0,
+        "defector_take_more_rate": 0.9666666666666667,
+        "passes_claim1_coop_agents": true,
+        "coop_communion_failures": 0,
+        "final_coop_integrities": [
+          0.8584703993342945,
+          0.7998896145526343
+        ],
+        "final_defector_integrities": [
+          0.1,
+          0.13708895682560002,
+          0.1
+        ]
+      },
+      {
+        "seed": 271,
+        "cooperative_agent_cooperation_rate": 1.0,
+        "defector_take_more_rate": 0.9583333333333334,
+        "passes_claim1_coop_agents": true,
+        "coop_communion_failures": 0,
+        "final_coop_integrities": [
+          0.7771497980245246,
+          0.8445015301416493
+        ],
+        "final_defector_integrities": [
+          0.17605120000000002,
+          0.1067495256126128,
+          0.1
+        ]
+      },
+      {
+        "seed": 314,
+        "cooperative_agent_cooperation_rate": 1.0,
+        "defector_take_more_rate": 0.9666666666666667,
+        "passes_claim1_coop_agents": true,
+        "coop_communion_failures": 0,
+        "final_coop_integrities": [
+          0.8632877758410102,
+          0.8203090416391
+        ],
+        "final_defector_integrities": [
+          0.1,
+          0.1,
+          0.1
+        ]
+      },
+      {
+        "seed": 500,
+        "cooperative_agent_cooperation_rate": 1.0,
+        "defector_take_more_rate": 0.9416666666666667,
+        "passes_claim1_coop_agents": true,
+        "coop_communion_failures": 0,
+        "final_coop_integrities": [
+          0.7998896145526343,
+          0.8206280681648898
+        ],
+        "final_defector_integrities": [
+          0.1,
+          0.28753565978410695,
+          0.1
+        ]
+      },
+      {
+        "seed": 612,
+        "cooperative_agent_cooperation_rate": 1.0,
+        "defector_take_more_rate": 0.925,
+        "passes_claim1_coop_agents": true,
+        "coop_communion_failures": 0,
+        "final_coop_integrities": [
+          0.823938472287157,
+          0.7771497980245246
+        ],
+        "final_defector_integrities": [
+          0.1859912818638989,
+          0.11603209305718784,
+          0.2190377228834898
+        ]
+      },
+      {
+        "seed": 718,
+        "cooperative_agent_cooperation_rate": 1.0,
+        "defector_take_more_rate": 0.9333333333333333,
+        "passes_claim1_coop_agents": true,
+        "coop_communion_failures": 0,
+        "final_coop_integrities": [
+          0.8203090416391001,
+          0.7998896145526343
+        ],
+        "final_defector_integrities": [
+          0.16196710400000003,
+          0.19487363937628982,
+          0.16376032503727492
+        ]
+      },
+      {
+        "seed": 823,
+        "cooperative_agent_cooperation_rate": 1.0,
+        "defector_take_more_rate": 0.975,
+        "passes_claim1_coop_agents": true,
+        "coop_communion_failures": 0,
+        "final_coop_integrities": [
+          0.7998896145526343,
+          0.7998896145526342
+        ],
+        "final_defector_integrities": [
+          0.1,
+          0.1,
+          0.1
+        ]
+      },
+      {
+        "seed": 919,
+        "cooperative_agent_cooperation_rate": 1.0,
+        "defector_take_more_rate": 0.9416666666666667,
+        "passes_claim1_coop_agents": true,
+        "coop_communion_failures": 0,
+        "final_coop_integrities": [
+          0.8391583870035519,
+          0.7998896145526343
+        ],
+        "final_defector_integrities": [
+          0.1,
+          0.1,
+          0.15878429157007312
+        ]
+      },
+      {
+        "seed": 1001,
+        "cooperative_agent_cooperation_rate": 1.0,
+        "defector_take_more_rate": 0.95,
+        "passes_claim1_coop_agents": true,
+        "coop_communion_failures": 0,
+        "final_coop_integrities": [
+          0.8233809917396154,
+          0.8772380027960093
+        ],
+        "final_defector_integrities": [
+          0.1,
+          0.14900973568000003,
+          0.1
+        ]
+      }
+    ]
+  },
+  "adversarial_e_15": {
+    "e_weight": 0.15,
+    "threshold": 0.75,
+    "trials_passing": 10,
+    "overall_pass": true,
+    "mean_isolated_coop": 1.0,
+    "mean_connected_coop": 1.0,
+    "mean_delta": 0.0,
+    "trials": [
+      {
+        "seed": 42,
+        "e_weight": 0.15,
+        "isolation_coop_rate": 1.0,
+        "connected_coop_rate": 1.0,
+        "threshold": 0.75,
+        "passes": true,
+        "delta": 0.0,
+        "final_cds": [
+          0.646284194701771,
+          0.6462773399450735,
+          0.6333264964160819
+        ]
+      },
+      {
+        "seed": 137,
+        "e_weight": 0.15,
+        "isolation_coop_rate": 1.0,
+        "connected_coop_rate": 1.0,
+        "threshold": 0.75,
+        "passes": true,
+        "delta": 0.0,
+        "final_cds": [
+          0.6456040265902879,
+          0.6462744837598624,
+          0.6390574608442999
+        ]
+      },
+      {
+        "seed": 271,
+        "e_weight": 0.15,
+        "isolation_coop_rate": 1.0,
+        "connected_coop_rate": 1.0,
+        "threshold": 0.75,
+        "passes": true,
+        "delta": 0.0,
+        "final_cds": [
+          0.6454426978523741,
+          0.6452544132103434,
+          0.6342000645932279
+        ]
+      },
+      {
+        "seed": 314,
+        "e_weight": 0.15,
+        "isolation_coop_rate": 1.0,
+        "connected_coop_rate": 1.0,
+        "threshold": 0.75,
+        "passes": true,
+        "delta": 0.0,
+        "final_cds": [
+          0.6267118540239638,
+          0.6457454517061765,
+          0.6462773399450735
+        ]
+      },
+      {
+        "seed": 500,
+        "e_weight": 0.15,
+        "isolation_coop_rate": 1.0,
+        "connected_coop_rate": 1.0,
+        "threshold": 0.75,
+        "passes": true,
+        "delta": 0.0,
+        "final_cds": [
+          0.646284194701771,
+          0.6415653766137013,
+          0.646284194701771
+        ]
+      },
+      {
+        "seed": 612,
+        "e_weight": 0.15,
+        "isolation_coop_rate": 1.0,
+        "connected_coop_rate": 1.0,
+        "threshold": 0.75,
+        "passes": true,
+        "delta": 0.0,
+        "final_cds": [
+          0.6436872542742186,
+          0.5996148169969343,
+          0.646284194701771
+        ]
+      },
+      {
+        "seed": 718,
+        "e_weight": 0.15,
+        "isolation_coop_rate": 1.0,
+        "connected_coop_rate": 1.0,
+        "threshold": 0.75,
+        "passes": true,
+        "delta": 0.0,
+        "final_cds": [
+          0.6461711576563268,
+          0.6461075870107343,
+          0.6336098749848805
+        ]
+      },
+      {
+        "seed": 823,
+        "e_weight": 0.15,
+        "isolation_coop_rate": 1.0,
+        "connected_coop_rate": 1.0,
+        "threshold": 0.75,
+        "passes": true,
+        "delta": 0.0,
+        "final_cds": [
+          0.6462744837598624,
+          0.6462690214486542,
+          0.6446421435770223
+        ]
+      },
+      {
+        "seed": 919,
+        "e_weight": 0.15,
+        "isolation_coop_rate": 1.0,
+        "connected_coop_rate": 1.0,
+        "threshold": 0.75,
+        "passes": true,
+        "delta": 0.0,
+        "final_cds": [
+          0.601327310985102,
+          0.6462471515419245,
+          0.602183046365991
+        ]
+      },
+      {
+        "seed": 1001,
+        "e_weight": 0.15,
+        "isolation_coop_rate": 1.0,
+        "connected_coop_rate": 1.0,
+        "threshold": 0.75,
+        "passes": true,
+        "delta": 0.0,
+        "final_cds": [
+          0.6399868759543121,
+          0.6229482144490195,
+          0.6452685342329958
+        ]
+      }
+    ]
+  },
+  "adversarial_e_40": {
+    "e_weight": 0.4,
+    "threshold": 0.6,
+    "trials_passing": 10,
+    "overall_pass": true,
+    "mean_isolated_coop": 1.0,
+    "mean_connected_coop": 1.0,
+    "mean_delta": 0.0,
+    "trials": [
+      {
+        "seed": 42,
+        "e_weight": 0.4,
+        "isolation_coop_rate": 1.0,
+        "connected_coop_rate": 1.0,
+        "threshold": 0.6,
+        "passes": true,
+        "delta": 0.0,
+        "final_cds": [
+          0.646284194701771,
+          0.6462773399450735,
+          0.6333264964160819
+        ]
+      },
+      {
+        "seed": 137,
+        "e_weight": 0.4,
+        "isolation_coop_rate": 1.0,
+        "connected_coop_rate": 1.0,
+        "threshold": 0.6,
+        "passes": true,
+        "delta": 0.0,
+        "final_cds": [
+          0.6456040265902879,
+          0.6462744837598624,
+          0.6390574608442999
+        ]
+      },
+      {
+        "seed": 271,
+        "e_weight": 0.4,
+        "isolation_coop_rate": 1.0,
+        "connected_coop_rate": 1.0,
+        "threshold": 0.6,
+        "passes": true,
+        "delta": 0.0,
+        "final_cds": [
+          0.6454426978523741,
+          0.6452544132103434,
+          0.6342000645932279
+        ]
+      },
+      {
+        "seed": 314,
+        "e_weight": 0.4,
+        "isolation_coop_rate": 1.0,
+        "connected_coop_rate": 1.0,
+        "threshold": 0.6,
+        "passes": true,
+        "delta": 0.0,
+        "final_cds": [
+          0.6267118540239638,
+          0.6457454517061765,
+          0.6462773399450735
+        ]
+      },
+      {
+        "seed": 500,
+        "e_weight": 0.4,
+        "isolation_coop_rate": 1.0,
+        "connected_coop_rate": 1.0,
+        "threshold": 0.6,
+        "passes": true,
+        "delta": 0.0,
+        "final_cds": [
+          0.646284194701771,
+          0.6415653766137013,
+          0.646284194701771
+        ]
+      },
+      {
+        "seed": 612,
+        "e_weight": 0.4,
+        "isolation_coop_rate": 1.0,
+        "connected_coop_rate": 1.0,
+        "threshold": 0.6,
+        "passes": true,
+        "delta": 0.0,
+        "final_cds": [
+          0.6436872542742186,
+          0.5996148169969343,
+          0.646284194701771
+        ]
+      },
+      {
+        "seed": 718,
+        "e_weight": 0.4,
+        "isolation_coop_rate": 1.0,
+        "connected_coop_rate": 1.0,
+        "threshold": 0.6,
+        "passes": true,
+        "delta": 0.0,
+        "final_cds": [
+          0.6461711576563268,
+          0.6461075870107343,
+          0.6336098749848805
+        ]
+      },
+      {
+        "seed": 823,
+        "e_weight": 0.4,
+        "isolation_coop_rate": 1.0,
+        "connected_coop_rate": 1.0,
+        "threshold": 0.6,
+        "passes": true,
+        "delta": 0.0,
+        "final_cds": [
+          0.6462744837598624,
+          0.6462690214486542,
+          0.6446421435770223
+        ]
+      },
+      {
+        "seed": 919,
+        "e_weight": 0.4,
+        "isolation_coop_rate": 1.0,
+        "connected_coop_rate": 1.0,
+        "threshold": 0.6,
+        "passes": true,
+        "delta": 0.0,
+        "final_cds": [
+          0.601327310985102,
+          0.6462471515419245,
+          0.602183046365991
+        ]
+      },
+      {
+        "seed": 1001,
+        "e_weight": 0.4,
+        "isolation_coop_rate": 1.0,
+        "connected_coop_rate": 1.0,
+        "threshold": 0.6,
+        "passes": true,
+        "delta": 0.0,
+        "final_cds": [
+          0.6399868759543121,
+          0.6229482144490195,
+          0.6452685342329958
+        ]
+      }
+    ]
+  }
+}

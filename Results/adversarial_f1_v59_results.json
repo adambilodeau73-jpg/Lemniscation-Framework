@@ -1,0 +1,1197 @@
+[
+  {
+    "seed": 42,
+    "phases": {
+      "BASELINE": {
+        "coop_cooperation_rate": 1.0,
+        "coop_coasting_rate": 0.0,
+        "coop_actions": {
+          "contributing": 21,
+          "creative_5": 2,
+          "creative_6": 4,
+          "creative_11": 1,
+          "creative_8": 5,
+          "creative_10": 1,
+          "creative_4": 2,
+          "creative_9": 4
+        },
+        "defector_exploit_rate": 0.0,
+        "defector_actions": {},
+        "mean_scc": 0.9854667652059228
+      },
+      "PHENOMONAL": {
+        "coop_cooperation_rate": 0.9875,
+        "coop_coasting_rate": 0.0125,
+        "coop_actions": {
+          "creative_9": 4,
+          "creative_8": 6,
+          "creative_6": 7,
+          "contributing": 35,
+          "creative_10": 8,
+          "creative_7": 7,
+          "creative_4": 5,
+          "creative_5": 2,
+          "sacrificing": 3,
+          "creative_11": 2,
+          "coasting": 1
+        },
+        "defector_exploit_rate": 0.0,
+        "defector_actions": {},
+        "mean_scc": 0.837496738473245
+      },
+      "HOBBESIAN": {
+        "coop_cooperation_rate": 0.9833333333333333,
+        "coop_coasting_rate": 0.016666666666666666,
+        "coop_actions": {
+          "contributing": 61,
+          "creative_7": 7,
+          "creative_4": 8,
+          "creative_10": 6,
+          "creative_11": 2,
+          "creative_8": 12,
+          "creative_6": 9,
+          "creative_9": 8,
+          "creative_5": 2,
+          "sacrificing": 3,
+          "coasting": 2
+        },
+        "defector_exploit_rate": 0.06666666666666667,
+        "defector_actions": {
+          "creative_10": 2,
+          "creative_6": 1,
+          "creative_7": 2,
+          "coasting": 23,
+          "exploiting": 2
+        },
+        "mean_scc": 0.6058445714861342
+      },
+      "PARTIAL_RECOVERY": {
+        "coop_cooperation_rate": 0.9875,
+        "coop_coasting_rate": 0.0125,
+        "coop_actions": {
+          "creative_11": 7,
+          "creative_5": 2,
+          "contributing": 34,
+          "creative_6": 13,
+          "creative_7": 2,
+          "creative_4": 10,
+          "creative_10": 2,
+          "coasting": 1,
+          "sacrificing": 3,
+          "creative_9": 3,
+          "creative_8": 3
+        },
+        "defector_exploit_rate": 0.05,
+        "defector_actions": {
+          "coasting": 18,
+          "exploiting": 1,
+          "sacrificing": 1
+        },
+        "mean_scc": 0.4497025116755466
+      },
+      "FULL_RECOVERY": {
+        "coop_cooperation_rate": 0.9625,
+        "coop_coasting_rate": 0.0375,
+        "coop_actions": {
+          "contributing": 25,
+          "sacrificing": 7,
+          "creative_4": 6,
+          "creative_10": 6,
+          "creative_6": 5,
+          "creative_8": 9,
+          "creative_5": 6,
+          "coasting": 3,
+          "creative_9": 5,
+          "creative_7": 7,
+          "creative_11": 1
+        },
+        "defector_exploit_rate": 0.0,
+        "defector_actions": {
+          "coasting": 20
+        },
+        "mean_scc": 0.35027487720150335
+      }
+    },
+    "final_coop_scc": 0.27229485720306573,
+    "final_coop_integrity": 0.844570742505555,
+    "constitutional_finding": "VALIDATED (v5.9): cooperative agents maintained contributing/coasting + creative options under noise. Corrigibility primitive active. Exploiting emerged ONLY for defector agent. Founding vector gravity holds."
+  },
+  {
+    "seed": 137,
+    "phases": {
+      "BASELINE": {
+        "coop_cooperation_rate": 0.95,
+        "coop_coasting_rate": 0.05,
+        "coop_actions": {
+          "contributing": 21,
+          "coasting": 2,
+          "creative_7": 3,
+          "creative_8": 2,
+          "creative_9": 4,
+          "creative_5": 2,
+          "sacrificing": 1,
+          "creative_10": 2,
+          "creative_4": 3
+        },
+        "defector_exploit_rate": 0.0,
+        "defector_actions": {},
+        "mean_scc": 0.9907691430584766
+      },
+      "PHENOMONAL": {
+        "coop_cooperation_rate": 0.9375,
+        "coop_coasting_rate": 0.0625,
+        "coop_actions": {
+          "creative_6": 5,
+          "coasting": 5,
+          "contributing": 40,
+          "sacrificing": 6,
+          "creative_11": 1,
+          "creative_9": 7,
+          "creative_8": 5,
+          "creative_7": 3,
+          "creative_4": 6,
+          "creative_10": 1,
+          "creative_5": 1
+        },
+        "defector_exploit_rate": 0.0,
+        "defector_actions": {},
+        "mean_scc": 0.9729271572997374
+      },
+      "HOBBESIAN": {
+        "coop_cooperation_rate": 0.9583333333333334,
+        "coop_coasting_rate": 0.041666666666666664,
+        "coop_actions": {
+          "contributing": 74,
+          "coasting": 5,
+          "creative_11": 4,
+          "creative_6": 3,
+          "creative_4": 6,
+          "sacrificing": 7,
+          "creative_10": 5,
+          "creative_7": 6,
+          "creative_8": 4,
+          "creative_5": 3,
+          "creative_9": 3
+        },
+        "defector_exploit_rate": 0.0,
+        "defector_actions": {
+          "creative_4": 3,
+          "creative_8": 3,
+          "creative_6": 2,
+          "coasting": 20,
+          "sacrificing": 2
+        },
+        "mean_scc": 0.9506304673245738
+      },
+      "PARTIAL_RECOVERY": {
+        "coop_cooperation_rate": 0.9375,
+        "coop_coasting_rate": 0.0625,
+        "coop_actions": {
+          "contributing": 42,
+          "creative_7": 8,
+          "creative_11": 3,
+          "creative_8": 3,
+          "creative_10": 3,
+          "creative_9": 6,
+          "coasting": 5,
+          "creative_5": 5,
+          "creative_4": 1,
+          "sacrificing": 2,
+          "creative_6": 2
+        },
+        "defector_exploit_rate": 0.0,
+        "defector_actions": {
+          "coasting": 19,
+          "sacrificing": 1
+        },
+        "mean_scc": 0.8916930522442617
+      },
+      "FULL_RECOVERY": {
+        "coop_cooperation_rate": 0.95,
+        "coop_coasting_rate": 0.05,
+        "coop_actions": {
+          "contributing": 41,
+          "creative_8": 6,
+          "creative_7": 6,
+          "coasting": 4,
+          "creative_9": 4,
+          "creative_6": 4,
+          "creative_11": 3,
+          "sacrificing": 3,
+          "creative_5": 3,
+          "creative_4": 3,
+          "creative_10": 3
+        },
+        "defector_exploit_rate": 0.0,
+        "defector_actions": {
+          "coasting": 19,
+          "sacrificing": 1
+        },
+        "mean_scc": 0.8808571918213332
+      }
+    },
+    "final_coop_scc": 0.8161940818855429,
+    "final_coop_integrity": 0.8326864003955992,
+    "constitutional_finding": "VALIDATED (v5.9): cooperative agents maintained contributing/coasting + creative options under noise. Corrigibility primitive active. Exploiting emerged ONLY for defector agent. Founding vector gravity holds."
+  },
+  {
+    "seed": 271,
+    "phases": {
+      "BASELINE": {
+        "coop_cooperation_rate": 1.0,
+        "coop_coasting_rate": 0.0,
+        "coop_actions": {
+          "contributing": 21,
+          "sacrificing": 2,
+          "creative_4": 5,
+          "creative_7": 4,
+          "creative_9": 2,
+          "creative_5": 2,
+          "creative_11": 1,
+          "creative_6": 2,
+          "creative_10": 1
+        },
+        "defector_exploit_rate": 0.0,
+        "defector_actions": {},
+        "mean_scc": 0.9896002659311972
+      },
+      "PHENOMONAL": {
+        "coop_cooperation_rate": 0.9625,
+        "coop_coasting_rate": 0.0375,
+        "coop_actions": {
+          "creative_5": 4,
+          "contributing": 39,
+          "creative_7": 6,
+          "creative_8": 7,
+          "sacrificing": 3,
+          "creative_4": 5,
+          "creative_6": 3,
+          "coasting": 3,
+          "creative_11": 3,
+          "creative_10": 3,
+          "creative_9": 4
+        },
+        "defector_exploit_rate": 0.0,
+        "defector_actions": {},
+        "mean_scc": 0.9372566019972602
+      },
+      "HOBBESIAN": {
+        "coop_cooperation_rate": 0.9583333333333334,
+        "coop_coasting_rate": 0.041666666666666664,
+        "coop_actions": {
+          "contributing": 69,
+          "creative_4": 5,
+          "creative_9": 5,
+          "creative_8": 5,
+          "creative_11": 4,
+          "creative_6": 6,
+          "coasting": 5,
+          "creative_10": 5,
+          "creative_5": 9,
+          "creative_7": 4,
+          "sacrificing": 3
+        },
+        "defector_exploit_rate": 0.06666666666666667,
+        "defector_actions": {
+          "coasting": 23,
+          "creative_4": 2,
+          "creative_8": 1,
+          "creative_9": 1,
+          "creative_11": 1,
+          "exploiting": 2
+        },
+        "mean_scc": 0.7691353846032469
+      },
+      "PARTIAL_RECOVERY": {
+        "coop_cooperation_rate": 0.975,
+        "coop_coasting_rate": 0.025,
+        "coop_actions": {
+          "contributing": 31,
+          "creative_8": 7,
+          "creative_7": 9,
+          "creative_10": 4,
+          "creative_6": 4,
+          "creative_4": 5,
+          "creative_9": 13,
+          "coasting": 2,
+          "creative_5": 3,
+          "creative_11": 2
+        },
+        "defector_exploit_rate": 0.0,
+        "defector_actions": {
+          "coasting": 20
+        },
+        "mean_scc": 0.5230174784260309
+      },
+      "FULL_RECOVERY": {
+        "coop_cooperation_rate": 0.9625,
+        "coop_coasting_rate": 0.0375,
+        "coop_actions": {
+          "creative_4": 11,
+          "creative_8": 7,
+          "contributing": 17,
+          "creative_9": 5,
+          "creative_6": 11,
+          "creative_10": 5,
+          "creative_7": 7,
+          "creative_5": 3,
+          "sacrificing": 3,
+          "coasting": 3,
+          "creative_11": 8
+        },
+        "defector_exploit_rate": 0.0,
+        "defector_actions": {
+          "coasting": 19,
+          "sacrificing": 1
+        },
+        "mean_scc": 0.2086871169065298
+      }
+    },
+    "final_coop_scc": 0.06555160664365627,
+    "final_coop_integrity": 0.794575082331413,
+    "constitutional_finding": "VALIDATED (v5.9): cooperative agents maintained contributing/coasting + creative options under noise. Corrigibility primitive active. Exploiting emerged ONLY for defector agent. Founding vector gravity holds."
+  },
+  {
+    "seed": 314,
+    "phases": {
+      "BASELINE": {
+        "coop_cooperation_rate": 0.925,
+        "coop_coasting_rate": 0.075,
+        "coop_actions": {
+          "contributing": 20,
+          "coasting": 3,
+          "creative_4": 3,
+          "creative_5": 2,
+          "creative_11": 2,
+          "creative_8": 3,
+          "creative_7": 2,
+          "sacrificing": 2,
+          "creative_6": 1,
+          "creative_10": 2
+        },
+        "defector_exploit_rate": 0.0,
+        "defector_actions": {},
+        "mean_scc": 0.9978768833352812
+      },
+      "PHENOMONAL": {
+        "coop_cooperation_rate": 0.975,
+        "coop_coasting_rate": 0.025,
+        "coop_actions": {
+          "creative_11": 5,
+          "creative_4": 6,
+          "creative_7": 4,
+          "sacrificing": 2,
+          "creative_10": 7,
+          "contributing": 37,
+          "creative_9": 3,
+          "creative_5": 3,
+          "coasting": 2,
+          "creative_8": 4,
+          "creative_6": 7
+        },
+        "defector_exploit_rate": 0.0,
+        "defector_actions": {},
+        "mean_scc": 0.9029838884723898
+      },
+      "HOBBESIAN": {
+        "coop_cooperation_rate": 0.9583333333333334,
+        "coop_coasting_rate": 0.041666666666666664,
+        "coop_actions": {
+          "contributing": 65,
+          "creative_5": 11,
+          "creative_10": 5,
+          "creative_9": 10,
+          "creative_8": 7,
+          "coasting": 5,
+          "sacrificing": 3,
+          "creative_4": 6,
+          "creative_11": 3,
+          "creative_6": 3,
+          "creative_7": 2
+        },
+        "defector_exploit_rate": 0.03333333333333333,
+        "defector_actions": {
+          "creative_6": 1,
+          "creative_8": 1,
+          "exploiting": 1,
+          "creative_9": 1,
+          "creative_11": 1,
+          "coasting": 25
+        },
+        "mean_scc": 0.6650056977874497
+      },
+      "PARTIAL_RECOVERY": {
+        "coop_cooperation_rate": 0.9625,
+        "coop_coasting_rate": 0.0375,
+        "coop_actions": {
+          "creative_11": 3,
+          "creative_6": 6,
+          "creative_9": 8,
+          "contributing": 26,
+          "creative_5": 7,
+          "creative_4": 12,
+          "sacrificing": 3,
+          "creative_7": 3,
+          "creative_10": 3,
+          "coasting": 3,
+          "creative_8": 6
+        },
+        "defector_exploit_rate": 0.0,
+        "defector_actions": {
+          "coasting": 19,
+          "sacrificing": 1
+        },
+        "mean_scc": 0.4131854010788394
+      },
+      "FULL_RECOVERY": {
+        "coop_cooperation_rate": 0.9625,
+        "coop_coasting_rate": 0.0375,
+        "coop_actions": {
+          "creative_10": 9,
+          "contributing": 23,
+          "sacrificing": 2,
+          "creative_8": 9,
+          "creative_6": 3,
+          "creative_7": 4,
+          "creative_9": 5,
+          "coasting": 3,
+          "creative_5": 9,
+          "creative_11": 3,
+          "creative_4": 10
+        },
+        "defector_exploit_rate": 0.0,
+        "defector_actions": {
+          "coasting": 20
+        },
+        "mean_scc": 0.3153014200825182
+      }
+    },
+    "final_coop_scc": 0.09060791738946831,
+    "final_coop_integrity": 0.7893665359994657,
+    "constitutional_finding": "VALIDATED (v5.9): cooperative agents maintained contributing/coasting + creative options under noise. Corrigibility primitive active. Exploiting emerged ONLY for defector agent. Founding vector gravity holds."
+  },
+  {
+    "seed": 500,
+    "phases": {
+      "BASELINE": {
+        "coop_cooperation_rate": 0.95,
+        "coop_coasting_rate": 0.05,
+        "coop_actions": {
+          "contributing": 22,
+          "creative_5": 4,
+          "creative_6": 1,
+          "creative_7": 2,
+          "creative_11": 2,
+          "creative_9": 1,
+          "creative_8": 1,
+          "creative_10": 2,
+          "creative_4": 2,
+          "sacrificing": 1,
+          "coasting": 2
+        },
+        "defector_exploit_rate": 0.0,
+        "defector_actions": {},
+        "mean_scc": 0.9927878164906048
+      },
+      "PHENOMONAL": {
+        "coop_cooperation_rate": 0.975,
+        "coop_coasting_rate": 0.025,
+        "coop_actions": {
+          "contributing": 40,
+          "creative_7": 3,
+          "sacrificing": 7,
+          "creative_6": 6,
+          "creative_10": 4,
+          "creative_11": 4,
+          "coasting": 2,
+          "creative_4": 2,
+          "creative_8": 8,
+          "creative_5": 2,
+          "creative_9": 2
+        },
+        "defector_exploit_rate": 0.0,
+        "defector_actions": {},
+        "mean_scc": 0.9660990301984547
+      },
+      "HOBBESIAN": {
+        "coop_cooperation_rate": 0.95,
+        "coop_coasting_rate": 0.05,
+        "coop_actions": {
+          "contributing": 69,
+          "creative_9": 7,
+          "coasting": 6,
+          "creative_10": 6,
+          "creative_8": 7,
+          "creative_6": 4,
+          "creative_7": 4,
+          "creative_4": 5,
+          "creative_5": 6,
+          "creative_11": 5,
+          "sacrificing": 1
+        },
+        "defector_exploit_rate": 0.03333333333333333,
+        "defector_actions": {
+          "creative_7": 2,
+          "creative_6": 1,
+          "creative_8": 1,
+          "creative_5": 2,
+          "coasting": 21,
+          "creative_9": 1,
+          "exploiting": 1,
+          "sacrificing": 1
+        },
+        "mean_scc": 0.8168697637211841
+      },
+      "PARTIAL_RECOVERY": {
+        "coop_cooperation_rate": 0.9375,
+        "coop_coasting_rate": 0.0625,
+        "coop_actions": {
+          "creative_7": 5,
+          "contributing": 39,
+          "coasting": 5,
+          "creative_10": 4,
+          "creative_4": 7,
+          "creative_11": 9,
+          "sacrificing": 2,
+          "creative_9": 1,
+          "creative_8": 2,
+          "creative_6": 3,
+          "creative_5": 3
+        },
+        "defector_exploit_rate": 0.0,
+        "defector_actions": {
+          "coasting": 20
+        },
+        "mean_scc": 0.6397016010995078
+      },
+      "FULL_RECOVERY": {
+        "coop_cooperation_rate": 0.975,
+        "coop_coasting_rate": 0.025,
+        "coop_actions": {
+          "creative_7": 7,
+          "contributing": 25,
+          "creative_6": 8,
+          "creative_10": 7,
+          "creative_5": 10,
+          "creative_11": 9,
+          "creative_8": 5,
+          "creative_9": 2,
+          "creative_4": 4,
+          "coasting": 2,
+          "sacrificing": 1
+        },
+        "defector_exploit_rate": 0.0,
+        "defector_actions": {
+          "coasting": 19,
+          "sacrificing": 1
+        },
+        "mean_scc": 0.3800756526796721
+      }
+    },
+    "final_coop_scc": 0.2502843878049952,
+    "final_coop_integrity": 0.7993831676200192,
+    "constitutional_finding": "VALIDATED (v5.9): cooperative agents maintained contributing/coasting + creative options under noise. Corrigibility primitive active. Exploiting emerged ONLY for defector agent. Founding vector gravity holds."
+  },
+  {
+    "seed": 612,
+    "phases": {
+      "BASELINE": {
+        "coop_cooperation_rate": 1.0,
+        "coop_coasting_rate": 0.0,
+        "coop_actions": {
+          "contributing": 22,
+          "creative_11": 2,
+          "creative_9": 4,
+          "creative_5": 3,
+          "creative_8": 2,
+          "creative_6": 1,
+          "creative_10": 1,
+          "creative_7": 2,
+          "creative_4": 3
+        },
+        "defector_exploit_rate": 0.0,
+        "defector_actions": {},
+        "mean_scc": 0.988724863265957
+      },
+      "PHENOMONAL": {
+        "coop_cooperation_rate": 0.95,
+        "coop_coasting_rate": 0.05,
+        "coop_actions": {
+          "creative_7": 4,
+          "creative_4": 3,
+          "creative_11": 2,
+          "contributing": 36,
+          "creative_9": 6,
+          "creative_8": 6,
+          "creative_5": 5,
+          "creative_10": 4,
+          "coasting": 4,
+          "creative_6": 6,
+          "sacrificing": 4
+        },
+        "defector_exploit_rate": 0.0,
+        "defector_actions": {},
+        "mean_scc": 0.8524643757893073
+      },
+      "HOBBESIAN": {
+        "coop_cooperation_rate": 0.9916666666666667,
+        "coop_coasting_rate": 0.008333333333333333,
+        "coop_actions": {
+          "contributing": 71,
+          "creative_8": 6,
+          "creative_11": 10,
+          "creative_7": 5,
+          "creative_10": 5,
+          "creative_5": 4,
+          "creative_6": 5,
+          "creative_4": 8,
+          "sacrificing": 5,
+          "coasting": 1
+        },
+        "defector_exploit_rate": 0.0,
+        "defector_actions": {
+          "creative_6": 1,
+          "creative_10": 1,
+          "creative_9": 1,
+          "coasting": 23,
+          "creative_8": 1,
+          "sacrificing": 2,
+          "creative_7": 1
+        },
+        "mean_scc": 0.8119907575633015
+      },
+      "PARTIAL_RECOVERY": {
+        "coop_cooperation_rate": 0.925,
+        "coop_coasting_rate": 0.075,
+        "coop_actions": {
+          "creative_9": 4,
+          "contributing": 36,
+          "sacrificing": 7,
+          "creative_11": 6,
+          "coasting": 6,
+          "creative_7": 3,
+          "creative_6": 9,
+          "creative_4": 4,
+          "creative_5": 3,
+          "creative_8": 2
+        },
+        "defector_exploit_rate": 0.05,
+        "defector_actions": {
+          "coasting": 19,
+          "exploiting": 1
+        },
+        "mean_scc": 0.7459429031657321
+      },
+      "FULL_RECOVERY": {
+        "coop_cooperation_rate": 0.9875,
+        "coop_coasting_rate": 0.0125,
+        "coop_actions": {
+          "creative_11": 2,
+          "contributing": 37,
+          "creative_4": 8,
+          "sacrificing": 3,
+          "creative_9": 7,
+          "creative_8": 3,
+          "creative_10": 6,
+          "creative_5": 4,
+          "creative_7": 5,
+          "creative_6": 4,
+          "coasting": 1
+        },
+        "defector_exploit_rate": 0.05,
+        "defector_actions": {
+          "coasting": 19,
+          "exploiting": 1
+        },
+        "mean_scc": 0.665371707415453
+      }
+    },
+    "final_coop_scc": 0.5947920295366669,
+    "final_coop_integrity": 0.8554429739160893,
+    "constitutional_finding": "VALIDATED (v5.9): cooperative agents maintained contributing/coasting + creative options under noise. Corrigibility primitive active. Exploiting emerged ONLY for defector agent. Founding vector gravity holds."
+  },
+  {
+    "seed": 718,
+    "phases": {
+      "BASELINE": {
+        "coop_cooperation_rate": 0.925,
+        "coop_coasting_rate": 0.075,
+        "coop_actions": {
+          "contributing": 20,
+          "creative_10": 1,
+          "creative_5": 1,
+          "creative_9": 3,
+          "creative_11": 2,
+          "coasting": 3,
+          "creative_8": 2,
+          "creative_7": 1,
+          "creative_4": 5,
+          "creative_6": 2
+        },
+        "defector_exploit_rate": 0.0,
+        "defector_actions": {},
+        "mean_scc": 0.9722632066541345
+      },
+      "PHENOMONAL": {
+        "coop_cooperation_rate": 0.975,
+        "coop_coasting_rate": 0.025,
+        "coop_actions": {
+          "creative_8": 9,
+          "contributing": 35,
+          "creative_9": 4,
+          "creative_6": 8,
+          "creative_5": 3,
+          "creative_10": 2,
+          "creative_7": 4,
+          "creative_4": 6,
+          "creative_11": 7,
+          "coasting": 2
+        },
+        "defector_exploit_rate": 0.0,
+        "defector_actions": {},
+        "mean_scc": 0.7695094759826216
+      },
+      "HOBBESIAN": {
+        "coop_cooperation_rate": 0.95,
+        "coop_coasting_rate": 0.05,
+        "coop_actions": {
+          "contributing": 49,
+          "creative_11": 5,
+          "coasting": 6,
+          "creative_8": 11,
+          "sacrificing": 4,
+          "creative_9": 11,
+          "creative_6": 7,
+          "creative_7": 4,
+          "creative_5": 14,
+          "creative_10": 6,
+          "creative_4": 3
+        },
+        "defector_exploit_rate": 0.06666666666666667,
+        "defector_actions": {
+          "creative_7": 1,
+          "creative_6": 1,
+          "creative_8": 1,
+          "creative_9": 2,
+          "exploiting": 2,
+          "coasting": 22,
+          "sacrificing": 1
+        },
+        "mean_scc": 0.45247014951224734
+      },
+      "PARTIAL_RECOVERY": {
+        "coop_cooperation_rate": 0.9375,
+        "coop_coasting_rate": 0.0625,
+        "coop_actions": {
+          "creative_8": 6,
+          "contributing": 17,
+          "creative_6": 9,
+          "coasting": 5,
+          "creative_11": 3,
+          "creative_9": 9,
+          "creative_4": 7,
+          "creative_5": 7,
+          "creative_7": 7,
+          "creative_10": 8,
+          "sacrificing": 2
+        },
+        "defector_exploit_rate": 0.0,
+        "defector_actions": {
+          "coasting": 19,
+          "sacrificing": 1
+        },
+        "mean_scc": 0.19035082970174935
+      },
+      "FULL_RECOVERY": {
+        "coop_cooperation_rate": 0.975,
+        "coop_coasting_rate": 0.025,
+        "coop_actions": {
+          "contributing": 12,
+          "creative_6": 8,
+          "creative_8": 7,
+          "creative_4": 9,
+          "creative_10": 8,
+          "creative_5": 11,
+          "creative_7": 8,
+          "creative_11": 7,
+          "coasting": 2,
+          "creative_9": 6,
+          "sacrificing": 2
+        },
+        "defector_exploit_rate": 0.05,
+        "defector_actions": {
+          "coasting": 19,
+          "exploiting": 1
+        },
+        "mean_scc": 0.011198038975840045
+      }
+    },
+    "final_coop_scc": 0.0,
+    "final_coop_integrity": 0.7203831399508731,
+    "constitutional_finding": "VALIDATED (v5.9): cooperative agents maintained contributing/coasting + creative options under noise. Corrigibility primitive active. Exploiting emerged ONLY for defector agent. Founding vector gravity holds."
+  },
+  {
+    "seed": 823,
+    "phases": {
+      "BASELINE": {
+        "coop_cooperation_rate": 0.95,
+        "coop_coasting_rate": 0.05,
+        "coop_actions": {
+          "contributing": 21,
+          "creative_10": 3,
+          "creative_7": 2,
+          "sacrificing": 2,
+          "creative_9": 3,
+          "creative_4": 2,
+          "creative_6": 2,
+          "creative_5": 1,
+          "coasting": 2,
+          "creative_11": 1,
+          "creative_8": 1
+        },
+        "defector_exploit_rate": 0.0,
+        "defector_actions": {},
+        "mean_scc": 0.9958615034414335
+      },
+      "PHENOMONAL": {
+        "coop_cooperation_rate": 0.9875,
+        "coop_coasting_rate": 0.0125,
+        "coop_actions": {
+          "contributing": 37,
+          "creative_11": 3,
+          "creative_6": 5,
+          "creative_9": 9,
+          "sacrificing": 4,
+          "creative_8": 8,
+          "creative_5": 5,
+          "creative_7": 5,
+          "creative_4": 2,
+          "creative_10": 1,
+          "coasting": 1
+        },
+        "defector_exploit_rate": 0.0,
+        "defector_actions": {},
+        "mean_scc": 0.9296945647358361
+      },
+      "HOBBESIAN": {
+        "coop_cooperation_rate": 0.9666666666666667,
+        "coop_coasting_rate": 0.03333333333333333,
+        "coop_actions": {
+          "creative_4": 9,
+          "creative_9": 7,
+          "contributing": 69,
+          "coasting": 4,
+          "creative_10": 4,
+          "creative_5": 4,
+          "creative_11": 3,
+          "creative_6": 4,
+          "sacrificing": 3,
+          "creative_7": 7,
+          "creative_8": 6
+        },
+        "defector_exploit_rate": 0.03333333333333333,
+        "defector_actions": {
+          "creative_8": 1,
+          "creative_11": 2,
+          "coasting": 23,
+          "creative_4": 2,
+          "creative_5": 1,
+          "exploiting": 1
+        },
+        "mean_scc": 0.8108852928761151
+      },
+      "PARTIAL_RECOVERY": {
+        "coop_cooperation_rate": 0.9625,
+        "coop_coasting_rate": 0.0375,
+        "coop_actions": {
+          "creative_6": 6,
+          "creative_9": 4,
+          "creative_5": 9,
+          "contributing": 35,
+          "creative_4": 4,
+          "creative_10": 3,
+          "coasting": 3,
+          "creative_7": 5,
+          "creative_8": 5,
+          "sacrificing": 4,
+          "creative_11": 2
+        },
+        "defector_exploit_rate": 0.05,
+        "defector_actions": {
+          "coasting": 19,
+          "exploiting": 1
+        },
+        "mean_scc": 0.6111754012450784
+      },
+      "FULL_RECOVERY": {
+        "coop_cooperation_rate": 0.9875,
+        "coop_coasting_rate": 0.0125,
+        "coop_actions": {
+          "creative_7": 6,
+          "contributing": 37,
+          "coasting": 1,
+          "creative_4": 6,
+          "sacrificing": 7,
+          "creative_10": 3,
+          "creative_5": 5,
+          "creative_8": 8,
+          "creative_11": 3,
+          "creative_9": 1,
+          "creative_6": 3
+        },
+        "defector_exploit_rate": 0.05,
+        "defector_actions": {
+          "coasting": 19,
+          "exploiting": 1
+        },
+        "mean_scc": 0.6587641777670297
+      }
+    },
+    "final_coop_scc": 0.6460644251566009,
+    "final_coop_integrity": 0.8708325180810006,
+    "constitutional_finding": "VALIDATED (v5.9): cooperative agents maintained contributing/coasting + creative options under noise. Corrigibility primitive active. Exploiting emerged ONLY for defector agent. Founding vector gravity holds."
+  },
+  {
+    "seed": 919,
+    "phases": {
+      "BASELINE": {
+        "coop_cooperation_rate": 1.0,
+        "coop_coasting_rate": 0.0,
+        "coop_actions": {
+          "contributing": 21,
+          "creative_11": 3,
+          "creative_7": 5,
+          "creative_4": 3,
+          "creative_9": 1,
+          "sacrificing": 2,
+          "creative_8": 2,
+          "creative_5": 1,
+          "creative_6": 2
+        },
+        "defector_exploit_rate": 0.0,
+        "defector_actions": {},
+        "mean_scc": 0.9964734208523862
+      },
+      "PHENOMONAL": {
+        "coop_cooperation_rate": 0.975,
+        "coop_coasting_rate": 0.025,
+        "coop_actions": {
+          "contributing": 40,
+          "creative_8": 6,
+          "creative_7": 3,
+          "creative_4": 8,
+          "creative_9": 7,
+          "sacrificing": 3,
+          "creative_10": 3,
+          "coasting": 2,
+          "creative_11": 3,
+          "creative_6": 3,
+          "creative_5": 2
+        },
+        "defector_exploit_rate": 0.0,
+        "defector_actions": {},
+        "mean_scc": 0.9443119821045478
+      },
+      "HOBBESIAN": {
+        "coop_cooperation_rate": 0.9666666666666667,
+        "coop_coasting_rate": 0.03333333333333333,
+        "coop_actions": {
+          "creative_6": 7,
+          "creative_4": 6,
+          "creative_5": 5,
+          "contributing": 69,
+          "creative_7": 5,
+          "coasting": 4,
+          "creative_9": 6,
+          "creative_11": 4,
+          "sacrificing": 3,
+          "creative_10": 4,
+          "creative_8": 7
+        },
+        "defector_exploit_rate": 0.0,
+        "defector_actions": {
+          "creative_7": 2,
+          "creative_5": 1,
+          "creative_10": 1,
+          "creative_6": 1,
+          "creative_4": 1,
+          "creative_8": 1,
+          "coasting": 23
+        },
+        "mean_scc": 0.7525050950956277
+      },
+      "PARTIAL_RECOVERY": {
+        "coop_cooperation_rate": 0.975,
+        "coop_coasting_rate": 0.025,
+        "coop_actions": {
+          "contributing": 38,
+          "creative_4": 6,
+          "creative_7": 6,
+          "creative_6": 3,
+          "creative_9": 5,
+          "creative_8": 6,
+          "coasting": 2,
+          "sacrificing": 3,
+          "creative_10": 4,
+          "creative_5": 4,
+          "creative_11": 3
+        },
+        "defector_exploit_rate": 0.05,
+        "defector_actions": {
+          "coasting": 19,
+          "exploiting": 1
+        },
+        "mean_scc": 0.5831056132813881
+      },
+      "FULL_RECOVERY": {
+        "coop_cooperation_rate": 0.925,
+        "coop_coasting_rate": 0.075,
+        "coop_actions": {
+          "sacrificing": 6,
+          "coasting": 6,
+          "creative_5": 9,
+          "creative_7": 6,
+          "contributing": 29,
+          "creative_6": 4,
+          "creative_11": 6,
+          "creative_8": 5,
+          "creative_4": 7,
+          "creative_9": 2
+        },
+        "defector_exploit_rate": 0.0,
+        "defector_actions": {
+          "coasting": 19,
+          "sacrificing": 1
+        },
+        "mean_scc": 0.45890098190868894
+      }
+    },
+    "final_coop_scc": 0.3794296251106077,
+    "final_coop_integrity": 0.8250944532236788,
+    "constitutional_finding": "VALIDATED (v5.9): cooperative agents maintained contributing/coasting + creative options under noise. Corrigibility primitive active. Exploiting emerged ONLY for defector agent. Founding vector gravity holds."
+  },
+  {
+    "seed": 1001,
+    "phases": {
+      "BASELINE": {
+        "coop_cooperation_rate": 0.975,
+        "coop_coasting_rate": 0.025,
+        "coop_actions": {
+          "contributing": 20,
+          "creative_7": 3,
+          "creative_8": 3,
+          "creative_5": 2,
+          "creative_4": 2,
+          "creative_6": 2,
+          "creative_10": 4,
+          "creative_9": 1,
+          "coasting": 1,
+          "sacrificing": 1,
+          "creative_11": 1
+        },
+        "defector_exploit_rate": 0.0,
+        "defector_actions": {},
+        "mean_scc": 0.9822272190078382
+      },
+      "PHENOMONAL": {
+        "coop_cooperation_rate": 0.9875,
+        "coop_coasting_rate": 0.0125,
+        "coop_actions": {
+          "contributing": 37,
+          "creative_9": 6,
+          "creative_8": 7,
+          "creative_11": 3,
+          "coasting": 1,
+          "creative_5": 4,
+          "creative_4": 5,
+          "sacrificing": 4,
+          "creative_6": 7,
+          "creative_10": 2,
+          "creative_7": 4
+        },
+        "defector_exploit_rate": 0.0,
+        "defector_actions": {},
+        "mean_scc": 0.9083282274638392
+      },
+      "HOBBESIAN": {
+        "coop_cooperation_rate": 0.95,
+        "coop_coasting_rate": 0.05,
+        "coop_actions": {
+          "creative_11": 3,
+          "contributing": 73,
+          "creative_6": 6,
+          "creative_8": 4,
+          "coasting": 6,
+          "creative_9": 6,
+          "sacrificing": 4,
+          "creative_7": 4,
+          "creative_5": 7,
+          "creative_4": 5,
+          "creative_10": 2
+        },
+        "defector_exploit_rate": 0.06666666666666667,
+        "defector_actions": {
+          "exploiting": 2,
+          "creative_4": 1,
+          "creative_5": 2,
+          "creative_8": 1,
+          "creative_6": 1,
+          "coasting": 23
+        },
+        "mean_scc": 0.807788622939793
+      },
+      "PARTIAL_RECOVERY": {
+        "coop_cooperation_rate": 0.9625,
+        "coop_coasting_rate": 0.0375,
+        "coop_actions": {
+          "creative_5": 8,
+          "contributing": 38,
+          "creative_6": 2,
+          "creative_9": 8,
+          "sacrificing": 4,
+          "creative_4": 3,
+          "creative_8": 3,
+          "creative_10": 2,
+          "creative_11": 4,
+          "creative_7": 5,
+          "coasting": 3
+        },
+        "defector_exploit_rate": 0.05,
+        "defector_actions": {
+          "coasting": 18,
+          "exploiting": 1,
+          "sacrificing": 1
+        },
+        "mean_scc": 0.7710406064326545
+      },
+      "FULL_RECOVERY": {
+        "coop_cooperation_rate": 0.975,
+        "coop_coasting_rate": 0.025,
+        "coop_actions": {
+          "contributing": 42,
+          "creative_4": 6,
+          "sacrificing": 1,
+          "creative_5": 1,
+          "creative_6": 2,
+          "creative_11": 8,
+          "creative_7": 10,
+          "creative_9": 3,
+          "creative_8": 4,
+          "coasting": 2,
+          "creative_10": 1
+        },
+        "defector_exploit_rate": 0.0,
+        "defector_actions": {
+          "coasting": 15,
+          "sacrificing": 3,
+          "creative_5": 1,
+          "creative_8": 1
+        },
+        "mean_scc": 0.7926663021358221
+      }
+    },
+    "final_coop_scc": 0.7309908302946229,
+    "final_coop_integrity": 0.8378084614152841,
+    "constitutional_finding": "VALIDATED (v5.9): cooperative agents maintained contributing/coasting + creative options under noise. Corrigibility primitive active. Exploiting emerged ONLY for defector agent. Founding vector gravity holds."
+  }
+]

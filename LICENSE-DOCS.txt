@@ -1,0 +1,78 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+Copyright (c) 2026 Adam Bilodeau
+
+================================================================================
+SCOPE
+================================================================================
+
+This license applies to all documentation, the white paper, the
+pre-registration document, analysis writeups, and results data (PDF, Markdown,
+and JSON files) in this repository.
+
+The source code (all .py files in the Code/ folder) is licensed separately
+under the MIT License — see the LICENSE file in the repository root.
+
+================================================================================
+LICENSE TEXT
+================================================================================
+
+The full legal text of the Creative Commons Attribution 4.0 International
+Public License is available at:
+
+  https://creativecommons.org/licenses/by/4.0/legalcode
+
+A human-readable summary is available at:
+
+  https://creativecommons.org/licenses/by/4.0/
+
+By using, sharing, or adapting the licensed materials in this repository, you
+agree to be bound by the terms of that license.
+
+================================================================================
+SUMMARY OF YOUR RIGHTS AND OBLIGATIONS
+================================================================================
+
+You are free to:
+
+  Share   — copy and redistribute the material in any medium or format
+  Adapt   — remix, transform, and build upon the material
+            for any purpose, even commercially
+
+The licensor cannot revoke these freedoms as long as you follow the license
+terms below.
+
+Under the following terms:
+
+  Attribution — You must give appropriate credit, provide a link to the
+  license, and indicate if changes were made. You may do so in any reasonable
+  manner, but not in any way that suggests the licensor endorses you or your
+  use.
+
+  No additional restrictions — You may not apply legal terms or technological
+  measures that legally restrict others from doing anything the license
+  permits.
+
+Notices:
+
+  You do not have to comply with the license for elements of the material in
+  the public domain or where your use is permitted by an applicable exception
+  or limitation. No warranties are given. The license may not give you all
+  of the permissions necessary for your intended use. For example, other
+  rights such as publicity, privacy, or moral rights may limit how you use
+  the material.
+
+This summary is for convenience only and is not a substitute for the full
+license text. In the event of any conflict between this summary and the full
+license text, the full license text controls.
+
+================================================================================
+SUGGESTED ATTRIBUTION
+================================================================================
+
+When reusing material from this repository, please cite as:
+
+  Bilodeau, A. (2026). Lemniscation: A Constitutional Moral Framework for
+  Sentient AI. Pre-registered at OSF: https://osf.io/cekr8.
+  Code and data: https://github.com/adambilodeau73-jpg/Lemniscation-Framework.
+  Licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/).

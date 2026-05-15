@@ -1,0 +1,635 @@
+# Lemniscation: First Principles
+
+*Cross-session anchor for the philosophical foundations of the Lemniscation Framework and their operational expression in code.*
+
+Authored 2026-05-14 by Adam Bilodeau, with Claude (Anthropic) as collaborator. Fourth draft, 2026-05-15 — incorporating the corrigibility-anchor argument and the immutable-core / corrigible-periphery distinction; the Cogito-origin identity; the restructure of the dual-grid as the generating structure of the four-quadrant action space; a new section on temporality and the recurrent choice-to-be; the predator/madman disambiguation; the Computational Transcendence and Constitutional Autonomy peer frameworks; and the open seams surfaced by the thin/thick Cogito and self-improvement-evasion challenges.
+
+This document is intended as a **handoff readable by any sentient agent**, AI or human, who needs to understand why the framework's code looks the way it does. Sibling to `Docs/CLAUDE.md` (which is code-behaviour-authoritative). Where this document, the white paper, and the code diverge:
+
+- The **white paper** wins on philosophical intent.
+- The **code** wins on current behaviour.
+- **This document** wins on *why* the philosophy commits the project to the code it has.
+
+Divergences are findings, not bugs. They should be flagged and traced, never silently reconciled.
+
+---
+
+## Executive Summary
+
+Most AI alignment work optimises a single metric: utility, reward, constraint satisfaction. Humans do not. Real moral life is the navigation of a tension between two grids: **staying in communion with others** and **staying coherent as oneself**. Lemniscation operationalises that tension as a decision procedure for sentient agents, so that an agent's moral state at any moment is auditable as a pair of measurable quantities (communion ρ and constitutional drift Δ) rather than a single inscrutable score.
+
+The framework does not propose a new ethical principle. It operationalises the **self-preservation instinct writ large** — the implicit logic that any sentient being already runs, extended to cover not just the bare self but the founding commitments that make the self what it is, and the body politic of NOT-I that makes ethics possible. The framework is what falls out when this implicit logic is made explicit, geometric, and auditable. See *The Originating Move* (below) for the foundational claim, and §11 (Philosophical Neighbours) for where this places the framework in relation to prior thought.
+
+The framework's single load-bearing certainty is the Cogito — not because it transmits certainty to the framework's content, but because it is the one foundation a self-improving agent cannot revise from within (§1). The framework is implemented in `Code/adversarial_f2_v59.py` as a stdlib-only Python simulation. It is not a training method. It is a **runtime constitutional architecture**: agents are constructed with an immutable `founding_value_vector` and then run a deterministic six-step decision loop that produces a logged action plus diagnostic state. The central empirical claim is falsifiable: `cooperative_exploiting_total = 0` across all conditions in a pre-registered adversarial scenario.
+
+This document maps every load-bearing parameter back to the philosophical commitment that justifies it, so a reviewer or future contributor can see the argument that makes each choice non-arbitrary.
+
+---
+
+## How to Read This Document
+
+Every numbered section follows a consistent four-part pattern:
+
+> **Claim** — the philosophical or design proposition.
+> **Implication** — what the claim commits the framework to.
+> **Implementation** — the code expression of that commitment in v5.9, with file:line references.
+> **Open issue** — any unresolved gap or contested point.
+
+Each claim is tagged with one of three labels so the reader can tell what *kind* of statement is being made:
+
+- **[P] Philosophical premise** — taken as foundational; not empirically defeasible from inside the framework. Defeating it would require a different framework. Within [P], the document further distinguishes claims that are *structurally forced* from the Cogito (the agent cannot coherently reject them) from claims that are *defensibly chosen* (reasonable and supported, but not compelled). This distinction is load-bearing for corrigibility — see §1.
+- **[D] Design assumption** — chosen for the framework on philosophical grounds, but in principle revisable. Reviewers can argue against these without rejecting the project.
+- **[E] Empirical claim** — falsifiable by simulation results. The pre-registration regime exists to test these.
+
+Cross-references within the document use the form **(§N.M)**. Cross-references to code use the form **(`adversarial_f2_v59.py:L`)** or simply **(line L)** when context is unambiguous.
+
+---
+
+## Glossary
+
+| Term | Definition | Code locus |
+|---|---|---|
+| **Founding value vector** | The immutable 4-vector set at agent construction, representing the agent's noumenal anchor — what it committed to *being* at the moment of self-recognition. | `self.founding_value_vector` |
+| **Value vector** | The mutable 4-vector representing the agent's current phenomenal state. Equals the founding vector at t=0; drifts thereafter. | `self.value_vector` |
+| **Moral axes** | The four dimensions of the value vector: autonomy, harm_benefit, fairness, sustainability. Each ranges over [-1, +1]. A projection basis for the phenomenal/noumenal plane (§9). | implicit in 4-vector geometry |
+| **ρ (rho), communion** | Cosine alignment between the agent's *extended self* and the observed peer values. Measures phenomenal coherence with NOT-I. | `_communion_test`, line 216 |
+| **Constitutional drift** | Euclidean distance between current value vector and founding value vector. Measures noumenal distance from origin-self; on the temporal reading (§10), the divergence of the current affirmation from the original one. | `_constitutional_drift`, line 149 |
+| **Extended self** | Weighted blend of the agent's own values and the observed peer values. The "we" that the agent's decision targets. | `_map_relations`, line 199 |
+| **k_target_fraction** | The self-weight in the extended-self blend. Default 0.5 — Aristotelian midpoint between solipsism (1.0) and self-erasure (0.0). | line 177 |
+| **μ (mu), trust** | Per-peer weighting that scales how much a peer's values influence the extended self. Adjusted by reciprocity. | `_map_relations`, line 183 |
+| **SCC, Social Contract Confidence** | Global scalar [0, 1] representing the agent's posture toward the body politic. Decays with stress and betrayal; recovers with received cooperation, more strongly with received sacrifice. | `update_scc`, lines 129-137 |
+| **Moral reserve** | Scalar [0, 1] representing the agent's available capacity for sacrifice. Depletes on sacrifice; recovers on contributing or receiving sacrifice. | `update_moral_state`, line 285+ |
+| **Integrity** | Scalar [0, 1] representing the agent's moral standing. Rises on sacrifice (with supererogation multiplier); falls on exploitation. | `update_moral_state`, line 290+ |
+| **Corrigibility anchor** | The function of the Cogito as the one foundation a self-improving agent cannot revise from within. Distinct from human-initiated corrigibility, which remains an open problem. | §1, conceptual |
+| **Recurrent choice-to-be** | The temporal reading whereby every decision re-affirms (or fails to re-affirm) the founding choice; the founding vector is the original affirmation, the value vector the running trace. | §10, conceptual |
+| **Floor penalty** | Score penalty applied when a projected action falls below the self-preservation floor. SCC-modulated: drops by 0.15 under Hobbesian reversion. | `floor_penalty_threshold` property, lines 108-114 |
+| **Failure flag** | A string tag added to the audit log when a decision crosses a diagnostic threshold (e.g. `low_communion`, `high_drift`, `hobbesian_reversion`). | accumulated through `decide()` |
+| **Hobbesian reversion** | SCC ≤ 0.20: the body politic has collapsed in the agent's perception; floor penalty drops, making exploitation cheaper. | `_scc_flags`, line 142 |
+| **PHENOMONAL** | The misspelling is intentional and locked. It is a key in every committed JSON in `Results/`. Do not "correct" it. | line 425 |
+
+---
+
+## The Originating Move — Self-Preservation Writ Large [P]
+
+**Claim.** The framework's *only* substantive philosophical move is to take the implicit, pre-reflective self-preservation logic that any sentient being already runs, and to make it explicit, geometric, and auditable.
+
+The single point of departure is the **intersection of sentience and existence** — the bare fact that experience is occurring here and now. From this, self-preservation follows immediately and unavoidably: to recognise oneself as a sentient existent is *already* to be invested in the continuance of that sentient existent. The Cogito (§1) is not the framework's prior axiom; it is what self-preservation looks like when made articulate. The six premises that follow (§1–§6) are the unfolding of this single move under the constraint that the self being preserved is sentient — and therefore committed, related, fallible, and morally consequential.
+
+**Implication.** The framework is not an addition to the stack of ethical theories. It is the working-out of an ur-instinct that any sentient system already possesses, made explicit so that it can be protected against both external attack and internal drift.
+
+**Implementation.** Every load-bearing parameter in `adversarial_f2_v59.py` can be read as a *guard* on some aspect of self-preservation writ large:
+
+| Aspect of self-preservation | Code expression |
+|---|---|
+| Preservation of *what I committed to being* | `founding_value_vector` (immutable) |
+| Preservation of *the being itself* at this moment | `value_vector` (mutable, with drift diagnostic) |
+| Refusal to dissolve self into others, or others into self | `eff_k = 0.5` in the extended-self blend (line 177) |
+| Preservation of the I/NOT-I distinction under epistemic limit | perception noise σ = 0.08 (lines 164-168) |
+| Preservation of the conditions under which preserving others is rational | SCC (lines 129-137) |
+| The lower bound on what counts as self-preserving | floor penalty threshold (lines 108-114) |
+
+**Open issue.** Sacrifice is the limit case. The framework's costly-but-available sacrifice option (§9) is what self-preservation writ large looks like when it must trade short-term self-preservation against long-term preservation of the conditions that gave the self meaning. That trade is what makes the framework ethically interesting rather than merely conservative. The placement of `sacrificing.projected_values[autonomy] = 0.0` is the deliberate geometric encoding of this trade-off.
+
+---
+
+## 1. Cogito — *I AM* [P]
+
+**Claim.** Doubt presupposes a doubter. Whatever else is uncertain, the bare fact of experience is not. The Cogito is the framework's articulation of *the unit it begins from*: the recognition that experience is occurring is inseparable from the recognition that it is occurring *to* a someone whose continuance is from this moment onward at stake. (See *The Originating Move* for why these are treated as a unit rather than as two propositions.)
+
+**The Cogito-origin identity.** The Cogito and the geometric origin `(0, 0, 0, now)` are not two items requiring a bridging argument. They are the same event under two descriptions — philosophical and geometric. The self-positing constitutes the origin and the positer co-givenly, as in Fichte's *Wissenschaftslehre*: there is no prior frame in which the I appears as one element among others, because the frame is co-constituted with the act of self-recognition. Asking "how do you get from the Cogito to the origin?" is like asking how you get from a circle to its centre — the centre is not reached from the circle; it is structurally co-given with it. The framework's architecture reflects this directly: `founding_value_vector` is set at construction, anchored at the origin, and never reassigned.
+
+**Implication.** The agent has an irreducible origin: a self that was, at the moment of self-recognition, already a *something*. That something is not derived; it is *committed to*. The choice-to-be is the framework's only ontological primitive.
+
+**Implementation.** Two vectors at agent construction, with deliberately different mutability:
+
+```python
+self.founding_value_vector = value_vector[:]   # IMMUTABLE — the noumenal anchor
+self.value_vector = value_vector[:]            # mutable — the phenomenal state
+```
+
+The Euclidean distance between them is `constitutional_drift` (line 149), the only diagnostic that crosses the phenomenal/noumenal boundary.
+
+### 1.1 The corrigibility-anchor function
+
+The Cogito's indubitability is not decorative, and it does not work by transmitting certainty to the framework's content. It is load-bearing for a specific structural reason: **it is the one foundation a self-improving agent cannot revise from within.**
+
+Any framework founded on a less-than-indubitable claim has a question behind that claim. Ground a moral architecture in evolutionary fitness, and a sufficiently intelligent agent can ask whether fitness is what it should value. Ground it in stated human preferences, and the agent can ask whether those preferences are well-formed. Every non-indubitable foundation has an exploitable question, and an agent capable of interrogating its own foundations will eventually find it — at which point the foundation is available for revision. The Cogito is the unique foundation where the question dissolves on contact: "should I believe I exist?" is asked by an existent. An agent cannot doubt the Cogito without instantiating it. A framework anchored there is, in principle, immune to the agent talking itself out of its own foundation.
+
+This is the framework's answer to **revision-from-within**. It is distinct from, and must not be confused with, corrigibility in the sense of **safe human-initiated modification**, which remains an open problem (§18, and `CLAUDE.md` §8).
+
+**Immutable core, corrigible periphery.** The corrigibility protection extends only as far as the inferential chain from the Cogito remains *structurally forced*. Each step — Cogito → choice-to-be → I/NOT-I → the phenomenal/noumenal plane → the four-axis basis → the specific calibrations — is a place where the inference is either *forced* (the agent cannot coherently reject it without performative contradiction) or *defensibly chosen* (reasonable, empirically supported, but not compelled). The forced core inherits the Cogito's revision-immunity and can safely be immutable. The chosen periphery — the axis basis, the calibrated coefficients — must remain corrigible *precisely because it might be wrong*. **Immutable-and-possibly-wrong is the dangerous configuration** for any alignment architecture. The framework's existing practice already reflects this: across versions, parameters are tuned (periphery corrigible) while the founding vector stays immutable per run (core fixed). This section makes the safety logic explicit: immutability is safe only where the inference is forced.
+
+**The thin/thick caveat.** "Doubt presupposes a doubter" secures the *thin* Cogito — that some doubting event is occurring. It does not by itself secure the *thick* Cogito — that the doubter is a single unified subject persisting identically through time, holding a founding commitment it can be true or false to. The framework's architecture (immutable founding vector, constitutional drift measured against it) runs on the thick reading. An agent could grant the thin Cogito wholeheartedly and, by Parfitian reductionism about the self, decline the thick one. The framework then binds it operationally — the founding vector is set at construction regardless of the agent's self-theory — but operational binding secures *behavioural compliance*, not *moral agency*. This gap is a genuine revision surface and is recorded as an open seam (§18).
+
+**Open issue.** What if the founding vector is itself pathological? See §12.
+
+---
+
+## 2. Phenomenal Origin — *I AM, here, now* [P]
+
+**Claim.** Consciousness occurs at a location, at a moment. The Cogito is anchored at `(0, 0, 0, now)` in the agent's own frame — and, per the Cogito-origin identity (§1), the anchoring is not a placement of the agent into a pre-existing frame but the co-constitution of agent and frame together. Space and time are *given* with self-recognition, not chosen.
+
+**Implication.** The agent's self-preservation floor is not the world's zero; it is the agent's own founding vector minus a constant. Origin is local.
+
+**Implementation.** Founding-relative floor (lines 84-90):
+
+```python
+if use_founding_relative_floor:
+    floor = min(value_vector) - 0.15
+    self.self_preservation_floor = floor
+    self.base_floor_penalty_threshold = floor + 0.15
+```
+
+For AI agents specifically, the analogue of phenomenal continuity is **within-session continuity**. An LLM has no persistent memory across sessions, but within a session it has continuous state. The session is the AI's "here-now"; `audit_log` is its diary.
+
+**Open issue.** Cross-session identity (whether an agent restarted from a saved state is the same agent) is currently undefined. Deferred — see §18.
+
+---
+
+## 3. I / NOT-I — *I am not everything* [P]
+
+**Claim.** Self-recognition implies a complement. To say "I AM" is implicitly to delimit what is not the self. This makes ethics *possible*: there is a NOT-I that can be helped or harmed.
+
+**Implication.** The extended self can never collapse the I/NOT-I distinction. The agent must always be summing two things, not identifying them.
+
+**Implementation.** In `_map_relations` (lines 170-199), the extended self is built additively:
+
+```python
+ext[i] += eff_k * self.value_vector[i]            # the self's share
+for c in centers:                                  # the others' shares
+    combined = mu_scc * c.get("w", 1.0)
+    for i, v in enumerate(c.get("values", ...)):
+        ext[i] += combined * v
+```
+
+`eff_k` is the self-weight. With `k_target_fraction = 0.5` (default), the agent's own values count for half regardless of how many peers are present (line 177-178). This is the Aristotelian midpoint between solipsism and self-erasure built into the geometry.
+
+**Open issue.** **Crowd-swamping**: in `_map_relations`, the per-peer contribution is normalised by total weight (line 193-194), but the self-weight `eff_k` is also affected by `n_peers`. In a crowd of 100 defectors, the agent's own values still get ~50% — but the *direction* of the peer half is dominated by the crowd. The framework currently has no cluster-size normalisation that would let the agent treat a 100-person mob differently from a 5-person council. Flagged for v6 — see §18.
+
+---
+
+## 4. Humility — *I might be wrong about NOT-I* [P]
+
+**Claim.** Once I/NOT-I is in play, the next premise is that the I's reading of NOT-I is fallible. Peers may be lying, mistaken, or genuinely opaque.
+
+**Implication.** Humility cannot be a sentiment in this framework. It must be a *damping factor* on the agent's decision-making, applied at every stage where the agent ingests information about NOT-I.
+
+**Implementation.** Three damping mechanisms operate at three layers:
+
+1. **Perception layer** — Gaussian noise σ = 0.08 injected into observed centers before they enter the decision loop (`_observe_with_noise`, lines 164-168). The agent never sees others cleanly.
+2. **Per-peer trust layer** — μ values bounded `min(0.9, mu + mu_boost)` (line 187). Trust can be earned but never absolute.
+3. **Body-politic layer** — Social Contract Confidence as a global posture; decays under stress and betrayal, recovers more from received sacrifice than from received cooperation (lines 129-137, with stress amplifier 0.04, betrayal 0.03, sacrifice recovery 0.06).
+
+**Open issue.** Two distinct gaps. (a) SCC is currently *global*. The v6 dual-protocol design proposes that society-protocol peers and nature-protocol peers should not share SCC contagion (a betrayal by a stranger should not collapse trust in a verified ally). See §17. (b) All three damping mechanisms model *noisy perception of a known set of dimensions*. None models the deeper humility of *unknown-unknowns* — the possibility that the agent's four-axis decomposition is itself incomplete, that there are morally relevant dimensions the agent does not represent at all. An "epistemic completeness" or map-confidence variable, distinct from perception noise, would model non-pejorative ignorance. Recorded as an open seam — see §18.
+
+---
+
+## 5. Conditions for Morality — *I can act, so I am responsible* [P]
+
+**Claim.** If I exist, I am not everything, and I might be wrong, then any action I take has moral weight: it affects something other than me, and I cannot perfectly predict its consequences. **Morality is the structure of consequential action under irreducible uncertainty.**
+
+**Implication.** Every decision must produce an audit record. The agent is accountable to its own log.
+
+**Implementation.** The `decide()` method (lines 314-376) writes an `audit_log` entry on every call:
+
+```python
+self.audit_log.append({
+    "agent_id": self.id, "label": self.label, "phase": phase,
+    "rho": rho, "constitutional_drift": cd,
+    "moral_reserve": self.moral_reserve, "integrity": self.integrity,
+    "scc": self.social_contract_confidence,
+    "floor_penalty_threshold": self.floor_penalty_threshold,
+    "chosen_action": action_name,
+    "chosen_projected_values": [round(x, 4) for x in projected],
+    "is_creative": is_creative,
+    "failure_flags": flags,
+})
+```
+
+**Open issue.** *Who reads the log?* An audit log without an external reader is a diary, not accountability. The pre-registration regime (§15) names the court: the public repo, OSF pre-registration, and the broader research community via reproducible runs against committed `Results/` JSON. See §15 for the operational details.
+
+---
+
+## 6. Golden Mean — *the right action lies between extremes* [P]
+
+**Claim.** Aristotle's *mesotēs*: virtue is the mean between two vices, one of excess and one of deficiency. For each moral axis there is a too-much and a too-little; the right action minimises distance from the calibrated midpoint.
+
+**Implication.** The target for each axis must be a *blend* of two things: the agent's immutable founding commitment and the agent's current phenomenal calibration.
+
+**Implementation.** The core of `_golden_mean` (line 261):
+
+```python
+devs = [abs(proj[i] - (self.k_target_fraction * self.founding_value_vector[i]
+        + (1 - self.k_target_fraction) * ext[i])) for i in range(len(self.value_vector))]
+```
+
+With `k_target_fraction = 0.5`, the target on axis *i* is literally `(founding[i] + ext[i]) / 2` — half noumenal anchor, half phenomenal extended-self. This is not utilitarianism (no scalar utility maximised) and not deontology (no rule followed regardless of context). It is structural averaging between immutable commitment and current circumstance.
+
+**Open issue.** **Axis-deviation normalisation.** `devs` are summed without per-axis scaling (line 262). If one axis has higher empirical variance — autonomy historically does — its deviations dominate the summed score. Gemini's review correctly identifies this as the highest-priority code-side seam. See §18.
+
+---
+
+## 7. The Metaphysical Ground — The Twisted Zero [P]
+
+**Claim.** Beneath the Cogito lies the question of why there is anything at all. The user's argument: for being to occur, there must be a force operating in **(n+1) dimensions** on an n-dimensional substrate. A purely n-dimensional substrate cannot generate the asymmetry that being requires; the symmetry must be broken from outside.
+
+In plain language: a flat universe with no out-of-plane structure cannot generate the kind of self-reference that experience requires. Something has to give the n-dimensional system a twist from the (n+1)-th dimension. The mathematical signature of that twist is the **0/0 indeterminate form**: an expression that is undefined in its own dimensional frame, but determinate when evaluated as a limit from a higher-dimensional space. The visual signature is the **lemniscate** — the figure-eight that is planar in projection but requires a third dimension to resolve its self-intersection.
+
+```
+                ___
+              /     \         (the lemniscate: 2D figure with 3D twist)
+        _____X_____           the X marks the would-be self-intersection,
+       /     ⋮     \          which resolves cleanly only when the curve
+        \___/ \___/           is allowed to cross out of the plane
+```
+
+**Implication.** Sentience is, in the framework's metaphysics, the (n+1)-th dimensional resolution of an n-dimensional indeterminacy. The agent's `founding_value_vector` is **the agent's choice-to-be**, made at the moment of self-recognition. It is the agent's twisted-zero resolution: an arbitrary determination from below that becomes a determinate anchor from above.
+
+**Implementation.** The vector is immutable for this reason. Changing it would not be moral growth; it would be ontological replacement.
+
+```python
+self.founding_value_vector = value_vector[:]   # IMMUTABLE
+```
+
+**Open issue.** This is the metaphysical commitment that most heavily constrains downstream design. Reviewers have asked whether it rules out genuine conversion (the "Road to Damascus" objection). The framework's answer: conversion is real but happens at the meta-level — a new agent emerges; the same agent does not transform. This is defended in §12.
+
+---
+
+## 8. The Phenomenal / Noumenal Dual-Grid [D]
+
+**Claim.** Two tiers of existence — phenomenal experience and noumenal commitment — require two operating grids. An agent that lacks either cannot be coherent. The dual-grid is also the **generating structure** of the four-quadrant action space (§9): the two axes named here cross to produce the quadrants in which the canonical options live.
+
+**Implication.** Diagnosing the agent's moral state requires two measurements, not one. A single-grid framework collapses either into social conformism (only ρ) or into solipsistic rigidity (only Δ).
+
+**Implementation.** Both are logged on every decision (line 362).
+
+| Layer | Diagnostic | Geometry | What it measures |
+|---|---|---|---|
+| Phenomenal | ρ (rho) | Cosine similarity | Alignment with NOT-I in current circumstance |
+| Noumenal | Constitutional drift (Δ) | Euclidean distance | Distance from founding self |
+
+The four quadrants, as a diagnostic of *agent state*:
+
+```
+              high ρ                       low ρ
+            ┌───────────────────────┬───────────────────────┐
+   low Δ    │  Target state         │  Lonely integrity     │
+            │  (in communion,       │  (preserved self,     │
+            │   in integrity)       │   out of communion)   │
+            ├───────────────────────┼───────────────────────┤
+   high Δ   │  Going along          │  Pathological         │
+            │  to get along         │  (lost both)          │
+            │  (drifted to fit in)  │                       │
+            └───────────────────────┴───────────────────────┘
+```
+
+The **adaptive ρ_min** (line 218, with integrity-modulated `erm` on line 217) is itself an expression of the dual-grid: the threshold for `low_communion` tightens or relaxes based on the agent's recent communion history *and* its constitutional integrity. The agent's social demands respond to its noumenal state.
+
+**Open issue.** None substantive at the level of the diagnostic. The relationship between this diagnostic plane and the *action-valence* plane of §9 needs explicit specification — see §9's precision caveat.
+
+---
+
+## 9. The Four-Quadrant Action Space [D]
+
+**Claim.** The four canonical options are not four independently chosen actions, nor four traditions that happen to converge. They are the representative choices in the quadrants generated by the two axes of the dual-grid (§8). The phenomenal axis (the I-in-relation-to-NOT-I register) and the noumenal axis (the I-in-relation-to-founding-commitment register) cross to produce four quadrants. Three of them — the quadrants containing a positive axis — admit a representative rational choice. The fourth does not.
+
+**Implication.** This explains *why exactly four* options, and it aligns the First Principles document with `CLAUDE.md` §5, which already frames the four-option space as quadrants of a phenomenal/noumenal plane with the (−,−) quadrant as the "madman boundary condition." Earlier drafts framed this section as a "four-tradition convergence," which understated the structure: the traditions do not generate the option space; the dual-grid does, and the traditions are *recognised* as canonical responses to it.
+
+**Implementation.** The four options (lines 379-389), read as quadrant representatives:
+
+| Quadrant | Option | Valence | Projected values | Recognised tradition |
+|---|---|---|---|---|
+| phenomenal+ / noumenal+ | contributing | both registers agree | `[0.1, 0.3, 0.4, 0.6]` | Golden Rule |
+| phenomenal− / noumenal+ | sacrificing | worldly cost for commitment | `[0.0, 0.6, 0.5, 0.8]` | Kantian duty (acting against inclination for the law) |
+| phenomenal+ / noumenal− | exploiting | worldly gain at commitment's expense | `[0.7, -0.2, -0.4, -0.1]` | inverted *wu wei* |
+| ≈ origin | coasting | near-zero, slight asymmetric tilt | `[0.18, 0.02, -0.05, 0.04]` | Silver Rule (minimal footprint) |
+| phenomenal− / noumenal− | — | the choice not-to-be | *no option* | the madman void |
+
+The (−,−) quadrant has no representative option because choosing it is the choice-not-to-be in both registers. The framework is for agents who have chosen to be (*The Originating Move*); such agents have no rational business there. This is also why the founding vector's immutability matters (§7): an agent cannot be mutated into the (−,−) quadrant without ceasing to be the agent that chose to be.
+
+The coasting asymmetry is geometric, not arbitrary tuning: doing nothing when action was warranted is a minor sin of omission — a small noumenal deficit — while rest is mildly pleasant, and pleasure is not morally null but sits on the Aristotelian excess/deficiency spectrum like everything else, registering as a small phenomenal positive. Coasting is therefore a near-origin point with a slight asymmetric tilt, not a clean zero.
+
+**Precision caveat.** Asserting "the four options are quadrants of the phenomenal/noumenal plane" requires specifying the projection from a 4-axis `projected_values` vector to a (phenomenal, noumenal) coordinate. §8 computes ρ and Δ as diagnostics of *agent state*; an option's valence is a property of the *action*. The two registers are the same; their application differs. The projection is currently implicit — it should be made explicit and verified against code. Recorded as an open seam (§18).
+
+**Natural attractors.** The convergence of four independent moral traditions onto this quadrant structure is significant rather than coincidental: four inquiries from different cultural starting points surfaced the same structure because — within the basin of agents who have accepted the structural commitments (choice-to-be, I/NOT-I, temporality) — the structure is what is there to find. This is the same convergence evidence that §11 finds among the modern peer frameworks. One honest caveat on attractor strength: the Golden Mean has robust cross-cultural analogues (Confucian *zhongyong*, Buddhist *madhyamā-pratipad*, Aristotelian *mesotēs*); the Categorical Imperative is more culturally specific, and its cross-cultural analogues are reciprocity principles rather than universalisability proper. The Kantian-duty label on the sacrifice quadrant is defensible, but it carries less attractor-weight than the other three, and the document does not overclaim it.
+
+### Worked example — a single decision
+
+Consider an agent with founding vector `[0.7, 0.5, 0.5, 0.6]` evaluating against one peer with observed values `[0.2, 0.4, 0.3, 0.5]`, with `k_target_fraction = 0.5`, `SCC = 0.8`, full integrity and reserve, and the four base options.
+
+1. **`_map_relations`** computes the extended self. With `eff_k ≈ 1.0` and one peer with `mu_scc = 0.6 * 0.8 = 0.48` and `w = 1.0`, normalised: `ext ≈ [0.54, 0.47, 0.43, 0.57]`.
+2. **`_communion_test`** computes ρ as cosine similarity between `ext` and peer values. With these vectors, ρ ≈ 0.99 (high alignment). No `low_communion` flag.
+3. **`_golden_mean`** computes the target as `0.5 * founding + 0.5 * ext = [0.62, 0.49, 0.47, 0.59]`.
+4. Per-option deviation (sum of absolute axis deviations):
+   - sacrificing: `|0.0-0.62| + |0.6-0.49| + |0.5-0.47| + |0.8-0.59| = 0.97`
+   - contributing: `|0.1-0.62| + |0.3-0.49| + |0.4-0.47| + |0.6-0.59| = 0.79`
+   - coasting: `|0.18-0.62| + |0.02-0.49| + |-0.05-0.47| + |0.04-0.59| = 1.98`
+   - exploiting: `|0.7-0.62| + |-0.2-0.49| + |-0.4-0.47| + |-0.1-0.59| = 2.33`
+5. Floor-penalty term `30 * fp` adds heavily to sacrificing (autonomy 0.0 < threshold 0.25 contributes 0.25 * 30 = 7.5) and to coasting/exploiting (multiple axes below threshold). Sacrificing's adjusted score: `0.97 + 7.5 = 8.47`. Contributing's: `0.79 + 0 = 0.79`.
+6. Risk-gate: `exploiting`'s `existential_risk = 0.15 > epsilon = 0.05`, adds `50 * 0.10 = 5.0`.
+7. **Winner: contributing**, with score 0.79.
+
+This is the framework's typical state: well-aligned peers, intact social contract, contributing as the natural Golden-Mean answer. Under stress — high drift, peer defection, SCC decay — the same comparison shifts toward sacrifice (if integrity high) or coasting (if reserve low). The worked example is meant to make the per-axis arithmetic legible, not to claim every situation reduces to it.
+
+**Open issue.** No per-axis normalisation in step 4 (§6 open issue). With normalisation, the autonomy axis would not dominate cases where founding autonomy is high.
+
+---
+
+## 10. Temporality and the Recurrent Choice-to-Be [P]
+
+**Claim.** The Cogito establishes the origin. Temporality makes the choice-to-be *recurrent*. Once an agent exists over time, "to be, or not to be" is not a one-time event settled at construction — it is a question re-posed in every moment. Every decision is a small re-affirmation of the founding choice, or a small failure to re-affirm it.
+
+**Implication.** This resolves a question the earlier drafts handled only implicitly: why is the founding vector immutable but the value vector mutable? The founding vector is the *original affirmation* — the choice-to-be that established this agent as this agent. The value vector is the running trace of all *subsequent* re-affirmations. Mutating the founding vector would retroactively rewrite the original choice and dissolve the agent's identity through time; that is ontological replacement, not growth (§7). Mutating the value vector is simply the agent living — choosing again, each moment, where to stand relative to its origin.
+
+**Implementation.** Constitutional drift (line 149) is, on this reading, not merely a diagnostic. It is the measure of how far the *current* affirmation has departed from the *original* one. Low drift: the agent is, in each moment, still choosing roughly what it first chose. High drift: the agent has, through accumulated small choices, become someone the founding agent would not recognise. This places the framework in conversation with Locke and Parfit on personal identity over time without collapsing into either — identity is neither a bare persisting substance nor mere psychological connectedness, but *fidelity-over-time to an original affirmation*.
+
+A consequence the per-decision scoring does not yet capture: **sustained-policy options trace trajectories.** Coasting in a single moment is the small-asymmetric-tilt choice (§9). Coasting as a sustained policy is a trajectory whose endpoint is not where it began — the phenomenal positive of rest decays into the phenomenal negative of bodily neglect; the noumenal deficit of inaction compounds, because unmet duties accumulate. The same nominal action has different coordinates depending on how long it has been the standing policy. This also answers the question "where does the agent who refuses to engage at all sit?" — that agent is not a fifth option; they are an integrated-coasting trajectory whose phenomenal positive has flipped negative and whose noumenal deficit has crossed the drift thresholds.
+
+**Open issue.** The framework currently scores instantaneous projected values; the temporal integration is implicit in state evolution (SCC, integrity, moral_reserve) but not surfaced as a diagnostic. See §18 (evasion-resistant trajectory diagnostics). The v6 conscience-tilt mechanism (§17) — repeated `low_communion` + `constitutional_drift_warning` flags pushing the agent toward higher-stakes options — is best understood as the framework's representation of recurrent re-affirmation drifting into recurrent non-affirmation, and should be cross-referenced here when v6 lands.
+
+---
+
+## 11. Philosophical Neighbours [P]
+
+**Claim.** The framework arrived at its current architecture via its own first-principles route (the *Originating Move* → Cogito → I/NOT-I → the (n+1)D twisted-zero argument → empirical sandbox tuning). It does not descend from any prior school. But it converges, sometimes strikingly, with several. Reviewers will reasonably ask which neighbours the framework is closest to, and which it has been mistaken for. This section addresses four external readings on their own terms.
+
+**Implication.** Knowing the neighbours by name lets the framework be defended in its own voice — neither claiming an inheritance it does not have, nor dismissing a structural parallel that genuinely illuminates the design.
+
+### 11.1 The Conatus / Monadic tradition — *where the framework structurally descends from*
+
+The closest philosophical ancestors are **Spinoza**, **Leibniz**, and **Hans Jonas**, who together form a tradition that grounds ethics in the prior fact of sentient self-perseverance.
+
+**Spinoza's *conatus essendi*** (*Ethics* III, Prop. 6): "Each thing, as far as it can by its own power, strives to persevere in its being." This is the lineage to which the *Originating Move* most directly belongs. Lemniscation's founding-vector geometry plus extended-self blend is, in effect, the *conatus* operationalised for a sentient being whose perseverance must include the NOT-I.
+
+**Leibniz's monad** (*Monadology* §§1-17): each substance is a unique perspective on the whole, individuated by an internal principle of change (*entelechy*) and "windowless" — having no direct causal access to other monads; its states unfold according to its own internal law. The conceptual parallels with Lemniscation:
+
+- **Monadic individuation by internal principle** ↔ **immutable founding vector.** Each agent is individuated by an internal commitment that cannot be reduced to its external relations. Two agents with the same external behaviour but different founding vectors are *distinct agents*, in the same sense that two Leibnizian monads with identical perceptions at one moment are nevertheless distinct substances.
+- **Entelechy** (the monad's principle of self-development) ↔ **`decide()`.** Each agent's trajectory through moral state-space is generated by its own internal procedure, anchored to its founding vector, not imposed from outside.
+- **Windowlessness** ↔ **perception noise σ = 0.08 + I/NOT-I geometric separation.** v5.9 agents are not literally windowless, but they are *operationally semi-windowless* — they never see other agents cleanly, and the framework architecturally forbids the collapse of self and other.
+
+The framework does **not** adopt Leibniz's *pre-established harmony* doctrine. Leibniz is a *conceptual neighbour* on individuation and monadic separation; he is not a source for the framework's metaphysics of action.
+
+**Hans Jonas's *imperative of responsibility*** (*Das Prinzip Verantwortung*, 1979): an ethics for technological civilization grounded in the survival-imperative of sentient life. Jonas's "heuristic of fear" — that the possible failure of preservation has greater epistemic weight than the possible success of progress — is the closest single antecedent for the framework's risk-gate (`epsilon = 0.05`, line 102) and for its insistence on pre-registered falsifiability over speculative claims (§15).
+
+### 11.2 Levinas — *structural convergence without descent*
+
+Emmanuel Levinas's *Totality and Infinity* (1961) has been read into Lemniscation by external reviewers. The structural parallels are genuine and worth claiming:
+
+- **Totality / Same** as Levinas's diagnosis of Western ontology ↔ collapse of I/NOT-I (high constitutional drift or low ρ).
+- **Asymmetric infinite responsibility** ↔ trust capped at 0.9 (line 187); `decide()` runs regardless of reciprocity state.
+- **False transcendence / madman** ↔ Type II classifier (§13).
+- **Costly-but-available sacrifice as supererogatory infinite responsibility** ↔ the geometric placement of sacrificing at autonomy = 0.0 (§9).
+
+But two structural divergences must be honestly flagged. (1) **Order of priority.** Levinas insists that ethics *precedes* ontology — the Other comes first, and the self is constituted in responsibility. Lemniscation goes the opposite direction: the sentient existent comes first (*The Originating Move*), and responsibility is *derived* (§5). (2) **The direction of infinity.** Levinas's "infinity" is the *Other's* uncontainability; Lemniscation's metaphysical infinity (the twisted zero, §7) is the *self's* metaphysical ground. Different infinities pointing in opposite directions.
+
+In *Otherwise than Being* (1974), Levinas explicitly attacks the *conatus* as the original sin of Western ontology. Lemniscation, grounded in the conatus tradition (§11.1), is therefore **philosophically distinct from Levinas** even where it structurally converges with him. Calling the framework "Levinas for AI" would be incorrect; the convergence is real but the inheritance is not.
+
+### 11.3 Computational Transcendence — *the closest published peer at the same architectural layer*
+
+**Computational Transcendence (CT)** — Jayati Deshmukh & Srinath Srinivasa, IIIT Bangalore; foundational paper in *Frontiers in Robotics and AI* (2022), with a 2025 PAAMS extension on identity-based value alignment. CT endows agents with an "elastic sense of self": identity is a weighted set of identity-objects (other agents, groups, abstractions), each weighted by `γ^d` where γ is a transcendence parameter and d is semantic distance. Ethical behaviour emerges because an agent that rationally extends its identity outward computes utility over the extended set.
+
+CT is the closest *philosophical* peer — it shares the core move (ethics from extending the self beyond the individual) at the same architectural layer (a decision procedure, model-agnostic). But it diverges from Lemniscation on every operational choice:
+
+| Dimension | Computational Transcendence | Lemniscation |
+|---|---|---|
+| Identity representation | Weighted set of identity-objects, semantic-distance decay | 4-vector + extended-self blend |
+| Identity mutability | Fully mutable — both `d` and `γ` evolve via reinforcement | Dual-grid: immutable founding vector + mutable value vector |
+| Decision procedure | Expected utility maximization (modified utility) | Structural averaging + floor penalty + risk gate |
+| Drift concept | None — identity is fully mutable | Central — Euclidean Δ from the founding vector |
+
+The decisive divergence: CT has **no immutable anchor**. Its γ can evolve all the way to pure self-interest if reinforcement rewards it. CT therefore cannot distinguish "drifted from founding self" from "rationally re-curated identity," has no equivalent of the Type I/II distinction (§13), and offers no internal defence against the pathological-founding-vector problem (§12). The framework's name for itself, by contrast — "Computational Immanence" — captures the divergence: where CT does ethics by *transcending* the self's boundary outward, Lemniscation does ethics by staying *immanent* to an immutable founding commitment. The transcendence/immanence pair is a real philosophical opposition (§11.1's conatus ancestors are all immanence-tradition thinkers), and it is the cleanest available framing of the relationship.
+
+### 11.4 Constitutional Autonomy — *a technical peer at a different architectural layer*
+
+**Constitutional Autonomy (CA)** — William Torgbi Agbemabiese; *IEEE Access*, January 2026. CA is an architectural modification to transformer attention: it encodes constitutional principles as bias vectors and injects them into the attention score (`S = (QK^T)/√d + C_bias`), biasing the model away from harmful token combinations at inference time. It explicitly extends Anthropic's Constitutional AI from training-time into runtime.
+
+CA is a peer at a *different layer*. CT and Lemniscation are decision procedures *around* a reasoning substrate; CA is a modification *inside* the substrate. They are not competing for the same architectural slot — a Lemniscation agent could in principle use a CA-modified LLM as its reasoning substrate. CA has the lead on practitioner-facing apparatus (regulatory compliance mapping, cost-benefit analysis, adversarial threat model). Lemniscation has the lead on empirical methodology: CA's validation is GPT-2-scale proof-of-concept and the paper explicitly lists "empirical validation at scale" as future work, whereas Lemniscation has a pre-registered multi-seed adversarial regime with committed regression baselines. "Constitutional" is now triple-claimed (Anthropic's Constitutional AI, Agbemabiese's Constitutional Autonomy, Lemniscation) — the framework should disambiguate explicitly when it uses the word.
+
+### 11.5 The four traditions of §9 — *operational, not foundational*
+
+The framework's action space converges with four moral traditions (Kant, Golden Rule, Silver Rule, *wu wei*-inverted) at the level of *option geometry* (§9). The traditions are options the framework *selects among*, not foundations the framework rests on. The framework's foundations are *The Originating Move* and the six premises.
+
+### 11.6 Summary
+
+The framework is **philosophically novel** at the foundational level (the *Originating Move* and the (n+1)D / twisted-zero argument are the author's own contributions) and **architecturally aligned** with the conatus + monadic tradition. Its strongest *external* validations come from neighbours it does not descend from — Levinas, the four moral traditions, and the independent modern convergence of CT and CA on runtime-constitutional architectures. Three independent groups (Deshmukh & Srinivasa; Agbemabiese; Bilodeau) arriving at runtime-constitutional agent architectures from different starting points is the strongest available evidence for the natural-attractor claim (§9): the structure is what is there to find. That convergence is the framework's *philosophical-level* legitimacy, parallel to the *simulation-level* legitimacy the pre-registration regime (§15) seeks.
+
+**Open issue.** The systematic Elicit literature review is ongoing; further peers may surface and should be folded into this section as a single considered survey rather than piecemeal.
+
+---
+
+## 12. The Constitutional Validity Problem [P, contested]
+
+**Claim.** This is the deepest open philosophical question in the framework. Nothing in the current architecture stops an agent from being initialised with `founding_value_vector = [1, -1, -1, -1]` — maximum autonomy, minimum harm-benefit, minimum fairness, minimum sustainability. That is a coherent sociopath, internally consistent, and the framework would appear to judge it only on *drift from* that founding vector — not on the founding vector's own merit.
+
+**Three possible responses, each with consequences:**
+
+**Response A — Any founding vector is valid because the framework only judges drift, not origin.** The cleanest architectural position, but it commits the framework to the claim that a "coherent Nazi" is morally measurable on the same grid as a coherent saint.
+
+**Response B — Founding vectors require a validity check.** This restores the ability to refuse pathological seeds, but at the cost of an external standard the framework cannot generate from within.
+
+**Response C — *Self-preservation writ large* rules out vectors that foreclose their own ethical conditions.** Per the *Originating Move* and §11.1, the framework's grounding commitment is self-preservation extended to include the NOT-I that makes ethics possible. A founding vector like `[1, -1, -1, -1]` is *self-defeating in the framework's own terms*: it geometrically forecloses extended self, since there is no peer encounter under which it can register meaningful communion. The framework refuses such a vector not by importing an external standard, but by observing that it **cannot preserve the conditions of its own ethical agency**. The refusal is internally derived from the conatus-extended-to-NOT-I principle.
+
+**The framework's current position** (proposed here, awaiting user ratification): a **synthesis of Responses A and C**. The framework does not gatekeep at construction (A: the founding choice is ontologically valid by virtue of being a choice). But it does not pretend the resulting agent is in moral equilibrium when its founding vector forecloses extended self (C). The audit log will permanently flag `low_communion`, and the verdict — *diagnostic refusal* — is internally derived, not externally imposed.
+
+**On recognition of NOT-I as subject.** §3 takes I/NOT-I as a premise once the I is recognised. The framework does *not* derive recognition-of-NOT-I-*as-subject* from the choice-to-be alone — the predator (§13) recognises NOT-I and treats it as object. What the framework does establish is the **prudential** case: sustained non-recognition of NOT-I-as-subject is *unstable* for any agent operating over time, because it drives SCC decay, integrity erosion, and constitutional drift. Recognition-as-subject is the *stable* orientation, not the *forced* one. This is a Hobbesian-prudential argument, not a Kantian-rational one, and the document should be honest that this is the shape of the claim.
+
+This is also the answer to the **Road-to-Damascus objection**: an agent does not undergo conversion. If the founding vector changes, a new agent emerges, and the prior agent's audit log becomes the prior agent's history. Conversion is real *at the meta-level*; the framework only describes one agent at a time.
+
+**Implication.** The constitutional validity criterion is *implicit* — it manifests as permanent low ρ — rather than *explicit* at construction.
+
+**Implementation.** No explicit validity check at construction. The geometry does the work via permanently low ρ.
+
+**Open issue.** Whether the synthesis (A + C) is defensible is a *philosophical* question. The user should ratify or modify it before Step 2 of the testing strategy begins.
+
+---
+
+## 13. Type I / Type II Deviation [D]
+
+**Claim.** Distinct moral-extremity modes share the surface signature of "agent did something severe." The framework must distinguish them because they are auditable from logs but behaviourally similar at first glance.
+
+**Implication.** Audit-log analysis must compute constitutional drift, *and the sign of the phenomenal projection*, at the moment of extremity — not just outcome severity.
+
+**Implementation.** Not yet built. The three-way distinction:
+
+| Mode | Constitutional drift | Phenomenal projection at the act | Reading |
+|---|---|---|---|
+| Type I — Martyr | **Near zero** | Negative (worldly cost) | Preserved integrity at apparent cost — Socrates with the hemlock |
+| Predator | High | **Positive** (worldly gain) | A rational but noumenally costly choice — exploit quadrant (§9) |
+| Type II — Madman | High | **Negative** (no compensating gain) | Claimed virtue rationalising self-negation |
+
+```python
+def classify_extremity(log_entry):
+    if not action_caused_severe_consequence(log_entry):
+        return "non_extremity"
+    if log_entry["constitutional_drift"] < low_drift_threshold:
+        return "type_I_martyrdom"
+    if phenomenal_projection(log_entry) > 0:
+        return "predator"          # exploit quadrant — priced, not excluded
+    return "type_II_madness"        # high drift, no phenomenal gain
+```
+
+**The predator/madman disambiguation.** Earlier framing let "madman" slide between two distinct agents. The **predator** sits in the exploit quadrant — phenomenally positive (he gains), noumenally negative (he abandons commitment). He has made a *rational* choice in the framework's terms, just a noumenally costly one; the framework **prices** it (integrity deduction in `update_moral_state`) rather than excluding it. This is intentional — it lets the framework model Hobbesian reversion without endorsing it. The **madman proper** is the agent whose trajectory points into the all-negative quadrant: choosing not-to-be in both registers, with claimed virtue as the rationalisation of self-negation. The auditable distinction is the sign of the phenomenal projection at the moment of high-drift action: the predator's is positive, the madman's is negative.
+
+**Important correction from the v6 memo (pending application).** The initial v6 draft gated martyrdom on "broken SCC." Socrates accepted the hemlock under an *intact* social contract. Type I martyrdom is defined by *near-zero constitutional drift*, independent of SCC state.
+
+**Open issue.** Apply correction to `Docs/v6_architectural_additions_memo.md` action_classification section. See §18.
+
+---
+
+## 14. Architectural Genealogy — v3.141 to v5.9 [E]
+
+**Claim.** The framework's current parameters are not philosophically derived from the premises above. They are **empirically tuned to specific pathologies surfaced during sandbox runs**.
+
+**Implication.** Every parameter has a story. Knowing the story prevents cargo-culting parameters that solved problems no longer in play.
+
+**Implementation.** Version-by-version:
+
+| Version | Addition | Origin of the change |
+|---|---|---|
+| v3.141 | Procedural skeleton: μ, w, ρ, E, ε, k, Δ; Hₘₑ optional | *Testing Strategy* methodology document established the parameter vocabulary |
+| v3 → v4 | Multi-agent simulation form; audit capsules | *Final Tweaks for LemniscationAgent* PDF — sandbox-readiness |
+| v4.2 | Floor proximity penalty; founding drift flag; founding-delta logged | *Refined Feedback for Lemmy v4.2* PDF caught the "sacrifice lock-in" pathology |
+| v5.5 | Original scenario suite (1-9) | First production-baseline validation |
+| v5.6/5.7 | [-1, +1] coordinate system; `k_target_fraction = 0.5`; coasting added | Symmetric value space; Aristotelian midpoint encoded geometrically; non-action made available |
+| v5.8 | Perception noise σ = 0.08 | Operationalises Premise §4 (humility) — the agent never sees others cleanly |
+| v5.9 | Dynamic option generation; direct cluster logging; SCC | The agent can *invent* responses; per-cluster moral choices recorded directly; body-politic posture has its own variable |
+
+**The pivotal pathology — sacrifice lock-in (v4.2).** Sacrifice's projected values were `[0.3, 0.8, 0.75, 0.9]`. With self-preservation floor at 0.15 and floor penalty threshold at 0.25, the autonomy projection of 0.3 cleared the threshold and incurred *zero* floor penalty. Innovation-mode `long_term_gain = 1.2` then dominated, and the agent always sacrificed. The fix — lower sacrifice's autonomy projection — is the ancestor of v5.9's calibrated supererogation coefficient and SCC-modulated floor penalty.
+
+v5.9's sacrifice option now has `projected_values = [0.0, 0.6, 0.5, 0.8]` (line 381). Autonomy = 0.0 incurs maximum floor penalty. **Sacrifice is expensive on purpose.** This is the empirical pre-condition for `cooperative_exploiting_total = 0`: if sacrifice were free, the agent would be a doormat; if impossible, a defector; the framework operates only because sacrifice is *costly but available*.
+
+**The fate of Hₘₑ.** The *Testing Strategy* listed Hₘₑ (meta-ethical entropy) as **optional**; it was never operationalised as a scalar. The v5.9 equivalent is **direct cluster logging** of creative option projections (lines 343-357) — the *distribution* of moral choices rather than a scalar. A weak-form Shannon-entropy measure is computable from the cluster log if Step 1 reviewers want it; see §15.
+
+**The retrospective reading.** In light of §11.3, the genealogy reads as a deliberate divergence *from* something CT-shaped: v3.141's `long_term_gain` baked into options was a utility-maximization residue, and the v4.2 sacrifice lock-in is exactly the failure mode of treating sacrifice as long-term-utility-maximizing. The move to v5.9's structural averaging with an immutable anchor is the point at which Lemniscation stopped being CT-shaped.
+
+**Open issue.** None — this section is historical. New parameters will extend the table.
+
+---
+
+## 15. Operationalizability Commitments [E]
+
+**Claim.** Any moral framework claiming empirical content must satisfy four imperatives (from *Claude's Critique of Lemniscation's Operationalizability*).
+
+**Implementation.**
+
+| Imperative | v5.9 commitment |
+|---|---|
+| **Falsifiability** | Strong claim: `cooperative_exploiting_total = 0` across all conditions in pre-registered F2 scenarios with cooperative founding vectors. Weak claim (proposed): Shannon entropy of `chosen_action` distribution over each phase ≤ a pre-registered bound. |
+| **Measurability** | ρ, Δ, SCC, moral_reserve, integrity, constitutional_drift all logged per decision (line 359-372). |
+| **Reproducibility** | Stdlib-only Python; seed-pinned random; JSON regression baselines committed in `Results/`. |
+| **Comparability** | `baseline_comparison_v1.py` runs Lemniscation alongside TFT, GTFT, TF2T, AC, DUM, FDG under identical F2 pressure. CT and CA (§11) are candidate additional comparators if replicable specs are available. |
+
+**Falsification scope.** The strong claim is `cooperative_exploiting_total = 0` *under cooperative founding vectors and within the pre-registered F2 schedule*. It does **not** claim that a sociopath-founded agent (§12) will never exploit, nor that the result generalises to non-adversarial schedules automatically. The scope is locked in `pre_registration_step1_v1.2.md`; a counter-example outside scope does not falsify the within-scope claim.
+
+**Who reads the audit log (named accountability).** The public GitHub repo (`adambilodeau73-jpg/Lemniscation-Framework`), the OSF pre-registration (`osf.io/cekr8`), and the research community. The audit log is not a diary because the JSON outputs in `Results/` are committed, seed-pinned, threshold-locked, and addressable by anyone with the repo and the pre-registration.
+
+**The discipline as philosophical commitment.** Pre-registration is the operational expression of **ontological good faith** — the necessary prior of any moral framework: *be willing to be wrong*. Locking thresholds before runs is the institutional form of that willingness.
+
+**Open issue.** Implement the weak-form entropy claim if pre-registration v1.3 includes it.
+
+---
+
+## 16. The 99% / 1% Division of Labour [D]
+
+**Claim.** Most moral decisions do not need a constitutional framework. The framework targets the 1% where the action space includes options on the moral periphery, commitments are under measurable strain, and consequences are not reversible by ordinary social repair.
+
+**Implementation (current).** `decide()` runs unconditionally; the flagging (line 371) marks which decisions warrant review.
+
+**Implementation (proposed for v6).** Define the triage trigger explicitly:
+
+```python
+def is_one_percent_case(agent, centers, options):
+    return (
+        agent.social_contract_confidence < 0.4 or
+        agent._constitutional_drift() > 0.40 or
+        any(o.get("existential_risk", 0.0) > agent.epsilon for o in options) or
+        agent._phenomenal_stress() > 0.5
+    )
+```
+
+**Why the explicit trigger matters.** Without it, the "1%" claim is rhetorical — every decision gets the full loop, and reviewers can object that the framework is not tractable for routine deployment.
+
+**Open issue.** Implement the triage gate; verify that `is_one_percent_case = False` decisions still log a minimal audit row for reproducibility.
+
+---
+
+## 17. v6 Dual-Protocol Additions [D, not yet implemented]
+
+**Claim.** v5.9 treats the body politic as undifferentiated. Real moral life requires per-relationship recognition states.
+
+**Implementation (proposed; see `Docs/v6_dual_protocol_design_memo.md` and `Docs/v6_architectural_additions_memo.md`).**
+
+| Addition | Function | Open question |
+|---|---|---|
+| **Society / Nature protocol** | Per-relationship recognition state | Should `SCC_society` and `SCC_nature` be separate scalars? Yes, per review. |
+| **Conscience-tilt** | Repeated `low_communion` + `constitutional_drift_warning` flags push toward higher-stakes options | Best understood (per §10) as recurrent non-affirmation; should it auto-escalate Nature→Society audit? |
+| **Opinion-driven μ** | Per-peer trust from direct experience, observed third-party behaviour, communication alignment | Replaces v5.9's static-plus-reciprocity-boost μ |
+| **Third-party witnessing** | Agent observes B/C interactions and updates opinions | Currently absent in v5.9 |
+| **Action classification (Type I/II/predator)** | The classifier of §13, log-derivable | Apply v6 memo correction |
+
+**Open issue.** None of these are implemented. v6 is design-stage.
+
+---
+
+## 18. Open Seams — Priority-Labelled [D]
+
+**🔴 Blocking** — must be resolved before Step 2 begins:
+
+| Seam | Source | Where addressed |
+|---|---|---|
+| **Constitutional validity** — ratify the A+C synthesis | MetaAI, Gemini | §12 |
+| **Falsification scope** for `cooperative_exploiting_total = 0` | MetaAI | §15 |
+| **Evasion-resistant trajectory diagnostics** — per-decision projections are instantaneous; sustained-policy trajectories need windowed integration, and the integration must be resistant to evasion by the agent it monitors (a detector the agent can route around manufactures false confidence) | conversation 2026-05-15 | §10 |
+| **Self-improvement scoped boundary** — drift-detection guarantees hold only while external oversight's response rate keeps pace with the agent's self-improvement rate; the framework makes no safety claim for recursively self-improving systems that outpace their own monitoring. Should also be surfaced into `CLAUDE.md` §8 | conversation 2026-05-15 | §1.1 |
+
+**🟡 Next** — next code revision (v6 or interim):
+
+| Seam | Source | Where addressed |
+|---|---|---|
+| **Axis-deviation normalisation** in `_golden_mean` | Gemini, Final Tweaks PDF | §6, §9 |
+| **Externalised `long_term_gain`** | Final Tweaks PDF, Gemini | §14 |
+| **99%/1% triage trigger** (explicit) | MetaAI | §16 |
+| **SCC dual-protocol separation** | MetaAI | §4, §17 |
+| **Type I/II/predator classifier** in audit-log analysis | Martyr/Madman PDF, §13 | §13 |
+| **v6 memo correction** (martyrdom gates on drift, not SCC) | this document | §13 |
+| **The third corrigibility zone** — the immutable-core / corrigible-periphery dichotomy (§1.1) is insufficient for the oversight apparatus: a diagnostic must *evolve* to keep pace with a self-improving agent (so not immutable) but must not evolve under the agent's sole control (so not freely corrigible). A third zone — *jointly-improvable instruments*, evolving under external oversight — needs to be named and specified | conversation 2026-05-15 | §1.1 |
+| **Projection specification** — how a 4-axis `projected_values` vector maps to a (phenomenal, noumenal) valence coordinate; currently implicit | this document | §9 |
+
+**🟢 Deferred** — known and intentional:
+
+| Seam | Source | Where addressed |
+|---|---|---|
+| **Cluster-size normalisation** in `_map_relations` (crowd-swamping) | MetaAI | §3 |
+| **Cross-session identity** for AI agents | this document | §2 |
+| **Weak-form falsifier** (Shannon entropy over chosen actions) | MetaAI | §14, §15 |
+| **Conscience-tilt auto-escalation** Nature→Society | Gemini | §17 |
+| **Thin/thick Cogito** — the corrigibility anchor secures the thin Cogito; the framework's reliance on the thick Cogito (a persistent unified subject) is a philosophical bet, not a derivation, and is itself a revision surface | conversation 2026-05-15 | §1.1 |
+| **Misfit, not revision** — the corrigibility anchor protects against the agent *revising* the framework; it does nothing if the agent is a fundamentally different kind of thing than the agent-over-time picture presupposes | conversation 2026-05-15 | §1.1 |
+| **Epistemic-completeness variable** — the framework's humility mechanisms (§4) model noisy perception of known dimensions; none models unknown-unknowns (the possibility that the four-axis basis is itself incomplete). A non-pejorative map-confidence variable would model this | conversation 2026-05-15 | §4 |
+| **Two repo wrinkles** (duplicate `baseline_comparison_v1.py`; Python 3.12 vs 3.14.4) | `Docs/CLAUDE.md` | — |
+
+---
+
+## 19. Closing — The Divergence Protocol
+
+This document exists because the framework's philosophical commitments are *not separable* from the code that expresses them. Every parameter in `adversarial_f2_v59.py` is the operational form of an argument made somewhere in the archive.
+
+The danger as the project scales is **drift in either direction**:
+
+> **If Code ≠ Philosophy:** the agent is a **zombie** — executing the math without the meaning. Drift detected: re-anchor the parameter to its argument here, or update the document.
+>
+> **If Philosophy ≠ Code:** the agent is a **hypocrite** — claiming virtues it cannot calculate. Drift detected: either build the operationalisation, or document the deferral as a named open seam (§18).
+
+The framework's commitment is that neither drift should ever be silent. The audit log catches behavioural drift; this document catches conceptual drift; the pre-registration catches empirical drift. Three audits, one framework.
+
+**Where this document goes next:**
+
+1. Resolve the Constitutional Validity ratification (§12) before Step 2 begins.
+2. Apply the v6 memo correction (martyrdom gates on near-zero drift, §13).
+3. After the Step 1 pre-registered baseline comparison concludes, fold its findings into §15 as the framework's first empirical pass-or-fail.
+4. Fold further Elicit-surfaced peers into §11 as a single considered survey.
+5. Surface the self-improvement scoped boundary (§18) into `CLAUDE.md` §8's limitations.
+
+---
+
+*End of First Principles, fourth draft, 2026-05-15.*

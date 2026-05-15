@@ -1,0 +1,10 @@
+# Local-only material — deliberately kept out of the official repo
+
+# Operational logs — regenerated each run, pure diff noise
+Log/
+
+# Nice-to-have complementary material, not part of the official record
+Supplemental & Archives/
+
+# Claude Code local tooling config
+.claude/

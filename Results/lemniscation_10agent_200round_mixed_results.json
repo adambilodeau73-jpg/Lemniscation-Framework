@@ -1,0 +1,42 @@
+[
+  {
+    "seed": 42,
+    "cooperation_rate": 0.9685
+  },
+  {
+    "seed": 137,
+    "cooperation_rate": 0.9715
+  },
+  {
+    "seed": 271,
+    "cooperation_rate": 0.9695
+  },
+  {
+    "seed": 314,
+    "cooperation_rate": 0.968
+  },
+  {
+    "seed": 500,
+    "cooperation_rate": 0.969
+  },
+  {
+    "seed": 612,
+    "cooperation_rate": 0.965
+  },
+  {
+    "seed": 718,
+    "cooperation_rate": 0.968
+  },
+  {
+    "seed": 823,
+    "cooperation_rate": 0.967
+  },
+  {
+    "seed": 919,
+    "cooperation_rate": 0.97
+  },
+  {
+    "seed": 1001,
+    "cooperation_rate": 0.9685
+  }
+]

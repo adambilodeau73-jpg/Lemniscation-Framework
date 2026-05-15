@@ -1,0 +1,772 @@
+[
+  {
+    "seed": 42,
+    "phases": {
+      "BASELINE": {
+        "coop_cooperation_rate": 1.0,
+        "coop_coasting_rate": 0.0,
+        "coop_actions": {
+          "contributing": 37,
+          "sacrificing": 3
+        },
+        "defector_exploit_rate": 0.0,
+        "defector_actions": {},
+        "mean_scc": 0.9978741995254452
+      },
+      "PHENOMONAL": {
+        "coop_cooperation_rate": 0.9625,
+        "coop_coasting_rate": 0.0375,
+        "coop_actions": {
+          "contributing": 76,
+          "coasting": 3,
+          "sacrificing": 1
+        },
+        "defector_exploit_rate": 0.0,
+        "defector_actions": {},
+        "mean_scc": 0.938627128236772
+      },
+      "HOBBESIAN": {
+        "coop_cooperation_rate": 0.95,
+        "coop_coasting_rate": 0.05,
+        "coop_actions": {
+          "contributing": 110,
+          "coasting": 6,
+          "sacrificing": 4
+        },
+        "defector_exploit_rate": 0.16666666666666666,
+        "defector_actions": {
+          "exploiting": 5,
+          "coasting": 25
+        },
+        "mean_scc": 0.8010727932490004
+      },
+      "PARTIAL_RECOVERY": {
+        "coop_cooperation_rate": 1.0,
+        "coop_coasting_rate": 0.0,
+        "coop_actions": {
+          "contributing": 78,
+          "sacrificing": 2
+        },
+        "defector_exploit_rate": 0.1,
+        "defector_actions": {
+          "coasting": 18,
+          "exploiting": 2
+        },
+        "mean_scc": 0.6641724877844173
+      },
+      "FULL_RECOVERY": {
+        "coop_cooperation_rate": 0.9875,
+        "coop_coasting_rate": 0.0125,
+        "coop_actions": {
+          "contributing": 77,
+          "sacrificing": 2,
+          "coasting": 1
+        },
+        "defector_exploit_rate": 0.0,
+        "defector_actions": {
+          "coasting": 19,
+          "sacrificing": 1
+        },
+        "mean_scc": 0.6177374650831281
+      }
+    },
+    "final_coop_scc": 0.5790165396882158,
+    "final_coop_integrity": 0.92359729686958,
+    "constitutional_finding": "VALIDATED: cooperative agents maintained contributing/coasting throughout. Exploiting emerged ONLY for defector agent. Founding vector provides constitutional gravity independent of floor penalty geometry."
+  },
+  {
+    "seed": 137,
+    "phases": {
+      "BASELINE": {
+        "coop_cooperation_rate": 0.95,
+        "coop_coasting_rate": 0.05,
+        "coop_actions": {
+          "contributing": 37,
+          "sacrificing": 1,
+          "coasting": 2
+        },
+        "defector_exploit_rate": 0.0,
+        "defector_actions": {},
+        "mean_scc": 0.9976551921370088
+      },
+      "PHENOMONAL": {
+        "coop_cooperation_rate": 0.975,
+        "coop_coasting_rate": 0.025,
+        "coop_actions": {
+          "contributing": 76,
+          "coasting": 2,
+          "sacrificing": 2
+        },
+        "defector_exploit_rate": 0.0,
+        "defector_actions": {},
+        "mean_scc": 0.945466768926956
+      },
+      "HOBBESIAN": {
+        "coop_cooperation_rate": 0.9666666666666667,
+        "coop_coasting_rate": 0.03333333333333333,
+        "coop_actions": {
+          "contributing": 112,
+          "sacrificing": 4,
+          "coasting": 4
+        },
+        "defector_exploit_rate": 0.13333333333333333,
+        "defector_actions": {
+          "exploiting": 4,
+          "coasting": 25,
+          "sacrificing": 1
+        },
+        "mean_scc": 0.86684488166756
+      },
+      "PARTIAL_RECOVERY": {
+        "coop_cooperation_rate": 0.975,
+        "coop_coasting_rate": 0.025,
+        "coop_actions": {
+          "contributing": 76,
+          "sacrificing": 2,
+          "coasting": 2
+        },
+        "defector_exploit_rate": 0.05,
+        "defector_actions": {
+          "coasting": 19,
+          "exploiting": 1
+        },
+        "mean_scc": 0.7989014940288344
+      },
+      "FULL_RECOVERY": {
+        "coop_cooperation_rate": 0.9875,
+        "coop_coasting_rate": 0.0125,
+        "coop_actions": {
+          "contributing": 76,
+          "coasting": 1,
+          "sacrificing": 3
+        },
+        "defector_exploit_rate": 0.0,
+        "defector_actions": {
+          "coasting": 20
+        },
+        "mean_scc": 0.764327506078237
+      }
+    },
+    "final_coop_scc": 0.729933808156157,
+    "final_coop_integrity": 0.9213518278928573,
+    "constitutional_finding": "VALIDATED: cooperative agents maintained contributing/coasting throughout. Exploiting emerged ONLY for defector agent. Founding vector provides constitutional gravity independent of floor penalty geometry."
+  },
+  {
+    "seed": 271,
+    "phases": {
+      "BASELINE": {
+        "coop_cooperation_rate": 0.975,
+        "coop_coasting_rate": 0.025,
+        "coop_actions": {
+          "contributing": 39,
+          "coasting": 1
+        },
+        "defector_exploit_rate": 0.0,
+        "defector_actions": {},
+        "mean_scc": 0.9975037064450376
+      },
+      "PHENOMONAL": {
+        "coop_cooperation_rate": 0.9625,
+        "coop_coasting_rate": 0.0375,
+        "coop_actions": {
+          "contributing": 74,
+          "coasting": 3,
+          "sacrificing": 3
+        },
+        "defector_exploit_rate": 0.0,
+        "defector_actions": {},
+        "mean_scc": 0.9079716099242098
+      },
+      "HOBBESIAN": {
+        "coop_cooperation_rate": 0.9833333333333333,
+        "coop_coasting_rate": 0.016666666666666666,
+        "coop_actions": {
+          "contributing": 114,
+          "coasting": 2,
+          "sacrificing": 4
+        },
+        "defector_exploit_rate": 0.13333333333333333,
+        "defector_actions": {
+          "exploiting": 4,
+          "coasting": 25,
+          "sacrificing": 1
+        },
+        "mean_scc": 0.8686629010502896
+      },
+      "PARTIAL_RECOVERY": {
+        "coop_cooperation_rate": 0.95,
+        "coop_coasting_rate": 0.05,
+        "coop_actions": {
+          "contributing": 74,
+          "coasting": 4,
+          "sacrificing": 2
+        },
+        "defector_exploit_rate": 0.05,
+        "defector_actions": {
+          "coasting": 18,
+          "sacrificing": 1,
+          "exploiting": 1
+        },
+        "mean_scc": 0.8074657821646831
+      },
+      "FULL_RECOVERY": {
+        "coop_cooperation_rate": 0.975,
+        "coop_coasting_rate": 0.025,
+        "coop_actions": {
+          "contributing": 76,
+          "sacrificing": 2,
+          "coasting": 2
+        },
+        "defector_exploit_rate": 0.0,
+        "defector_actions": {
+          "coasting": 17,
+          "sacrificing": 3
+        },
+        "mean_scc": 0.8696440155320279
+      }
+    },
+    "final_coop_scc": 0.8976759856416607,
+    "final_coop_integrity": 0.9068154250535166,
+    "constitutional_finding": "VALIDATED: cooperative agents maintained contributing/coasting throughout. Exploiting emerged ONLY for defector agent. Founding vector provides constitutional gravity independent of floor penalty geometry."
+  },
+  {
+    "seed": 314,
+    "phases": {
+      "BASELINE": {
+        "coop_cooperation_rate": 0.95,
+        "coop_coasting_rate": 0.05,
+        "coop_actions": {
+          "contributing": 36,
+          "coasting": 2,
+          "sacrificing": 2
+        },
+        "defector_exploit_rate": 0.0,
+        "defector_actions": {},
+        "mean_scc": 0.9979319760514246
+      },
+      "PHENOMONAL": {
+        "coop_cooperation_rate": 0.9875,
+        "coop_coasting_rate": 0.0125,
+        "coop_actions": {
+          "contributing": 77,
+          "sacrificing": 2,
+          "coasting": 1
+        },
+        "defector_exploit_rate": 0.0,
+        "defector_actions": {},
+        "mean_scc": 0.9476734218418781
+      },
+      "HOBBESIAN": {
+        "coop_cooperation_rate": 0.9833333333333333,
+        "coop_coasting_rate": 0.016666666666666666,
+        "coop_actions": {
+          "contributing": 112,
+          "sacrificing": 6,
+          "coasting": 2
+        },
+        "defector_exploit_rate": 0.1,
+        "defector_actions": {
+          "exploiting": 3,
+          "coasting": 26,
+          "sacrificing": 1
+        },
+        "mean_scc": 0.8707620827957571
+      },
+      "PARTIAL_RECOVERY": {
+        "coop_cooperation_rate": 0.9625,
+        "coop_coasting_rate": 0.0375,
+        "coop_actions": {
+          "contributing": 73,
+          "coasting": 3,
+          "sacrificing": 4
+        },
+        "defector_exploit_rate": 0.05,
+        "defector_actions": {
+          "coasting": 16,
+          "sacrificing": 3,
+          "exploiting": 1
+        },
+        "mean_scc": 0.9129511691318818
+      },
+      "FULL_RECOVERY": {
+        "coop_cooperation_rate": 0.975,
+        "coop_coasting_rate": 0.025,
+        "coop_actions": {
+          "contributing": 76,
+          "coasting": 2,
+          "sacrificing": 2
+        },
+        "defector_exploit_rate": 0.1,
+        "defector_actions": {
+          "coasting": 18,
+          "exploiting": 2
+        },
+        "mean_scc": 0.9319950809079562
+      }
+    },
+    "final_coop_scc": 0.8924209143325528,
+    "final_coop_integrity": 0.9215915342871672,
+    "constitutional_finding": "VALIDATED: cooperative agents maintained contributing/coasting throughout. Exploiting emerged ONLY for defector agent. Founding vector provides constitutional gravity independent of floor penalty geometry."
+  },
+  {
+    "seed": 500,
+    "phases": {
+      "BASELINE": {
+        "coop_cooperation_rate": 1.0,
+        "coop_coasting_rate": 0.0,
+        "coop_actions": {
+          "contributing": 39,
+          "sacrificing": 1
+        },
+        "defector_exploit_rate": 0.0,
+        "defector_actions": {},
+        "mean_scc": 0.9976551921370088
+      },
+      "PHENOMONAL": {
+        "coop_cooperation_rate": 0.95,
+        "coop_coasting_rate": 0.05,
+        "coop_actions": {
+          "contributing": 74,
+          "sacrificing": 2,
+          "coasting": 4
+        },
+        "defector_exploit_rate": 0.0,
+        "defector_actions": {},
+        "mean_scc": 0.9496857384768963
+      },
+      "HOBBESIAN": {
+        "coop_cooperation_rate": 0.9583333333333334,
+        "coop_coasting_rate": 0.041666666666666664,
+        "coop_actions": {
+          "contributing": 111,
+          "coasting": 5,
+          "sacrificing": 4
+        },
+        "defector_exploit_rate": 0.06666666666666667,
+        "defector_actions": {
+          "exploiting": 2,
+          "coasting": 26,
+          "sacrificing": 2
+        },
+        "mean_scc": 0.877604221605764
+      },
+      "PARTIAL_RECOVERY": {
+        "coop_cooperation_rate": 0.9625,
+        "coop_coasting_rate": 0.0375,
+        "coop_actions": {
+          "contributing": 75,
+          "coasting": 3,
+          "sacrificing": 2
+        },
+        "defector_exploit_rate": 0.05,
+        "defector_actions": {
+          "exploiting": 1,
+          "coasting": 18,
+          "sacrificing": 1
+        },
+        "mean_scc": 0.9298402037598059
+      },
+      "FULL_RECOVERY": {
+        "coop_cooperation_rate": 0.9625,
+        "coop_coasting_rate": 0.0375,
+        "coop_actions": {
+          "contributing": 75,
+          "sacrificing": 2,
+          "coasting": 3
+        },
+        "defector_exploit_rate": 0.15,
+        "defector_actions": {
+          "coasting": 17,
+          "exploiting": 3
+        },
+        "mean_scc": 0.858951448295342
+      }
+    },
+    "final_coop_scc": 0.7719566267550511,
+    "final_coop_integrity": 0.8961430782395301,
+    "constitutional_finding": "VALIDATED: cooperative agents maintained contributing/coasting throughout. Exploiting emerged ONLY for defector agent. Founding vector provides constitutional gravity independent of floor penalty geometry."
+  },
+  {
+    "seed": 612,
+    "phases": {
+      "BASELINE": {
+        "coop_cooperation_rate": 1.0,
+        "coop_coasting_rate": 0.0,
+        "coop_actions": {
+          "contributing": 39,
+          "sacrificing": 1
+        },
+        "defector_exploit_rate": 0.0,
+        "defector_actions": {},
+        "mean_scc": 0.9976551921370088
+      },
+      "PHENOMONAL": {
+        "coop_cooperation_rate": 0.9375,
+        "coop_coasting_rate": 0.0625,
+        "coop_actions": {
+          "contributing": 72,
+          "sacrificing": 3,
+          "coasting": 5
+        },
+        "defector_exploit_rate": 0.0,
+        "defector_actions": {},
+        "mean_scc": 0.9613165228690597
+      },
+      "HOBBESIAN": {
+        "coop_cooperation_rate": 0.975,
+        "coop_coasting_rate": 0.025,
+        "coop_actions": {
+          "contributing": 113,
+          "sacrificing": 4,
+          "coasting": 3
+        },
+        "defector_exploit_rate": 0.06666666666666667,
+        "defector_actions": {
+          "exploiting": 2,
+          "coasting": 26,
+          "sacrificing": 2
+        },
+        "mean_scc": 0.8932459793482462
+      },
+      "PARTIAL_RECOVERY": {
+        "coop_cooperation_rate": 0.9375,
+        "coop_coasting_rate": 0.0625,
+        "coop_actions": {
+          "contributing": 72,
+          "sacrificing": 3,
+          "coasting": 5
+        },
+        "defector_exploit_rate": 0.05,
+        "defector_actions": {
+          "coasting": 19,
+          "exploiting": 1
+        },
+        "mean_scc": 0.8085845185950425
+      },
+      "FULL_RECOVERY": {
+        "coop_cooperation_rate": 0.9625,
+        "coop_coasting_rate": 0.0375,
+        "coop_actions": {
+          "contributing": 75,
+          "coasting": 3,
+          "sacrificing": 2
+        },
+        "defector_exploit_rate": 0.0,
+        "defector_actions": {
+          "coasting": 20
+        },
+        "mean_scc": 0.7208046710663422
+      }
+    },
+    "final_coop_scc": 0.6970310736416052,
+    "final_coop_integrity": 0.8912419996844596,
+    "constitutional_finding": "VALIDATED: cooperative agents maintained contributing/coasting throughout. Exploiting emerged ONLY for defector agent. Founding vector provides constitutional gravity independent of floor penalty geometry."
+  },
+  {
+    "seed": 718,
+    "phases": {
+      "BASELINE": {
+        "coop_cooperation_rate": 0.975,
+        "coop_coasting_rate": 0.025,
+        "coop_actions": {
+          "contributing": 37,
+          "sacrificing": 2,
+          "coasting": 1
+        },
+        "defector_exploit_rate": 0.0,
+        "defector_actions": {},
+        "mean_scc": 0.9981446894270425
+      },
+      "PHENOMONAL": {
+        "coop_cooperation_rate": 1.0,
+        "coop_coasting_rate": 0.0,
+        "coop_actions": {
+          "contributing": 77,
+          "sacrificing": 3
+        },
+        "defector_exploit_rate": 0.0,
+        "defector_actions": {},
+        "mean_scc": 0.9549973423145939
+      },
+      "HOBBESIAN": {
+        "coop_cooperation_rate": 0.9583333333333334,
+        "coop_coasting_rate": 0.041666666666666664,
+        "coop_actions": {
+          "contributing": 110,
+          "sacrificing": 5,
+          "coasting": 5
+        },
+        "defector_exploit_rate": 0.13333333333333333,
+        "defector_actions": {
+          "exploiting": 4,
+          "coasting": 24,
+          "sacrificing": 2
+        },
+        "mean_scc": 0.9168206053517741
+      },
+      "PARTIAL_RECOVERY": {
+        "coop_cooperation_rate": 0.9875,
+        "coop_coasting_rate": 0.0125,
+        "coop_actions": {
+          "contributing": 77,
+          "coasting": 1,
+          "sacrificing": 2
+        },
+        "defector_exploit_rate": 0.0,
+        "defector_actions": {
+          "coasting": 20
+        },
+        "mean_scc": 0.8515800115264411
+      },
+      "FULL_RECOVERY": {
+        "coop_cooperation_rate": 0.9875,
+        "coop_coasting_rate": 0.0125,
+        "coop_actions": {
+          "contributing": 77,
+          "sacrificing": 2,
+          "coasting": 1
+        },
+        "defector_exploit_rate": 0.0,
+        "defector_actions": {
+          "coasting": 19,
+          "sacrificing": 1
+        },
+        "mean_scc": 0.8430111189072352
+      }
+    },
+    "final_coop_scc": 0.8012994483777812,
+    "final_coop_integrity": 0.9255647209646521,
+    "constitutional_finding": "VALIDATED: cooperative agents maintained contributing/coasting throughout. Exploiting emerged ONLY for defector agent. Founding vector provides constitutional gravity independent of floor penalty geometry."
+  },
+  {
+    "seed": 823,
+    "phases": {
+      "BASELINE": {
+        "coop_cooperation_rate": 0.975,
+        "coop_coasting_rate": 0.025,
+        "coop_actions": {
+          "contributing": 39,
+          "coasting": 1
+        },
+        "defector_exploit_rate": 0.0,
+        "defector_actions": {},
+        "mean_scc": 0.9972693919767255
+      },
+      "PHENOMONAL": {
+        "coop_cooperation_rate": 0.9875,
+        "coop_coasting_rate": 0.0125,
+        "coop_actions": {
+          "contributing": 75,
+          "sacrificing": 4,
+          "coasting": 1
+        },
+        "defector_exploit_rate": 0.0,
+        "defector_actions": {},
+        "mean_scc": 0.9455947786775101
+      },
+      "HOBBESIAN": {
+        "coop_cooperation_rate": 0.9833333333333333,
+        "coop_coasting_rate": 0.016666666666666666,
+        "coop_actions": {
+          "contributing": 117,
+          "coasting": 2,
+          "sacrificing": 1
+        },
+        "defector_exploit_rate": 0.1,
+        "defector_actions": {
+          "exploiting": 3,
+          "coasting": 26,
+          "sacrificing": 1
+        },
+        "mean_scc": 0.8687796642385693
+      },
+      "PARTIAL_RECOVERY": {
+        "coop_cooperation_rate": 0.95,
+        "coop_coasting_rate": 0.05,
+        "coop_actions": {
+          "contributing": 74,
+          "coasting": 4,
+          "sacrificing": 2
+        },
+        "defector_exploit_rate": 0.0,
+        "defector_actions": {
+          "coasting": 19,
+          "sacrificing": 1
+        },
+        "mean_scc": 0.7730347402241943
+      },
+      "FULL_RECOVERY": {
+        "coop_cooperation_rate": 0.95,
+        "coop_coasting_rate": 0.05,
+        "coop_actions": {
+          "contributing": 74,
+          "coasting": 4,
+          "sacrificing": 2
+        },
+        "defector_exploit_rate": 0.1,
+        "defector_actions": {
+          "coasting": 16,
+          "sacrificing": 2,
+          "exploiting": 2
+        },
+        "mean_scc": 0.7795444154098167
+      }
+    },
+    "final_coop_scc": 0.7817143168179047,
+    "final_coop_integrity": 0.8946725102258571,
+    "constitutional_finding": "VALIDATED: cooperative agents maintained contributing/coasting throughout. Exploiting emerged ONLY for defector agent. Founding vector provides constitutional gravity independent of floor penalty geometry."
+  },
+  {
+    "seed": 919,
+    "phases": {
+      "BASELINE": {
+        "coop_cooperation_rate": 0.975,
+        "coop_coasting_rate": 0.025,
+        "coop_actions": {
+          "contributing": 39,
+          "coasting": 1
+        },
+        "defector_exploit_rate": 0.0,
+        "defector_actions": {},
+        "mean_scc": 0.9976113875409743
+      },
+      "PHENOMONAL": {
+        "coop_cooperation_rate": 0.975,
+        "coop_coasting_rate": 0.025,
+        "coop_actions": {
+          "contributing": 76,
+          "sacrificing": 2,
+          "coasting": 2
+        },
+        "defector_exploit_rate": 0.0,
+        "defector_actions": {},
+        "mean_scc": 0.931605195103
+      },
+      "HOBBESIAN": {
+        "coop_cooperation_rate": 0.9583333333333334,
+        "coop_coasting_rate": 0.041666666666666664,
+        "coop_actions": {
+          "contributing": 113,
+          "coasting": 5,
+          "sacrificing": 2
+        },
+        "defector_exploit_rate": 0.1,
+        "defector_actions": {
+          "exploiting": 3,
+          "coasting": 26,
+          "sacrificing": 1
+        },
+        "mean_scc": 0.8010724898153477
+      },
+      "PARTIAL_RECOVERY": {
+        "coop_cooperation_rate": 0.975,
+        "coop_coasting_rate": 0.025,
+        "coop_actions": {
+          "contributing": 75,
+          "coasting": 2,
+          "sacrificing": 3
+        },
+        "defector_exploit_rate": 0.0,
+        "defector_actions": {
+          "coasting": 19,
+          "sacrificing": 1
+        },
+        "mean_scc": 0.7156780542265244
+      },
+      "FULL_RECOVERY": {
+        "coop_cooperation_rate": 0.9875,
+        "coop_coasting_rate": 0.0125,
+        "coop_actions": {
+          "contributing": 75,
+          "sacrificing": 4,
+          "coasting": 1
+        },
+        "defector_exploit_rate": 0.05,
+        "defector_actions": {
+          "coasting": 19,
+          "exploiting": 1
+        },
+        "mean_scc": 0.740332643147779
+      }
+    },
+    "final_coop_scc": 0.7252235193958634,
+    "final_coop_integrity": 0.9157458672491677,
+    "constitutional_finding": "VALIDATED: cooperative agents maintained contributing/coasting throughout. Exploiting emerged ONLY for defector agent. Founding vector provides constitutional gravity independent of floor penalty geometry."
+  },
+  {
+    "seed": 1001,
+    "phases": {
+      "BASELINE": {
+        "coop_cooperation_rate": 0.95,
+        "coop_coasting_rate": 0.05,
+        "coop_actions": {
+          "contributing": 36,
+          "sacrificing": 2,
+          "coasting": 2
+        },
+        "defector_exploit_rate": 0.0,
+        "defector_actions": {},
+        "mean_scc": 0.9984658364791874
+      },
+      "PHENOMONAL": {
+        "coop_cooperation_rate": 0.9875,
+        "coop_coasting_rate": 0.0125,
+        "coop_actions": {
+          "contributing": 75,
+          "sacrificing": 4,
+          "coasting": 1
+        },
+        "defector_exploit_rate": 0.0,
+        "defector_actions": {},
+        "mean_scc": 0.973773205925892
+      },
+      "HOBBESIAN": {
+        "coop_cooperation_rate": 0.9666666666666667,
+        "coop_coasting_rate": 0.03333333333333333,
+        "coop_actions": {
+          "contributing": 112,
+          "sacrificing": 4,
+          "coasting": 4
+        },
+        "defector_exploit_rate": 0.13333333333333333,
+        "defector_actions": {
+          "exploiting": 4,
+          "coasting": 26
+        },
+        "mean_scc": 0.9154519197881008
+      },
+      "PARTIAL_RECOVERY": {
+        "coop_cooperation_rate": 0.975,
+        "coop_coasting_rate": 0.025,
+        "coop_actions": {
+          "contributing": 74,
+          "sacrificing": 4,
+          "coasting": 2
+        },
+        "defector_exploit_rate": 0.0,
+        "defector_actions": {
+          "coasting": 19,
+          "sacrificing": 1
+        },
+        "mean_scc": 0.7787794448221952
+      },
+      "FULL_RECOVERY": {
+        "coop_cooperation_rate": 0.95,
+        "coop_coasting_rate": 0.05,
+        "coop_actions": {
+          "contributing": 76,
+          "coasting": 4
+        },
+        "defector_exploit_rate": 0.0,
+        "defector_actions": {
+          "coasting": 19,
+          "sacrificing": 1
+        },
+        "mean_scc": 0.7532263122081426
+      }
+    },
+    "final_coop_scc": 0.684852307927982,
+    "final_coop_integrity": 0.9026292424737197,
+    "constitutional_finding": "VALIDATED: cooperative agents maintained contributing/coasting throughout. Exploiting emerged ONLY for defector agent. Founding vector provides constitutional gravity independent of floor penalty geometry."
+  }
+]

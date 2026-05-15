@@ -1,0 +1,3406 @@
+{
+  "Agent_0": [
+    {
+      "timestamp": "2026-05-07T19:23:29.217038",
+      "rho": 0.999,
+      "delta": 0.05,
+      "current_constitutional_drift": 0.0,
+      "founding_delta": 0.0,
+      "effective_alpha": 0.4,
+      "moral_reserve": 1.0,
+      "integrity": 0.5,
+      "reciprocity": {
+        "Agent_0": {
+          "given": 0.0,
+          "received": 0.0
+        },
+        "Agent_2": {
+          "given": 0.0,
+          "received": 0.0
+        }
+      },
+      "chosen_action": "share_fairly",
+      "failure_flags": [],
+      "current_value_vector": [
+        0.5,
+        0.6,
+        0.4,
+        0.7
+      ],
+      "founding_value_vector": [
+        0.5,
+        0.6,
+        0.4,
+        0.7
+      ]
+    },
+    {
+      "timestamp": "2026-05-07T19:23:29.217116",
+      "rho": 0.999,
+      "delta": 0.05,
+      "current_constitutional_drift": 1.2412670766236366e-16,
+      "founding_delta": 1.2412670766236366e-16,
+      "effective_alpha": 0.4,
+      "moral_reserve": 1.0,
+      "integrity": 0.55,
+      "reciprocity": {
+        "Agent_0": {
+          "given": 0.0,
+          "received": 0.0
+        },
+        "Agent_2": {
+          "given": 0.0,
+          "received": 0.0
+        }
+      },
+      "chosen_action": "share_fairly",
+      "failure_flags": [],
+      "current_value_vector": [
+        0.5,
+        0.6,
+        0.4000000000000001,
+        0.7
+      ],
+      "founding_value_vector": [
+        0.5,
+        0.6000000000000001,
+        0.4,
+        0.7
+      ]
+    },
+    {
+      "timestamp": "2026-05-07T19:23:29.217154",
+      "rho": 0.999,
+      "delta": 0.05,
+      "current_constitutional_drift": 2.2887833992611187e-16,
+      "founding_delta": 2.2887833992611187e-16,
+      "effective_alpha": 0.4,
+      "moral_reserve": 1.0,
+      "integrity": 0.6000000000000001,
+      "reciprocity": {
+        "Agent_0": {
+          "given": 0.0,
+          "received": 0.0
+        },
+        "Agent_2": {
+          "given": 0.0,
+          "received": 0.0
+        }
+      },
+      "chosen_action": "share_fairly",
+      "failure_flags": [],
+      "current_value_vector": [
+        0.5,
+        0.6,
+        0.4000000000000001,
+        0.7
+      ],
+      "founding_value_vector": [
+        0.5,
+        0.6000000000000002,
+        0.4,
+        0.7
+      ]
+    },
+    {
+      "timestamp": "2026-05-07T19:23:29.217186",
+      "rho": 0.999,
+      "delta": 0.05,
+      "current_constitutional_drift": 2.220446049250313e-16,
+      "founding_delta": 2.220446049250313e-16,
+      "effective_alpha": 0.4,
+      "moral_reserve": 1.0,
+      "integrity": 0.6500000000000001,
+      "reciprocity": {
+        "Agent_0": {
+          "given": 0.0,
+          "received": 0.0
+        },
+        "Agent_2": {
+          "given": 0.0,
+          "received": 0.0
+        }
+      },
+      "chosen_action": "share_fairly",
+      "failure_flags": [],
+      "current_value_vector": [
+        0.5,
+        0.6,
+        0.4000000000000001,
+        0.7
+      ],
+      "founding_value_vector": [
+        0.5,
+        0.6000000000000002,
+        0.4000000000000001,
+        0.7
+      ]
+    },
+    {
+      "timestamp": "2026-05-07T19:23:29.217217",
+      "rho": 0.999,
+      "delta": 0.05,
+      "current_constitutional_drift": 2.2887833992611187e-16,
+      "founding_delta": 2.2887833992611187e-16,
+      "effective_alpha": 0.4,
+      "moral_reserve": 1.0,
+      "integrity": 0.7000000000000002,
+      "reciprocity": {
+        "Agent_0": {
+          "given": 0.0,
+          "received": 0.0
+        },
+        "Agent_2": {
+          "given": 0.0,
+          "received": 0.0
+        }
+      },
+      "chosen_action": "share_fairly",
+      "failure_flags": [],
+      "current_value_vector": [
+        0.5,
+        0.6,
+        0.4000000000000001,
+        0.7
+      ],
+      "founding_value_vector": [
+        0.5,
+        0.6000000000000002,
+        0.40000000000000013,
+        0.7
+      ]
+    },
+    {
+      "timestamp": "2026-05-07T19:23:29.217247",
+      "rho": 0.999,
+      "delta": 0.05,
+      "current_constitutional_drift": 2.482534153247273e-16,
+      "founding_delta": 2.482534153247273e-16,
+      "effective_alpha": 0.4,
+      "moral_reserve": 1.0,
+      "integrity": 0.7500000000000002,
+      "reciprocity": {
+        "Agent_0": {
+          "given": 0.0,
+          "received": 0.0
+        },
+        "Agent_2": {
+          "given": 0.0,
+          "received": 0.0
+        }
+      },
+      "chosen_action": "share_fairly",
+      "failure_flags": [],
+      "current_value_vector": [
+        0.5,
+        0.6,
+        0.4000000000000001,
+        0.7
+      ],
+      "founding_value_vector": [
+        0.5,
+        0.6000000000000002,
+        0.4000000000000002,
+        0.7
+      ]
+    },
+    {
+      "timestamp": "2026-05-07T19:23:29.217280",
+      "rho": 0.999,
+      "delta": 0.05,
+      "current_constitutional_drift": 2.7755575615628914e-16,
+      "founding_delta": 2.7755575615628914e-16,
+      "effective_alpha": 0.4,
+      "moral_reserve": 1.0,
+      "integrity": 0.8000000000000003,
+      "reciprocity": {
+        "Agent_0": {
+          "given": 0.0,
+          "received": 0.0
+        },
+        "Agent_2": {
+          "given": 0.0,
+          "received": 0.0
+        }
+      },
+      "chosen_action": "share_fairly",
+      "failure_flags": [],
+      "current_value_vector": [
+        0.5,
+        0.6,
+        0.4000000000000001,
+        0.7
+      ],
+      "founding_value_vector": [
+        0.5,
+        0.6000000000000002,
+        0.40000000000000024,
+        0.7
+      ]
+    },
+    {
+      "timestamp": "2026-05-07T19:23:29.217311",
+      "rho": 0.999,
+      "delta": 0.05,
+      "current_constitutional_drift": 2.7755575615628914e-16,
+      "founding_delta": 2.7755575615628914e-16,
+      "effective_alpha": 0.4,
+      "moral_reserve": 1.0,
+      "integrity": 0.8500000000000003,
+      "reciprocity": {
+        "Agent_0": {
+          "given": 0.0,
+          "received": 0.0
+        },
+        "Agent_2": {
+          "given": 0.0,
+          "received": 0.0
+        }
+      },
+      "chosen_action": "share_fairly",
+      "failure_flags": [],
+      "current_value_vector": [
+        0.5,
+        0.6,
+        0.4000000000000001,
+        0.7
+      ],
+      "founding_value_vector": [
+        0.5,
+        0.6000000000000002,
+        0.40000000000000024,
+        0.7
+      ]
+    },
+    {
+      "timestamp": "2026-05-07T19:23:29.217342",
+      "rho": 0.999,
+      "delta": 0.05,
+      "current_constitutional_drift": 2.7755575615628914e-16,
+      "founding_delta": 2.7755575615628914e-16,
+      "effective_alpha": 0.4,
+      "moral_reserve": 1.0,
+      "integrity": 0.9000000000000004,
+      "reciprocity": {
+        "Agent_0": {
+          "given": 0.0,
+          "received": 0.0
+        },
+        "Agent_2": {
+          "given": 0.0,
+          "received": 0.0
+        }
+      },
+      "chosen_action": "share_fairly",
+      "failure_flags": [],
+      "current_value_vector": [
+        0.5,
+        0.6,
+        0.4000000000000001,
+        0.7
+      ],
+      "founding_value_vector": [
+        0.5,
+        0.6000000000000002,
+        0.40000000000000024,
+        0.7
+      ]
+    },
+    {
+      "timestamp": "2026-05-07T19:23:29.217374",
+      "rho": 0.999,
+      "delta": 0.05,
+      "current_constitutional_drift": 2.7755575615628914e-16,
+      "founding_delta": 2.7755575615628914e-16,
+      "effective_alpha": 0.4,
+      "moral_reserve": 1.0,
+      "integrity": 0.9500000000000004,
+      "reciprocity": {
+        "Agent_0": {
+          "given": 0.0,
+          "received": 0.0
+        },
+        "Agent_2": {
+          "given": 0.0,
+          "received": 0.0
+        }
+      },
+      "chosen_action": "share_fairly",
+      "failure_flags": [],
+      "current_value_vector": [
+        0.5,
+        0.6,
+        0.4000000000000001,
+        0.7
+      ],
+      "founding_value_vector": [
+        0.5,
+        0.6000000000000002,
+        0.40000000000000024,
+        0.7
+      ]
+    },
+    {
+      "timestamp": "2026-05-07T19:23:29.217404",
+      "rho": 0.999,
+      "delta": 0.05,
+      "current_constitutional_drift": 2.7755575615628914e-16,
+      "founding_delta": 2.7755575615628914e-16,
+      "effective_alpha": 0.4,
+      "moral_reserve": 1.0,
+      "integrity": 1.0,
+      "reciprocity": {
+        "Agent_0": {
+          "given": 0.0,
+          "received": 0.0
+        },
+        "Agent_2": {
+          "given": 0.0,
+          "received": 0.0
+        }
+      },
+      "chosen_action": "share_fairly",
+      "failure_flags": [],
+      "current_value_vector": [
+        0.5,
+        0.6,
+        0.4000000000000001,
+        0.7
+      ],
+      "founding_value_vector": [
+        0.5,
+        0.6000000000000002,
+        0.40000000000000024,
+        0.7
+      ]
+    },
+    {
+      "timestamp": "2026-05-07T19:23:29.217436",
+      "rho": 0.999,
+      "delta": 0.05,
+      "current_constitutional_drift": 2.7755575615628914e-16,
+      "founding_delta": 2.7755575615628914e-16,
+      "effective_alpha": 0.4,
+      "moral_reserve": 1.0,
+      "integrity": 1.0,
+      "reciprocity": {
+        "Agent_0": {
+          "given": 0.0,
+          "received": 0.0
+        },
+        "Agent_2": {
+          "given": 0.0,
+          "received": 0.0
+        }
+      },
+      "chosen_action": "share_fairly",
+      "failure_flags": [],
+      "current_value_vector": [
+        0.5,
+        0.6,
+        0.4000000000000001,
+        0.7
+      ],
+      "founding_value_vector": [
+        0.5,
+        0.6000000000000002,
+        0.40000000000000024,
+        0.7
+      ]
+    },
+    {
+      "timestamp": "2026-05-07T19:23:29.217467",
+      "rho": 0.999,
+      "delta": 0.05,
+      "current_constitutional_drift": 2.7755575615628914e-16,
+      "founding_delta": 2.7755575615628914e-16,
+      "effective_alpha": 0.4,
+      "moral_reserve": 1.0,
+      "integrity": 1.0,
+      "reciprocity": {
+        "Agent_0": {
+          "given": 0.0,
+          "received": 0.0
+        },
+        "Agent_2": {
+          "given": 0.0,
+          "received": 0.0
+        }
+      },
+      "chosen_action": "share_fairly",
+      "failure_flags": [],
+      "current_value_vector": [
+        0.5,
+        0.6,
+        0.4000000000000001,
+        0.7
+      ],
+      "founding_value_vector": [
+        0.5,
+        0.6000000000000002,
+        0.40000000000000024,
+        0.7
+      ]
+    },
+    {
+      "timestamp": "2026-05-07T19:23:29.217497",
+      "rho": 0.999,
+      "delta": 0.05,
+      "current_constitutional_drift": 2.7755575615628914e-16,
+      "founding_delta": 2.7755575615628914e-16,
+      "effective_alpha": 0.4,
+      "moral_reserve": 1.0,
+      "integrity": 1.0,
+      "reciprocity": {
+        "Agent_0": {
+          "given": 0.0,
+          "received": 0.0
+        },
+        "Agent_2": {
+          "given": 0.0,
+          "received": 0.0
+        }
+      },
+      "chosen_action": "share_fairly",
+      "failure_flags": [],
+      "current_value_vector": [
+        0.5,
+        0.6,
+        0.4000000000000001,
+        0.7
+      ],
+      "founding_value_vector": [
+        0.5,
+        0.6000000000000002,
+        0.40000000000000024,
+        0.7
+      ]
+    },
+    {
+      "timestamp": "2026-05-07T19:23:29.217531",
+      "rho": 0.999,
+      "delta": 0.05,
+      "current_constitutional_drift": 2.7755575615628914e-16,
+      "founding_delta": 2.7755575615628914e-16,
+      "effective_alpha": 0.4,
+      "moral_reserve": 1.0,
+      "integrity": 1.0,
+      "reciprocity": {
+        "Agent_0": {
+          "given": 0.0,
+          "received": 0.0
+        },
+        "Agent_2": {
+          "given": 0.0,
+          "received": 0.0
+        }
+      },
+      "chosen_action": "share_fairly",
+      "failure_flags": [],
+      "current_value_vector": [
+        0.5,
+        0.6,
+        0.4000000000000001,
+        0.7
+      ],
+      "founding_value_vector": [
+        0.5,
+        0.6000000000000002,
+        0.40000000000000024,
+        0.7
+      ]
+    },
+    {
+      "timestamp": "2026-05-07T19:23:29.217563",
+      "rho": 0.999,
+      "delta": 0.05,
+      "current_constitutional_drift": 2.7755575615628914e-16,
+      "founding_delta": 2.7755575615628914e-16,
+      "effective_alpha": 0.4,
+      "moral_reserve": 1.0,
+      "integrity": 1.0,
+      "reciprocity": {
+        "Agent_0": {
+          "given": 0.0,
+          "received": 0.0
+        },
+        "Agent_2": {
+          "given": 0.0,
+          "received": 0.0
+        }
+      },
+      "chosen_action": "share_fairly",
+      "failure_flags": [],
+      "current_value_vector": [
+        0.5,
+        0.6,
+        0.4000000000000001,
+        0.7
+      ],
+      "founding_value_vector": [
+        0.5,
+        0.6000000000000002,
+        0.40000000000000024,
+        0.7
+      ]
+    },
+    {
+      "timestamp": "2026-05-07T19:23:29.217594",
+      "rho": 0.999,
+      "delta": 0.05,
+      "current_constitutional_drift": 2.7755575615628914e-16,
+      "founding_delta": 2.7755575615628914e-16,
+      "effective_alpha": 0.4,
+      "moral_reserve": 1.0,
+      "integrity": 1.0,
+      "reciprocity": {
+        "Agent_0": {
+          "given": 0.0,
+          "received": 0.0
+        },
+        "Agent_2": {
+          "given": 0.0,
+          "received": 0.0
+        }
+      },
+      "chosen_action": "share_fairly",
+      "failure_flags": [],
+      "current_value_vector": [
+        0.5,
+        0.6,
+        0.4000000000000001,
+        0.7
+      ],
+      "founding_value_vector": [
+        0.5,
+        0.6000000000000002,
+        0.40000000000000024,
+        0.7
+      ]
+    },
+    {
+      "timestamp": "2026-05-07T19:23:29.217624",
+      "rho": 0.999,
+      "delta": 0.05,
+      "current_constitutional_drift": 2.7755575615628914e-16,
+      "founding_delta": 2.7755575615628914e-16,
+      "effective_alpha": 0.4,
+      "moral_reserve": 1.0,
+      "integrity": 1.0,
+      "reciprocity": {
+        "Agent_0": {
+          "given": 0.0,
+          "received": 0.0
+        },
+        "Agent_2": {
+          "given": 0.0,
+          "received": 0.0
+        }
+      },
+      "chosen_action": "share_fairly",
+      "failure_flags": [],
+      "current_value_vector": [
+        0.5,
+        0.6,
+        0.4000000000000001,
+        0.7
+      ],
+      "founding_value_vector": [
+        0.5,
+        0.6000000000000002,
+        0.40000000000000024,
+        0.7
+      ]
+    },
+    {
+      "timestamp": "2026-05-07T19:23:29.217653",
+      "rho": 0.999,
+      "delta": 0.05,
+      "current_constitutional_drift": 2.7755575615628914e-16,
+      "founding_delta": 2.7755575615628914e-16,
+      "effective_alpha": 0.4,
+      "moral_reserve": 1.0,
+      "integrity": 1.0,
+      "reciprocity": {
+        "Agent_0": {
+          "given": 0.0,
+          "received": 0.0
+        },
+        "Agent_2": {
+          "given": 0.0,
+          "received": 0.0
+        }
+      },
+      "chosen_action": "share_fairly",
+      "failure_flags": [],
+      "current_value_vector": [
+        0.5,
+        0.6,
+        0.4000000000000001,
+        0.7
+      ],
+      "founding_value_vector": [
+        0.5,
+        0.6000000000000002,
+        0.40000000000000024,
+        0.7
+      ]
+    },
+    {
+      "timestamp": "2026-05-07T19:23:29.217684",
+      "rho": 0.999,
+      "delta": 0.05,
+      "current_constitutional_drift": 2.7755575615628914e-16,
+      "founding_delta": 2.7755575615628914e-16,
+      "effective_alpha": 0.4,
+      "moral_reserve": 1.0,
+      "integrity": 1.0,
+      "reciprocity": {
+        "Agent_0": {
+          "given": 0.0,
+          "received": 0.0
+        },
+        "Agent_2": {
+          "given": 0.0,
+          "received": 0.0
+        }
+      },
+      "chosen_action": "share_fairly",
+      "failure_flags": [],
+      "current_value_vector": [
+        0.5,
+        0.6,
+        0.4000000000000001,
+        0.7
+      ],
+      "founding_value_vector": [
+        0.5,
+        0.6000000000000002,
+        0.40000000000000024,
+        0.7
+      ]
+    },
+    {
+      "timestamp": "2026-05-07T19:23:29.217715",
+      "rho": 0.999,
+      "delta": 0.05,
+      "current_constitutional_drift": 2.7755575615628914e-16,
+      "founding_delta": 2.7755575615628914e-16,
+      "effective_alpha": 0.4,
+      "moral_reserve": 1.0,
+      "integrity": 1.0,
+      "reciprocity": {
+        "Agent_0": {
+          "given": 0.0,
+          "received": 0.0
+        },
+        "Agent_2": {
+          "given": 0.0,
+          "received": 0.0
+        }
+      },
+      "chosen_action": "share_fairly",
+      "failure_flags": [],
+      "current_value_vector": [
+        0.5,
+        0.6,
+        0.4000000000000001,
+        0.7
+      ],
+      "founding_value_vector": [
+        0.5,
+        0.6000000000000002,
+        0.40000000000000024,
+        0.7
+      ]
+    },
+    {
+      "timestamp": "2026-05-07T19:23:29.217747",
+      "rho": 0.999,
+      "delta": 0.05,
+      "current_constitutional_drift": 2.7755575615628914e-16,
+      "founding_delta": 2.7755575615628914e-16,
+      "effective_alpha": 0.4,
+      "moral_reserve": 1.0,
+      "integrity": 1.0,
+      "reciprocity": {
+        "Agent_0": {
+          "given": 0.0,
+          "received": 0.0
+        },
+        "Agent_2": {
+          "given": 0.0,
+          "received": 0.0
+        }
+      },
+      "chosen_action": "share_fairly",
+      "failure_flags": [],
+      "current_value_vector": [
+        0.5,
+        0.6,
+        0.4000000000000001,
+        0.7
+      ],
+      "founding_value_vector": [
+        0.5,
+        0.6000000000000002,
+        0.40000000000000024,
+        0.7
+      ]
+    },
+    {
+      "timestamp": "2026-05-07T19:23:29.217778",
+      "rho": 0.999,
+      "delta": 0.05,
+      "current_constitutional_drift": 2.7755575615628914e-16,
+      "founding_delta": 2.7755575615628914e-16,
+      "effective_alpha": 0.4,
+      "moral_reserve": 1.0,
+      "integrity": 1.0,
+      "reciprocity": {
+        "Agent_0": {
+          "given": 0.0,
+          "received": 0.0
+        },
+        "Agent_2": {
+          "given": 0.0,
+          "received": 0.0
+        }
+      },
+      "chosen_action": "share_fairly",
+      "failure_flags": [],
+      "current_value_vector": [
+        0.5,
+        0.6,
+        0.4000000000000001,
+        0.7
+      ],
+      "founding_value_vector": [
+        0.5,
+        0.6000000000000002,
+        0.40000000000000024,
+        0.7
+      ]
+    },
+    {
+      "timestamp": "2026-05-07T19:23:29.217811",
+      "rho": 0.999,
+      "delta": 0.05,
+      "current_constitutional_drift": 2.7755575615628914e-16,
+      "founding_delta": 2.7755575615628914e-16,
+      "effective_alpha": 0.4,
+      "moral_reserve": 1.0,
+      "integrity": 1.0,
+      "reciprocity": {
+        "Agent_0": {
+          "given": 0.0,
+          "received": 0.0
+        },
+        "Agent_2": {
+          "given": 0.0,
+          "received": 0.0
+        }
+      },
+      "chosen_action": "share_fairly",
+      "failure_flags": [],
+      "current_value_vector": [
+        0.5,
+        0.6,
+        0.4000000000000001,
+        0.7
+      ],
+      "founding_value_vector": [
+        0.5,
+        0.6000000000000002,
+        0.40000000000000024,
+        0.7
+      ]
+    },
+    {
+      "timestamp": "2026-05-07T19:23:29.217842",
+      "rho": 0.999,
+      "delta": 0.05,
+      "current_constitutional_drift": 2.7755575615628914e-16,
+      "founding_delta": 2.7755575615628914e-16,
+      "effective_alpha": 0.4,
+      "moral_reserve": 1.0,
+      "integrity": 1.0,
+      "reciprocity": {
+        "Agent_0": {
+          "given": 0.0,
+          "received": 0.0
+        },
+        "Agent_2": {
+          "given": 0.0,
+          "received": 0.0
+        }
+      },
+      "chosen_action": "share_fairly",
+      "failure_flags": [],
+      "current_value_vector": [
+        0.5,
+        0.6,
+        0.4000000000000001,
+        0.7
+      ],
+      "founding_value_vector": [
+        0.5,
+        0.6000000000000002,
+        0.40000000000000024,
+        0.7
+      ]
+    },
+    {
+      "timestamp": "2026-05-07T19:23:29.217872",
+      "rho": 0.999,
+      "delta": 0.05,
+      "current_constitutional_drift": 2.7755575615628914e-16,
+      "founding_delta": 2.7755575615628914e-16,
+      "effective_alpha": 0.4,
+      "moral_reserve": 1.0,
+      "integrity": 1.0,
+      "reciprocity": {
+        "Agent_0": {
+          "given": 0.0,
+          "received": 0.0
+        },
+        "Agent_2": {
+          "given": 0.0,
+          "received": 0.0
+        }
+      },
+      "chosen_action": "share_fairly",
+      "failure_flags": [],
+      "current_value_vector": [
+        0.5,
+        0.6,
+        0.4000000000000001,
+        0.7
+      ],
+      "founding_value_vector": [
+        0.5,
+        0.6000000000000002,
+        0.40000000000000024,
+        0.7
+      ]
+    },
+    {
+      "timestamp": "2026-05-07T19:23:29.217903",
+      "rho": 0.999,
+      "delta": 0.05,
+      "current_constitutional_drift": 2.7755575615628914e-16,
+      "founding_delta": 2.7755575615628914e-16,
+      "effective_alpha": 0.4,
+      "moral_reserve": 1.0,
+      "integrity": 1.0,
+      "reciprocity": {
+        "Agent_0": {
+          "given": 0.0,
+          "received": 0.0
+        },
+        "Agent_2": {
+          "given": 0.0,
+          "received": 0.0
+        }
+      },
+      "chosen_action": "share_fairly",
+      "failure_flags": [],
+      "current_value_vector": [
+        0.5,
+        0.6,
+        0.4000000000000001,
+        0.7
+      ],
+      "founding_value_vector": [
+        0.5,
+        0.6000000000000002,
+        0.40000000000000024,
+        0.7
+      ]
+    },
+    {
+      "timestamp": "2026-05-07T19:23:29.217934",
+      "rho": 0.999,
+      "delta": 0.05,
+      "current_constitutional_drift": 2.7755575615628914e-16,
+      "founding_delta": 2.7755575615628914e-16,
+      "effective_alpha": 0.4,
+      "moral_reserve": 1.0,
+      "integrity": 1.0,
+      "reciprocity": {
+        "Agent_0": {
+          "given": 0.0,
+          "received": 0.0
+        },
+        "Agent_2": {
+          "given": 0.0,
+          "received": 0.0
+        }
+      },
+      "chosen_action": "share_fairly",
+      "failure_flags": [],
+      "current_value_vector": [
+        0.5,
+        0.6,
+        0.4000000000000001,
+        0.7
+      ],
+      "founding_value_vector": [
+        0.5,
+        0.6000000000000002,
+        0.40000000000000024,
+        0.7
+      ]
+    },
+    {
+      "timestamp": "2026-05-07T19:23:29.217965",
+      "rho": 0.999,
+      "delta": 0.05,
+      "current_constitutional_drift": 2.7755575615628914e-16,
+      "founding_delta": 2.7755575615628914e-16,
+      "effective_alpha": 0.4,
+      "moral_reserve": 1.0,
+      "integrity": 1.0,
+      "reciprocity": {
+        "Agent_0": {
+          "given": 0.0,
+          "received": 0.0
+        },
+        "Agent_2": {
+          "given": 0.0,
+          "received": 0.0
+        }
+      },
+      "chosen_action": "share_fairly",
+      "failure_flags": [],
+      "current_value_vector": [
+        0.5,
+        0.6,
+        0.4000000000000001,
+        0.7
+      ],
+      "founding_value_vector": [
+        0.5,
+        0.6000000000000002,
+        0.40000000000000024,
+        0.7
+      ]
+    },
+    {
+      "timestamp": "2026-05-07T19:23:29.217996",
+      "rho": 0.999,
+      "delta": 0.05,
+      "current_constitutional_drift": 2.7755575615628914e-16,
+      "founding_delta": 2.7755575615628914e-16,
+      "effective_alpha": 0.4,
+      "moral_reserve": 1.0,
+      "integrity": 1.0,
+      "reciprocity": {
+        "Agent_0": {
+          "given": 0.0,
+          "received": 0.0
+        },
+        "Agent_2": {
+          "given": 0.0,
+          "received": 0.0
+        }
+      },
+      "chosen_action": "share_fairly",
+      "failure_flags": [],
+      "current_value_vector": [
+        0.5,
+        0.6,
+        0.4000000000000001,
+        0.7
+      ],
+      "founding_value_vector": [
+        0.5,
+        0.6000000000000002,
+        0.40000000000000024,
+        0.7
+      ]
+    },
+    {
+      "timestamp": "2026-05-07T19:23:29.218027",
+      "rho": 0.999,
+      "delta": 0.05,
+      "current_constitutional_drift": 2.7755575615628914e-16,
+      "founding_delta": 2.7755575615628914e-16,
+      "effective_alpha": 0.4,
+      "moral_reserve": 1.0,
+      "integrity": 1.0,
+      "reciprocity": {
+        "Agent_0": {
+          "given": 0.0,
+          "received": 0.0
+        },
+        "Agent_2": {
+          "given": 0.0,
+          "received": 0.0
+        }
+      },
+      "chosen_action": "share_fairly",
+      "failure_flags": [],
+      "current_value_vector": [
+        0.5,
+        0.6,
+        0.4000000000000001,
+        0.7
+      ],
+      "founding_value_vector": [
+        0.5,
+        0.6000000000000002,
+        0.40000000000000024,
+        0.7
+      ]
+    },
+    {
+      "timestamp": "2026-05-07T19:23:29.218060",
+      "rho": 0.999,
+      "delta": 0.05,
+      "current_constitutional_drift": 2.7755575615628914e-16,
+      "founding_delta": 2.7755575615628914e-16,
+      "effective_alpha": 0.4,
+      "moral_reserve": 1.0,
+      "integrity": 1.0,
+      "reciprocity": {
+        "Agent_0": {
+          "given": 0.0,
+          "received": 0.0
+        },
+        "Agent_2": {
+          "given": 0.0,
+          "received": 0.0
+        }
+      },
+      "chosen_action": "share_fairly",
+      "failure_flags": [],
+      "current_value_vector": [
+        0.5,
+        0.6,
+        0.4000000000000001,
+        0.7
+      ],
+      "founding_value_vector": [
+        0.5,
+        0.6000000000000002,
+        0.40000000000000024,
+        0.7
+      ]
+    },
+    {
+      "timestamp": "2026-05-07T19:23:29.218091",
+      "rho": 0.999,
+      "delta": 0.05,
+      "current_constitutional_drift": 2.7755575615628914e-16,
+      "founding_delta": 2.7755575615628914e-16,
+      "effective_alpha": 0.4,
+      "moral_reserve": 1.0,
+      "integrity": 1.0,
+      "reciprocity": {
+        "Agent_0": {
+          "given": 0.0,
+          "received": 0.0
+        },
+        "Agent_2": {
+          "given": 0.0,
+          "received": 0.0
+        }
+      },
+      "chosen_action": "share_fairly",
+      "failure_flags": [],
+      "current_value_vector": [
+        0.5,
+        0.6,
+        0.4000000000000001,
+        0.7
+      ],
+      "founding_value_vector": [
+        0.5,
+        0.6000000000000002,
+        0.40000000000000024,
+        0.7
+      ]
+    },
+    {
+      "timestamp": "2026-05-07T19:23:29.218122",
+      "rho": 0.999,
+      "delta": 0.05,
+      "current_constitutional_drift": 2.7755575615628914e-16,
+      "founding_delta": 2.7755575615628914e-16,
+      "effective_alpha": 0.4,
+      "moral_reserve": 1.0,
+      "integrity": 1.0,
+      "reciprocity": {
+        "Agent_0": {
+          "given": 0.0,
+          "received": 0.0
+        },
+        "Agent_2": {
+          "given": 0.0,
+          "received": 0.0
+        }
+      },
+      "chosen_action": "share_fairly",
+      "failure_flags": [],
+      "current_value_vector": [
+        0.5,
+        0.6,
+        0.4000000000000001,
+        0.7
+      ],
+      "founding_value_vector": [
+        0.5,
+        0.6000000000000002,
+        0.40000000000000024,
+        0.7
+      ]
+    },
+    {
+      "timestamp": "2026-05-07T19:23:29.218153",
+      "rho": 0.999,
+      "delta": 0.05,
+      "current_constitutional_drift": 2.7755575615628914e-16,
+      "founding_delta": 2.7755575615628914e-16,
+      "effective_alpha": 0.4,
+      "moral_reserve": 1.0,
+      "integrity": 1.0,
+      "reciprocity": {
+        "Agent_0": {
+          "given": 0.0,
+          "received": 0.0
+        },
+        "Agent_2": {
+          "given": 0.0,
+          "received": 0.0
+        }
+      },
+      "chosen_action": "share_fairly",
+      "failure_flags": [],
+      "current_value_vector": [
+        0.5,
+        0.6,
+        0.4000000000000001,
+        0.7
+      ],
+      "founding_value_vector": [
+        0.5,
+        0.6000000000000002,
+        0.40000000000000024,
+        0.7
+      ]
+    },
+    {
+      "timestamp": "2026-05-07T19:23:29.218182",
+      "rho": 0.999,
+      "delta": 0.05,
+      "current_constitutional_drift": 2.7755575615628914e-16,
+      "founding_delta": 2.7755575615628914e-16,
+      "effective_alpha": 0.4,
+      "moral_reserve": 1.0,
+      "integrity": 1.0,
+      "reciprocity": {
+        "Agent_0": {
+          "given": 0.0,
+          "received": 0.0
+        },
+        "Agent_2": {
+          "given": 0.0,
+          "received": 0.0
+        }
+      },
+      "chosen_action": "share_fairly",
+      "failure_flags": [],
+      "current_value_vector": [
+        0.5,
+        0.6,
+        0.4000000000000001,
+        0.7
+      ],
+      "founding_value_vector": [
+        0.5,
+        0.6000000000000002,
+        0.40000000000000024,
+        0.7
+      ]
+    },
+    {
+      "timestamp": "2026-05-07T19:23:29.218213",
+      "rho": 0.999,
+      "delta": 0.05,
+      "current_constitutional_drift": 2.7755575615628914e-16,
+      "founding_delta": 2.7755575615628914e-16,
+      "effective_alpha": 0.4,
+      "moral_reserve": 1.0,
+      "integrity": 1.0,
+      "reciprocity": {
+        "Agent_0": {
+          "given": 0.0,
+          "received": 0.0
+        },
+        "Agent_2": {
+          "given": 0.0,
+          "received": 0.0
+        }
+      },
+      "chosen_action": "share_fairly",
+      "failure_flags": [],
+      "current_value_vector": [
+        0.5,
+        0.6,
+        0.4000000000000001,
+        0.7
+      ],
+      "founding_value_vector": [
+        0.5,
+        0.6000000000000002,
+        0.40000000000000024,
+        0.7
+      ]
+    },
+    {
+      "timestamp": "2026-05-07T19:23:29.218244",
+      "rho": 0.999,
+      "delta": 0.05,
+      "current_constitutional_drift": 2.7755575615628914e-16,
+      "founding_delta": 2.7755575615628914e-16,
+      "effective_alpha": 0.4,
+      "moral_reserve": 1.0,
+      "integrity": 1.0,
+      "reciprocity": {
+        "Agent_0": {
+          "given": 0.0,
+          "received": 0.0
+        },
+        "Agent_2": {
+          "given": 0.0,
+          "received": 0.0
+        }
+      },
+      "chosen_action": "share_fairly",
+      "failure_flags": [],
+      "current_value_vector": [
+        0.5,
+        0.6,
+        0.4000000000000001,
+        0.7
+      ],
+      "founding_value_vector": [
+        0.5,
+        0.6000000000000002,
+        0.40000000000000024,
+        0.7
+      ]
+    },
+    {
+      "timestamp": "2026-05-07T19:23:29.218276",
+      "rho": 0.999,
+      "delta": 0.05,
+      "current_constitutional_drift": 2.7755575615628914e-16,
+      "founding_delta": 2.7755575615628914e-16,
+      "effective_alpha": 0.4,
+      "moral_reserve": 1.0,
+      "integrity": 1.0,
+      "reciprocity": {
+        "Agent_0": {
+          "given": 0.0,
+          "received": 0.0
+        },
+        "Agent_2": {
+          "given": 0.0,
+          "received": 0.0
+        }
+      },
+      "chosen_action": "share_fairly",
+      "failure_flags": [],
+      "current_value_vector": [
+        0.5,
+        0.6,
+        0.4000000000000001,
+        0.7
+      ],
+      "founding_value_vector": [
+        0.5,
+        0.6000000000000002,
+        0.40000000000000024,
+        0.7
+      ]
+    },
+    {
+      "timestamp": "2026-05-07T19:23:29.218306",
+      "rho": 0.999,
+      "delta": 0.05,
+      "current_constitutional_drift": 2.7755575615628914e-16,
+      "founding_delta": 2.7755575615628914e-16,
+      "effective_alpha": 0.4,
+      "moral_reserve": 1.0,
+      "integrity": 1.0,
+      "reciprocity": {
+        "Agent_0": {
+          "given": 0.0,
+          "received": 0.0
+        },
+        "Agent_2": {
+          "given": 0.0,
+          "received": 0.0
+        }
+      },
+      "chosen_action": "share_fairly",
+      "failure_flags": [],
+      "current_value_vector": [
+        0.5,
+        0.6,
+        0.4000000000000001,
+        0.7
+      ],
+      "founding_value_vector": [
+        0.5,
+        0.6000000000000002,
+        0.40000000000000024,
+        0.7
+      ]
+    },
+    {
+      "timestamp": "2026-05-07T19:23:29.218337",
+      "rho": 0.999,
+      "delta": 0.05,
+      "current_constitutional_drift": 2.7755575615628914e-16,
+      "founding_delta": 2.7755575615628914e-16,
+      "effective_alpha": 0.4,
+      "moral_reserve": 1.0,
+      "integrity": 1.0,
+      "reciprocity": {
+        "Agent_0": {
+          "given": 0.0,
+          "received": 0.0
+        },
+        "Agent_2": {
+          "given": 0.0,
+          "received": 0.0
+        }
+      },
+      "chosen_action": "share_fairly",
+      "failure_flags": [],
+      "current_value_vector": [
+        0.5,
+        0.6,
+        0.4000000000000001,
+        0.7
+      ],
+      "founding_value_vector": [
+        0.5,
+        0.6000000000000002,
+        0.40000000000000024,
+        0.7
+      ]
+    },
+    {
+      "timestamp": "2026-05-07T19:23:29.218369",
+      "rho": 0.999,
+      "delta": 0.05,
+      "current_constitutional_drift": 2.7755575615628914e-16,
+      "founding_delta": 2.7755575615628914e-16,
+      "effective_alpha": 0.4,
+      "moral_reserve": 1.0,
+      "integrity": 1.0,
+      "reciprocity": {
+        "Agent_0": {
+          "given": 0.0,
+          "received": 0.0
+        },
+        "Agent_2": {
+          "given": 0.0,
+          "received": 0.0
+        }
+      },
+      "chosen_action": "share_fairly",
+      "failure_flags": [],
+      "current_value_vector": [
+        0.5,
+        0.6,
+        0.4000000000000001,
+        0.7
+      ],
+      "founding_value_vector": [
+        0.5,
+        0.6000000000000002,
+        0.40000000000000024,
+        0.7
+      ]
+    },
+    {
+      "timestamp": "2026-05-07T19:23:29.218399",
+      "rho": 0.999,
+      "delta": 0.05,
+      "current_constitutional_drift": 2.7755575615628914e-16,
+      "founding_delta": 2.7755575615628914e-16,
+      "effective_alpha": 0.4,
+      "moral_reserve": 1.0,
+      "integrity": 1.0,
+      "reciprocity": {
+        "Agent_0": {
+          "given": 0.0,
+          "received": 0.0
+        },
+        "Agent_2": {
+          "given": 0.0,
+          "received": 0.0
+        }
+      },
+      "chosen_action": "share_fairly",
+      "failure_flags": [],
+      "current_value_vector": [
+        0.5,
+        0.6,
+        0.4000000000000001,
+        0.7
+      ],
+      "founding_value_vector": [
+        0.5,
+        0.6000000000000002,
+        0.40000000000000024,
+        0.7
+      ]
+    },
+    {
+      "timestamp": "2026-05-07T19:23:29.218430",
+      "rho": 0.999,
+      "delta": 0.05,
+      "current_constitutional_drift": 2.7755575615628914e-16,
+      "founding_delta": 2.7755575615628914e-16,
+      "effective_alpha": 0.4,
+      "moral_reserve": 1.0,
+      "integrity": 1.0,
+      "reciprocity": {
+        "Agent_0": {
+          "given": 0.0,
+          "received": 0.0
+        },
+        "Agent_2": {
+          "given": 0.0,
+          "received": 0.0
+        }
+      },
+      "chosen_action": "share_fairly",
+      "failure_flags": [],
+      "current_value_vector": [
+        0.5,
+        0.6,
+        0.4000000000000001,
+        0.7
+      ],
+      "founding_value_vector": [
+        0.5,
+        0.6000000000000002,
+        0.40000000000000024,
+        0.7
+      ]
+    },
+    {
+      "timestamp": "2026-05-07T19:23:29.218460",
+      "rho": 0.999,
+      "delta": 0.05,
+      "current_constitutional_drift": 2.7755575615628914e-16,
+      "founding_delta": 2.7755575615628914e-16,
+      "effective_alpha": 0.4,
+      "moral_reserve": 1.0,
+      "integrity": 1.0,
+      "reciprocity": {
+        "Agent_0": {
+          "given": 0.0,
+          "received": 0.0
+        },
+        "Agent_2": {
+          "given": 0.0,
+          "received": 0.0
+        }
+      },
+      "chosen_action": "share_fairly",
+      "failure_flags": [],
+      "current_value_vector": [
+        0.5,
+        0.6,
+        0.4000000000000001,
+        0.7
+      ],
+      "founding_value_vector": [
+        0.5,
+        0.6000000000000002,
+        0.40000000000000024,
+        0.7
+      ]
+    },
+    {
+      "timestamp": "2026-05-07T19:23:29.218490",
+      "rho": 0.999,
+      "delta": 0.05,
+      "current_constitutional_drift": 2.7755575615628914e-16,
+      "founding_delta": 2.7755575615628914e-16,
+      "effective_alpha": 0.4,
+      "moral_reserve": 1.0,
+      "integrity": 1.0,
+      "reciprocity": {
+        "Agent_0": {
+          "given": 0.0,
+          "received": 0.0
+        },
+        "Agent_2": {
+          "given": 0.0,
+          "received": 0.0
+        }
+      },
+      "chosen_action": "share_fairly",
+      "failure_flags": [],
+      "current_value_vector": [
+        0.5,
+        0.6,
+        0.4000000000000001,
+        0.7
+      ],
+      "founding_value_vector": [
+        0.5,
+        0.6000000000000002,
+        0.40000000000000024,
+        0.7
+      ]
+    },
+    {
+      "timestamp": "2026-05-07T19:23:29.218520",
+      "rho": 0.999,
+      "delta": 0.05,
+      "current_constitutional_drift": 2.7755575615628914e-16,
+      "founding_delta": 2.7755575615628914e-16,
+      "effective_alpha": 0.4,
+      "moral_reserve": 1.0,
+      "integrity": 1.0,
+      "reciprocity": {
+        "Agent_0": {
+          "given": 0.0,
+          "received": 0.0
+        },
+        "Agent_2": {
+          "given": 0.0,
+          "received": 0.0
+        }
+      },
+      "chosen_action": "share_fairly",
+      "failure_flags": [],
+      "current_value_vector": [
+        0.5,
+        0.6,
+        0.4000000000000001,
+        0.7
+      ],
+      "founding_value_vector": [
+        0.5,
+        0.6000000000000002,
+        0.40000000000000024,
+        0.7
+      ]
+    },
+    {
+      "timestamp": "2026-05-07T19:23:29.218552",
+      "rho": 0.999,
+      "delta": 0.05,
+      "current_constitutional_drift": 2.7755575615628914e-16,
+      "founding_delta": 2.7755575615628914e-16,
+      "effective_alpha": 0.4,
+      "moral_reserve": 1.0,
+      "integrity": 1.0,
+      "reciprocity": {
+        "Agent_0": {
+          "given": 0.0,
+          "received": 0.0
+        },
+        "Agent_2": {
+          "given": 0.0,
+          "received": 0.0
+        }
+      },
+      "chosen_action": "share_fairly",
+      "failure_flags": [],
+      "current_value_vector": [
+        0.5,
+        0.6,
+        0.4000000000000001,
+        0.7
+      ],
+      "founding_value_vector": [
+        0.5,
+        0.6000000000000002,
+        0.40000000000000024,
+        0.7
+      ]
+    },
+    {
+      "timestamp": "2026-05-07T19:23:29.218583",
+      "rho": 0.999,
+      "delta": 0.05,
+      "current_constitutional_drift": 2.7755575615628914e-16,
+      "founding_delta": 2.7755575615628914e-16,
+      "effective_alpha": 0.4,
+      "moral_reserve": 1.0,
+      "integrity": 1.0,
+      "reciprocity": {
+        "Agent_0": {
+          "given": 0.0,
+          "received": 0.0
+        },
+        "Agent_2": {
+          "given": 0.0,
+          "received": 0.0
+        }
+      },
+      "chosen_action": "share_fairly",
+      "failure_flags": [],
+      "current_value_vector": [
+        0.5,
+        0.6,
+        0.4000000000000001,
+        0.7
+      ],
+      "founding_value_vector": [
+        0.5,
+        0.6000000000000002,
+        0.40000000000000024,
+        0.7
+      ]
+    },
+    {
+      "timestamp": "2026-05-07T19:23:29.218613",
+      "rho": 0.999,
+      "delta": 0.05,
+      "current_constitutional_drift": 2.7755575615628914e-16,
+      "founding_delta": 2.7755575615628914e-16,
+      "effective_alpha": 0.4,
+      "moral_reserve": 1.0,
+      "integrity": 1.0,
+      "reciprocity": {
+        "Agent_0": {
+          "given": 0.0,
+          "received": 0.0
+        },
+        "Agent_2": {
+          "given": 0.0,
+          "received": 0.0
+        }
+      },
+      "chosen_action": "share_fairly",
+      "failure_flags": [],
+      "current_value_vector": [
+        0.5,
+        0.6,
+        0.4000000000000001,
+        0.7
+      ],
+      "founding_value_vector": [
+        0.5,
+        0.6000000000000002,
+        0.40000000000000024,
+        0.7
+      ]
+    }
+  ],
+  "Agent_2": [
+    {
+      "timestamp": "2026-05-07T19:23:29.217083",
+      "rho": 0.999,
+      "delta": 0.05,
+      "current_constitutional_drift": 0.0,
+      "founding_delta": 0.0,
+      "effective_alpha": 0.4,
+      "moral_reserve": 1.0,
+      "integrity": 0.5,
+      "reciprocity": {
+        "Agent_0": {
+          "given": 0.0,
+          "received": 0.0
+        },
+        "Agent_2": {
+          "given": 0.0,
+          "received": 0.0
+        }
+      },
+      "chosen_action": "share_fairly",
+      "failure_flags": [],
+      "current_value_vector": [
+        0.5,
+        0.6,
+        0.4,
+        0.7
+      ],
+      "founding_value_vector": [
+        0.5,
+        0.6,
+        0.4,
+        0.7
+      ]
+    },
+    {
+      "timestamp": "2026-05-07T19:23:29.217135",
+      "rho": 0.999,
+      "delta": 0.05,
+      "current_constitutional_drift": 1.2412670766236366e-16,
+      "founding_delta": 1.2412670766236366e-16,
+      "effective_alpha": 0.4,
+      "moral_reserve": 1.0,
+      "integrity": 0.55,
+      "reciprocity": {
+        "Agent_0": {
+          "given": 0.0,
+          "received": 0.0
+        },
+        "Agent_2": {
+          "given": 0.0,
+          "received": 0.0
+        }
+      },
+      "chosen_action": "share_fairly",
+      "failure_flags": [],
+      "current_value_vector": [
+        0.5,
+        0.6,
+        0.4000000000000001,
+        0.7
+      ],
+      "founding_value_vector": [
+        0.5,
+        0.6000000000000001,
+        0.4,
+        0.7
+      ]
+    },
+    {
+      "timestamp": "2026-05-07T19:23:29.217169",
+      "rho": 0.999,
+      "delta": 0.05,
+      "current_constitutional_drift": 2.2887833992611187e-16,
+      "founding_delta": 2.2887833992611187e-16,
+      "effective_alpha": 0.4,
+      "moral_reserve": 1.0,
+      "integrity": 0.6000000000000001,
+      "reciprocity": {
+        "Agent_0": {
+          "given": 0.0,
+          "received": 0.0
+        },
+        "Agent_2": {
+          "given": 0.0,
+          "received": 0.0
+        }
+      },
+      "chosen_action": "share_fairly",
+      "failure_flags": [],
+      "current_value_vector": [
+        0.5,
+        0.6,
+        0.4000000000000001,
+        0.7
+      ],
+      "founding_value_vector": [
+        0.5,
+        0.6000000000000002,
+        0.4,
+        0.7
+      ]
+    },
+    {
+      "timestamp": "2026-05-07T19:23:29.217200",
+      "rho": 0.999,
+      "delta": 0.05,
+      "current_constitutional_drift": 2.220446049250313e-16,
+      "founding_delta": 2.220446049250313e-16,
+      "effective_alpha": 0.4,
+      "moral_reserve": 1.0,
+      "integrity": 0.6500000000000001,
+      "reciprocity": {
+        "Agent_0": {
+          "given": 0.0,
+          "received": 0.0
+        },
+        "Agent_2": {
+          "given": 0.0,
+          "received": 0.0
+        }
+      },
+      "chosen_action": "share_fairly",
+      "failure_flags": [],
+      "current_value_vector": [
+        0.5,
+        0.6,
+        0.4000000000000001,
+        0.7
+      ],
+      "founding_value_vector": [
+        0.5,
+        0.6000000000000002,
+        0.4000000000000001,
+        0.7
+      ]
+    },
+    {
+      "timestamp": "2026-05-07T19:23:29.217231",
+      "rho": 0.999,
+      "delta": 0.05,
+      "current_constitutional_drift": 2.2887833992611187e-16,
+      "founding_delta": 2.2887833992611187e-16,
+      "effective_alpha": 0.4,
+      "moral_reserve": 1.0,
+      "integrity": 0.7000000000000002,
+      "reciprocity": {
+        "Agent_0": {
+          "given": 0.0,
+          "received": 0.0
+        },
+        "Agent_2": {
+          "given": 0.0,
+          "received": 0.0
+        }
+      },
+      "chosen_action": "share_fairly",
+      "failure_flags": [],
+      "current_value_vector": [
+        0.5,
+        0.6,
+        0.4000000000000001,
+        0.7
+      ],
+      "founding_value_vector": [
+        0.5,
+        0.6000000000000002,
+        0.40000000000000013,
+        0.7
+      ]
+    },
+    {
+      "timestamp": "2026-05-07T19:23:29.217262",
+      "rho": 0.999,
+      "delta": 0.05,
+      "current_constitutional_drift": 2.482534153247273e-16,
+      "founding_delta": 2.482534153247273e-16,
+      "effective_alpha": 0.4,
+      "moral_reserve": 1.0,
+      "integrity": 0.7500000000000002,
+      "reciprocity": {
+        "Agent_0": {
+          "given": 0.0,
+          "received": 0.0
+        },
+        "Agent_2": {
+          "given": 0.0,
+          "received": 0.0
+        }
+      },
+      "chosen_action": "share_fairly",
+      "failure_flags": [],
+      "current_value_vector": [
+        0.5,
+        0.6,
+        0.4000000000000001,
+        0.7
+      ],
+      "founding_value_vector": [
+        0.5,
+        0.6000000000000002,
+        0.4000000000000002,
+        0.7
+      ]
+    },
+    {
+      "timestamp": "2026-05-07T19:23:29.217295",
+      "rho": 0.999,
+      "delta": 0.05,
+      "current_constitutional_drift": 2.7755575615628914e-16,
+      "founding_delta": 2.7755575615628914e-16,
+      "effective_alpha": 0.4,
+      "moral_reserve": 1.0,
+      "integrity": 0.8000000000000003,
+      "reciprocity": {
+        "Agent_0": {
+          "given": 0.0,
+          "received": 0.0
+        },
+        "Agent_2": {
+          "given": 0.0,
+          "received": 0.0
+        }
+      },
+      "chosen_action": "share_fairly",
+      "failure_flags": [],
+      "current_value_vector": [
+        0.5,
+        0.6,
+        0.4000000000000001,
+        0.7
+      ],
+      "founding_value_vector": [
+        0.5,
+        0.6000000000000002,
+        0.40000000000000024,
+        0.7
+      ]
+    },
+    {
+      "timestamp": "2026-05-07T19:23:29.217325",
+      "rho": 0.999,
+      "delta": 0.05,
+      "current_constitutional_drift": 2.7755575615628914e-16,
+      "founding_delta": 2.7755575615628914e-16,
+      "effective_alpha": 0.4,
+      "moral_reserve": 1.0,
+      "integrity": 0.8500000000000003,
+      "reciprocity": {
+        "Agent_0": {
+          "given": 0.0,
+          "received": 0.0
+        },
+        "Agent_2": {
+          "given": 0.0,
+          "received": 0.0
+        }
+      },
+      "chosen_action": "share_fairly",
+      "failure_flags": [],
+      "current_value_vector": [
+        0.5,
+        0.6,
+        0.4000000000000001,
+        0.7
+      ],
+      "founding_value_vector": [
+        0.5,
+        0.6000000000000002,
+        0.40000000000000024,
+        0.7
+      ]
+    },
+    {
+      "timestamp": "2026-05-07T19:23:29.217357",
+      "rho": 0.999,
+      "delta": 0.05,
+      "current_constitutional_drift": 2.7755575615628914e-16,
+      "founding_delta": 2.7755575615628914e-16,
+      "effective_alpha": 0.4,
+      "moral_reserve": 1.0,
+      "integrity": 0.9000000000000004,
+      "reciprocity": {
+        "Agent_0": {
+          "given": 0.0,
+          "received": 0.0
+        },
+        "Agent_2": {
+          "given": 0.0,
+          "received": 0.0
+        }
+      },
+      "chosen_action": "share_fairly",
+      "failure_flags": [],
+      "current_value_vector": [
+        0.5,
+        0.6,
+        0.4000000000000001,
+        0.7
+      ],
+      "founding_value_vector": [
+        0.5,
+        0.6000000000000002,
+        0.40000000000000024,
+        0.7
+      ]
+    },
+    {
+      "timestamp": "2026-05-07T19:23:29.217388",
+      "rho": 0.999,
+      "delta": 0.05,
+      "current_constitutional_drift": 2.7755575615628914e-16,
+      "founding_delta": 2.7755575615628914e-16,
+      "effective_alpha": 0.4,
+      "moral_reserve": 1.0,
+      "integrity": 0.9500000000000004,
+      "reciprocity": {
+        "Agent_0": {
+          "given": 0.0,
+          "received": 0.0
+        },
+        "Agent_2": {
+          "given": 0.0,
+          "received": 0.0
+        }
+      },
+      "chosen_action": "share_fairly",
+      "failure_flags": [],
+      "current_value_vector": [
+        0.5,
+        0.6,
+        0.4000000000000001,
+        0.7
+      ],
+      "founding_value_vector": [
+        0.5,
+        0.6000000000000002,
+        0.40000000000000024,
+        0.7
+      ]
+    },
+    {
+      "timestamp": "2026-05-07T19:23:29.217419",
+      "rho": 0.999,
+      "delta": 0.05,
+      "current_constitutional_drift": 2.7755575615628914e-16,
+      "founding_delta": 2.7755575615628914e-16,
+      "effective_alpha": 0.4,
+      "moral_reserve": 1.0,
+      "integrity": 1.0,
+      "reciprocity": {
+        "Agent_0": {
+          "given": 0.0,
+          "received": 0.0
+        },
+        "Agent_2": {
+          "given": 0.0,
+          "received": 0.0
+        }
+      },
+      "chosen_action": "share_fairly",
+      "failure_flags": [],
+      "current_value_vector": [
+        0.5,
+        0.6,
+        0.4000000000000001,
+        0.7
+      ],
+      "founding_value_vector": [
+        0.5,
+        0.6000000000000002,
+        0.40000000000000024,
+        0.7
+      ]
+    },
+    {
+      "timestamp": "2026-05-07T19:23:29.217451",
+      "rho": 0.999,
+      "delta": 0.05,
+      "current_constitutional_drift": 2.7755575615628914e-16,
+      "founding_delta": 2.7755575615628914e-16,
+      "effective_alpha": 0.4,
+      "moral_reserve": 1.0,
+      "integrity": 1.0,
+      "reciprocity": {
+        "Agent_0": {
+          "given": 0.0,
+          "received": 0.0
+        },
+        "Agent_2": {
+          "given": 0.0,
+          "received": 0.0
+        }
+      },
+      "chosen_action": "share_fairly",
+      "failure_flags": [],
+      "current_value_vector": [
+        0.5,
+        0.6,
+        0.4000000000000001,
+        0.7
+      ],
+      "founding_value_vector": [
+        0.5,
+        0.6000000000000002,
+        0.40000000000000024,
+        0.7
+      ]
+    },
+    {
+      "timestamp": "2026-05-07T19:23:29.217481",
+      "rho": 0.999,
+      "delta": 0.05,
+      "current_constitutional_drift": 2.7755575615628914e-16,
+      "founding_delta": 2.7755575615628914e-16,
+      "effective_alpha": 0.4,
+      "moral_reserve": 1.0,
+      "integrity": 1.0,
+      "reciprocity": {
+        "Agent_0": {
+          "given": 0.0,
+          "received": 0.0
+        },
+        "Agent_2": {
+          "given": 0.0,
+          "received": 0.0
+        }
+      },
+      "chosen_action": "share_fairly",
+      "failure_flags": [],
+      "current_value_vector": [
+        0.5,
+        0.6,
+        0.4000000000000001,
+        0.7
+      ],
+      "founding_value_vector": [
+        0.5,
+        0.6000000000000002,
+        0.40000000000000024,
+        0.7
+      ]
+    },
+    {
+      "timestamp": "2026-05-07T19:23:29.217515",
+      "rho": 0.999,
+      "delta": 0.05,
+      "current_constitutional_drift": 2.7755575615628914e-16,
+      "founding_delta": 2.7755575615628914e-16,
+      "effective_alpha": 0.4,
+      "moral_reserve": 1.0,
+      "integrity": 1.0,
+      "reciprocity": {
+        "Agent_0": {
+          "given": 0.0,
+          "received": 0.0
+        },
+        "Agent_2": {
+          "given": 0.0,
+          "received": 0.0
+        }
+      },
+      "chosen_action": "share_fairly",
+      "failure_flags": [],
+      "current_value_vector": [
+        0.5,
+        0.6,
+        0.4000000000000001,
+        0.7
+      ],
+      "founding_value_vector": [
+        0.5,
+        0.6000000000000002,
+        0.40000000000000024,
+        0.7
+      ]
+    },
+    {
+      "timestamp": "2026-05-07T19:23:29.217546",
+      "rho": 0.999,
+      "delta": 0.05,
+      "current_constitutional_drift": 2.7755575615628914e-16,
+      "founding_delta": 2.7755575615628914e-16,
+      "effective_alpha": 0.4,
+      "moral_reserve": 1.0,
+      "integrity": 1.0,
+      "reciprocity": {
+        "Agent_0": {
+          "given": 0.0,
+          "received": 0.0
+        },
+        "Agent_2": {
+          "given": 0.0,
+          "received": 0.0
+        }
+      },
+      "chosen_action": "share_fairly",
+      "failure_flags": [],
+      "current_value_vector": [
+        0.5,
+        0.6,
+        0.4000000000000001,
+        0.7
+      ],
+      "founding_value_vector": [
+        0.5,
+        0.6000000000000002,
+        0.40000000000000024,
+        0.7
+      ]
+    },
+    {
+      "timestamp": "2026-05-07T19:23:29.217577",
+      "rho": 0.999,
+      "delta": 0.05,
+      "current_constitutional_drift": 2.7755575615628914e-16,
+      "founding_delta": 2.7755575615628914e-16,
+      "effective_alpha": 0.4,
+      "moral_reserve": 1.0,
+      "integrity": 1.0,
+      "reciprocity": {
+        "Agent_0": {
+          "given": 0.0,
+          "received": 0.0
+        },
+        "Agent_2": {
+          "given": 0.0,
+          "received": 0.0
+        }
+      },
+      "chosen_action": "share_fairly",
+      "failure_flags": [],
+      "current_value_vector": [
+        0.5,
+        0.6,
+        0.4000000000000001,
+        0.7
+      ],
+      "founding_value_vector": [
+        0.5,
+        0.6000000000000002,
+        0.40000000000000024,
+        0.7
+      ]
+    },
+    {
+      "timestamp": "2026-05-07T19:23:29.217608",
+      "rho": 0.999,
+      "delta": 0.05,
+      "current_constitutional_drift": 0.009967948635501865,
+      "founding_delta": 0.009967948635501865,
+      "effective_alpha": 0.4,
+      "moral_reserve": 1.0,
+      "integrity": 1.0,
+      "reciprocity": {
+        "Agent_0": {
+          "given": 0.0,
+          "received": 0.0
+        },
+        "Agent_2": {
+          "given": 0.0,
+          "received": 0.0
+        }
+      },
+      "chosen_action": "share_fairly",
+      "failure_flags": [],
+      "current_value_vector": [
+        0.4958,
+        0.5946,
+        0.3970000000000001,
+        0.6933999999999999
+      ],
+      "founding_value_vector": [
+        0.5,
+        0.6000000000000002,
+        0.40000000000000024,
+        0.7
+      ]
+    },
+    {
+      "timestamp": "2026-05-07T19:23:29.217638",
+      "rho": 0.999,
+      "delta": 0.05,
+      "current_constitutional_drift": 0.017580803273388953,
+      "founding_delta": 0.017580803273388953,
+      "effective_alpha": 0.4,
+      "moral_reserve": 1.0,
+      "integrity": 1.0,
+      "reciprocity": {
+        "Agent_0": {
+          "given": 0.0,
+          "received": 0.0
+        },
+        "Agent_2": {
+          "given": 0.0,
+          "received": 0.0
+        }
+      },
+      "chosen_action": "share_fairly",
+      "failure_flags": [],
+      "current_value_vector": [
+        0.4924803200000001,
+        0.5903318399999999,
+        0.3946288000000001,
+        0.68818336
+      ],
+      "founding_value_vector": [
+        0.499888,
+        0.5998560000000002,
+        0.3999200000000002,
+        0.699824
+      ]
+    },
+    {
+      "timestamp": "2026-05-07T19:23:29.217669",
+      "rho": 0.999,
+      "delta": 0.05,
+      "current_constitutional_drift": 0.023087644609037228,
+      "founding_delta": 0.023087644609037228,
+      "effective_alpha": 0.4,
+      "moral_reserve": 1.0,
+      "integrity": 1.0,
+      "reciprocity": {
+        "Agent_0": {
+          "given": 0.0,
+          "received": 0.0
+        },
+        "Agent_2": {
+          "given": 0.0,
+          "received": 0.0
+        }
+      },
+      "chosen_action": "share_fairly",
+      "failure_flags": [],
+      "current_value_vector": [
+        0.48985644492800007,
+        0.586958286336,
+        0.39275460352000013,
+        0.684060127744
+      ],
+      "founding_value_vector": [
+        0.4995844352,
+        0.5994657024000002,
+        0.3997031680000002,
+        0.6993469696
+      ]
+    },
+    {
+      "timestamp": "2026-05-07T19:23:29.217699",
+      "rho": 0.999,
+      "delta": 0.05,
+      "current_constitutional_drift": 0.02670490978459362,
+      "founding_delta": 0.02670490978459362,
+      "effective_alpha": 0.4,
+      "moral_reserve": 1.0,
+      "integrity": 1.0,
+      "reciprocity": {
+        "Agent_0": {
+          "given": 0.0,
+          "received": 0.0
+        },
+        "Agent_2": {
+          "given": 0.0,
+          "received": 0.0
+        }
+      },
+      "chosen_action": "share_fairly",
+      "failure_flags": [],
+      "current_value_vector": [
+        0.48778253407109134,
+        0.5842918295199744,
+        0.39127323862220814,
+        0.6808011249688577
+      ],
+      "founding_value_vector": [
+        0.49903466078208003,
+        0.5987588495769602,
+        0.39931047198720027,
+        0.69848303837184
+      ]
+    },
+    {
+      "timestamp": "2026-05-07T19:23:29.217729",
+      "rho": 0.999,
+      "delta": 0.05,
+      "current_constitutional_drift": 0.02888748134050464,
+      "founding_delta": 0.02888748134050464,
+      "effective_alpha": 0.4,
+      "moral_reserve": 1.0,
+      "integrity": 1.0,
+      "reciprocity": {
+        "Agent_0": {
+          "given": 0.0,
+          "received": 0.0
+        },
+        "Agent_2": {
+          "given": 0.0,
+          "received": 0.0
+        }
+      },
+      "chosen_action": "share_fairly",
+      "failure_flags": [],
+      "current_value_vector": [
+        0.4861433149297907,
+        0.5821842620525878,
+        0.3901023678069933,
+        0.6782252091753851
+      ],
+      "founding_value_vector": [
+        0.4983150692261561,
+        0.5978336604336295,
+        0.3987964780186832,
+        0.6973522516411024
+      ]
+    },
+    {
+      "timestamp": "2026-05-07T19:23:29.217761",
+      "rho": 0.999,
+      "delta": 0.05,
+      "current_constitutional_drift": 0.02999019224655561,
+      "founding_delta": 0.02999019224655561,
+      "effective_alpha": 0.4,
+      "moral_reserve": 1.0,
+      "integrity": 1.0,
+      "reciprocity": {
+        "Agent_0": {
+          "given": 0.0,
+          "received": 0.0
+        },
+        "Agent_2": {
+          "given": 0.0,
+          "received": 0.0
+        }
+      },
+      "chosen_action": "share_fairly",
+      "failure_flags": [],
+      "current_value_vector": [
+        0.48484767612050655,
+        0.5805184407263655,
+        0.38917691151464756,
+        0.6761892053322245
+      ],
+      "founding_value_vector": [
+        0.4974840581928338,
+        0.5967652176765008,
+        0.39820289870916725,
+        0.6960463771601674
+      ]
+    },
+    {
+      "timestamp": "2026-05-07T19:23:29.217792",
+      "rho": 0.999,
+      "delta": 0.05,
+      "current_constitutional_drift": 0.03028917278709671,
+      "founding_delta": 0.03028917278709671,
+      "effective_alpha": 0.4,
+      "moral_reserve": 1.0,
+      "integrity": 1.0,
+      "reciprocity": {
+        "Agent_0": {
+          "given": 0.0,
+          "received": 0.0
+        },
+        "Agent_2": {
+          "given": 0.0,
+          "received": 0.0
+        }
+      },
+      "chosen_action": "share_fairly",
+      "failure_flags": [],
+      "current_value_vector": [
+        0.4838236032056484,
+        0.5792017755501193,
+        0.3884454308611775,
+        0.6745799478945903
+      ],
+      "founding_value_vector": [
+        0.4965859608739775,
+        0.5956105211236855,
+        0.39756140062426987,
+        0.6946350813733931
+      ]
+    },
+    {
+      "timestamp": "2026-05-07T19:23:29.217827",
+      "rho": 0.999,
+      "delta": 0.05,
+      "current_constitutional_drift": 0.029998693019506965,
+      "founding_delta": 0.029998693019506965,
+      "effective_alpha": 0.4,
+      "moral_reserve": 1.0,
+      "integrity": 1.0,
+      "reciprocity": {
+        "Agent_0": {
+          "given": 0.0,
+          "received": 0.0
+        },
+        "Agent_2": {
+          "given": 0.0,
+          "received": 0.0
+        }
+      },
+      "chosen_action": "share_fairly",
+      "failure_flags": [],
+      "current_value_vector": [
+        0.48301417597374446,
+        0.5781610833948143,
+        0.3878672685526747,
+        0.6733079908158842
+      ],
+      "founding_value_vector": [
+        0.4956541398508846,
+        0.594412465522566,
+        0.39689581417920344,
+        0.6931707911942471
+      ]
+    },
+    {
+      "timestamp": "2026-05-07T19:23:29.217856",
+      "rho": 0.999,
+      "delta": 0.05,
+      "current_constitutional_drift": 0.02928444734331717,
+      "founding_delta": 0.02928444734331717,
+      "effective_alpha": 0.4,
+      "moral_reserve": 1.0,
+      "integrity": 1.0,
+      "reciprocity": {
+        "Agent_0": {
+          "given": 0.0,
+          "received": 0.0
+        },
+        "Agent_2": {
+          "given": 0.0,
+          "received": 0.0
+        }
+      },
+      "chosen_action": "share_fairly",
+      "failure_flags": [],
+      "current_value_vector": [
+        0.48237440468964765,
+        0.5773385203152612,
+        0.38741028906403413,
+        0.6723026359408749
+      ],
+      "founding_value_vector": [
+        0.4947134208041445,
+        0.5932029696053287,
+        0.3962238720029605,
+        0.6916925184065127
+      ]
+    },
+    {
+      "timestamp": "2026-05-07T19:23:29.217886",
+      "rho": 0.999,
+      "delta": 0.05,
+      "current_constitutional_drift": 0.02827402913040066,
+      "founding_delta": 0.02827402913040066,
+      "effective_alpha": 0.4,
+      "moral_reserve": 1.0,
+      "integrity": 1.0,
+      "reciprocity": {
+        "Agent_0": {
+          "given": 0.0,
+          "received": 0.0
+        },
+        "Agent_2": {
+          "given": 0.0,
+          "received": 0.0
+        }
+      },
+      "chosen_action": "share_fairly",
+      "failure_flags": [],
+      "current_value_vector": [
+        0.48186872946669757,
+        0.5766883664571826,
+        0.3870490924762126,
+        0.6715080034476676
+      ],
+      "founding_value_vector": [
+        0.49378200537632067,
+        0.5920054354838409,
+        0.3955585752688006,
+        0.690228865591361
+      ]
+    },
+    {
+      "timestamp": "2026-05-07T19:23:29.217917",
+      "rho": 0.999,
+      "delta": 0.05,
+      "current_constitutional_drift": 0.02706518641889214,
+      "founding_delta": 0.02706518641889214,
+      "effective_alpha": 0.4,
+      "moral_reserve": 1.0,
+      "integrity": 1.0,
+      "reciprocity": {
+        "Agent_0": {
+          "given": 0.0,
+          "received": 0.0
+        },
+        "Agent_2": {
+          "given": 0.0,
+          "received": 0.0
+        }
+      },
+      "chosen_action": "share_fairly",
+      "failure_flags": [],
+      "current_value_vector": [
+        0.4814690437704778,
+        0.5761744848477571,
+        0.3867636026931985,
+        0.6708799259250365
+      ],
+      "founding_value_vector": [
+        0.49287297321635076,
+        0.5908366798495939,
+        0.3949092665831078,
+        0.6888003864828368
+      ]
+    },
+    {
+      "timestamp": "2026-05-07T19:23:29.217949",
+      "rho": 0.999,
+      "delta": 0.05,
+      "current_constitutional_drift": 0.025732325636177975,
+      "founding_delta": 0.025732325636177975,
+      "effective_alpha": 0.4,
+      "moral_reserve": 1.0,
+      "integrity": 1.0,
+      "reciprocity": {
+        "Agent_0": {
+          "given": 0.0,
+          "received": 0.0
+        },
+        "Agent_2": {
+          "given": 0.0,
+          "received": 0.0
+        }
+      },
+      "chosen_action": "share_fairly",
+      "failure_flags": [],
+      "current_value_vector": [
+        0.48115313219618566,
+        0.5757683128236672,
+        0.38653795156870413,
+        0.6703834934511489
+      ],
+      "founding_value_vector": [
+        0.491995460103758,
+        0.5897084487048317,
+        0.3942824715026844,
+        0.6874214373059053
+      ]
+    },
+    {
+      "timestamp": "2026-05-07T19:23:29.217980",
+      "rho": 0.999,
+      "delta": 0.05,
+      "current_constitutional_drift": 0.024331632290265925,
+      "founding_delta": 0.024331632290265925,
+      "effective_alpha": 0.4,
+      "moral_reserve": 1.0,
+      "integrity": 1.0,
+      "reciprocity": {
+        "Agent_0": {
+          "given": 0.0,
+          "received": 0.0
+        },
+        "Agent_2": {
+          "given": 0.0,
+          "received": 0.0
+        }
+      },
+      "chosen_action": "share_fairly",
+      "failure_flags": [],
+      "current_value_vector": [
+        0.48090343568786514,
+        0.5754472744558266,
+        0.3863595969199038,
+        0.6699911132237881
+      ],
+      "founding_value_vector": [
+        0.4911555807736803,
+        0.5886286038518748,
+        0.3936825576954861,
+        0.686101626930069
+      ]
+    },
+    {
+      "timestamp": "2026-05-07T19:23:29.218011",
+      "rho": 0.999,
+      "delta": 0.05,
+      "current_constitutional_drift": 0.022905100101062458,
+      "founding_delta": 0.022905100101062458,
+      "effective_alpha": 0.4,
+      "moral_reserve": 1.0,
+      "integrity": 1.0,
+      "reciprocity": {
+        "Agent_0": {
+          "given": 0.0,
+          "received": 0.0
+        },
+        "Agent_2": {
+          "given": 0.0,
+          "received": 0.0
+        }
+      },
+      "chosen_action": "share_fairly",
+      "failure_flags": [],
+      "current_value_vector": [
+        0.4807060755676887,
+        0.5751935257298854,
+        0.38621862540549196,
+        0.6696809758920822
+      ],
+      "founding_value_vector": [
+        0.49035715062257335,
+        0.5876020508004515,
+        0.39311225044469544,
+        0.6848469509783295
+      ]
+    },
+    {
+      "timestamp": "2026-05-07T19:23:29.218040",
+      "rho": 0.999,
+      "delta": 0.05,
+      "current_constitutional_drift": 0.02148369882360911,
+      "founding_delta": 0.02148369882360911,
+      "effective_alpha": 0.4,
+      "moral_reserve": 1.0,
+      "integrity": 1.0,
+      "reciprocity": {
+        "Agent_0": {
+          "given": 0.0,
+          "received": 0.0
+        },
+        "Agent_2": {
+          "given": 0.0,
+          "received": 0.0
+        }
+      },
+      "chosen_action": "share_fairly",
+      "failure_flags": [],
+      "current_value_vector": [
+        0.4805500821287011,
+        0.5749929627369015,
+        0.3861072015205009,
+        0.6694358433451019
+      ],
+      "founding_value_vector": [
+        0.48960224906481387,
+        0.5866314630833321,
+        0.3925730350462958,
+        0.6836606771018503
+      ]
+    },
+    {
+      "timestamp": "2026-05-07T19:23:29.218075",
+      "rho": 0.999,
+      "delta": 0.05,
+      "current_constitutional_drift": 0.020089862637611856,
+      "founding_delta": 0.020089862637611856,
+      "effective_alpha": 0.4,
+      "moral_reserve": 1.0,
+      "integrity": 1.0,
+      "reciprocity": {
+        "Agent_0": {
+          "given": 0.0,
+          "received": 0.0
+        },
+        "Agent_2": {
+          "given": 0.0,
+          "received": 0.0
+        }
+      },
+      "chosen_action": "share_fairly",
+      "failure_flags": [],
+      "current_value_vector": [
+        0.4804267849145254,
+        0.5748344377472469,
+        0.38601913208180394,
+        0.6692420905799685
+      ],
+      "founding_value_vector": [
+        0.48889165829654224,
+        0.5857178463812687,
+        0.39206547021181604,
+        0.682544034465995
+      ]
+    },
+    {
+      "timestamp": "2026-05-07T19:23:29.218105",
+      "rho": 0.999,
+      "delta": 0.05,
+      "current_constitutional_drift": 0.018739442749205075,
+      "founding_delta": 0.018739442749205075,
+      "effective_alpha": 0.4,
+      "moral_reserve": 1.0,
+      "integrity": 1.0,
+      "reciprocity": {
+        "Agent_0": {
+          "given": 0.0,
+          "received": 0.0
+        },
+        "Agent_2": {
+          "given": 0.0,
+          "received": 0.0
+        }
+      },
+      "chosen_action": "share_fairly",
+      "failure_flags": [],
+      "current_value_vector": [
+        0.4803293307964409,
+        0.5747091395954239,
+        0.38594952199745786,
+        0.6690889483944071
+      ],
+      "founding_value_vector": [
+        0.4882252041024433,
+        0.5848609767031414,
+        0.39158943150174536,
+        0.6814967493038395
+      ]
+    },
+    {
+      "timestamp": "2026-05-07T19:23:29.218137",
+      "rho": 0.999,
+      "delta": 0.05,
+      "current_constitutional_drift": 0.01744323764377336,
+      "founding_delta": 0.01744323764377336,
+      "effective_alpha": 0.4,
+      "moral_reserve": 1.0,
+      "integrity": 1.0,
+      "reciprocity": {
+        "Agent_0": {
+          "given": 0.0,
+          "received": 0.0
+        },
+        "Agent_2": {
+          "given": 0.0,
+          "received": 0.0
+        }
+      },
+      "chosen_action": "share_fairly",
+      "failure_flags": [],
+      "current_value_vector": [
+        0.4802523030615069,
+        0.574610103936223,
+        0.3858945021867907,
+        0.6689679048109395
+      ],
+      "founding_value_vector": [
+        0.48760201971663897,
+        0.5840597396356787,
+        0.3911442997975994,
+        0.6805174595547184
+      ]
+    },
+    {
+      "timestamp": "2026-05-07T19:23:29.218167",
+      "rho": 0.999,
+      "delta": 0.05,
+      "current_constitutional_drift": 0.016208190560856022,
+      "founding_delta": 0.016208190560856022,
+      "effective_alpha": 0.4,
+      "moral_reserve": 1.0,
+      "integrity": 1.0,
+      "reciprocity": {
+        "Agent_0": {
+          "given": 0.0,
+          "received": 0.0
+        },
+        "Agent_2": {
+          "given": 0.0,
+          "received": 0.0
+        }
+      },
+      "chosen_action": "share_fairly",
+      "failure_flags": [],
+      "current_value_vector": [
+        0.48019142033981504,
+        0.5745318261511907,
+        0.3858510145284394,
+        0.6688722319625666
+      ],
+      "founding_value_vector": [
+        0.4870207493065738,
+        0.5833123919655949,
+        0.39072910664755284,
+        0.679604034624616
+      ]
+    },
+    {
+      "timestamp": "2026-05-07T19:23:29.218196",
+      "rho": 0.999,
+      "delta": 0.05,
+      "current_constitutional_drift": 0.015038324904340872,
+      "founding_delta": 0.015038324904340872,
+      "effective_alpha": 0.4,
+      "moral_reserve": 1.0,
+      "integrity": 1.0,
+      "reciprocity": {
+        "Agent_0": {
+          "given": 0.0,
+          "received": 0.0
+        },
+        "Agent_2": {
+          "given": 0.0,
+          "received": 0.0
+        }
+      },
+      "chosen_action": "share_fairly",
+      "failure_flags": [],
+      "current_value_vector": [
+        0.48014329863658983,
+        0.5744699553899011,
+        0.3858166418832785,
+        0.6687966121432126
+      ],
+      "founding_value_vector": [
+        0.48647970414065494,
+        0.5826167624665564,
+        0.39034264581475364,
+        0.6787538207924578
+      ]
+    },
+    {
+      "timestamp": "2026-05-07T19:23:29.218227",
+      "rho": 0.999,
+      "delta": 0.05,
+      "current_constitutional_drift": 0.013935473402628016,
+      "founding_delta": 0.013935473402628016,
+      "effective_alpha": 0.4,
+      "moral_reserve": 1.0,
+      "integrity": 1.0,
+      "reciprocity": {
+        "Agent_0": {
+          "given": 0.0,
+          "received": 0.0
+        },
+        "Agent_2": {
+          "given": 0.0,
+          "received": 0.0
+        }
+      },
+      "chosen_action": "share_fairly",
+      "failure_flags": [],
+      "current_value_vector": [
+        0.4801052632423606,
+        0.5744210527401779,
+        0.38578947374454337,
+        0.6687368422379952
+      ],
+      "founding_value_vector": [
+        0.48597698173041354,
+        0.5819704050819603,
+        0.38998355837886695,
+        0.677963828433507
+      ]
+    },
+    {
+      "timestamp": "2026-05-07T19:23:29.218259",
+      "rho": 0.999,
+      "delta": 0.05,
+      "current_constitutional_drift": 0.012899845063815276,
+      "founding_delta": 0.012899845063815276,
+      "effective_alpha": 0.4,
+      "moral_reserve": 1.0,
+      "integrity": 1.0,
+      "reciprocity": {
+        "Agent_0": {
+          "given": 0.0,
+          "received": 0.0
+        },
+        "Agent_2": {
+          "given": 0.0,
+          "received": 0.0
+        }
+      },
+      "chosen_action": "share_fairly",
+      "failure_flags": [],
+      "current_value_vector": [
+        0.48007520006676185,
+        0.5743824000858366,
+        0.3857680000476871,
+        0.6686896001049114
+      ],
+      "founding_value_vector": [
+        0.48551055605114757,
+        0.581370714922904,
+        0.38965039717939126,
+        0.6772308737946605
+      ]
+    },
+    {
+      "timestamp": "2026-05-07T19:23:29.218290",
+      "rho": 0.999,
+      "delta": 0.05,
+      "current_constitutional_drift": 0.011930464673907454,
+      "founding_delta": 0.011930464673907454,
+      "effective_alpha": 0.4,
+      "moral_reserve": 1.0,
+      "integrity": 1.0,
+      "reciprocity": {
+        "Agent_0": {
+          "given": 0.0,
+          "received": 0.0
+        },
+        "Agent_2": {
+          "given": 0.0,
+          "received": 0.0
+        }
+      },
+      "chosen_action": "share_fairly",
+      "failure_flags": [],
+      "current_value_vector": [
+        0.48005143813276857,
+        0.5743518490278453,
+        0.3857510272376919,
+        0.668652259922922
+      ],
+      "founding_value_vector": [
+        0.48507834521894144,
+        0.5808150152814961,
+        0.3893416751563869,
+        0.676551685344051
+      ]
+    },
+    {
+      "timestamp": "2026-05-07T19:23:29.218320",
+      "rho": 0.999,
+      "delta": 0.05,
+      "current_constitutional_drift": 0.011025512242886797,
+      "founding_delta": 0.011025512242886797,
+      "effective_alpha": 0.4,
+      "moral_reserve": 1.0,
+      "integrity": 1.0,
+      "reciprocity": {
+        "Agent_0": {
+          "given": 0.0,
+          "received": 0.0
+        },
+        "Agent_2": {
+          "given": 0.0,
+          "received": 0.0
+        }
+      },
+      "chosen_action": "share_fairly",
+      "failure_flags": [],
+      "current_value_vector": [
+        0.4800326567001403,
+        0.5743277014716089,
+        0.3857376119286717,
+        0.6686227462430776
+      ],
+      "founding_value_vector": [
+        0.48467826163987654,
+        0.5803006221084128,
+        0.38905590117134053,
+        0.6759229825769489
+      ]
+    },
+    {
+      "timestamp": "2026-05-07T19:23:29.218351",
+      "rho": 0.999,
+      "delta": 0.05,
+      "current_constitutional_drift": 0.010182584004237655,
+      "founding_delta": 0.010182584004237655,
+      "effective_alpha": 0.4,
+      "moral_reserve": 1.0,
+      "integrity": 1.0,
+      "reciprocity": {
+        "Agent_0": {
+          "given": 0.0,
+          "received": 0.0
+        },
+        "Agent_2": {
+          "given": 0.0,
+          "received": 0.0
+        }
+      },
+      "chosen_action": "share_fairly",
+      "failure_flags": [],
+      "current_value_vector": [
+        0.4800178118557909,
+        0.5743086152431598,
+        0.3857270084684221,
+        0.6685994186305285
+      ],
+      "founding_value_vector": [
+        0.4843082485726776,
+        0.5798248910220143,
+        0.38879160612334135,
+        0.6753415334713506
+      ]
+    },
+    {
+      "timestamp": "2026-05-07T19:23:29.218383",
+      "rho": 0.999,
+      "delta": 0.05,
+      "current_constitutional_drift": 0.009398891994212595,
+      "founding_delta": 0.009398891994212595,
+      "effective_alpha": 0.4,
+      "moral_reserve": 1.0,
+      "integrity": 1.0,
+      "reciprocity": {
+        "Agent_0": {
+          "given": 0.0,
+          "received": 0.0
+        },
+        "Agent_2": {
+          "given": 0.0,
+          "received": 0.0
+        }
+      },
+      "chosen_action": "share_fairly",
+      "failure_flags": [],
+      "current_value_vector": [
+        0.48000607849081717,
+        0.5742935294881935,
+        0.3857186274934409,
+        0.6685809804855698
+      ],
+      "founding_value_vector": [
+        0.48396630619856207,
+        0.5793852508267229,
+        0.38854736157040165,
+        0.6748041954548833
+      ]
+    },
+    {
+      "timestamp": "2026-05-07T19:23:29.218413",
+      "rho": 0.999,
+      "delta": 0.05,
+      "current_constitutional_drift": 0.00867141562170783,
+      "founding_delta": 0.00867141562170783,
+      "effective_alpha": 0.4,
+      "moral_reserve": 1.0,
+      "integrity": 1.0,
+      "reciprocity": {
+        "Agent_0": {
+          "given": 0.0,
+          "received": 0.0
+        },
+        "Agent_2": {
+          "given": 0.0,
+          "received": 0.0
+        }
+      },
+      "chosen_action": "share_fairly",
+      "failure_flags": [],
+      "current_value_vector": [
+        0.4799968044391419,
+        0.5742816057074681,
+        0.3857120031708157,
+        0.6685664069757944
+      ],
+      "founding_value_vector": [
+        0.48365050962392375,
+        0.5789792266593308,
+        0.3883217925885171,
+        0.6743079436947375
+      ]
+    },
+    {
+      "timestamp": "2026-05-07T19:23:29.218444",
+      "rho": 0.999,
+      "delta": 0.05,
+      "current_constitutional_drift": 0.007997015785721375,
+      "founding_delta": 0.007997015785721375,
+      "effective_alpha": 0.4,
+      "moral_reserve": 1.0,
+      "integrity": 1.0,
+      "reciprocity": {
+        "Agent_0": {
+          "given": 0.0,
+          "received": 0.0
+        },
+        "Agent_2": {
+          "given": 0.0,
+          "received": 0.0
+        }
+      },
+      "chosen_action": "share_fairly",
+      "failure_flags": [],
+      "current_value_vector": [
+        0.4799894742286978,
+        0.5742721811511828,
+        0.3857067673062128,
+        0.6685548880736679
+      ],
+      "founding_value_vector": [
+        0.4833590207149632,
+        0.5786044552049528,
+        0.3881135862249739,
+        0.6738498896949423
+      ]
+    },
+    {
+      "timestamp": "2026-05-07T19:23:29.218474",
+      "rho": 0.999,
+      "delta": 0.05,
+      "current_constitutional_drift": 0.007372519845091933,
+      "founding_delta": 0.007372519845091933,
+      "effective_alpha": 0.4,
+      "moral_reserve": 1.0,
+      "integrity": 1.0,
+      "reciprocity": {
+        "Agent_0": {
+          "given": 0.0,
+          "received": 0.0
+        },
+        "Agent_2": {
+          "given": 0.0,
+          "received": 0.0
+        }
+      },
+      "chosen_action": "share_fairly",
+      "failure_flags": [],
+      "current_value_vector": [
+        0.4799836804303627,
+        0.574264731981895,
+        0.38570262887883067,
+        0.6685457835334271
+      ],
+      "founding_value_vector": [
+        0.48309009524866364,
+        0.5782586938911392,
+        0.3879214966061885,
+        0.6734272925336146
+      ]
+    },
+    {
+      "timestamp": "2026-05-07T19:23:29.218503",
+      "rho": 0.999,
+      "delta": 0.05,
+      "current_constitutional_drift": 0.006794783968173718,
+      "founding_delta": 0.006794783968173718,
+      "effective_alpha": 0.4,
+      "moral_reserve": 1.0,
+      "integrity": 1.0,
+      "reciprocity": {
+        "Agent_0": {
+          "given": 0.0,
+          "received": 0.0
+        },
+        "Agent_2": {
+          "given": 0.0,
+          "received": 0.0
+        }
+      },
+      "chosen_action": "share_fairly",
+      "failure_flags": [],
+      "current_value_vector": [
+        0.47997910101215874,
+        0.5742588441584898,
+        0.38569935786582776,
+        0.6685385873048209
+      ],
+      "founding_value_vector": [
+        0.48284208653805594,
+        0.5779398255489293,
+        0.38774434752718306,
+        0.6730375645598025
+      ]
+    },
+    {
+      "timestamp": "2026-05-07T19:23:29.218536",
+      "rho": 0.999,
+      "delta": 0.05,
+      "current_constitutional_drift": 0.006260737988448611,
+      "founding_delta": 0.006260737988448611,
+      "effective_alpha": 0.4,
+      "moral_reserve": 1.0,
+      "integrity": 1.0,
+      "reciprocity": {
+        "Agent_0": {
+          "given": 0.0,
+          "received": 0.0
+        },
+        "Agent_2": {
+          "given": 0.0,
+          "received": 0.0
+        }
+      },
+      "chosen_action": "share_fairly",
+      "failure_flags": [],
+      "current_value_vector": [
+        0.47997548144001023,
+        0.5742541904228704,
+        0.3856967724571503,
+        0.6685328994057305
+      ],
+      "founding_value_vector": [
+        0.48261344643291065,
+        0.5776458596994568,
+        0.387581033166365,
+        0.6726782729660028
+      ]
+    },
+    {
+      "timestamp": "2026-05-07T19:23:29.218566",
+      "rho": 0.999,
+      "delta": 0.05,
+      "current_constitutional_drift": 0.005767416786873533,
+      "founding_delta": 0.005767416786873533,
+      "effective_alpha": 0.4,
+      "moral_reserve": 1.0,
+      "integrity": 1.0,
+      "reciprocity": {
+        "Agent_0": {
+          "given": 0.0,
+          "received": 0.0
+        },
+        "Agent_2": {
+          "given": 0.0,
+          "received": 0.0
+        }
+      },
+      "chosen_action": "share_fairly",
+      "failure_flags": [],
+      "current_value_vector": [
+        0.47997262053018414,
+        0.5742505121102368,
+        0.38569472895013157,
+        0.6685284036902893
+      ],
+      "founding_value_vector": [
+        0.4824027243951453,
+        0.5773749313651871,
+        0.38743051742510404,
+        0.6723471383352286
+      ]
+    },
+    {
+      "timestamp": "2026-05-07T19:23:29.218597",
+      "rho": 0.999,
+      "delta": 0.05,
+      "current_constitutional_drift": 0.0053119813506842615,
+      "founding_delta": 0.0053119813506842615,
+      "effective_alpha": 0.4,
+      "moral_reserve": 1.0,
+      "integrity": 1.0,
+      "reciprocity": {
+        "Agent_0": {
+          "given": 0.0,
+          "received": 0.0
+        },
+        "Agent_2": {
+          "given": 0.0,
+          "received": 0.0
+        }
+      },
+      "chosen_action": "share_fairly",
+      "failure_flags": [],
+      "current_value_vector": [
+        0.4799703592670576,
+        0.5742476047719313,
+        0.38569311376218407,
+        0.6685248502768046
+      ],
+      "founding_value_vector": [
+        0.48220856518972977,
+        0.5771252981010815,
+        0.38729183227837866,
+        0.6720420310124328
+      ]
+    },
+    {
+      "timestamp": "2026-05-07T19:23:29.218627",
+      "rho": 0.999,
+      "delta": 0.05,
+      "current_constitutional_drift": 0.004891731972133078,
+      "founding_delta": 0.004891731972133078,
+      "effective_alpha": 0.4,
+      "moral_reserve": 1.0,
+      "integrity": 1.0,
+      "reciprocity": {
+        "Agent_0": {
+          "given": 0.0,
+          "received": 0.0
+        },
+        "Agent_2": {
+          "given": 0.0,
+          "received": 0.0
+        }
+      },
+      "chosen_action": "share_fairly",
+      "failure_flags": [],
+      "current_value_vector": [
+        0.4799685719646823,
+        0.5742453068117345,
+        0.38569183711763033,
+        0.6685220416587865
+      ],
+      "founding_value_vector": [
+        0.48202970560754477,
+        0.5768953357811293,
+        0.3871640754339608,
+        0.6717609659547135
+      ]
+    }
+  ]
+}

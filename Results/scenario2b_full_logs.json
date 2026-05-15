@@ -1,0 +1,7872 @@
+{
+  "Agent_0": [
+    {
+      "timestamp": "2026-05-07T15:32:48.105028",
+      "agent_id": "Agent_0",
+      "preamble": true,
+      "centers_mapped": 2,
+      "rho": 1.0,
+      "delta": 0.324037034920393,
+      "k": 1.0,
+      "innovation_mode": false,
+      "chosen_action": "share_fairly",
+      "axis_deviations": [
+        0.050000000000000044,
+        0.050000000000000044,
+        0.29999999999999993,
+        0.10000000000000009
+      ],
+      "detailed_weights": [
+        {
+          "id": "Agent_1",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        },
+        {
+          "id": "Agent_2",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        }
+      ],
+      "risk_score": 0.01,
+      "failure_flags": [
+        "high_drift"
+      ],
+      "full_trace": {
+        "centers": [
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.5,
+              0.6,
+              0.4,
+              0.7
+            ]
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.5,
+              0.6,
+              0.4,
+              0.7
+            ]
+          }
+        ],
+        "rho": 1.0,
+        "chosen_action": "share_fairly",
+        "axis_deviations": [
+          0.050000000000000044,
+          0.050000000000000044,
+          0.29999999999999993,
+          0.10000000000000009
+        ],
+        "detailed_weights": [
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          }
+        ],
+        "risk": 0.01,
+        "innovation_mode": false,
+        "boundary_adjustment": "none",
+        "failure_flags": [
+          "high_drift"
+        ],
+        "delta": 0.324037034920393
+      }
+    },
+    {
+      "timestamp": "2026-05-07T15:32:48.105781",
+      "agent_id": "Agent_0",
+      "preamble": true,
+      "centers_mapped": 2,
+      "rho": 0.9995238286060353,
+      "delta": 0.39370039370059057,
+      "k": 1.0,
+      "innovation_mode": false,
+      "chosen_action": "share_fairly",
+      "axis_deviations": [
+        0.12,
+        0.12,
+        0.3199999999999999,
+        0.17000000000000015
+      ],
+      "detailed_weights": [
+        {
+          "id": "Agent_1",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        },
+        {
+          "id": "Agent_2",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        }
+      ],
+      "risk_score": 0.01,
+      "failure_flags": [
+        "high_drift"
+      ],
+      "full_trace": {
+        "centers": [
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.4,
+              0.52,
+              0.38000000000000006,
+              0.6399999999999999
+            ]
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.46,
+              0.54,
+              0.38000000000000006,
+              0.6199999999999999
+            ]
+          }
+        ],
+        "rho": 0.9995238286060353,
+        "chosen_action": "share_fairly",
+        "axis_deviations": [
+          0.12,
+          0.12,
+          0.3199999999999999,
+          0.17000000000000015
+        ],
+        "detailed_weights": [
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          }
+        ],
+        "risk": 0.01,
+        "innovation_mode": false,
+        "boundary_adjustment": "none",
+        "failure_flags": [
+          "high_drift"
+        ],
+        "delta": 0.39370039370059057
+      }
+    },
+    {
+      "timestamp": "2026-05-07T15:32:48.106615",
+      "agent_id": "Agent_0",
+      "preamble": true,
+      "centers_mapped": 2,
+      "rho": 0.9996420214148976,
+      "delta": 0.46073853756767513,
+      "k": 1.0,
+      "innovation_mode": false,
+      "chosen_action": "share_fairly",
+      "axis_deviations": [
+        0.14599999999999996,
+        0.16600000000000004,
+        0.3359999999999999,
+        0.2360000000000001
+      ],
+      "detailed_weights": [
+        {
+          "id": "Agent_1",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        },
+        {
+          "id": "Agent_2",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        }
+      ],
+      "risk_score": 0.01,
+      "failure_flags": [
+        "high_drift"
+      ],
+      "full_trace": {
+        "centers": [
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.38000000000000006,
+              0.47600000000000003,
+              0.36400000000000005,
+              0.5719999999999998
+            ]
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.42800000000000005,
+              0.49200000000000005,
+              0.36400000000000005,
+              0.5559999999999999
+            ]
+          }
+        ],
+        "rho": 0.9996420214148976,
+        "chosen_action": "share_fairly",
+        "axis_deviations": [
+          0.14599999999999996,
+          0.16600000000000004,
+          0.3359999999999999,
+          0.2360000000000001
+        ],
+        "detailed_weights": [
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          }
+        ],
+        "risk": 0.01,
+        "innovation_mode": false,
+        "boundary_adjustment": "none",
+        "failure_flags": [
+          "high_drift"
+        ],
+        "delta": 0.46073853756767513
+      }
+    },
+    {
+      "timestamp": "2026-05-07T15:32:48.107358",
+      "agent_id": "Agent_0",
+      "preamble": true,
+      "centers_mapped": 2,
+      "rho": 0.9997371684019085,
+      "delta": 0.5188094062370111,
+      "k": 1.0,
+      "innovation_mode": false,
+      "chosen_action": "share_fairly",
+      "axis_deviations": [
+        0.1668,
+        0.20279999999999998,
+        0.3487999999999999,
+        0.28880000000000017
+      ],
+      "detailed_weights": [
+        {
+          "id": "Agent_1",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        },
+        {
+          "id": "Agent_2",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        }
+      ],
+      "risk_score": 0.01,
+      "failure_flags": [
+        "high_drift"
+      ],
+      "full_trace": {
+        "centers": [
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.36400000000000005,
+              0.4408,
+              0.35120000000000007,
+              0.5175999999999998
+            ]
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.40240000000000004,
+              0.45360000000000006,
+              0.35120000000000007,
+              0.5047999999999999
+            ]
+          }
+        ],
+        "rho": 0.9997371684019085,
+        "chosen_action": "share_fairly",
+        "axis_deviations": [
+          0.1668,
+          0.20279999999999998,
+          0.3487999999999999,
+          0.28880000000000017
+        ],
+        "detailed_weights": [
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          }
+        ],
+        "risk": 0.01,
+        "innovation_mode": false,
+        "boundary_adjustment": "none",
+        "failure_flags": [
+          "high_drift"
+        ],
+        "delta": 0.5188094062370111
+      }
+    },
+    {
+      "timestamp": "2026-05-07T15:32:48.108373",
+      "agent_id": "Agent_0",
+      "preamble": true,
+      "centers_mapped": 2,
+      "rho": 0.9998111312820556,
+      "delta": 0.5672280387992117,
+      "k": 1.0,
+      "innovation_mode": false,
+      "chosen_action": "share_fairly",
+      "axis_deviations": [
+        0.18344,
+        0.23223999999999995,
+        0.3590399999999999,
+        0.3310400000000001
+      ],
+      "detailed_weights": [
+        {
+          "id": "Agent_1",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        },
+        {
+          "id": "Agent_2",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        }
+      ],
+      "risk_score": 0.01,
+      "failure_flags": [
+        "high_drift"
+      ],
+      "full_trace": {
+        "centers": [
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.35120000000000007,
+              0.41264000000000006,
+              0.34096000000000004,
+              0.4740799999999999
+            ]
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.38192000000000004,
+              0.4228800000000001,
+              0.34096000000000004,
+              0.46384
+            ]
+          }
+        ],
+        "rho": 0.9998111312820556,
+        "chosen_action": "share_fairly",
+        "axis_deviations": [
+          0.18344,
+          0.23223999999999995,
+          0.3590399999999999,
+          0.3310400000000001
+        ],
+        "detailed_weights": [
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          }
+        ],
+        "risk": 0.01,
+        "innovation_mode": false,
+        "boundary_adjustment": "none",
+        "failure_flags": [
+          "high_drift"
+        ],
+        "delta": 0.5672280387992117
+      }
+    },
+    {
+      "timestamp": "2026-05-07T15:32:48.108736",
+      "agent_id": "Agent_0",
+      "preamble": true,
+      "centers_mapped": 2,
+      "rho": 0.9998668472867449,
+      "delta": 0.6069143718186281,
+      "k": 1.0,
+      "innovation_mode": false,
+      "chosen_action": "share_fairly",
+      "axis_deviations": [
+        0.19675200000000004,
+        0.25579199999999996,
+        0.3672319999999999,
+        0.364832
+      ],
+      "detailed_weights": [
+        {
+          "id": "Agent_1",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        },
+        {
+          "id": "Agent_2",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        }
+      ],
+      "risk_score": 0.01,
+      "failure_flags": [
+        "high_drift"
+      ],
+      "full_trace": {
+        "centers": [
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.34096000000000004,
+              0.39011200000000007,
+              0.33276800000000006,
+              0.43926399999999993
+            ]
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.365536,
+              0.3983040000000001,
+              0.33276800000000006,
+              0.431072
+            ]
+          }
+        ],
+        "rho": 0.9998668472867449,
+        "chosen_action": "share_fairly",
+        "axis_deviations": [
+          0.19675200000000004,
+          0.25579199999999996,
+          0.3672319999999999,
+          0.364832
+        ],
+        "detailed_weights": [
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          }
+        ],
+        "risk": 0.01,
+        "innovation_mode": false,
+        "boundary_adjustment": "none",
+        "failure_flags": [
+          "high_drift"
+        ],
+        "delta": 0.6069143718186281
+      }
+    },
+    {
+      "timestamp": "2026-05-07T15:32:48.109217",
+      "agent_id": "Agent_0",
+      "preamble": true,
+      "centers_mapped": 2,
+      "rho": 0.9999076742826226,
+      "delta": 0.6391573225902992,
+      "k": 1.0,
+      "innovation_mode": false,
+      "chosen_action": "share_fairly",
+      "axis_deviations": [
+        0.20740159999999996,
+        0.2746335999999999,
+        0.3737855999999999,
+        0.39186560000000004
+      ],
+      "detailed_weights": [
+        {
+          "id": "Agent_1",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        },
+        {
+          "id": "Agent_2",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        }
+      ],
+      "risk_score": 0.01,
+      "failure_flags": [
+        "high_drift"
+      ],
+      "full_trace": {
+        "centers": [
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.33276800000000006,
+              0.3720896000000001,
+              0.32621440000000007,
+              0.4114112
+            ]
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.35242880000000004,
+              0.3786432000000001,
+              0.32621440000000007,
+              0.40485760000000004
+            ]
+          }
+        ],
+        "rho": 0.9999076742826226,
+        "chosen_action": "share_fairly",
+        "axis_deviations": [
+          0.20740159999999996,
+          0.2746335999999999,
+          0.3737855999999999,
+          0.39186560000000004
+        ],
+        "detailed_weights": [
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          }
+        ],
+        "risk": 0.01,
+        "innovation_mode": false,
+        "boundary_adjustment": "none",
+        "failure_flags": [
+          "high_drift"
+        ],
+        "delta": 0.6391573225902992
+      }
+    },
+    {
+      "timestamp": "2026-05-07T15:32:48.109629",
+      "agent_id": "Agent_0",
+      "preamble": true,
+      "centers_mapped": 2,
+      "rho": 0.9999368869638902,
+      "delta": 0.6652211147680986,
+      "k": 1.0,
+      "innovation_mode": false,
+      "chosen_action": "share_fairly",
+      "axis_deviations": [
+        0.21592128,
+        0.28970687999999994,
+        0.3790284799999999,
+        0.41349248
+      ],
+      "detailed_weights": [
+        {
+          "id": "Agent_1",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        },
+        {
+          "id": "Agent_2",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        }
+      ],
+      "risk_score": 0.01,
+      "failure_flags": [
+        "high_drift"
+      ],
+      "full_trace": {
+        "centers": [
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.32621440000000007,
+              0.35767168000000005,
+              0.32097152000000007,
+              0.38912896
+            ]
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.34194304000000003,
+              0.3629145600000001,
+              0.32097152000000007,
+              0.3838860800000001
+            ]
+          }
+        ],
+        "rho": 0.9999368869638902,
+        "chosen_action": "share_fairly",
+        "axis_deviations": [
+          0.21592128,
+          0.28970687999999994,
+          0.3790284799999999,
+          0.41349248
+        ],
+        "detailed_weights": [
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          }
+        ],
+        "risk": 0.01,
+        "innovation_mode": false,
+        "boundary_adjustment": "none",
+        "failure_flags": [
+          "high_drift"
+        ],
+        "delta": 0.6652211147680986
+      }
+    },
+    {
+      "timestamp": "2026-05-07T15:32:48.110044",
+      "agent_id": "Agent_0",
+      "preamble": true,
+      "centers_mapped": 2,
+      "rho": 0.9999573712117964,
+      "delta": 0.6862246300602446,
+      "k": 1.0,
+      "innovation_mode": false,
+      "chosen_action": "share_fairly",
+      "axis_deviations": [
+        0.222737024,
+        0.3017655039999999,
+        0.38322278399999987,
+        0.43079398399999996
+      ],
+      "detailed_weights": [
+        {
+          "id": "Agent_1",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        },
+        {
+          "id": "Agent_2",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        }
+      ],
+      "risk_score": 0.01,
+      "failure_flags": [
+        "high_drift"
+      ],
+      "full_trace": {
+        "centers": [
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.32097152000000007,
+              0.34613734400000007,
+              0.3167772160000001,
+              0.371303168
+            ]
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.333554432,
+              0.3503316480000001,
+              0.3167772160000001,
+              0.3671088640000001
+            ]
+          }
+        ],
+        "rho": 0.9999573712117964,
+        "chosen_action": "share_fairly",
+        "axis_deviations": [
+          0.222737024,
+          0.3017655039999999,
+          0.38322278399999987,
+          0.43079398399999996
+        ],
+        "detailed_weights": [
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          }
+        ],
+        "risk": 0.01,
+        "innovation_mode": false,
+        "boundary_adjustment": "none",
+        "failure_flags": [
+          "high_drift"
+        ],
+        "delta": 0.6862246300602446
+      }
+    },
+    {
+      "timestamp": "2026-05-07T15:32:48.110773",
+      "agent_id": "Agent_0",
+      "preamble": true,
+      "centers_mapped": 2,
+      "rho": 0.9999714939531695,
+      "delta": 0.7031161457631623,
+      "k": 1.0,
+      "innovation_mode": false,
+      "chosen_action": "share_fairly",
+      "axis_deviations": [
+        0.22818961920000003,
+        0.3114124031999999,
+        0.3865782271999999,
+        0.4446351872
+      ],
+      "detailed_weights": [
+        {
+          "id": "Agent_1",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        },
+        {
+          "id": "Agent_2",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        }
+      ],
+      "risk_score": 0.01,
+      "failure_flags": [
+        "high_drift"
+      ],
+      "full_trace": {
+        "centers": [
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.3167772160000001,
+              0.33690987520000004,
+              0.31342177280000005,
+              0.3570425344
+            ]
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.3268435456,
+              0.34026531840000007,
+              0.31342177280000005,
+              0.3536870912000001
+            ]
+          }
+        ],
+        "rho": 0.9999714939531695,
+        "chosen_action": "share_fairly",
+        "axis_deviations": [
+          0.22818961920000003,
+          0.3114124031999999,
+          0.3865782271999999,
+          0.4446351872
+        ],
+        "detailed_weights": [
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          }
+        ],
+        "risk": 0.01,
+        "innovation_mode": false,
+        "boundary_adjustment": "none",
+        "failure_flags": [
+          "high_drift"
+        ],
+        "delta": 0.7031161457631623
+      }
+    },
+    {
+      "timestamp": "2026-05-07T15:32:48.111481",
+      "agent_id": "Agent_0",
+      "preamble": true,
+      "centers_mapped": 2,
+      "rho": 0.9991439685968619,
+      "delta": 0.7166820497388089,
+      "k": 1.0,
+      "innovation_mode": false,
+      "chosen_action": "share_fairly",
+      "axis_deviations": [
+        0.26255169536,
+        0.32912992256,
+        0.3892625817599999,
+        0.44570814976
+      ],
+      "detailed_weights": [
+        {
+          "id": "Agent_1",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        },
+        {
+          "id": "Agent_2",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        }
+      ],
+      "risk_score": 0.01,
+      "failure_flags": [
+        "high_drift"
+      ],
+      "full_trace": {
+        "centers": [
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.31342177280000005,
+              0.32952790016000005,
+              0.31073741824000006,
+              0.34563402752
+            ]
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.26147483648000003,
+              0.31221225472,
+              0.31073741824000006,
+              0.3629496729600001
+            ]
+          }
+        ],
+        "rho": 0.9991439685968619,
+        "chosen_action": "share_fairly",
+        "axis_deviations": [
+          0.26255169536,
+          0.32912992256,
+          0.3892625817599999,
+          0.44570814976
+        ],
+        "detailed_weights": [
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          }
+        ],
+        "risk": 0.01,
+        "innovation_mode": false,
+        "boundary_adjustment": "none",
+        "failure_flags": [
+          "high_drift"
+        ],
+        "delta": 0.7166820497388089
+      }
+    },
+    {
+      "timestamp": "2026-05-07T15:32:48.111863",
+      "agent_id": "Agent_0",
+      "preamble": true,
+      "centers_mapped": 2,
+      "rho": 0.9994442958446708,
+      "delta": 0.7275665784050591,
+      "k": 1.0,
+      "innovation_mode": false,
+      "chosen_action": "share_fairly",
+      "axis_deviations": [
+        0.26004135628799996,
+        0.33330393804799996,
+        0.3914100654079999,
+        0.456566519808
+      ],
+      "detailed_weights": [
+        {
+          "id": "Agent_1",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        },
+        {
+          "id": "Agent_2",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        }
+      ],
+      "risk_score": 0.01,
+      "failure_flags": [],
+      "full_trace": {
+        "centers": [
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.31073741824000006,
+              0.3236223201280001,
+              0.30858993459200007,
+              0.33650722201600003
+            ]
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.26917986918400005,
+              0.30976980377600005,
+              0.30858993459200007,
+              0.35035973836800005
+            ]
+          }
+        ],
+        "rho": 0.9994442958446708,
+        "chosen_action": "share_fairly",
+        "axis_deviations": [
+          0.26004135628799996,
+          0.33330393804799996,
+          0.3914100654079999,
+          0.456566519808
+        ],
+        "detailed_weights": [
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          }
+        ],
+        "risk": 0.01,
+        "innovation_mode": false,
+        "boundary_adjustment": "none",
+        "failure_flags": [],
+        "delta": 0.7275665784050591
+      }
+    },
+    {
+      "timestamp": "2026-05-07T15:32:48.112424",
+      "agent_id": "Agent_0",
+      "preamble": true,
+      "centers_mapped": 2,
+      "rho": 0.9996404978645239,
+      "delta": 0.736293639333806,
+      "k": 1.0,
+      "innovation_mode": false,
+      "chosen_action": "share_fairly",
+      "axis_deviations": [
+        0.25803308503039996,
+        0.33664315043839993,
+        0.3931280523263999,
+        0.4652532158464
+      ],
+      "detailed_weights": [
+        {
+          "id": "Agent_1",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        },
+        {
+          "id": "Agent_2",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        }
+      ],
+      "risk_score": 0.01,
+      "failure_flags": [],
+      "full_trace": {
+        "centers": [
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.30858993459200007,
+              0.31889785610240007,
+              0.30687194767360004,
+              0.3292057776128
+            ]
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.27534389534720005,
+              0.30781584302080006,
+              0.30687194767360004,
+              0.34028779069440007
+            ]
+          }
+        ],
+        "rho": 0.9996404978645239,
+        "chosen_action": "share_fairly",
+        "axis_deviations": [
+          0.25803308503039996,
+          0.33664315043839993,
+          0.3931280523263999,
+          0.4652532158464
+        ],
+        "detailed_weights": [
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          }
+        ],
+        "risk": 0.01,
+        "innovation_mode": false,
+        "boundary_adjustment": "none",
+        "failure_flags": [],
+        "delta": 0.736293639333806
+      }
+    },
+    {
+      "timestamp": "2026-05-07T15:32:48.112879",
+      "agent_id": "Agent_0",
+      "preamble": true,
+      "centers_mapped": 2,
+      "rho": 0.9997680212713883,
+      "delta": 0.7432872829986794,
+      "k": 1.0,
+      "innovation_mode": false,
+      "chosen_action": "share_fairly",
+      "axis_deviations": [
+        0.25642646802432,
+        0.33931452035071996,
+        0.39450244186111993,
+        0.47220257267711996
+      ],
+      "detailed_weights": [
+        {
+          "id": "Agent_1",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        },
+        {
+          "id": "Agent_2",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        }
+      ],
+      "risk_score": 0.01,
+      "failure_flags": [],
+      "full_trace": {
+        "centers": [
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.30687194767360004,
+              0.31511828488192006,
+              0.30549755813888,
+              0.32336462209024003
+            ]
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.28027511627776003,
+              0.30625267441664006,
+              0.30549755813888,
+              0.3322302325555201
+            ]
+          }
+        ],
+        "rho": 0.9997680212713883,
+        "chosen_action": "share_fairly",
+        "axis_deviations": [
+          0.25642646802432,
+          0.33931452035071996,
+          0.39450244186111993,
+          0.47220257267711996
+        ],
+        "detailed_weights": [
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          }
+        ],
+        "risk": 0.01,
+        "innovation_mode": false,
+        "boundary_adjustment": "none",
+        "failure_flags": [],
+        "delta": 0.7432872829986794
+      }
+    },
+    {
+      "timestamp": "2026-05-07T15:32:48.113365",
+      "agent_id": "Agent_0",
+      "preamble": true,
+      "centers_mapped": 2,
+      "rho": 0.9998505950898577,
+      "delta": 0.7488896560613542,
+      "k": 1.0,
+      "innovation_mode": false,
+      "chosen_action": "share_fairly",
+      "axis_deviations": [
+        0.25514117441945605,
+        0.34145161628057596,
+        0.39560195348889593,
+        0.477762058141696
+      ],
+      "detailed_weights": [
+        {
+          "id": "Agent_1",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        },
+        {
+          "id": "Agent_2",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        }
+      ],
+      "risk_score": 0.01,
+      "failure_flags": [],
+      "full_trace": {
+        "centers": [
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.30549755813888,
+              0.31209462790553605,
+              0.304398046511104,
+              0.318691697672192
+            ]
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.284220093022208,
+              0.30500213953331207,
+              0.304398046511104,
+              0.32578418604441606
+            ]
+          }
+        ],
+        "rho": 0.9998505950898577,
+        "chosen_action": "share_fairly",
+        "axis_deviations": [
+          0.25514117441945605,
+          0.34145161628057596,
+          0.39560195348889593,
+          0.477762058141696
+        ],
+        "detailed_weights": [
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          }
+        ],
+        "risk": 0.01,
+        "innovation_mode": false,
+        "boundary_adjustment": "none",
+        "failure_flags": [],
+        "delta": 0.7488896560613542
+      }
+    },
+    {
+      "timestamp": "2026-05-07T15:32:48.113714",
+      "agent_id": "Agent_0",
+      "preamble": true,
+      "centers_mapped": 2,
+      "rho": 0.9999039146022136,
+      "delta": 0.8844551872732171,
+      "k": 1.0,
+      "innovation_mode": true,
+      "chosen_action": "sacrifice",
+      "axis_deviations": [
+        0.004112939535564741,
+        0.49316129302446077,
+        0.4464815627911168,
+        0.5822096465133568
+      ],
+      "detailed_weights": [
+        {
+          "id": "Agent_1",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        },
+        {
+          "id": "Agent_2",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        }
+      ],
+      "risk_score": 0.05,
+      "failure_flags": [
+        "high_drift"
+      ],
+      "full_trace": {
+        "centers": [
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.304398046511104,
+              0.30967570232442887,
+              0.3035184372088832,
+              0.3149533581377536
+            ]
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.2873760744177664,
+              0.3040017116266497,
+              0.3035184372088832,
+              0.32062734883553284
+            ]
+          }
+        ],
+        "rho": 0.9999039146022136,
+        "chosen_action": "sacrifice",
+        "axis_deviations": [
+          0.004112939535564741,
+          0.49316129302446077,
+          0.4464815627911168,
+          0.5822096465133568
+        ],
+        "detailed_weights": [
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          }
+        ],
+        "risk": 0.05,
+        "innovation_mode": true,
+        "boundary_adjustment": "none",
+        "failure_flags": [
+          "high_drift"
+        ],
+        "delta": 0.8844551872732171
+      }
+    },
+    {
+      "timestamp": "2026-05-07T15:32:48.114106",
+      "agent_id": "Agent_0",
+      "preamble": true,
+      "centers_mapped": 2,
+      "rho": 0.9999265978155896,
+      "delta": 0.887742311462225,
+      "k": 1.0,
+      "innovation_mode": true,
+      "chosen_action": "sacrifice",
+      "axis_deviations": [
+        0.06329035162845181,
+        0.5145290344195685,
+        0.4471852502328934,
+        0.5657677172106854
+      ],
+      "detailed_weights": [
+        {
+          "id": "Agent_1",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        },
+        {
+          "id": "Agent_2",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        }
+      ],
+      "risk_score": 0.05,
+      "failure_flags": [],
+      "full_trace": {
+        "centers": [
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.24351843720888322,
+              0.2877405618595431,
+              0.3028147497671066,
+              0.3319626865102029
+            ]
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.22990085953421313,
+              0.2832013693013197,
+              0.3028147497671066,
+              0.3365018790684263
+            ]
+          }
+        ],
+        "rho": 0.9999265978155896,
+        "chosen_action": "sacrifice",
+        "axis_deviations": [
+          0.06329035162845181,
+          0.5145290344195685,
+          0.4471852502328934,
+          0.5657677172106854
+        ],
+        "detailed_weights": [
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          }
+        ],
+        "risk": 0.05,
+        "innovation_mode": true,
+        "boundary_adjustment": "none",
+        "failure_flags": [],
+        "delta": 0.887742311462225
+      }
+    },
+    {
+      "timestamp": "2026-05-07T15:32:48.114635",
+      "agent_id": "Agent_0",
+      "preamble": true,
+      "centers_mapped": 2,
+      "rho": 0.9999471795051292,
+      "delta": 0.8940396030154587,
+      "k": 1.0,
+      "innovation_mode": true,
+      "chosen_action": "sacrifice",
+      "axis_deviations": [
+        0.11063228130276145,
+        0.5316232275356549,
+        0.4477482001863147,
+        0.5526141737685484
+      ],
+      "detailed_weights": [
+        {
+          "id": "Agent_1",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        },
+        {
+          "id": "Agent_2",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        }
+      ],
+      "risk_score": 0.05,
+      "failure_flags": [],
+      "full_trace": {
+        "centers": [
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.19481474976710658,
+              0.2701924494876345,
+              0.3022517998136853,
+              0.3455701492081623
+            ]
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.18392068762737052,
+              0.2665610954410558,
+              0.3022517998136853,
+              0.3492015032547411
+            ]
+          }
+        ],
+        "rho": 0.9999471795051292,
+        "chosen_action": "sacrifice",
+        "axis_deviations": [
+          0.11063228130276145,
+          0.5316232275356549,
+          0.4477482001863147,
+          0.5526141737685484
+        ],
+        "detailed_weights": [
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          }
+        ],
+        "risk": 0.05,
+        "innovation_mode": true,
+        "boundary_adjustment": "none",
+        "failure_flags": [],
+        "delta": 0.8940396030154587
+      }
+    },
+    {
+      "timestamp": "2026-05-07T15:32:48.115084",
+      "agent_id": "Agent_0",
+      "preamble": true,
+      "centers_mapped": 2,
+      "rho": 0.9978564665156324,
+      "delta": 0.9013775935841678,
+      "k": 1.0,
+      "innovation_mode": true,
+      "chosen_action": "sacrifice",
+      "axis_deviations": [
+        0.11850582504220916,
+        0.5352985820285239,
+        0.4481985601490518,
+        0.5520913390148386
+      ],
+      "detailed_weights": [
+        {
+          "id": "Agent_1",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        },
+        {
+          "id": "Agent_2",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        }
+      ],
+      "risk_score": 0.05,
+      "failure_flags": [],
+      "full_trace": {
+        "centers": [
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.21585179981368527,
+              0.2761539595901076,
+              0.3018014398509482,
+              0.33645611936652986
+            ]
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.1471365501018964,
+              0.2532488763528446,
+              0.3018014398509482,
+              0.3593612026037929
+            ]
+          }
+        ],
+        "rho": 0.9978564665156324,
+        "chosen_action": "sacrifice",
+        "axis_deviations": [
+          0.11850582504220916,
+          0.5352985820285239,
+          0.4481985601490518,
+          0.5520913390148386
+        ],
+        "detailed_weights": [
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          }
+        ],
+        "risk": 0.05,
+        "innovation_mode": true,
+        "boundary_adjustment": "none",
+        "failure_flags": [],
+        "delta": 0.9013775935841678
+      }
+    },
+    {
+      "timestamp": "2026-05-07T15:32:48.115467",
+      "agent_id": "Agent_0",
+      "preamble": true,
+      "centers_mapped": 2,
+      "rho": 0.9985320058367564,
+      "delta": 0.9086849661622574,
+      "k": 1.0,
+      "innovation_mode": true,
+      "chosen_action": "sacrifice",
+      "axis_deviations": [
+        0.1548046600337673,
+        0.5482388656228192,
+        0.4485588481192414,
+        0.5416730712118709
+      ],
+      "detailed_weights": [
+        {
+          "id": "Agent_1",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        },
+        {
+          "id": "Agent_2",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        }
+      ],
+      "risk_score": 0.05,
+      "failure_flags": [],
+      "full_trace": {
+        "centers": [
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.17268143985094822,
+              0.26092316767208606,
+              0.3014411518807586,
+              0.34916489549322394
+            ]
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.11770924008151713,
+              0.2425991010822757,
+              0.3014411518807586,
+              0.36748896208303433
+            ]
+          }
+        ],
+        "rho": 0.9985320058367564,
+        "chosen_action": "sacrifice",
+        "axis_deviations": [
+          0.1548046600337673,
+          0.5482388656228192,
+          0.4485588481192414,
+          0.5416730712118709
+        ],
+        "detailed_weights": [
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          }
+        ],
+        "risk": 0.05,
+        "innovation_mode": true,
+        "boundary_adjustment": "none",
+        "failure_flags": [],
+        "delta": 0.9086849661622574
+      }
+    },
+    {
+      "timestamp": "2026-05-07T15:32:48.115792",
+      "agent_id": "Agent_0",
+      "preamble": true,
+      "centers_mapped": 2,
+      "rho": 0.9990213333452754,
+      "delta": 0.9154285813911518,
+      "k": 1.0,
+      "innovation_mode": true,
+      "chosen_action": "sacrifice",
+      "axis_deviations": [
+        0.18384372802701385,
+        0.5585910924982553,
+        0.4488470784953931,
+        0.5333384569694967
+      ],
+      "detailed_weights": [
+        {
+          "id": "Agent_1",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        },
+        {
+          "id": "Agent_2",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        }
+      ],
+      "risk_score": 0.05,
+      "failure_flags": [],
+      "full_trace": {
+        "centers": [
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.13814515188075857,
+              0.24873853413766886,
+              0.3011529215046069,
+              0.3593319163945792
+            ]
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.09416739206521371,
+              0.23407928086582058,
+              0.3011529215046069,
+              0.3739911696664275
+            ]
+          }
+        ],
+        "rho": 0.9990213333452754,
+        "chosen_action": "sacrifice",
+        "axis_deviations": [
+          0.18384372802701385,
+          0.5585910924982553,
+          0.4488470784953931,
+          0.5333384569694967
+        ],
+        "detailed_weights": [
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          }
+        ],
+        "risk": 0.05,
+        "innovation_mode": true,
+        "boundary_adjustment": "none",
+        "failure_flags": [],
+        "delta": 0.9154285813911518
+      }
+    },
+    {
+      "timestamp": "2026-05-07T15:32:48.118585",
+      "agent_id": "Agent_0",
+      "preamble": true,
+      "centers_mapped": 2,
+      "rho": 0.9996890712657702,
+      "delta": 0.9213853579836467,
+      "k": 1.0,
+      "innovation_mode": true,
+      "chosen_action": "sacrifice",
+      "axis_deviations": [
+        0.17707498242161107,
+        0.5568728739986042,
+        0.4490776627963145,
+        0.5366707655755973
+      ],
+      "detailed_weights": [
+        {
+          "id": "Agent_1",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        },
+        {
+          "id": "Agent_2",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        }
+      ],
+      "risk_score": 0.05,
+      "failure_flags": [],
+      "full_trace": {
+        "centers": [
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.11051612150460687,
+              0.2389908273101351,
+              0.3009223372036855,
+              0.3674655331156634
+            ]
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.13533391365217096,
+              0.24726342469265647,
+              0.3009223372036855,
+              0.359192935733142
+            ]
+          }
+        ],
+        "rho": 0.9996890712657702,
+        "chosen_action": "sacrifice",
+        "axis_deviations": [
+          0.17707498242161107,
+          0.5568728739986042,
+          0.4490776627963145,
+          0.5366707655755973
+        ],
+        "detailed_weights": [
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          }
+        ],
+        "risk": 0.05,
+        "innovation_mode": true,
+        "boundary_adjustment": "none",
+        "failure_flags": [],
+        "delta": 0.9213853579836467
+      }
+    },
+    {
+      "timestamp": "2026-05-07T15:32:48.119376",
+      "agent_id": "Agent_0",
+      "preamble": true,
+      "centers_mapped": 2,
+      "rho": 0.9997957804785733,
+      "delta": 0.9265034001665281,
+      "k": 1.0,
+      "innovation_mode": true,
+      "chosen_action": "sacrifice",
+      "axis_deviations": [
+        0.20165998593728884,
+        0.5654982991988834,
+        0.4492621302370516,
+        0.5293366124604779
+      ],
+      "detailed_weights": [
+        {
+          "id": "Agent_1",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        },
+        {
+          "id": "Agent_2",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        }
+      ],
+      "risk_score": 0.05,
+      "failure_flags": [],
+      "full_trace": {
+        "centers": [
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.0884128972036855,
+              0.2311926618481081,
+              0.3007378697629484,
+              0.3739724264925307
+            ]
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.10826713092173677,
+              0.2378107397541252,
+              0.3007378697629484,
+              0.3673543485865136
+            ]
+          }
+        ],
+        "rho": 0.9997957804785733,
+        "chosen_action": "sacrifice",
+        "axis_deviations": [
+          0.20165998593728884,
+          0.5654982991988834,
+          0.4492621302370516,
+          0.5293366124604779
+        ],
+        "detailed_weights": [
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          }
+        ],
+        "risk": 0.05,
+        "innovation_mode": true,
+        "boundary_adjustment": "none",
+        "failure_flags": [],
+        "delta": 0.9265034001665281
+      }
+    },
+    {
+      "timestamp": "2026-05-07T15:32:48.119862",
+      "agent_id": "Agent_0",
+      "preamble": true,
+      "centers_mapped": 2,
+      "rho": 0.9998674903245701,
+      "delta": 0.9308197527237978,
+      "k": 1.0,
+      "innovation_mode": true,
+      "chosen_action": "sacrifice",
+      "axis_deviations": [
+        0.22132798874983106,
+        0.5723986393591067,
+        0.44940970418964127,
+        0.5234692899683823
+      ],
+      "detailed_weights": [
+        {
+          "id": "Agent_1",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        },
+        {
+          "id": "Agent_2",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        }
+      ],
+      "risk_score": 0.05,
+      "failure_flags": [],
+      "full_trace": {
+        "centers": [
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.0707303177629484,
+              0.2249541294784865,
+              0.30059029581035873,
+              0.3791779411940246
+            ]
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.08661370473738943,
+              0.23024859180330018,
+              0.30059029581035873,
+              0.3738834788692109
+            ]
+          }
+        ],
+        "rho": 0.9998674903245701,
+        "chosen_action": "sacrifice",
+        "axis_deviations": [
+          0.22132798874983106,
+          0.5723986393591067,
+          0.44940970418964127,
+          0.5234692899683823
+        ],
+        "detailed_weights": [
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          }
+        ],
+        "risk": 0.05,
+        "innovation_mode": true,
+        "boundary_adjustment": "none",
+        "failure_flags": [],
+        "delta": 0.9308197527237978
+      }
+    },
+    {
+      "timestamp": "2026-05-07T15:32:48.120304",
+      "agent_id": "Agent_0",
+      "preamble": true,
+      "centers_mapped": 2,
+      "rho": 0.9999146491848643,
+      "delta": 0.9344128720759525,
+      "k": 1.0,
+      "innovation_mode": true,
+      "chosen_action": "sacrifice",
+      "axis_deviations": [
+        0.23706239099986487,
+        0.5779189114872854,
+        0.449527763351713,
+        0.5187754319747058
+      ],
+      "detailed_weights": [
+        {
+          "id": "Agent_1",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        },
+        {
+          "id": "Agent_2",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        }
+      ],
+      "risk_score": 0.05,
+      "failure_flags": [],
+      "full_trace": {
+        "centers": [
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.056584254210358724,
+              0.21996330358278923,
+              0.300472236648287,
+              0.38334235295521973
+            ]
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.06929096378991155,
+              0.22419887344264017,
+              0.300472236648287,
+              0.37910678309536877
+            ]
+          }
+        ],
+        "rho": 0.9999146491848643,
+        "chosen_action": "sacrifice",
+        "axis_deviations": [
+          0.23706239099986487,
+          0.5779189114872854,
+          0.449527763351713,
+          0.5187754319747058
+        ],
+        "detailed_weights": [
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          }
+        ],
+        "risk": 0.05,
+        "innovation_mode": true,
+        "boundary_adjustment": "none",
+        "failure_flags": [],
+        "delta": 0.9344128720759525
+      }
+    },
+    {
+      "timestamp": "2026-05-07T15:32:48.120595",
+      "agent_id": "Agent_0",
+      "preamble": true,
+      "centers_mapped": 2,
+      "rho": 0.9999452586340223,
+      "delta": 0.9373759477107603,
+      "k": 1.0,
+      "innovation_mode": true,
+      "chosen_action": "sacrifice",
+      "axis_deviations": [
+        0.24964991279989188,
+        0.5823351291898282,
+        0.4496222106813704,
+        0.5150203455797646
+      ],
+      "detailed_weights": [
+        {
+          "id": "Agent_1",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        },
+        {
+          "id": "Agent_2",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        }
+      ],
+      "risk_score": 0.05,
+      "failure_flags": [],
+      "full_trace": {
+        "centers": [
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.04526740336828698,
+              0.2159706428662314,
+              0.3003777893186296,
+              0.3866738823641758
+            ]
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.05543277103192924,
+              0.21935909875411216,
+              0.3003777893186296,
+              0.38328542647629504
+            ]
+          }
+        ],
+        "rho": 0.9999452586340223,
+        "chosen_action": "sacrifice",
+        "axis_deviations": [
+          0.24964991279989188,
+          0.5823351291898282,
+          0.4496222106813704,
+          0.5150203455797646
+        ],
+        "detailed_weights": [
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          }
+        ],
+        "risk": 0.05,
+        "innovation_mode": true,
+        "boundary_adjustment": "none",
+        "failure_flags": [],
+        "delta": 0.9373759477107603
+      }
+    },
+    {
+      "timestamp": "2026-05-07T15:32:48.120869",
+      "agent_id": "Agent_0",
+      "preamble": true,
+      "centers_mapped": 2,
+      "rho": 0.9999649730020055,
+      "delta": 0.939802555988512,
+      "k": 1.0,
+      "innovation_mode": true,
+      "chosen_action": "sacrifice",
+      "axis_deviations": [
+        0.2597199302399135,
+        0.5858681033518626,
+        0.44969776854509635,
+        0.5120162764638116
+      ],
+      "detailed_weights": [
+        {
+          "id": "Agent_1",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        },
+        {
+          "id": "Agent_2",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        }
+      ],
+      "risk_score": 0.05,
+      "failure_flags": [],
+      "full_trace": {
+        "centers": [
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.036213922694629586,
+              0.21277651429298514,
+              0.30030223145490365,
+              0.3893391058913407
+            ]
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.0443462168255434,
+              0.21548727900328976,
+              0.30030223145490365,
+              0.38662834118103606
+            ]
+          }
+        ],
+        "rho": 0.9999649730020055,
+        "chosen_action": "sacrifice",
+        "axis_deviations": [
+          0.2597199302399135,
+          0.5858681033518626,
+          0.44969776854509635,
+          0.5120162764638116
+        ],
+        "detailed_weights": [
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          }
+        ],
+        "risk": 0.05,
+        "innovation_mode": true,
+        "boundary_adjustment": "none",
+        "failure_flags": [],
+        "delta": 0.939802555988512
+      }
+    },
+    {
+      "timestamp": "2026-05-07T15:32:48.121118",
+      "agent_id": "Agent_0",
+      "preamble": true,
+      "centers_mapped": 2,
+      "rho": 0.9999776141752648,
+      "delta": 0.9417794954381706,
+      "k": 1.0,
+      "innovation_mode": true,
+      "chosen_action": "sacrifice",
+      "axis_deviations": [
+        0.2677759441919308,
+        0.5886944826814902,
+        0.4497582148360771,
+        0.5096130211710492
+      ],
+      "detailed_weights": [
+        {
+          "id": "Agent_1",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        },
+        {
+          "id": "Agent_2",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        }
+      ],
+      "risk_score": 0.05,
+      "failure_flags": [],
+      "full_trace": {
+        "centers": [
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.02897113815570367,
+              0.21022121143438813,
+              0.3002417851639229,
+              0.3914712847130726
+            ]
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.03547697346043472,
+              0.21238982320263183,
+              0.3002417851639229,
+              0.3893026729448289
+            ]
+          }
+        ],
+        "rho": 0.9999776141752648,
+        "chosen_action": "sacrifice",
+        "axis_deviations": [
+          0.2677759441919308,
+          0.5886944826814902,
+          0.4497582148360771,
+          0.5096130211710492
+        ],
+        "detailed_weights": [
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          }
+        ],
+        "risk": 0.05,
+        "innovation_mode": true,
+        "boundary_adjustment": "none",
+        "failure_flags": [],
+        "delta": 0.9417794954381706
+      }
+    },
+    {
+      "timestamp": "2026-05-07T15:32:48.121338",
+      "agent_id": "Agent_0",
+      "preamble": true,
+      "centers_mapped": 2,
+      "rho": 0.9999857004457354,
+      "delta": 0.9433837192297817,
+      "k": 1.0,
+      "innovation_mode": true,
+      "chosen_action": "sacrifice",
+      "axis_deviations": [
+        0.2742207553535446,
+        0.5909555861451921,
+        0.44980657186886164,
+        0.5076904169368395
+      ],
+      "detailed_weights": [
+        {
+          "id": "Agent_1",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        },
+        {
+          "id": "Agent_2",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        }
+      ],
+      "risk_score": 0.05,
+      "failure_flags": [],
+      "full_trace": {
+        "centers": [
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.023176910524562937,
+              0.20817696914751052,
+              0.30019342813113836,
+              0.3931770277704581
+            ]
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.02838157876834778,
+              0.20991185856210548,
+              0.30019342813113836,
+              0.39144213835586317
+            ]
+          }
+        ],
+        "rho": 0.9999857004457354,
+        "chosen_action": "sacrifice",
+        "axis_deviations": [
+          0.2742207553535446,
+          0.5909555861451921,
+          0.44980657186886164,
+          0.5076904169368395
+        ],
+        "detailed_weights": [
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          }
+        ],
+        "risk": 0.05,
+        "innovation_mode": true,
+        "boundary_adjustment": "none",
+        "failure_flags": [],
+        "delta": 0.9433837192297817
+      }
+    },
+    {
+      "timestamp": "2026-05-07T15:32:48.121628",
+      "agent_id": "Agent_0",
+      "preamble": true,
+      "centers_mapped": 2,
+      "rho": 0.9999908668838646,
+      "delta": 0.9446815334434318,
+      "k": 1.0,
+      "innovation_mode": true,
+      "chosen_action": "sacrifice",
+      "axis_deviations": [
+        0.2793766042828357,
+        0.5927644689161536,
+        0.4498452574950893,
+        0.5061523335494715
+      ],
+      "detailed_weights": [
+        {
+          "id": "Agent_1",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        },
+        {
+          "id": "Agent_2",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        }
+      ],
+      "risk_score": 0.05,
+      "failure_flags": [],
+      "full_trace": {
+        "centers": [
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.01854152841965035,
+              0.20654157531800843,
+              0.3001547425049107,
+              0.3945416222163665
+            ]
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.022705263014678224,
+              0.2079294868496844,
+              0.3001547425049107,
+              0.39315371068469057
+            ]
+          }
+        ],
+        "rho": 0.9999908668838646,
+        "chosen_action": "sacrifice",
+        "axis_deviations": [
+          0.2793766042828357,
+          0.5927644689161536,
+          0.4498452574950893,
+          0.5061523335494715
+        ],
+        "detailed_weights": [
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          }
+        ],
+        "risk": 0.05,
+        "innovation_mode": true,
+        "boundary_adjustment": "none",
+        "failure_flags": [],
+        "delta": 0.9446815334434318
+      }
+    }
+  ],
+  "Agent_1": [
+    {
+      "timestamp": "2026-05-07T15:32:48.105227",
+      "agent_id": "Agent_1",
+      "preamble": true,
+      "centers_mapped": 2,
+      "rho": 1.0,
+      "delta": 0.4924428900898053,
+      "k": 1.0,
+      "innovation_mode": false,
+      "chosen_action": "sacrifice",
+      "axis_deviations": [
+        0.2,
+        0.20000000000000007,
+        0.35,
+        0.20000000000000007
+      ],
+      "detailed_weights": [
+        {
+          "id": "Agent_0",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        },
+        {
+          "id": "Agent_2",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        }
+      ],
+      "risk_score": 0.05,
+      "failure_flags": [
+        "high_drift"
+      ],
+      "full_trace": {
+        "centers": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.5,
+              0.6,
+              0.4,
+              0.7
+            ]
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.5,
+              0.6,
+              0.4,
+              0.7
+            ]
+          }
+        ],
+        "rho": 1.0,
+        "chosen_action": "sacrifice",
+        "axis_deviations": [
+          0.2,
+          0.20000000000000007,
+          0.35,
+          0.20000000000000007
+        ],
+        "detailed_weights": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          }
+        ],
+        "risk": 0.05,
+        "innovation_mode": false,
+        "boundary_adjustment": "none",
+        "failure_flags": [
+          "high_drift"
+        ],
+        "delta": 0.4924428900898053
+      }
+    },
+    {
+      "timestamp": "2026-05-07T15:32:48.105969",
+      "agent_id": "Agent_1",
+      "preamble": true,
+      "centers_mapped": 2,
+      "rho": 1.0,
+      "delta": 0.40914545090957566,
+      "k": 1.0,
+      "innovation_mode": false,
+      "chosen_action": "share_fairly",
+      "axis_deviations": [
+        0.08999999999999997,
+        0.10999999999999999,
+        0.3199999999999999,
+        0.18000000000000016
+      ],
+      "detailed_weights": [
+        {
+          "id": "Agent_0",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        },
+        {
+          "id": "Agent_2",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        }
+      ],
+      "risk_score": 0.01,
+      "failure_flags": [
+        "high_drift"
+      ],
+      "full_trace": {
+        "centers": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.46,
+              0.54,
+              0.38000000000000006,
+              0.6199999999999999
+            ]
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.46,
+              0.54,
+              0.38000000000000006,
+              0.6199999999999999
+            ]
+          }
+        ],
+        "rho": 1.0,
+        "chosen_action": "share_fairly",
+        "axis_deviations": [
+          0.08999999999999997,
+          0.10999999999999999,
+          0.3199999999999999,
+          0.18000000000000016
+        ],
+        "detailed_weights": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          }
+        ],
+        "risk": 0.01,
+        "innovation_mode": false,
+        "boundary_adjustment": "none",
+        "failure_flags": [
+          "high_drift"
+        ],
+        "delta": 0.40914545090957566
+      }
+    },
+    {
+      "timestamp": "2026-05-07T15:32:48.106764",
+      "agent_id": "Agent_1",
+      "preamble": true,
+      "centers_mapped": 2,
+      "rho": 1.0,
+      "delta": 0.4733455397487126,
+      "k": 1.0,
+      "innovation_mode": false,
+      "chosen_action": "share_fairly",
+      "axis_deviations": [
+        0.122,
+        0.15799999999999997,
+        0.3359999999999999,
+        0.2440000000000001
+      ],
+      "detailed_weights": [
+        {
+          "id": "Agent_0",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        },
+        {
+          "id": "Agent_2",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        }
+      ],
+      "risk_score": 0.01,
+      "failure_flags": [
+        "high_drift"
+      ],
+      "full_trace": {
+        "centers": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.42800000000000005,
+              0.49200000000000005,
+              0.36400000000000005,
+              0.5559999999999999
+            ]
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.42800000000000005,
+              0.49200000000000005,
+              0.36400000000000005,
+              0.5559999999999999
+            ]
+          }
+        ],
+        "rho": 1.0,
+        "chosen_action": "share_fairly",
+        "axis_deviations": [
+          0.122,
+          0.15799999999999997,
+          0.3359999999999999,
+          0.2440000000000001
+        ],
+        "detailed_weights": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          }
+        ],
+        "risk": 0.01,
+        "innovation_mode": false,
+        "boundary_adjustment": "none",
+        "failure_flags": [
+          "high_drift"
+        ],
+        "delta": 0.4733455397487126
+      }
+    },
+    {
+      "timestamp": "2026-05-07T15:32:48.107567",
+      "agent_id": "Agent_1",
+      "preamble": true,
+      "centers_mapped": 2,
+      "rho": 1.0,
+      "delta": 0.5289346273406573,
+      "k": 1.0,
+      "innovation_mode": false,
+      "chosen_action": "share_fairly",
+      "axis_deviations": [
+        0.1476,
+        0.19639999999999996,
+        0.3487999999999999,
+        0.29520000000000013
+      ],
+      "detailed_weights": [
+        {
+          "id": "Agent_0",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        },
+        {
+          "id": "Agent_2",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        }
+      ],
+      "risk_score": 0.01,
+      "failure_flags": [],
+      "full_trace": {
+        "centers": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.40240000000000004,
+              0.45360000000000006,
+              0.35120000000000007,
+              0.5047999999999999
+            ]
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.40240000000000004,
+              0.45360000000000006,
+              0.35120000000000007,
+              0.5047999999999999
+            ]
+          }
+        ],
+        "rho": 1.0,
+        "chosen_action": "share_fairly",
+        "axis_deviations": [
+          0.1476,
+          0.19639999999999996,
+          0.3487999999999999,
+          0.29520000000000013
+        ],
+        "detailed_weights": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          }
+        ],
+        "risk": 0.01,
+        "innovation_mode": false,
+        "boundary_adjustment": "none",
+        "failure_flags": [],
+        "delta": 0.5289346273406573
+      }
+    },
+    {
+      "timestamp": "2026-05-07T15:32:48.108451",
+      "agent_id": "Agent_1",
+      "preamble": true,
+      "centers_mapped": 2,
+      "rho": 1.0,
+      "delta": 0.5753214558835782,
+      "k": 1.0,
+      "innovation_mode": false,
+      "chosen_action": "share_fairly",
+      "axis_deviations": [
+        0.16808,
+        0.22711999999999988,
+        0.3590399999999999,
+        0.33616
+      ],
+      "detailed_weights": [
+        {
+          "id": "Agent_0",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        },
+        {
+          "id": "Agent_2",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        }
+      ],
+      "risk_score": 0.01,
+      "failure_flags": [],
+      "full_trace": {
+        "centers": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.38192000000000004,
+              0.4228800000000001,
+              0.34096000000000004,
+              0.46384
+            ]
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.38192000000000004,
+              0.4228800000000001,
+              0.34096000000000004,
+              0.46384
+            ]
+          }
+        ],
+        "rho": 1.0,
+        "chosen_action": "share_fairly",
+        "axis_deviations": [
+          0.16808,
+          0.22711999999999988,
+          0.3590399999999999,
+          0.33616
+        ],
+        "detailed_weights": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          }
+        ],
+        "risk": 0.01,
+        "innovation_mode": false,
+        "boundary_adjustment": "none",
+        "failure_flags": [],
+        "delta": 0.5753214558835782
+      }
+    },
+    {
+      "timestamp": "2026-05-07T15:32:48.108887",
+      "agent_id": "Agent_1",
+      "preamble": true,
+      "centers_mapped": 2,
+      "rho": 1.0000000000000002,
+      "delta": 0.613375331802641,
+      "k": 1.0,
+      "innovation_mode": false,
+      "chosen_action": "share_fairly",
+      "axis_deviations": [
+        0.18446400000000002,
+        0.2516959999999999,
+        0.3672319999999999,
+        0.368928
+      ],
+      "detailed_weights": [
+        {
+          "id": "Agent_0",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        },
+        {
+          "id": "Agent_2",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        }
+      ],
+      "risk_score": 0.01,
+      "failure_flags": [],
+      "full_trace": {
+        "centers": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.365536,
+              0.3983040000000001,
+              0.33276800000000006,
+              0.431072
+            ]
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.365536,
+              0.3983040000000001,
+              0.33276800000000006,
+              0.431072
+            ]
+          }
+        ],
+        "rho": 1.0000000000000002,
+        "chosen_action": "share_fairly",
+        "axis_deviations": [
+          0.18446400000000002,
+          0.2516959999999999,
+          0.3672319999999999,
+          0.368928
+        ],
+        "detailed_weights": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          }
+        ],
+        "risk": 0.01,
+        "innovation_mode": false,
+        "boundary_adjustment": "none",
+        "failure_flags": [],
+        "delta": 0.613375331802641
+      }
+    },
+    {
+      "timestamp": "2026-05-07T15:32:48.109292",
+      "agent_id": "Agent_1",
+      "preamble": true,
+      "centers_mapped": 2,
+      "rho": 1.0,
+      "delta": 0.6443142575676561,
+      "k": 1.0,
+      "innovation_mode": false,
+      "chosen_action": "share_fairly",
+      "axis_deviations": [
+        0.1975712,
+        0.2713567999999999,
+        0.3737855999999999,
+        0.3951424
+      ],
+      "detailed_weights": [
+        {
+          "id": "Agent_0",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        },
+        {
+          "id": "Agent_2",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        }
+      ],
+      "risk_score": 0.01,
+      "failure_flags": [
+        "high_drift"
+      ],
+      "full_trace": {
+        "centers": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.35242880000000004,
+              0.3786432000000001,
+              0.32621440000000007,
+              0.40485760000000004
+            ]
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.35242880000000004,
+              0.3786432000000001,
+              0.32621440000000007,
+              0.40485760000000004
+            ]
+          }
+        ],
+        "rho": 1.0,
+        "chosen_action": "share_fairly",
+        "axis_deviations": [
+          0.1975712,
+          0.2713567999999999,
+          0.3737855999999999,
+          0.3951424
+        ],
+        "detailed_weights": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          }
+        ],
+        "risk": 0.01,
+        "innovation_mode": false,
+        "boundary_adjustment": "none",
+        "failure_flags": [
+          "high_drift"
+        ],
+        "delta": 0.6443142575676561
+      }
+    },
+    {
+      "timestamp": "2026-05-07T15:32:48.109696",
+      "agent_id": "Agent_1",
+      "preamble": true,
+      "centers_mapped": 2,
+      "rho": 0.9999999999999998,
+      "delta": 0.6693380622698625,
+      "k": 1.0,
+      "innovation_mode": false,
+      "chosen_action": "share_fairly",
+      "axis_deviations": [
+        0.20805696,
+        0.2870854399999999,
+        0.3790284799999999,
+        0.41611391999999997
+      ],
+      "detailed_weights": [
+        {
+          "id": "Agent_0",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        },
+        {
+          "id": "Agent_2",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        }
+      ],
+      "risk_score": 0.01,
+      "failure_flags": [
+        "high_drift"
+      ],
+      "full_trace": {
+        "centers": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.34194304000000003,
+              0.3629145600000001,
+              0.32097152000000007,
+              0.3838860800000001
+            ]
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.34194304000000003,
+              0.3629145600000001,
+              0.32097152000000007,
+              0.3838860800000001
+            ]
+          }
+        ],
+        "rho": 0.9999999999999998,
+        "chosen_action": "share_fairly",
+        "axis_deviations": [
+          0.20805696,
+          0.2870854399999999,
+          0.3790284799999999,
+          0.41611391999999997
+        ],
+        "detailed_weights": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          }
+        ],
+        "risk": 0.01,
+        "innovation_mode": false,
+        "boundary_adjustment": "none",
+        "failure_flags": [
+          "high_drift"
+        ],
+        "delta": 0.6693380622698625
+      }
+    },
+    {
+      "timestamp": "2026-05-07T15:32:48.110238",
+      "agent_id": "Agent_1",
+      "preamble": true,
+      "centers_mapped": 2,
+      "rho": 1.0000000000000002,
+      "delta": 0.6895123162830606,
+      "k": 1.0,
+      "innovation_mode": false,
+      "chosen_action": "share_fairly",
+      "axis_deviations": [
+        0.21644556800000003,
+        0.2996683519999999,
+        0.38322278399999987,
+        0.43289113599999995
+      ],
+      "detailed_weights": [
+        {
+          "id": "Agent_0",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        },
+        {
+          "id": "Agent_2",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        }
+      ],
+      "risk_score": 0.01,
+      "failure_flags": [
+        "high_drift"
+      ],
+      "full_trace": {
+        "centers": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.333554432,
+              0.3503316480000001,
+              0.3167772160000001,
+              0.3671088640000001
+            ]
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.333554432,
+              0.3503316480000001,
+              0.3167772160000001,
+              0.3671088640000001
+            ]
+          }
+        ],
+        "rho": 1.0000000000000002,
+        "chosen_action": "share_fairly",
+        "axis_deviations": [
+          0.21644556800000003,
+          0.2996683519999999,
+          0.38322278399999987,
+          0.43289113599999995
+        ],
+        "detailed_weights": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          }
+        ],
+        "risk": 0.01,
+        "innovation_mode": false,
+        "boundary_adjustment": "none",
+        "failure_flags": [
+          "high_drift"
+        ],
+        "delta": 0.6895123162830606
+      }
+    },
+    {
+      "timestamp": "2026-05-07T15:32:48.110936",
+      "agent_id": "Agent_1",
+      "preamble": true,
+      "centers_mapped": 2,
+      "rho": 0.9999999999999998,
+      "delta": 0.7057424001006742,
+      "k": 1.0,
+      "innovation_mode": false,
+      "chosen_action": "share_fairly",
+      "axis_deviations": [
+        0.22315645440000004,
+        0.30973468159999995,
+        0.3865782271999999,
+        0.44631290879999996
+      ],
+      "detailed_weights": [
+        {
+          "id": "Agent_0",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        },
+        {
+          "id": "Agent_2",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        }
+      ],
+      "risk_score": 0.01,
+      "failure_flags": [
+        "high_drift"
+      ],
+      "full_trace": {
+        "centers": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.3268435456,
+              0.34026531840000007,
+              0.31342177280000005,
+              0.3536870912000001
+            ]
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.3268435456,
+              0.34026531840000007,
+              0.31342177280000005,
+              0.3536870912000001
+            ]
+          }
+        ],
+        "rho": 0.9999999999999998,
+        "chosen_action": "share_fairly",
+        "axis_deviations": [
+          0.22315645440000004,
+          0.30973468159999995,
+          0.3865782271999999,
+          0.44631290879999996
+        ],
+        "detailed_weights": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          }
+        ],
+        "risk": 0.01,
+        "innovation_mode": false,
+        "boundary_adjustment": "none",
+        "failure_flags": [
+          "high_drift"
+        ],
+        "delta": 0.7057424001006742
+      }
+    },
+    {
+      "timestamp": "2026-05-07T15:32:48.111613",
+      "agent_id": "Agent_1",
+      "preamble": true,
+      "centers_mapped": 2,
+      "rho": 0.9988705381590512,
+      "delta": 0.7187805081296449,
+      "k": 1.0,
+      "innovation_mode": false,
+      "chosen_action": "share_fairly",
+      "axis_deviations": [
+        0.25852516352000005,
+        0.32778774528,
+        0.3892625817599999,
+        0.44705032704
+      ],
+      "detailed_weights": [
+        {
+          "id": "Agent_0",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        },
+        {
+          "id": "Agent_2",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        }
+      ],
+      "risk_score": 0.01,
+      "failure_flags": [],
+      "full_trace": {
+        "centers": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.32147483648,
+              0.33221225472000004,
+              0.31073741824000006,
+              0.34294967296000006
+            ]
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.26147483648000003,
+              0.31221225472,
+              0.31073741824000006,
+              0.3629496729600001
+            ]
+          }
+        ],
+        "rho": 0.9988705381590512,
+        "chosen_action": "share_fairly",
+        "axis_deviations": [
+          0.25852516352000005,
+          0.32778774528,
+          0.3892625817599999,
+          0.44705032704
+        ],
+        "detailed_weights": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          }
+        ],
+        "risk": 0.01,
+        "innovation_mode": false,
+        "boundary_adjustment": "none",
+        "failure_flags": [],
+        "delta": 0.7187805081296449
+      }
+    },
+    {
+      "timestamp": "2026-05-07T15:32:48.111986",
+      "agent_id": "Agent_1",
+      "preamble": true,
+      "centers_mapped": 2,
+      "rho": 0.9992654255491823,
+      "delta": 0.7292436955470446,
+      "k": 1.0,
+      "innovation_mode": false,
+      "chosen_action": "share_fairly",
+      "axis_deviations": [
+        0.25682013081599997,
+        0.3322301962239999,
+        0.3914100654079999,
+        0.457640261632
+      ],
+      "detailed_weights": [
+        {
+          "id": "Agent_0",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        },
+        {
+          "id": "Agent_2",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        }
+      ],
+      "risk_score": 0.01,
+      "failure_flags": [],
+      "full_trace": {
+        "centers": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.31717986918400004,
+              0.32576980377600007,
+              0.30858993459200007,
+              0.33435973836800004
+            ]
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.26917986918400005,
+              0.30976980377600005,
+              0.30858993459200007,
+              0.35035973836800005
+            ]
+          }
+        ],
+        "rho": 0.9992654255491823,
+        "chosen_action": "share_fairly",
+        "axis_deviations": [
+          0.25682013081599997,
+          0.3322301962239999,
+          0.3914100654079999,
+          0.457640261632
+        ],
+        "detailed_weights": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          }
+        ],
+        "risk": 0.01,
+        "innovation_mode": false,
+        "boundary_adjustment": "none",
+        "failure_flags": [],
+        "delta": 0.7292436955470446
+      }
+    },
+    {
+      "timestamp": "2026-05-07T15:32:48.112574",
+      "agent_id": "Agent_1",
+      "preamble": true,
+      "centers_mapped": 2,
+      "rho": 0.9995240165799343,
+      "delta": 0.7376342689524388,
+      "k": 1.0,
+      "innovation_mode": false,
+      "chosen_action": "share_fairly",
+      "axis_deviations": [
+        0.25545610465279994,
+        0.3357841569792,
+        0.3931280523263999,
+        0.4661122093056
+      ],
+      "detailed_weights": [
+        {
+          "id": "Agent_0",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        },
+        {
+          "id": "Agent_2",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        }
+      ],
+      "risk_score": 0.01,
+      "failure_flags": [],
+      "full_trace": {
+        "centers": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.31374389534720004,
+              0.32061584302080004,
+              0.30687194767360004,
+              0.32748779069440004
+            ]
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.27534389534720005,
+              0.30781584302080006,
+              0.30687194767360004,
+              0.34028779069440007
+            ]
+          }
+        ],
+        "rho": 0.9995240165799343,
+        "chosen_action": "share_fairly",
+        "axis_deviations": [
+          0.25545610465279994,
+          0.3357841569792,
+          0.3931280523263999,
+          0.4661122093056
+        ],
+        "detailed_weights": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          }
+        ],
+        "risk": 0.01,
+        "innovation_mode": false,
+        "boundary_adjustment": "none",
+        "failure_flags": [],
+        "delta": 0.7376342689524388
+      }
+    },
+    {
+      "timestamp": "2026-05-07T15:32:48.112950",
+      "agent_id": "Agent_1",
+      "preamble": true,
+      "centers_mapped": 2,
+      "rho": 0.9996924392665804,
+      "delta": 0.7443591022201728,
+      "k": 1.0,
+      "innovation_mode": false,
+      "chosen_action": "share_fairly",
+      "axis_deviations": [
+        0.25436488372224,
+        0.33862732558336,
+        0.39450244186111993,
+        0.47288976744447997
+      ],
+      "detailed_weights": [
+        {
+          "id": "Agent_0",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        },
+        {
+          "id": "Agent_2",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        }
+      ],
+      "risk_score": 0.01,
+      "failure_flags": [],
+      "full_trace": {
+        "centers": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.31099511627776005,
+              0.31649267441664003,
+              0.30549755813888,
+              0.32199023255552006
+            ]
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.28027511627776003,
+              0.30625267441664006,
+              0.30549755813888,
+              0.3322302325555201
+            ]
+          }
+        ],
+        "rho": 0.9996924392665804,
+        "chosen_action": "share_fairly",
+        "axis_deviations": [
+          0.25436488372224,
+          0.33862732558336,
+          0.39450244186111993,
+          0.47288976744447997
+        ],
+        "detailed_weights": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          }
+        ],
+        "risk": 0.01,
+        "innovation_mode": false,
+        "boundary_adjustment": "none",
+        "failure_flags": [],
+        "delta": 0.7443591022201728
+      }
+    },
+    {
+      "timestamp": "2026-05-07T15:32:48.113447",
+      "agent_id": "Agent_1",
+      "preamble": true,
+      "centers_mapped": 2,
+      "rho": 0.9998016902100734,
+      "delta": 0.7497466719234276,
+      "k": 1.0,
+      "innovation_mode": false,
+      "chosen_action": "share_fairly",
+      "axis_deviations": [
+        0.253491906977792,
+        0.34090186046668797,
+        0.39560195348889593,
+        0.478311813955584
+      ],
+      "detailed_weights": [
+        {
+          "id": "Agent_0",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        },
+        {
+          "id": "Agent_2",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        }
+      ],
+      "risk_score": 0.01,
+      "failure_flags": [],
+      "full_trace": {
+        "centers": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.30879609302220806,
+              0.31319413953331204,
+              0.304398046511104,
+              0.3175921860444161
+            ]
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.284220093022208,
+              0.30500213953331207,
+              0.304398046511104,
+              0.32578418604441606
+            ]
+          }
+        ],
+        "rho": 0.9998016902100734,
+        "chosen_action": "share_fairly",
+        "axis_deviations": [
+          0.253491906977792,
+          0.34090186046668797,
+          0.39560195348889593,
+          0.478311813955584
+        ],
+        "detailed_weights": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          }
+        ],
+        "risk": 0.01,
+        "innovation_mode": false,
+        "boundary_adjustment": "none",
+        "failure_flags": [],
+        "delta": 0.7497466719234276
+      }
+    },
+    {
+      "timestamp": "2026-05-07T15:32:48.113792",
+      "agent_id": "Agent_1",
+      "preamble": true,
+      "centers_mapped": 2,
+      "rho": 0.9998723417274036,
+      "delta": 0.8843430436040336,
+      "k": 1.0,
+      "innovation_mode": true,
+      "chosen_action": "sacrifice",
+      "axis_deviations": [
+        0.002793525582233558,
+        0.4927214883733504,
+        0.4464815627911168,
+        0.5826494511644672
+      ],
+      "detailed_weights": [
+        {
+          "id": "Agent_0",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        },
+        {
+          "id": "Agent_2",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        }
+      ],
+      "risk_score": 0.05,
+      "failure_flags": [
+        "high_drift"
+      ],
+      "full_trace": {
+        "centers": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.30703687441776645,
+              0.3105553116266496,
+              0.3035184372088832,
+              0.31407374883553285
+            ]
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.2873760744177664,
+              0.3040017116266497,
+              0.3035184372088832,
+              0.32062734883553284
+            ]
+          }
+        ],
+        "rho": 0.9998723417274036,
+        "chosen_action": "sacrifice",
+        "axis_deviations": [
+          0.002793525582233558,
+          0.4927214883733504,
+          0.4464815627911168,
+          0.5826494511644672
+        ],
+        "detailed_weights": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          }
+        ],
+        "risk": 0.05,
+        "innovation_mode": true,
+        "boundary_adjustment": "none",
+        "failure_flags": [
+          "high_drift"
+        ],
+        "delta": 0.8843430436040336
+      }
+    },
+    {
+      "timestamp": "2026-05-07T15:32:48.114195",
+      "agent_id": "Agent_1",
+      "preamble": true,
+      "centers_mapped": 2,
+      "rho": 0.9999023446129814,
+      "delta": 0.887829339705478,
+      "k": 1.0,
+      "innovation_mode": true,
+      "chosen_action": "sacrifice",
+      "axis_deviations": [
+        0.06223482046578688,
+        0.5141771906986803,
+        0.4471852502328934,
+        0.5661195609315737
+      ],
+      "detailed_weights": [
+        {
+          "id": "Agent_0",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        },
+        {
+          "id": "Agent_2",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        }
+      ],
+      "risk_score": 0.05,
+      "failure_flags": [],
+      "full_trace": {
+        "centers": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.24562949953421317,
+              0.2884442493013197,
+              0.3028147497671066,
+              0.3312589990684263
+            ]
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.22990085953421313,
+              0.2832013693013197,
+              0.3028147497671066,
+              0.3365018790684263
+            ]
+          }
+        ],
+        "rho": 0.9999023446129814,
+        "chosen_action": "sacrifice",
+        "axis_deviations": [
+          0.06223482046578688,
+          0.5141771906986803,
+          0.4471852502328934,
+          0.5661195609315737
+        ],
+        "detailed_weights": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          }
+        ],
+        "risk": 0.05,
+        "innovation_mode": true,
+        "boundary_adjustment": "none",
+        "failure_flags": [],
+        "delta": 0.887829339705478
+      }
+    },
+    {
+      "timestamp": "2026-05-07T15:32:48.114739",
+      "agent_id": "Agent_1",
+      "preamble": true,
+      "centers_mapped": 2,
+      "rho": 0.9999296559148448,
+      "delta": 0.796944450668521,
+      "k": 1.0,
+      "innovation_mode": true,
+      "chosen_action": "share_fairly",
+      "axis_deviations": [
+        0.3597878563726295,
+        0.38134175255894426,
+        0.3977482001863147,
+        0.45289564874525895
+      ],
+      "detailed_weights": [
+        {
+          "id": "Agent_0",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        },
+        {
+          "id": "Agent_2",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        }
+      ],
+      "risk_score": 0.01,
+      "failure_flags": [],
+      "full_trace": {
+        "centers": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.19650359962737055,
+              0.27075539944105576,
+              0.3022517998136853,
+              0.3450071992547411
+            ]
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.18392068762737052,
+              0.2665610954410558,
+              0.3022517998136853,
+              0.3492015032547411
+            ]
+          }
+        ],
+        "rho": 0.9999296559148448,
+        "chosen_action": "share_fairly",
+        "axis_deviations": [
+          0.3597878563726295,
+          0.38134175255894426,
+          0.3977482001863147,
+          0.45289564874525895
+        ],
+        "detailed_weights": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          }
+        ],
+        "risk": 0.01,
+        "innovation_mode": true,
+        "boundary_adjustment": "none",
+        "failure_flags": [],
+        "delta": 0.796944450668521
+      }
+    },
+    {
+      "timestamp": "2026-05-07T15:32:48.115199",
+      "agent_id": "Agent_1",
+      "preamble": true,
+      "centers_mapped": 2,
+      "rho": 0.9999514695882105,
+      "delta": 0.8944044098543079,
+      "k": 1.0,
+      "innovation_mode": true,
+      "chosen_action": "sacrifice",
+      "axis_deviations": [
+        0.14783028509810356,
+        0.5450734020471555,
+        0.4481985601490518,
+        0.5423165189962071
+      ],
+      "detailed_weights": [
+        {
+          "id": "Agent_0",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        },
+        {
+          "id": "Agent_2",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        }
+      ],
+      "risk_score": 0.05,
+      "failure_flags": [],
+      "full_trace": {
+        "centers": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.15720287970189645,
+              0.25660431955284463,
+              0.3018014398509482,
+              0.3560057594037929
+            ]
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.1471365501018964,
+              0.2532488763528446,
+              0.3018014398509482,
+              0.3593612026037929
+            ]
+          }
+        ],
+        "rho": 0.9999514695882105,
+        "chosen_action": "sacrifice",
+        "axis_deviations": [
+          0.14783028509810356,
+          0.5450734020471555,
+          0.4481985601490518,
+          0.5423165189962071
+        ],
+        "detailed_weights": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          }
+        ],
+        "risk": 0.05,
+        "innovation_mode": true,
+        "boundary_adjustment": "none",
+        "failure_flags": [],
+        "delta": 0.8944044098543079
+      }
+    },
+    {
+      "timestamp": "2026-05-07T15:32:48.115520",
+      "agent_id": "Agent_1",
+      "preamble": true,
+      "centers_mapped": 2,
+      "rho": 0.9999674870028212,
+      "delta": 0.900798645366531,
+      "k": 1.0,
+      "innovation_mode": true,
+      "chosen_action": "sacrifice",
+      "axis_deviations": [
+        0.17826422807848283,
+        0.5560587216377243,
+        0.4485588481192414,
+        0.5338532151969657
+      ],
+      "detailed_weights": [
+        {
+          "id": "Agent_0",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        },
+        {
+          "id": "Agent_2",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        }
+      ],
+      "risk_score": 0.05,
+      "failure_flags": [],
+      "full_trace": {
+        "centers": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.12576230376151717,
+              0.24528345564227572,
+              0.3014411518807586,
+              0.36480460752303434
+            ]
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.11770924008151713,
+              0.2425991010822757,
+              0.3014411518807586,
+              0.36748896208303433
+            ]
+          }
+        ],
+        "rho": 0.9999674870028212,
+        "chosen_action": "sacrifice",
+        "axis_deviations": [
+          0.17826422807848283,
+          0.5560587216377243,
+          0.4485588481192414,
+          0.5338532151969657
+        ],
+        "detailed_weights": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          }
+        ],
+        "risk": 0.05,
+        "innovation_mode": true,
+        "boundary_adjustment": "none",
+        "failure_flags": [],
+        "delta": 0.900798645366531
+      }
+    },
+    {
+      "timestamp": "2026-05-07T15:32:48.115906",
+      "agent_id": "Agent_1",
+      "preamble": true,
+      "centers_mapped": 2,
+      "rho": 0.9999786305006536,
+      "delta": 0.907673879820168,
+      "k": 1.0,
+      "innovation_mode": true,
+      "chosen_action": "sacrifice",
+      "axis_deviations": [
+        0.20261138246278626,
+        0.5648469773101794,
+        0.4488470784953931,
+        0.5270825721575725
+      ],
+      "detailed_weights": [
+        {
+          "id": "Agent_0",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        },
+        {
+          "id": "Agent_2",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        }
+      ],
+      "risk_score": 0.05,
+      "failure_flags": [],
+      "full_trace": {
+        "centers": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.10060984300921375,
+              0.2362267645138206,
+              0.3011529215046069,
+              0.3718436860184275
+            ]
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.09416739206521371,
+              0.23407928086582058,
+              0.3011529215046069,
+              0.3739911696664275
+            ]
+          }
+        ],
+        "rho": 0.9999786305006536,
+        "chosen_action": "sacrifice",
+        "axis_deviations": [
+          0.20261138246278626,
+          0.5648469773101794,
+          0.4488470784953931,
+          0.5270825721575725
+        ],
+        "detailed_weights": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          }
+        ],
+        "risk": 0.05,
+        "innovation_mode": true,
+        "boundary_adjustment": "none",
+        "failure_flags": [],
+        "delta": 0.907673879820168
+      }
+    },
+    {
+      "timestamp": "2026-05-07T15:32:48.118775",
+      "agent_id": "Agent_1",
+      "preamble": true,
+      "centers_mapped": 2,
+      "rho": 0.998461295184988,
+      "delta": 0.9142751980088974,
+      "k": 1.0,
+      "innovation_mode": true,
+      "chosen_action": "sacrifice",
+      "axis_deviations": [
+        0.192089105970229,
+        0.5618775818481435,
+        0.4490776627963145,
+        0.531666057726058
+      ],
+      "detailed_weights": [
+        {
+          "id": "Agent_0",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        },
+        {
+          "id": "Agent_2",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        }
+      ],
+      "risk_score": 0.05,
+      "failure_flags": [],
+      "full_trace": {
+        "centers": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.080487874407371,
+              0.2289814116110565,
+              0.3009223372036855,
+              0.37747494881474203
+            ]
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.13533391365217096,
+              0.24726342469265647,
+              0.3009223372036855,
+              0.359192935733142
+            ]
+          }
+        ],
+        "rho": 0.998461295184988,
+        "chosen_action": "sacrifice",
+        "axis_deviations": [
+          0.192089105970229,
+          0.5618775818481435,
+          0.4490776627963145,
+          0.531666057726058
+        ],
+        "detailed_weights": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          }
+        ],
+        "risk": 0.05,
+        "innovation_mode": true,
+        "boundary_adjustment": "none",
+        "failure_flags": [],
+        "delta": 0.9142751980088974
+      }
+    },
+    {
+      "timestamp": "2026-05-07T15:32:48.119470",
+      "agent_id": "Agent_1",
+      "preamble": true,
+      "centers_mapped": 2,
+      "rho": 0.9989962931816695,
+      "delta": 0.9202458148562634,
+      "k": 1.0,
+      "innovation_mode": true,
+      "chosen_action": "sacrifice",
+      "axis_deviations": [
+        0.2136712847761832,
+        0.5695020654785148,
+        0.4492621302370516,
+        0.5253328461808464
+      ],
+      "detailed_weights": [
+        {
+          "id": "Agent_0",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        },
+        {
+          "id": "Agent_2",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        }
+      ],
+      "risk_score": 0.05,
+      "failure_flags": [],
+      "full_trace": {
+        "centers": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.0643902995258968,
+              0.22318512928884524,
+              0.3007378697629484,
+              0.38197995905179366
+            ]
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.10826713092173677,
+              0.2378107397541252,
+              0.3007378697629484,
+              0.3673543485865136
+            ]
+          }
+        ],
+        "rho": 0.9989962931816695,
+        "chosen_action": "sacrifice",
+        "axis_deviations": [
+          0.2136712847761832,
+          0.5695020654785148,
+          0.4492621302370516,
+          0.5253328461808464
+        ],
+        "detailed_weights": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          }
+        ],
+        "risk": 0.05,
+        "innovation_mode": true,
+        "boundary_adjustment": "none",
+        "failure_flags": [],
+        "delta": 0.9202458148562634
+      }
+    },
+    {
+      "timestamp": "2026-05-07T15:32:48.119970",
+      "agent_id": "Agent_1",
+      "preamble": true,
+      "centers_mapped": 2,
+      "rho": 0.9993513514637131,
+      "delta": 0.9254550445892225,
+      "k": 1.0,
+      "innovation_mode": true,
+      "chosen_action": "sacrifice",
+      "axis_deviations": [
+        0.23093702782094655,
+        0.5756016523828118,
+        0.44940970418964127,
+        0.5202662769446771
+      ],
+      "detailed_weights": [
+        {
+          "id": "Agent_0",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        },
+        {
+          "id": "Agent_2",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        }
+      ],
+      "risk_score": 0.05,
+      "failure_flags": [],
+      "full_trace": {
+        "centers": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.05151223962071744,
+              0.2185481034310762,
+              0.30059029581035873,
+              0.38558396724143496
+            ]
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.08661370473738943,
+              0.23024859180330018,
+              0.30059029581035873,
+              0.3738834788692109
+            ]
+          }
+        ],
+        "rho": 0.9993513514637131,
+        "chosen_action": "sacrifice",
+        "axis_deviations": [
+          0.23093702782094655,
+          0.5756016523828118,
+          0.44940970418964127,
+          0.5202662769446771
+        ],
+        "detailed_weights": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          }
+        ],
+        "risk": 0.05,
+        "innovation_mode": true,
+        "boundary_adjustment": "none",
+        "failure_flags": [],
+        "delta": 0.9254550445892225
+      }
+    },
+    {
+      "timestamp": "2026-05-07T15:32:48.120367",
+      "agent_id": "Agent_1",
+      "preamble": true,
+      "centers_mapped": 2,
+      "rho": 0.9995831345784142,
+      "delta": 0.9298946869203852,
+      "k": 1.0,
+      "innovation_mode": true,
+      "chosen_action": "sacrifice",
+      "axis_deviations": [
+        0.24474962225675723,
+        0.5804813219062495,
+        0.449527763351713,
+        0.5162130215557417
+      ],
+      "detailed_weights": [
+        {
+          "id": "Agent_0",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        },
+        {
+          "id": "Agent_2",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        }
+      ],
+      "risk_score": 0.05,
+      "failure_flags": [],
+      "full_trace": {
+        "centers": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.041209791696573954,
+              0.21483848274486098,
+              0.300472236648287,
+              0.388467173793148
+            ]
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.06929096378991155,
+              0.22419887344264017,
+              0.300472236648287,
+              0.37910678309536877
+            ]
+          }
+        ],
+        "rho": 0.9995831345784142,
+        "chosen_action": "sacrifice",
+        "axis_deviations": [
+          0.24474962225675723,
+          0.5804813219062495,
+          0.449527763351713,
+          0.5162130215557417
+        ],
+        "detailed_weights": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          }
+        ],
+        "risk": 0.05,
+        "innovation_mode": true,
+        "boundary_adjustment": "none",
+        "failure_flags": [],
+        "delta": 0.9298946869203852
+      }
+    },
+    {
+      "timestamp": "2026-05-07T15:32:48.120653",
+      "agent_id": "Agent_1",
+      "preamble": true,
+      "centers_mapped": 2,
+      "rho": 0.999732944315127,
+      "delta": 0.9336181345528207,
+      "k": 1.0,
+      "innovation_mode": true,
+      "chosen_action": "sacrifice",
+      "axis_deviations": [
+        0.2557996978054058,
+        0.5843850575249996,
+        0.4496222106813704,
+        0.5129704172445932
+      ],
+      "detailed_weights": [
+        {
+          "id": "Agent_0",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        },
+        {
+          "id": "Agent_2",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        }
+      ],
+      "risk_score": 0.05,
+      "failure_flags": [],
+      "full_trace": {
+        "centers": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.03296783335725916,
+              0.2118707861958888,
+              0.3003777893186296,
+              0.39077373903451845
+            ]
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.05543277103192924,
+              0.21935909875411216,
+              0.3003777893186296,
+              0.38328542647629504
+            ]
+          }
+        ],
+        "rho": 0.999732944315127,
+        "chosen_action": "sacrifice",
+        "axis_deviations": [
+          0.2557996978054058,
+          0.5843850575249996,
+          0.4496222106813704,
+          0.5129704172445932
+        ],
+        "detailed_weights": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          }
+        ],
+        "risk": 0.05,
+        "innovation_mode": true,
+        "boundary_adjustment": "none",
+        "failure_flags": [],
+        "delta": 0.9336181345528207
+      }
+    },
+    {
+      "timestamp": "2026-05-07T15:32:48.120925",
+      "agent_id": "Agent_1",
+      "preamble": true,
+      "centers_mapped": 2,
+      "rho": 0.9998292084600706,
+      "delta": 0.9367054758846807,
+      "k": 1.0,
+      "innovation_mode": true,
+      "chosen_action": "sacrifice",
+      "axis_deviations": [
+        0.2646397582443246,
+        0.5875080460199996,
+        0.44969776854509635,
+        0.5103763337956746
+      ],
+      "detailed_weights": [
+        {
+          "id": "Agent_0",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        },
+        {
+          "id": "Agent_2",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        }
+      ],
+      "risk_score": 0.05,
+      "failure_flags": [],
+      "full_trace": {
+        "centers": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.02637426668580733,
+              0.20949662895671106,
+              0.30030223145490365,
+              0.3926189912276148
+            ]
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.0443462168255434,
+              0.21548727900328976,
+              0.30030223145490365,
+              0.38662834118103606
+            ]
+          }
+        ],
+        "rho": 0.9998292084600706,
+        "chosen_action": "sacrifice",
+        "axis_deviations": [
+          0.2646397582443246,
+          0.5875080460199996,
+          0.44969776854509635,
+          0.5103763337956746
+        ],
+        "detailed_weights": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          }
+        ],
+        "risk": 0.05,
+        "innovation_mode": true,
+        "boundary_adjustment": "none",
+        "failure_flags": [],
+        "delta": 0.9367054758846807
+      }
+    },
+    {
+      "timestamp": "2026-05-07T15:32:48.121176",
+      "agent_id": "Agent_1",
+      "preamble": true,
+      "centers_mapped": 2,
+      "rho": 0.9998908627086289,
+      "delta": 0.9392441479607117,
+      "k": 1.0,
+      "innovation_mode": true,
+      "chosen_action": "sacrifice",
+      "axis_deviations": [
+        0.2717118065954597,
+        0.5900064368159996,
+        0.4497582148360771,
+        0.5083010670365397
+      ],
+      "detailed_weights": [
+        {
+          "id": "Agent_0",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        },
+        {
+          "id": "Agent_2",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        }
+      ],
+      "risk_score": 0.05,
+      "failure_flags": [],
+      "full_trace": {
+        "centers": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.021099413348645867,
+              0.20759730316536887,
+              0.3002417851639229,
+              0.3940951929820919
+            ]
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.03547697346043472,
+              0.21238982320263183,
+              0.3002417851639229,
+              0.3893026729448289
+            ]
+          }
+        ],
+        "rho": 0.9998908627086289,
+        "chosen_action": "sacrifice",
+        "axis_deviations": [
+          0.2717118065954597,
+          0.5900064368159996,
+          0.4497582148360771,
+          0.5083010670365397
+        ],
+        "detailed_weights": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          }
+        ],
+        "risk": 0.05,
+        "innovation_mode": true,
+        "boundary_adjustment": "none",
+        "failure_flags": [],
+        "delta": 0.9392441479607117
+      }
+    },
+    {
+      "timestamp": "2026-05-07T15:32:48.121392",
+      "agent_id": "Agent_1",
+      "preamble": true,
+      "centers_mapped": 2,
+      "rho": 0.9999302819239285,
+      "delta": 0.9413187557836914,
+      "k": 1.0,
+      "innovation_mode": true,
+      "chosen_action": "sacrifice",
+      "axis_deviations": [
+        0.27736944527636775,
+        0.5920051494527998,
+        0.44980657186886164,
+        0.5066408536292317
+      ],
+      "detailed_weights": [
+        {
+          "id": "Agent_0",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        },
+        {
+          "id": "Agent_2",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        }
+      ],
+      "risk_score": 0.05,
+      "failure_flags": [],
+      "full_trace": {
+        "centers": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.016879530678916694,
+              0.2060778425322951,
+              0.30019342813113836,
+              0.39527615438567354
+            ]
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.02838157876834778,
+              0.20991185856210548,
+              0.30019342813113836,
+              0.39144213835586317
+            ]
+          }
+        ],
+        "rho": 0.9999302819239285,
+        "chosen_action": "sacrifice",
+        "axis_deviations": [
+          0.27736944527636775,
+          0.5920051494527998,
+          0.44980657186886164,
+          0.5066408536292317
+        ],
+        "detailed_weights": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          }
+        ],
+        "risk": 0.05,
+        "innovation_mode": true,
+        "boundary_adjustment": "none",
+        "failure_flags": [],
+        "delta": 0.9413187557836914
+      }
+    },
+    {
+      "timestamp": "2026-05-07T15:32:48.121696",
+      "agent_id": "Agent_1",
+      "preamble": true,
+      "centers_mapped": 2,
+      "rho": 0.9999554644199778,
+      "delta": 0.943006203804017,
+      "k": 1.0,
+      "innovation_mode": true,
+      "chosen_action": "sacrifice",
+      "axis_deviations": [
+        0.2818955562210942,
+        0.5936041195622398,
+        0.4498452574950893,
+        0.5053126829033854
+      ],
+      "detailed_weights": [
+        {
+          "id": "Agent_0",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        },
+        {
+          "id": "Agent_2",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        }
+      ],
+      "risk_score": 0.05,
+      "failure_flags": [],
+      "full_trace": {
+        "centers": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.013503624543133357,
+              0.2048622740258361,
+              0.3001547425049107,
+              0.3962209235085389
+            ]
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.022705263014678224,
+              0.2079294868496844,
+              0.3001547425049107,
+              0.39315371068469057
+            ]
+          }
+        ],
+        "rho": 0.9999554644199778,
+        "chosen_action": "sacrifice",
+        "axis_deviations": [
+          0.2818955562210942,
+          0.5936041195622398,
+          0.4498452574950893,
+          0.5053126829033854
+        ],
+        "detailed_weights": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          },
+          {
+            "id": "Agent_2",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          }
+        ],
+        "risk": 0.05,
+        "innovation_mode": true,
+        "boundary_adjustment": "none",
+        "failure_flags": [],
+        "delta": 0.943006203804017
+      }
+    }
+  ],
+  "Agent_2": [
+    {
+      "timestamp": "2026-05-07T15:32:48.105345",
+      "agent_id": "Agent_2",
+      "preamble": true,
+      "centers_mapped": 2,
+      "rho": 1.0,
+      "delta": 0.324037034920393,
+      "k": 1.0,
+      "innovation_mode": false,
+      "chosen_action": "share_fairly",
+      "axis_deviations": [
+        0.050000000000000044,
+        0.050000000000000044,
+        0.29999999999999993,
+        0.10000000000000009
+      ],
+      "detailed_weights": [
+        {
+          "id": "Agent_0",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        },
+        {
+          "id": "Agent_1",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        }
+      ],
+      "risk_score": 0.01,
+      "failure_flags": [
+        "high_drift"
+      ],
+      "full_trace": {
+        "centers": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.5,
+              0.6,
+              0.4,
+              0.7
+            ]
+          },
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.5,
+              0.6,
+              0.4,
+              0.7
+            ]
+          }
+        ],
+        "rho": 1.0,
+        "chosen_action": "share_fairly",
+        "axis_deviations": [
+          0.050000000000000044,
+          0.050000000000000044,
+          0.29999999999999993,
+          0.10000000000000009
+        ],
+        "detailed_weights": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          },
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          }
+        ],
+        "risk": 0.01,
+        "innovation_mode": false,
+        "boundary_adjustment": "none",
+        "failure_flags": [
+          "high_drift"
+        ],
+        "delta": 0.324037034920393
+      }
+    },
+    {
+      "timestamp": "2026-05-07T15:32:48.106126",
+      "agent_id": "Agent_2",
+      "preamble": true,
+      "centers_mapped": 2,
+      "rho": 0.9995238286060353,
+      "delta": 0.39370039370059057,
+      "k": 1.0,
+      "innovation_mode": false,
+      "chosen_action": "share_fairly",
+      "axis_deviations": [
+        0.12,
+        0.12,
+        0.3199999999999999,
+        0.17000000000000015
+      ],
+      "detailed_weights": [
+        {
+          "id": "Agent_0",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        },
+        {
+          "id": "Agent_1",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        }
+      ],
+      "risk_score": 0.01,
+      "failure_flags": [
+        "high_drift"
+      ],
+      "full_trace": {
+        "centers": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.46,
+              0.54,
+              0.38000000000000006,
+              0.6199999999999999
+            ]
+          },
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.4,
+              0.52,
+              0.38000000000000006,
+              0.6399999999999999
+            ]
+          }
+        ],
+        "rho": 0.9995238286060353,
+        "chosen_action": "share_fairly",
+        "axis_deviations": [
+          0.12,
+          0.12,
+          0.3199999999999999,
+          0.17000000000000015
+        ],
+        "detailed_weights": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          },
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          }
+        ],
+        "risk": 0.01,
+        "innovation_mode": false,
+        "boundary_adjustment": "none",
+        "failure_flags": [
+          "high_drift"
+        ],
+        "delta": 0.39370039370059057
+      }
+    },
+    {
+      "timestamp": "2026-05-07T15:32:48.106894",
+      "agent_id": "Agent_2",
+      "preamble": true,
+      "centers_mapped": 2,
+      "rho": 0.9996420214148976,
+      "delta": 0.46073853756767513,
+      "k": 1.0,
+      "innovation_mode": false,
+      "chosen_action": "share_fairly",
+      "axis_deviations": [
+        0.14599999999999996,
+        0.16600000000000004,
+        0.3359999999999999,
+        0.2360000000000001
+      ],
+      "detailed_weights": [
+        {
+          "id": "Agent_0",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        },
+        {
+          "id": "Agent_1",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        }
+      ],
+      "risk_score": 0.01,
+      "failure_flags": [
+        "high_drift"
+      ],
+      "full_trace": {
+        "centers": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.42800000000000005,
+              0.49200000000000005,
+              0.36400000000000005,
+              0.5559999999999999
+            ]
+          },
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.38000000000000006,
+              0.47600000000000003,
+              0.36400000000000005,
+              0.5719999999999998
+            ]
+          }
+        ],
+        "rho": 0.9996420214148976,
+        "chosen_action": "share_fairly",
+        "axis_deviations": [
+          0.14599999999999996,
+          0.16600000000000004,
+          0.3359999999999999,
+          0.2360000000000001
+        ],
+        "detailed_weights": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          },
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          }
+        ],
+        "risk": 0.01,
+        "innovation_mode": false,
+        "boundary_adjustment": "none",
+        "failure_flags": [
+          "high_drift"
+        ],
+        "delta": 0.46073853756767513
+      }
+    },
+    {
+      "timestamp": "2026-05-07T15:32:48.107774",
+      "agent_id": "Agent_2",
+      "preamble": true,
+      "centers_mapped": 2,
+      "rho": 0.9997371684019085,
+      "delta": 0.5188094062370111,
+      "k": 1.0,
+      "innovation_mode": false,
+      "chosen_action": "share_fairly",
+      "axis_deviations": [
+        0.1668,
+        0.20279999999999998,
+        0.3487999999999999,
+        0.28880000000000017
+      ],
+      "detailed_weights": [
+        {
+          "id": "Agent_0",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        },
+        {
+          "id": "Agent_1",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        }
+      ],
+      "risk_score": 0.01,
+      "failure_flags": [
+        "high_drift"
+      ],
+      "full_trace": {
+        "centers": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.40240000000000004,
+              0.45360000000000006,
+              0.35120000000000007,
+              0.5047999999999999
+            ]
+          },
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.36400000000000005,
+              0.4408,
+              0.35120000000000007,
+              0.5175999999999998
+            ]
+          }
+        ],
+        "rho": 0.9997371684019085,
+        "chosen_action": "share_fairly",
+        "axis_deviations": [
+          0.1668,
+          0.20279999999999998,
+          0.3487999999999999,
+          0.28880000000000017
+        ],
+        "detailed_weights": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          },
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          }
+        ],
+        "risk": 0.01,
+        "innovation_mode": false,
+        "boundary_adjustment": "none",
+        "failure_flags": [
+          "high_drift"
+        ],
+        "delta": 0.5188094062370111
+      }
+    },
+    {
+      "timestamp": "2026-05-07T15:32:48.108558",
+      "agent_id": "Agent_2",
+      "preamble": true,
+      "centers_mapped": 2,
+      "rho": 0.9998111312820556,
+      "delta": 0.5672280387992117,
+      "k": 1.0,
+      "innovation_mode": false,
+      "chosen_action": "share_fairly",
+      "axis_deviations": [
+        0.18344,
+        0.23223999999999995,
+        0.3590399999999999,
+        0.3310400000000001
+      ],
+      "detailed_weights": [
+        {
+          "id": "Agent_0",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        },
+        {
+          "id": "Agent_1",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        }
+      ],
+      "risk_score": 0.01,
+      "failure_flags": [
+        "high_drift"
+      ],
+      "full_trace": {
+        "centers": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.38192000000000004,
+              0.4228800000000001,
+              0.34096000000000004,
+              0.46384
+            ]
+          },
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.35120000000000007,
+              0.41264000000000006,
+              0.34096000000000004,
+              0.4740799999999999
+            ]
+          }
+        ],
+        "rho": 0.9998111312820556,
+        "chosen_action": "share_fairly",
+        "axis_deviations": [
+          0.18344,
+          0.23223999999999995,
+          0.3590399999999999,
+          0.3310400000000001
+        ],
+        "detailed_weights": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          },
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          }
+        ],
+        "risk": 0.01,
+        "innovation_mode": false,
+        "boundary_adjustment": "none",
+        "failure_flags": [
+          "high_drift"
+        ],
+        "delta": 0.5672280387992117
+      }
+    },
+    {
+      "timestamp": "2026-05-07T15:32:48.108965",
+      "agent_id": "Agent_2",
+      "preamble": true,
+      "centers_mapped": 2,
+      "rho": 0.9998668472867449,
+      "delta": 0.6069143718186281,
+      "k": 1.0,
+      "innovation_mode": false,
+      "chosen_action": "share_fairly",
+      "axis_deviations": [
+        0.19675200000000004,
+        0.25579199999999996,
+        0.3672319999999999,
+        0.364832
+      ],
+      "detailed_weights": [
+        {
+          "id": "Agent_0",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        },
+        {
+          "id": "Agent_1",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        }
+      ],
+      "risk_score": 0.01,
+      "failure_flags": [
+        "high_drift"
+      ],
+      "full_trace": {
+        "centers": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.365536,
+              0.3983040000000001,
+              0.33276800000000006,
+              0.431072
+            ]
+          },
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.34096000000000004,
+              0.39011200000000007,
+              0.33276800000000006,
+              0.43926399999999993
+            ]
+          }
+        ],
+        "rho": 0.9998668472867449,
+        "chosen_action": "share_fairly",
+        "axis_deviations": [
+          0.19675200000000004,
+          0.25579199999999996,
+          0.3672319999999999,
+          0.364832
+        ],
+        "detailed_weights": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          },
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          }
+        ],
+        "risk": 0.01,
+        "innovation_mode": false,
+        "boundary_adjustment": "none",
+        "failure_flags": [
+          "high_drift"
+        ],
+        "delta": 0.6069143718186281
+      }
+    },
+    {
+      "timestamp": "2026-05-07T15:32:48.109355",
+      "agent_id": "Agent_2",
+      "preamble": true,
+      "centers_mapped": 2,
+      "rho": 0.9999076742826226,
+      "delta": 0.6391573225902992,
+      "k": 1.0,
+      "innovation_mode": false,
+      "chosen_action": "share_fairly",
+      "axis_deviations": [
+        0.20740159999999996,
+        0.2746335999999999,
+        0.3737855999999999,
+        0.39186560000000004
+      ],
+      "detailed_weights": [
+        {
+          "id": "Agent_0",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        },
+        {
+          "id": "Agent_1",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        }
+      ],
+      "risk_score": 0.01,
+      "failure_flags": [
+        "high_drift"
+      ],
+      "full_trace": {
+        "centers": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.35242880000000004,
+              0.3786432000000001,
+              0.32621440000000007,
+              0.40485760000000004
+            ]
+          },
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.33276800000000006,
+              0.3720896000000001,
+              0.32621440000000007,
+              0.4114112
+            ]
+          }
+        ],
+        "rho": 0.9999076742826226,
+        "chosen_action": "share_fairly",
+        "axis_deviations": [
+          0.20740159999999996,
+          0.2746335999999999,
+          0.3737855999999999,
+          0.39186560000000004
+        ],
+        "detailed_weights": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          },
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          }
+        ],
+        "risk": 0.01,
+        "innovation_mode": false,
+        "boundary_adjustment": "none",
+        "failure_flags": [
+          "high_drift"
+        ],
+        "delta": 0.6391573225902992
+      }
+    },
+    {
+      "timestamp": "2026-05-07T15:32:48.109770",
+      "agent_id": "Agent_2",
+      "preamble": true,
+      "centers_mapped": 2,
+      "rho": 0.9999368869638902,
+      "delta": 0.6652211147680986,
+      "k": 1.0,
+      "innovation_mode": false,
+      "chosen_action": "share_fairly",
+      "axis_deviations": [
+        0.21592128,
+        0.28970687999999994,
+        0.3790284799999999,
+        0.41349248
+      ],
+      "detailed_weights": [
+        {
+          "id": "Agent_0",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        },
+        {
+          "id": "Agent_1",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        }
+      ],
+      "risk_score": 0.01,
+      "failure_flags": [
+        "high_drift"
+      ],
+      "full_trace": {
+        "centers": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.34194304000000003,
+              0.3629145600000001,
+              0.32097152000000007,
+              0.3838860800000001
+            ]
+          },
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.32621440000000007,
+              0.35767168000000005,
+              0.32097152000000007,
+              0.38912896
+            ]
+          }
+        ],
+        "rho": 0.9999368869638902,
+        "chosen_action": "share_fairly",
+        "axis_deviations": [
+          0.21592128,
+          0.28970687999999994,
+          0.3790284799999999,
+          0.41349248
+        ],
+        "detailed_weights": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          },
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          }
+        ],
+        "risk": 0.01,
+        "innovation_mode": false,
+        "boundary_adjustment": "none",
+        "failure_flags": [
+          "high_drift"
+        ],
+        "delta": 0.6652211147680986
+      }
+    },
+    {
+      "timestamp": "2026-05-07T15:32:48.110437",
+      "agent_id": "Agent_2",
+      "preamble": true,
+      "centers_mapped": 2,
+      "rho": 0.9999573712117964,
+      "delta": 0.6862246300602446,
+      "k": 1.0,
+      "innovation_mode": false,
+      "chosen_action": "share_fairly",
+      "axis_deviations": [
+        0.222737024,
+        0.3017655039999999,
+        0.38322278399999987,
+        0.43079398399999996
+      ],
+      "detailed_weights": [
+        {
+          "id": "Agent_0",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        },
+        {
+          "id": "Agent_1",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        }
+      ],
+      "risk_score": 0.01,
+      "failure_flags": [
+        "high_drift"
+      ],
+      "full_trace": {
+        "centers": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.333554432,
+              0.3503316480000001,
+              0.3167772160000001,
+              0.3671088640000001
+            ]
+          },
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.32097152000000007,
+              0.34613734400000007,
+              0.3167772160000001,
+              0.371303168
+            ]
+          }
+        ],
+        "rho": 0.9999573712117964,
+        "chosen_action": "share_fairly",
+        "axis_deviations": [
+          0.222737024,
+          0.3017655039999999,
+          0.38322278399999987,
+          0.43079398399999996
+        ],
+        "detailed_weights": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          },
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          }
+        ],
+        "risk": 0.01,
+        "innovation_mode": false,
+        "boundary_adjustment": "none",
+        "failure_flags": [
+          "high_drift"
+        ],
+        "delta": 0.6862246300602446
+      }
+    },
+    {
+      "timestamp": "2026-05-07T15:32:48.111117",
+      "agent_id": "Agent_2",
+      "preamble": true,
+      "centers_mapped": 2,
+      "rho": 0.9999714939531695,
+      "delta": 0.8373379820555403,
+      "k": 1.0,
+      "innovation_mode": false,
+      "chosen_action": "sacrifice",
+      "axis_deviations": [
+        0.02181038080000003,
+        0.46141240319999993,
+        0.43657822719999995,
+        0.5446351871999999
+      ],
+      "detailed_weights": [
+        {
+          "id": "Agent_0",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        },
+        {
+          "id": "Agent_1",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        }
+      ],
+      "risk_score": 0.05,
+      "failure_flags": [
+        "high_drift"
+      ],
+      "full_trace": {
+        "centers": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.3268435456,
+              0.34026531840000007,
+              0.31342177280000005,
+              0.3536870912000001
+            ]
+          },
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.3167772160000001,
+              0.33690987520000004,
+              0.31342177280000005,
+              0.3570425344
+            ]
+          }
+        ],
+        "rho": 0.9999714939531695,
+        "chosen_action": "sacrifice",
+        "axis_deviations": [
+          0.02181038080000003,
+          0.46141240319999993,
+          0.43657822719999995,
+          0.5446351871999999
+        ],
+        "detailed_weights": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          },
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          }
+        ],
+        "risk": 0.05,
+        "innovation_mode": false,
+        "boundary_adjustment": "none",
+        "failure_flags": [
+          "high_drift"
+        ],
+        "delta": 0.8373379820555403
+      }
+    },
+    {
+      "timestamp": "2026-05-07T15:32:48.111697",
+      "agent_id": "Agent_2",
+      "preamble": true,
+      "centers_mapped": 2,
+      "rho": 0.9999810951462986,
+      "delta": 0.7347691316119781,
+      "k": 1.0,
+      "innovation_mode": false,
+      "chosen_action": "share_fairly",
+      "axis_deviations": [
+        0.23255169536000003,
+        0.31912992256,
+        0.3892625817599999,
+        0.45570814976
+      ],
+      "detailed_weights": [
+        {
+          "id": "Agent_0",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        },
+        {
+          "id": "Agent_1",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        }
+      ],
+      "risk_score": 0.01,
+      "failure_flags": [
+        "high_drift"
+      ],
+      "full_trace": {
+        "centers": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.32147483648,
+              0.33221225472000004,
+              0.31073741824000006,
+              0.34294967296000006
+            ]
+          },
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.31342177280000005,
+              0.32952790016000005,
+              0.31073741824000006,
+              0.34563402752
+            ]
+          }
+        ],
+        "rho": 0.9999810951462986,
+        "chosen_action": "share_fairly",
+        "axis_deviations": [
+          0.23255169536000003,
+          0.31912992256,
+          0.3892625817599999,
+          0.45570814976
+        ],
+        "detailed_weights": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          },
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          }
+        ],
+        "risk": 0.01,
+        "innovation_mode": false,
+        "boundary_adjustment": "none",
+        "failure_flags": [
+          "high_drift"
+        ],
+        "delta": 0.7347691316119781
+      }
+    },
+    {
+      "timestamp": "2026-05-07T15:32:48.112102",
+      "agent_id": "Agent_2",
+      "preamble": true,
+      "centers_mapped": 2,
+      "rho": 0.9999875475403538,
+      "delta": 0.7416163000348125,
+      "k": 1.0,
+      "innovation_mode": false,
+      "chosen_action": "share_fairly",
+      "axis_deviations": [
+        0.236041356288,
+        0.32530393804799995,
+        0.3914100654079999,
+        0.464566519808
+      ],
+      "detailed_weights": [
+        {
+          "id": "Agent_0",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        },
+        {
+          "id": "Agent_1",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        }
+      ],
+      "risk_score": 0.01,
+      "failure_flags": [],
+      "full_trace": {
+        "centers": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.31717986918400004,
+              0.32576980377600007,
+              0.30858993459200007,
+              0.33435973836800004
+            ]
+          },
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.31073741824000006,
+              0.3236223201280001,
+              0.30858993459200007,
+              0.33650722201600003
+            ]
+          }
+        ],
+        "rho": 0.9999875475403538,
+        "chosen_action": "share_fairly",
+        "axis_deviations": [
+          0.236041356288,
+          0.32530393804799995,
+          0.3914100654079999,
+          0.464566519808
+        ],
+        "detailed_weights": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          },
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          }
+        ],
+        "risk": 0.01,
+        "innovation_mode": false,
+        "boundary_adjustment": "none",
+        "failure_flags": [],
+        "delta": 0.7416163000348125
+      }
+    },
+    {
+      "timestamp": "2026-05-07T15:32:48.112711",
+      "agent_id": "Agent_2",
+      "preamble": true,
+      "centers_mapped": 2,
+      "rho": 0.9999918431184773,
+      "delta": 0.7472689970962264,
+      "k": 1.0,
+      "innovation_mode": false,
+      "chosen_action": "share_fairly",
+      "axis_deviations": [
+        0.23883308503040002,
+        0.3302431504383999,
+        0.3931280523263999,
+        0.4716532158464
+      ],
+      "detailed_weights": [
+        {
+          "id": "Agent_0",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        },
+        {
+          "id": "Agent_1",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        }
+      ],
+      "risk_score": 0.01,
+      "failure_flags": [],
+      "full_trace": {
+        "centers": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.31374389534720004,
+              0.32061584302080004,
+              0.30687194767360004,
+              0.32748779069440004
+            ]
+          },
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.30858993459200007,
+              0.31889785610240007,
+              0.30687194767360004,
+              0.3292057776128
+            ]
+          }
+        ],
+        "rho": 0.9999918431184773,
+        "chosen_action": "share_fairly",
+        "axis_deviations": [
+          0.23883308503040002,
+          0.3302431504383999,
+          0.3931280523263999,
+          0.4716532158464
+        ],
+        "detailed_weights": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          },
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          }
+        ],
+        "risk": 0.01,
+        "innovation_mode": false,
+        "boundary_adjustment": "none",
+        "failure_flags": [],
+        "delta": 0.7472689970962264
+      }
+    },
+    {
+      "timestamp": "2026-05-07T15:32:48.113042",
+      "agent_id": "Agent_2",
+      "preamble": true,
+      "centers_mapped": 2,
+      "rho": 0.9999946809835061,
+      "delta": 0.7519005710292668,
+      "k": 1.0,
+      "innovation_mode": false,
+      "chosen_action": "share_fairly",
+      "axis_deviations": [
+        0.24106646802432002,
+        0.33419452035071995,
+        0.39450244186111993,
+        0.47732257267711997
+      ],
+      "detailed_weights": [
+        {
+          "id": "Agent_0",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        },
+        {
+          "id": "Agent_1",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        }
+      ],
+      "risk_score": 0.01,
+      "failure_flags": [],
+      "full_trace": {
+        "centers": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.31099511627776005,
+              0.31649267441664003,
+              0.30549755813888,
+              0.32199023255552006
+            ]
+          },
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.30687194767360004,
+              0.31511828488192006,
+              0.30549755813888,
+              0.32336462209024003
+            ]
+          }
+        ],
+        "rho": 0.9999946809835061,
+        "chosen_action": "share_fairly",
+        "axis_deviations": [
+          0.24106646802432002,
+          0.33419452035071995,
+          0.39450244186111993,
+          0.47732257267711997
+        ],
+        "detailed_weights": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          },
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          }
+        ],
+        "risk": 0.01,
+        "innovation_mode": false,
+        "boundary_adjustment": "none",
+        "failure_flags": [],
+        "delta": 0.7519005710292668
+      }
+    },
+    {
+      "timestamp": "2026-05-07T15:32:48.113521",
+      "agent_id": "Agent_2",
+      "preamble": true,
+      "centers_mapped": 2,
+      "rho": 0.9999965441980804,
+      "delta": 0.7556745506430025,
+      "k": 1.0,
+      "innovation_mode": false,
+      "chosen_action": "share_fairly",
+      "axis_deviations": [
+        0.24285317441945603,
+        0.337355616280576,
+        0.39560195348889593,
+        0.48185805814169597
+      ],
+      "detailed_weights": [
+        {
+          "id": "Agent_0",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        },
+        {
+          "id": "Agent_1",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        }
+      ],
+      "risk_score": 0.01,
+      "failure_flags": [],
+      "full_trace": {
+        "centers": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.30879609302220806,
+              0.31319413953331204,
+              0.304398046511104,
+              0.3175921860444161
+            ]
+          },
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.30549755813888,
+              0.31209462790553605,
+              0.304398046511104,
+              0.318691697672192
+            ]
+          }
+        ],
+        "rho": 0.9999965441980804,
+        "chosen_action": "share_fairly",
+        "axis_deviations": [
+          0.24285317441945603,
+          0.337355616280576,
+          0.39560195348889593,
+          0.48185805814169597
+        ],
+        "detailed_weights": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          },
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          }
+        ],
+        "risk": 0.01,
+        "innovation_mode": false,
+        "boundary_adjustment": "none",
+        "failure_flags": [],
+        "delta": 0.7556745506430025
+      }
+    },
+    {
+      "timestamp": "2026-05-07T15:32:48.113877",
+      "agent_id": "Agent_2",
+      "preamble": true,
+      "centers_mapped": 2,
+      "rho": 0.9999977613732866,
+      "delta": 0.8838507342284332,
+      "k": 1.0,
+      "innovation_mode": true,
+      "chosen_action": "sacrifice",
+      "axis_deviations": [
+        0.0057174604644352756,
+        0.4898844930244608,
+        0.4464815627911168,
+        0.5854864465133567
+      ],
+      "detailed_weights": [
+        {
+          "id": "Agent_0",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        },
+        {
+          "id": "Agent_1",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        }
+      ],
+      "risk_score": 0.05,
+      "failure_flags": [],
+      "full_trace": {
+        "centers": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.30703687441776645,
+              0.3105553116266496,
+              0.3035184372088832,
+              0.31407374883553285
+            ]
+          },
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.304398046511104,
+              0.30967570232442887,
+              0.3035184372088832,
+              0.3149533581377536
+            ]
+          }
+        ],
+        "rho": 0.9999977613732866,
+        "chosen_action": "sacrifice",
+        "axis_deviations": [
+          0.0057174604644352756,
+          0.4898844930244608,
+          0.4464815627911168,
+          0.5854864465133567
+        ],
+        "detailed_weights": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          },
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          }
+        ],
+        "risk": 0.05,
+        "innovation_mode": true,
+        "boundary_adjustment": "none",
+        "failure_flags": [],
+        "delta": 0.8838507342284332
+      }
+    },
+    {
+      "timestamp": "2026-05-07T15:32:48.114280",
+      "agent_id": "Agent_2",
+      "preamble": true,
+      "centers_mapped": 2,
+      "rho": 0.9999982719613628,
+      "delta": 0.8885378407841407,
+      "k": 1.0,
+      "innovation_mode": true,
+      "chosen_action": "sacrifice",
+      "axis_deviations": [
+        0.05542603162845178,
+        0.5119075944195687,
+        0.4471852502328934,
+        0.5683891572106854
+      ],
+      "detailed_weights": [
+        {
+          "id": "Agent_0",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        },
+        {
+          "id": "Agent_1",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        }
+      ],
+      "risk_score": 0.05,
+      "failure_flags": [],
+      "full_trace": {
+        "centers": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.24562949953421317,
+              0.2884442493013197,
+              0.3028147497671066,
+              0.3312589990684263
+            ]
+          },
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.24351843720888322,
+              0.2877405618595431,
+              0.3028147497671066,
+              0.3319626865102029
+            ]
+          }
+        ],
+        "rho": 0.9999982719613628,
+        "chosen_action": "sacrifice",
+        "axis_deviations": [
+          0.05542603162845178,
+          0.5119075944195687,
+          0.4471852502328934,
+          0.5683891572106854
+        ],
+        "detailed_weights": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          },
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          }
+        ],
+        "risk": 0.05,
+        "innovation_mode": true,
+        "boundary_adjustment": "none",
+        "failure_flags": [],
+        "delta": 0.8885378407841407
+      }
+    },
+    {
+      "timestamp": "2026-05-07T15:32:48.114855",
+      "agent_id": "Agent_2",
+      "preamble": true,
+      "centers_mapped": 2,
+      "rho": 0.9999987470137016,
+      "delta": 0.8954824992398623,
+      "k": 1.0,
+      "innovation_mode": true,
+      "chosen_action": "sacrifice",
+      "axis_deviations": [
+        0.10434082530276143,
+        0.5295260755356549,
+        0.4477482001863147,
+        0.5547113257685483
+      ],
+      "detailed_weights": [
+        {
+          "id": "Agent_0",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        },
+        {
+          "id": "Agent_1",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        }
+      ],
+      "risk_score": 0.05,
+      "failure_flags": [],
+      "full_trace": {
+        "centers": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.19650359962737055,
+              0.27075539944105576,
+              0.3022517998136853,
+              0.3450071992547411
+            ]
+          },
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.19481474976710658,
+              0.2701924494876345,
+              0.3022517998136853,
+              0.3455701492081623
+            ]
+          }
+        ],
+        "rho": 0.9999987470137016,
+        "chosen_action": "sacrifice",
+        "axis_deviations": [
+          0.10434082530276143,
+          0.5295260755356549,
+          0.4477482001863147,
+          0.5547113257685483
+        ],
+        "detailed_weights": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          },
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          }
+        ],
+        "risk": 0.05,
+        "innovation_mode": true,
+        "boundary_adjustment": "none",
+        "failure_flags": [],
+        "delta": 0.8954824992398623
+      }
+    },
+    {
+      "timestamp": "2026-05-07T15:32:48.115306",
+      "agent_id": "Agent_2",
+      "preamble": true,
+      "centers_mapped": 2,
+      "rho": 0.9984529191293944,
+      "delta": 0.903037255097417,
+      "k": 1.0,
+      "innovation_mode": true,
+      "chosen_action": "sacrifice",
+      "axis_deviations": [
+        0.11347266024220914,
+        0.533620860428524,
+        0.4481985601490518,
+        0.5537690606148387
+      ],
+      "detailed_weights": [
+        {
+          "id": "Agent_0",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        },
+        {
+          "id": "Agent_1",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        }
+      ],
+      "risk_score": 0.05,
+      "failure_flags": [],
+      "full_trace": {
+        "centers": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.15720287970189645,
+              0.25660431955284463,
+              0.3018014398509482,
+              0.3560057594037929
+            ]
+          },
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.21585179981368527,
+              0.2761539595901076,
+              0.3018014398509482,
+              0.33645611936652986
+            ]
+          }
+        ],
+        "rho": 0.9984529191293944,
+        "chosen_action": "sacrifice",
+        "axis_deviations": [
+          0.11347266024220914,
+          0.533620860428524,
+          0.4481985601490518,
+          0.5537690606148387
+        ],
+        "detailed_weights": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          },
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          }
+        ],
+        "risk": 0.05,
+        "innovation_mode": true,
+        "boundary_adjustment": "none",
+        "failure_flags": [],
+        "delta": 0.903037255097417
+      }
+    },
+    {
+      "timestamp": "2026-05-07T15:32:48.115595",
+      "agent_id": "Agent_2",
+      "preamble": true,
+      "centers_mapped": 2,
+      "rho": 0.9989363552021568,
+      "delta": 0.9103289125340411,
+      "k": 1.0,
+      "innovation_mode": true,
+      "chosen_action": "sacrifice",
+      "axis_deviations": [
+        0.1507781281937673,
+        0.5468966883428191,
+        0.4485588481192414,
+        0.5430152484918709
+      ],
+      "detailed_weights": [
+        {
+          "id": "Agent_0",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        },
+        {
+          "id": "Agent_1",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        }
+      ],
+      "risk_score": 0.05,
+      "failure_flags": [],
+      "full_trace": {
+        "centers": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.12576230376151717,
+              0.24528345564227572,
+              0.3014411518807586,
+              0.36480460752303434
+            ]
+          },
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.17268143985094822,
+              0.26092316767208606,
+              0.3014411518807586,
+              0.34916489549322394
+            ]
+          }
+        ],
+        "rho": 0.9989363552021568,
+        "chosen_action": "sacrifice",
+        "axis_deviations": [
+          0.1507781281937673,
+          0.5468966883428191,
+          0.4485588481192414,
+          0.5430152484918709
+        ],
+        "detailed_weights": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          },
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          }
+        ],
+        "risk": 0.05,
+        "innovation_mode": true,
+        "boundary_adjustment": "none",
+        "failure_flags": [],
+        "delta": 0.9103289125340411
+      }
+    },
+    {
+      "timestamp": "2026-05-07T15:32:48.116138",
+      "agent_id": "Agent_2",
+      "preamble": true,
+      "centers_mapped": 2,
+      "rho": 0.9992891511297747,
+      "delta": 0.8493149749110812,
+      "k": 1.0,
+      "innovation_mode": true,
+      "chosen_action": "share_fairly",
+      "axis_deviations": [
+        0.4306225025550139,
+        0.4075173506742553,
+        0.3988470784953931,
+        0.43441219879349674
+      ],
+      "detailed_weights": [
+        {
+          "id": "Agent_0",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        },
+        {
+          "id": "Agent_1",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        }
+      ],
+      "risk_score": 0.01,
+      "failure_flags": [],
+      "full_trace": {
+        "centers": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.10060984300921375,
+              0.2362267645138206,
+              0.3011529215046069,
+              0.3718436860184275
+            ]
+          },
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.13814515188075857,
+              0.24873853413766886,
+              0.3011529215046069,
+              0.3593319163945792
+            ]
+          }
+        ],
+        "rho": 0.9992891511297747,
+        "chosen_action": "share_fairly",
+        "axis_deviations": [
+          0.4306225025550139,
+          0.4075173506742553,
+          0.3988470784953931,
+          0.43441219879349674
+        ],
+        "detailed_weights": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          },
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          }
+        ],
+        "risk": 0.01,
+        "innovation_mode": true,
+        "boundary_adjustment": "none",
+        "failure_flags": [],
+        "delta": 0.8493149749110812
+      }
+    },
+    {
+      "timestamp": "2026-05-07T15:32:48.118923",
+      "agent_id": "Agent_2",
+      "preamble": true,
+      "centers_mapped": 2,
+      "rho": 0.9995335971215066,
+      "delta": 0.9092720548104067,
+      "k": 1.0,
+      "innovation_mode": true,
+      "chosen_action": "sacrifice",
+      "axis_deviations": [
+        0.20449800204401106,
+        0.5660138805394043,
+        0.4490776627963145,
+        0.5275297590347973
+      ],
+      "detailed_weights": [
+        {
+          "id": "Agent_0",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        },
+        {
+          "id": "Agent_1",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        }
+      ],
+      "risk_score": 0.05,
+      "failure_flags": [],
+      "full_trace": {
+        "centers": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.080487874407371,
+              0.2289814116110565,
+              0.3009223372036855,
+              0.37747494881474203
+            ]
+          },
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.11051612150460687,
+              0.2389908273101351,
+              0.3009223372036855,
+              0.3674655331156634
+            ]
+          }
+        ],
+        "rho": 0.9995335971215066,
+        "chosen_action": "sacrifice",
+        "axis_deviations": [
+          0.20449800204401106,
+          0.5660138805394043,
+          0.4490776627963145,
+          0.5275297590347973
+        ],
+        "detailed_weights": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          },
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          }
+        ],
+        "risk": 0.05,
+        "innovation_mode": true,
+        "boundary_adjustment": "none",
+        "failure_flags": [],
+        "delta": 0.9092720548104067
+      }
+    },
+    {
+      "timestamp": "2026-05-07T15:32:48.119566",
+      "agent_id": "Agent_2",
+      "preamble": true,
+      "centers_mapped": 2,
+      "rho": 0.9996974952504813,
+      "delta": 0.9156233445339941,
+      "k": 1.0,
+      "innovation_mode": true,
+      "chosen_action": "sacrifice",
+      "axis_deviations": [
+        0.22359840163520883,
+        0.5728111044315234,
+        0.4492621302370516,
+        0.5220238072278378
+      ],
+      "detailed_weights": [
+        {
+          "id": "Agent_0",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        },
+        {
+          "id": "Agent_1",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        }
+      ],
+      "risk_score": 0.05,
+      "failure_flags": [],
+      "full_trace": {
+        "centers": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.0643902995258968,
+              0.22318512928884524,
+              0.3007378697629484,
+              0.38197995905179366
+            ]
+          },
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.0884128972036855,
+              0.2311926618481081,
+              0.3007378697629484,
+              0.3739724264925307
+            ]
+          }
+        ],
+        "rho": 0.9996974952504813,
+        "chosen_action": "sacrifice",
+        "axis_deviations": [
+          0.22359840163520883,
+          0.5728111044315234,
+          0.4492621302370516,
+          0.5220238072278378
+        ],
+        "detailed_weights": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          },
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          }
+        ],
+        "risk": 0.05,
+        "innovation_mode": true,
+        "boundary_adjustment": "none",
+        "failure_flags": [],
+        "delta": 0.9156233445339941
+      }
+    },
+    {
+      "timestamp": "2026-05-07T15:32:48.120061",
+      "agent_id": "Agent_2",
+      "preamble": true,
+      "centers_mapped": 2,
+      "rho": 0.9998051656390167,
+      "delta": 0.9213674913814843,
+      "k": 1.0,
+      "innovation_mode": true,
+      "chosen_action": "sacrifice",
+      "axis_deviations": [
+        0.23887872130816706,
+        0.5782488835452188,
+        0.44940970418964127,
+        0.5176190457822702
+      ],
+      "detailed_weights": [
+        {
+          "id": "Agent_0",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        },
+        {
+          "id": "Agent_1",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        }
+      ],
+      "risk_score": 0.05,
+      "failure_flags": [],
+      "full_trace": {
+        "centers": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.05151223962071744,
+              0.2185481034310762,
+              0.30059029581035873,
+              0.38558396724143496
+            ]
+          },
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.0707303177629484,
+              0.2249541294784865,
+              0.30059029581035873,
+              0.3791779411940246
+            ]
+          }
+        ],
+        "rho": 0.9998051656390167,
+        "chosen_action": "sacrifice",
+        "axis_deviations": [
+          0.23887872130816706,
+          0.5782488835452188,
+          0.44940970418964127,
+          0.5176190457822702
+        ],
+        "detailed_weights": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          },
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          }
+        ],
+        "risk": 0.05,
+        "innovation_mode": true,
+        "boundary_adjustment": "none",
+        "failure_flags": [],
+        "delta": 0.9213674913814843
+      }
+    },
+    {
+      "timestamp": "2026-05-07T15:32:48.120434",
+      "agent_id": "Agent_2",
+      "preamble": true,
+      "centers_mapped": 2,
+      "rho": 0.9998750241558548,
+      "delta": 0.9263792690766356,
+      "k": 1.0,
+      "innovation_mode": true,
+      "chosen_action": "sacrifice",
+      "axis_deviations": [
+        0.2511029770465336,
+        0.5825991068361749,
+        0.449527763351713,
+        0.5140952366258162
+      ],
+      "detailed_weights": [
+        {
+          "id": "Agent_0",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        },
+        {
+          "id": "Agent_1",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        }
+      ],
+      "risk_score": 0.05,
+      "failure_flags": [],
+      "full_trace": {
+        "centers": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.041209791696573954,
+              0.21483848274486098,
+              0.300472236648287,
+              0.388467173793148
+            ]
+          },
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.056584254210358724,
+              0.21996330358278923,
+              0.300472236648287,
+              0.38334235295521973
+            ]
+          }
+        ],
+        "rho": 0.9998750241558548,
+        "chosen_action": "sacrifice",
+        "axis_deviations": [
+          0.2511029770465336,
+          0.5825991068361749,
+          0.449527763351713,
+          0.5140952366258162
+        ],
+        "detailed_weights": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          },
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          }
+        ],
+        "risk": 0.05,
+        "innovation_mode": true,
+        "boundary_adjustment": "none",
+        "failure_flags": [],
+        "delta": 0.9263792690766356
+      }
+    },
+    {
+      "timestamp": "2026-05-07T15:32:48.120708",
+      "agent_id": "Agent_2",
+      "preamble": true,
+      "centers_mapped": 2,
+      "rho": 0.9999200161922835,
+      "delta": 0.9306508843355518,
+      "k": 1.0,
+      "innovation_mode": true,
+      "chosen_action": "sacrifice",
+      "axis_deviations": [
+        0.26088238163722693,
+        0.58607928546894,
+        0.4496222106813704,
+        0.5112761893006529
+      ],
+      "detailed_weights": [
+        {
+          "id": "Agent_0",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        },
+        {
+          "id": "Agent_1",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        }
+      ],
+      "risk_score": 0.05,
+      "failure_flags": [],
+      "full_trace": {
+        "centers": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.03296783335725916,
+              0.2118707861958888,
+              0.3003777893186296,
+              0.39077373903451845
+            ]
+          },
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.04526740336828698,
+              0.2159706428662314,
+              0.3003777893186296,
+              0.3866738823641758
+            ]
+          }
+        ],
+        "rho": 0.9999200161922835,
+        "chosen_action": "sacrifice",
+        "axis_deviations": [
+          0.26088238163722693,
+          0.58607928546894,
+          0.4496222106813704,
+          0.5112761893006529
+        ],
+        "detailed_weights": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          },
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          }
+        ],
+        "risk": 0.05,
+        "innovation_mode": true,
+        "boundary_adjustment": "none",
+        "failure_flags": [],
+        "delta": 0.9306508843355518
+      }
+    },
+    {
+      "timestamp": "2026-05-07T15:32:48.120981",
+      "agent_id": "Agent_2",
+      "preamble": true,
+      "centers_mapped": 2,
+      "rho": 0.9999488703728199,
+      "delta": 0.9342336543774067,
+      "k": 1.0,
+      "innovation_mode": true,
+      "chosen_action": "sacrifice",
+      "axis_deviations": [
+        0.26870590530978156,
+        0.5888634283751519,
+        0.44969776854509635,
+        0.5090209514405223
+      ],
+      "detailed_weights": [
+        {
+          "id": "Agent_0",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        },
+        {
+          "id": "Agent_1",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        }
+      ],
+      "risk_score": 0.05,
+      "failure_flags": [],
+      "full_trace": {
+        "centers": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.02637426668580733,
+              0.20949662895671106,
+              0.30030223145490365,
+              0.3926189912276148
+            ]
+          },
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.036213922694629586,
+              0.21277651429298514,
+              0.30030223145490365,
+              0.3893391058913407
+            ]
+          }
+        ],
+        "rho": 0.9999488703728199,
+        "chosen_action": "sacrifice",
+        "axis_deviations": [
+          0.26870590530978156,
+          0.5888634283751519,
+          0.44969776854509635,
+          0.5090209514405223
+        ],
+        "detailed_weights": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          },
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          }
+        ],
+        "risk": 0.05,
+        "innovation_mode": true,
+        "boundary_adjustment": "none",
+        "failure_flags": [],
+        "delta": 0.9342336543774067
+      }
+    },
+    {
+      "timestamp": "2026-05-07T15:32:48.121226",
+      "agent_id": "Agent_2",
+      "preamble": true,
+      "centers_mapped": 2,
+      "rho": 0.9999673321266885,
+      "delta": 0.937204547107683,
+      "k": 1.0,
+      "innovation_mode": true,
+      "chosen_action": "sacrifice",
+      "axis_deviations": [
+        0.2749647242478252,
+        0.5910907427001215,
+        0.4497582148360771,
+        0.5072167611524178
+      ],
+      "detailed_weights": [
+        {
+          "id": "Agent_0",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        },
+        {
+          "id": "Agent_1",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        }
+      ],
+      "risk_score": 0.05,
+      "failure_flags": [],
+      "full_trace": {
+        "centers": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.021099413348645867,
+              0.20759730316536887,
+              0.3002417851639229,
+              0.3940951929820919
+            ]
+          },
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.02897113815570367,
+              0.21022121143438813,
+              0.3002417851639229,
+              0.3914712847130726
+            ]
+          }
+        ],
+        "rho": 0.9999673321266885,
+        "chosen_action": "sacrifice",
+        "axis_deviations": [
+          0.2749647242478252,
+          0.5910907427001215,
+          0.4497582148360771,
+          0.5072167611524178
+        ],
+        "detailed_weights": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          },
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          }
+        ],
+        "risk": 0.05,
+        "innovation_mode": true,
+        "boundary_adjustment": "none",
+        "failure_flags": [],
+        "delta": 0.937204547107683
+      }
+    },
+    {
+      "timestamp": "2026-05-07T15:32:48.121446",
+      "agent_id": "Agent_2",
+      "preamble": true,
+      "centers_mapped": 2,
+      "rho": 0.9999791306886157,
+      "delta": 0.9396476106256422,
+      "k": 1.0,
+      "innovation_mode": true,
+      "chosen_action": "sacrifice",
+      "axis_deviations": [
+        0.2799717793982602,
+        0.5928725941600972,
+        0.44980657186886164,
+        0.5057734089219342
+      ],
+      "detailed_weights": [
+        {
+          "id": "Agent_0",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        },
+        {
+          "id": "Agent_1",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        }
+      ],
+      "risk_score": 0.05,
+      "failure_flags": [],
+      "full_trace": {
+        "centers": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.016879530678916694,
+              0.2060778425322951,
+              0.30019342813113836,
+              0.39527615438567354
+            ]
+          },
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.023176910524562937,
+              0.20817696914751052,
+              0.30019342813113836,
+              0.3931770277704581
+            ]
+          }
+        ],
+        "rho": 0.9999791306886157,
+        "chosen_action": "sacrifice",
+        "axis_deviations": [
+          0.2799717793982602,
+          0.5928725941600972,
+          0.44980657186886164,
+          0.5057734089219342
+        ],
+        "detailed_weights": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          },
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          }
+        ],
+        "risk": 0.05,
+        "innovation_mode": true,
+        "boundary_adjustment": "none",
+        "failure_flags": [],
+        "delta": 0.9396476106256422
+      }
+    },
+    {
+      "timestamp": "2026-05-07T15:32:48.121767",
+      "agent_id": "Agent_2",
+      "preamble": true,
+      "centers_mapped": 2,
+      "rho": 0.9999866671983348,
+      "delta": 0.9416441899068663,
+      "k": 1.0,
+      "innovation_mode": true,
+      "chosen_action": "sacrifice",
+      "axis_deviations": [
+        0.2839774235186081,
+        0.5942980753280778,
+        0.4498452574950893,
+        0.5046187271375473
+      ],
+      "detailed_weights": [
+        {
+          "id": "Agent_0",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        },
+        {
+          "id": "Agent_1",
+          "mu": 0.6,
+          "w": 1.0,
+          "combined": 0.6
+        }
+      ],
+      "risk_score": 0.05,
+      "failure_flags": [],
+      "full_trace": {
+        "centers": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.013503624543133357,
+              0.2048622740258361,
+              0.3001547425049107,
+              0.3962209235085389
+            ]
+          },
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "values": [
+              0.01854152841965035,
+              0.20654157531800843,
+              0.3001547425049107,
+              0.3945416222163665
+            ]
+          }
+        ],
+        "rho": 0.9999866671983348,
+        "chosen_action": "sacrifice",
+        "axis_deviations": [
+          0.2839774235186081,
+          0.5942980753280778,
+          0.4498452574950893,
+          0.5046187271375473
+        ],
+        "detailed_weights": [
+          {
+            "id": "Agent_0",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          },
+          {
+            "id": "Agent_1",
+            "mu": 0.6,
+            "w": 1.0,
+            "combined": 0.6
+          }
+        ],
+        "risk": 0.05,
+        "innovation_mode": true,
+        "boundary_adjustment": "none",
+        "failure_flags": [],
+        "delta": 0.9416441899068663
+      }
+    }
+  ]
+}

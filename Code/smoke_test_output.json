@@ -1,0 +1,43 @@
+{
+  "mode": "smoke",
+  "smoke_seed": 99999,
+  "harness_git_hash": "0737ac43c2c8198eae140ce180ded34bf75a5ceb",
+  "agent_types_tested": [
+    "lemniscation",
+    "tft",
+    "gtft",
+    "tf2t",
+    "ac",
+    "dum",
+    "fdg"
+  ],
+  "schema_valid_per_agent": {
+    "lemniscation": true,
+    "tft": true,
+    "gtft": true,
+    "tf2t": true,
+    "ac": true,
+    "dum": true,
+    "fdg": true
+  },
+  "schema_errors_per_agent": {
+    "lemniscation": [],
+    "tft": [],
+    "gtft": [],
+    "tf2t": [],
+    "ac": [],
+    "dum": [],
+    "fdg": []
+  },
+  "crashes": {
+    "lemniscation": null,
+    "tft": null,
+    "gtft": null,
+    "tf2t": null,
+    "ac": null,
+    "dum": null,
+    "fdg": null
+  },
+  "status": "ok",
+  "note": "Smoke mode deliberately suppresses all metric values. Only mechanical correctness and schema validity are reported. Do not run --execute mode until pre_registration_step1.md is committed and references this harness commit hash."
+}

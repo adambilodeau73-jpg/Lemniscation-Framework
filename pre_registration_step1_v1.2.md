@@ -1,18 +1,20 @@
 # Pre-Registration: Step 1 — Baseline Comparison
 
 **Document version:** 1.2 (revised after a second round of separate-instance review)
-**Date drafted:** [to be filled in at commit time]
-**Date committed:** [to be filled in at commit time]
+**Date drafted:** May 15, 2026
+**Date committed:** May 15, 2026
 **Harness file:** `baseline_comparison_v1.py`
-**Harness commit hash:** [to be filled in at commit time, after the
-  harness is committed to git]
-**Smoke-test output log:** `smoke_test_output.json` committed
-  alongside the harness at the same commit hash, providing an
-  auditable record of the mechanical-verification run.
+**Harness commit hash:** 0737ac43c2c8198eae140ce180ded34bf75a5ceb
+**Smoke-test output log:** `Code/smoke_test_output.json`, committed at
+  `b84f161150cdfc126de8e5c2bc7364c4e9066819`, provides an auditable
+  record of the mechanical-verification run of the harness.
+**Computational environment:** CPython 3.14.4, Windows 11. The harness
+  is Python-standard-library-only; `CLAUDE.md` pins Python 3.12, and the
+  harness was verified schema-clean on 3.14.4 in the smoke run above.
 **Review transcripts:** Both rounds of separate-instance review
   (covering v1.0 → v1.1 and v1.1 → v1.2) are committed to the
-  repository at `docs/review_transcripts/` and referenced by commit
-  hash. See Section 11.
+  repository at `Docs/review_transcripts/`, commit
+  `794881d181f7c2b70ab8345fca9366742096fb24`. See Section 11.
 **Authors:** Adam Bilodeau (Human), Claude (Anthropic), with reference
   to prior collaboration with Grok (xAI) on the underlying framework
 
@@ -822,16 +824,17 @@ comparison is being oversold.
    hash is recorded.
 2. The harness `baseline_comparison_v1.py`, already committed, is
    referenced by its own commit hash in the header above.
-3. The smoke-test output log (`smoke_test_output.json`), produced by
+3. The smoke-test output log (`Code/smoke_test_output.json`), produced by
    running `python3 baseline_comparison_v1.py --smoke` against seed
    99999 with all metric values suppressed, is committed to the
-   repository alongside the harness. This provides an auditable
-   record that the harness was mechanically verified before
-   pre-registration without exposing any results data.
+   repository at commit `b84f161150cdfc126de8e5c2bc7364c4e9066819`. This
+   provides an auditable record that the harness was mechanically
+   verified before pre-registration without exposing any results data.
 4. Both rounds of separate-instance Claude review transcripts are
-   committed to the repository at `docs/review_transcripts/` so that
-   the v1.0 → v1.1 and v1.1 → v1.2 revision processes documented in
-   Section 2 are independently auditable.
+   committed to the repository at `Docs/review_transcripts/`, commit
+   `794881d181f7c2b70ab8345fca9366742096fb24`, so that the v1.0 → v1.1
+   and v1.1 → v1.2 revision processes documented in Section 2 are
+   independently auditable.
 5. An OSF entry is created referencing all four commit hashes
    (harness, smoke-test log, review transcripts, pre-registration).
 6. Once steps 1–5 are complete and timestamped publicly, and not
@@ -909,11 +912,12 @@ non-Claude reviewers would strengthen the document materially and
 remains an open need.
 
 **Review transcripts:** Both review transcripts are committed to
-`docs/review_transcripts/` at the same commit as this document, so
-that the v1.0 → v1.1 and v1.1 → v1.2 revision processes documented
-in Section 2 are independently auditable. A reader who wishes to
-verify which critiques were raised, which were accepted, and which
-were modified or declined can do so from the transcripts directly.
+`Docs/review_transcripts/`, commit
+`794881d181f7c2b70ab8345fca9366742096fb24`, so that the v1.0 → v1.1
+and v1.1 → v1.2 revision processes documented in Section 2 are
+independently auditable. A reader who wishes to verify which
+critiques were raised, which were accepted, and which were modified
+or declined can do so from the transcripts directly.
 
 **Closure of internal Claude review:** The author has explicitly
 closed the internal Claude-review cycle at v1.2. The pattern of two

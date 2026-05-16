@@ -8,3 +8,7 @@ Supplemental & Archives/
 
 # Claude Code local tooling config
 .claude/
+
+# Python bytecode cache — regenerated on every run, machine-specific
+__pycache__/
+*.pyc

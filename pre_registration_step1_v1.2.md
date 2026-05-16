@@ -2,7 +2,7 @@
 
 **Document version:** 1.2 (revised after a second round of separate-instance review)
 **Date drafted:** May 15, 2026
-**Date committed:** May 15, 2026
+**Date committed:** May 16, 2026
 **Harness file:** `baseline_comparison_v1.py`
 **Harness commit hash:** 0737ac43c2c8198eae140ce180ded34bf75a5ceb
 **Smoke-test output log:** `Code/smoke_test_output.json`, committed at

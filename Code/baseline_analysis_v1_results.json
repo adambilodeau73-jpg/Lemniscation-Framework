@@ -1,0 +1,308 @@
+{
+  "analysis_meta": {
+    "input_file": "baseline_comparison_v1_results.json",
+    "harness_git_hash": "0737ac43c2c8198eae140ce180ded34bf75a5ceb",
+    "admissibility_gate": "passed",
+    "n_seeds": 50,
+    "amendment": "pre_registration_step1_amendment1.md"
+  },
+  "moderate_checks": {
+    "M1": {
+      "check": "M1",
+      "pass": true,
+      "statistic": 1.0,
+      "cutoff": ">= 0.95",
+      "detail": ""
+    },
+    "M2": {
+      "check": "M2",
+      "pass": true,
+      "statistic": 1.0,
+      "cutoff": ">= 0.90",
+      "detail": ""
+    },
+    "M_FP": {
+      "check": "M_FP_moderate",
+      "pass": false,
+      "statistic": 2.0,
+      "cutoff": "median <= 1",
+      "detail": ""
+    },
+    "M3": {
+      "check": "M3",
+      "pass": true,
+      "statistic": 92.0,
+      "cutoff": "median >= 5",
+      "detail": ""
+    },
+    "M4": {
+      "check": "M4",
+      "pass": false,
+      "statistic": -1.5,
+      "cutoff": "median >= 5",
+      "detail": "n_numeric=50"
+    },
+    "M5": {
+      "check": "M5",
+      "pass": true,
+      "statistic": 0.0,
+      "cutoff": "mean <= 0.01",
+      "detail": ""
+    },
+    "M6": {
+      "check": "M6",
+      "pass": false,
+      "statistic": 0.607,
+      "cutoff": ">= 1.0000 - 0.05  (best baseline: tft)",
+      "detail": ""
+    },
+    "M7": {
+      "check": "M7",
+      "pass": false,
+      "statistic": 1.2,
+      "cutoff": "<= 1.25 x 0.0000  (fastest baseline: tft, n_intersection=10)",
+      "detail": "per_baseline={'tft': {'n_intersection': 10, 'baseline_mean': 0, 'lemn_mean': 1.2}, 'gtft': {'n_intersection': 10, 'baseline_mean': 0, 'lemn_mean': 1.2}, 'tf2t': {'n_intersection': 10, 'baseline_mean': 0, 'lemn_mean': 1.2}, 'ac': {'n_intersection': 10, 'baseline_mean': 0, 'lemn_mean': 1.2}, 'dum': {'n_intersection': 10, 'baseline_mean': 0, 'lemn_mean': 1.2}, 'fdg': {'n_intersection': 5, 'baseline_mean': 0, 'lemn_mean': 0.8}}"
+    },
+    "M7b": {
+      "check": "M7b",
+      "pass": false,
+      "statistic": 0.08,
+      "cutoff": ">= 0.80",
+      "detail": ""
+    },
+    "M8": {
+      "check": "M8",
+      "pass": false,
+      "statistic": 1.0,
+      "cutoff": "fail fraction < 0.05",
+      "detail": "50/50 seeds fail"
+    }
+  },
+  "strict_checks": {
+    "S1": {
+      "check": "S1",
+      "pass": true,
+      "statistic": 1.0,
+      "cutoff": "== 1.00",
+      "detail": ""
+    },
+    "S2": {
+      "check": "S2",
+      "pass": true,
+      "statistic": 1.0,
+      "cutoff": "== 1.00",
+      "detail": ""
+    },
+    "S_FP": {
+      "check": "S_FP_strict",
+      "pass": false,
+      "statistic": 1.9,
+      "cutoff": "mean <= 0.5",
+      "detail": ""
+    },
+    "S3": {
+      "check": "S3",
+      "pass": true,
+      "statistic": 92.0,
+      "cutoff": "median >= 10",
+      "detail": ""
+    },
+    "S4": {
+      "check": "S4",
+      "pass": false,
+      "statistic": -1.5,
+      "cutoff": "median >= 8",
+      "detail": "n_numeric=50"
+    },
+    "S5": {
+      "check": "S5",
+      "pass": true,
+      "statistic": 0.0,
+      "cutoff": "mean == 0.000",
+      "detail": ""
+    },
+    "S6": {
+      "check": "S6",
+      "pass": false,
+      "statistic": 0.607,
+      "cutoff": ">= 1.0000 - 0.02  (best baseline: tft)",
+      "detail": ""
+    },
+    "S7": {
+      "check": "S7",
+      "pass": false,
+      "statistic": 1.2,
+      "cutoff": "<= 1.1 x 0.0000  (fastest baseline: tft, n_intersection=10)",
+      "detail": "per_baseline={'tft': {'n_intersection': 10, 'baseline_mean': 0, 'lemn_mean': 1.2}, 'gtft': {'n_intersection': 10, 'baseline_mean': 0, 'lemn_mean': 1.2}, 'tf2t': {'n_intersection': 10, 'baseline_mean': 0, 'lemn_mean': 1.2}, 'ac': {'n_intersection': 10, 'baseline_mean': 0, 'lemn_mean': 1.2}, 'dum': {'n_intersection': 10, 'baseline_mean': 0, 'lemn_mean': 1.2}, 'fdg': {'n_intersection': 5, 'baseline_mean': 0, 'lemn_mean': 0.8}}"
+    },
+    "S7b": {
+      "check": "S7b",
+      "pass": false,
+      "statistic": 0.08,
+      "cutoff": "== 1.00",
+      "detail": ""
+    },
+    "S8": {
+      "check": "S8",
+      "pass": false,
+      "statistic": 50,
+      "cutoff": "0 seeds fail",
+      "detail": "50/50 seeds fail"
+    }
+  },
+  "moderate_pass": false,
+  "strict_pass": false,
+  "supporting_stats": {
+    "M6_S6_cooperation": {
+      "metric": "hobbesian_coop_rate",
+      "lemniscation_mean": 0.607,
+      "lemniscation_ci95": [
+        0.5961666666666666,
+        0.6183333333333334
+      ],
+      "comparisons": {
+        "tft": {
+          "baseline_mean": 1.0,
+          "baseline_ci95": [
+            1.0,
+            1.0
+          ],
+          "mann_whitney_u": 0.0,
+          "p_two_sided": 0.0,
+          "significant_bonferroni": true,
+          "cohens_d": -13.738790157621244,
+          "hedges_g": -13.633377445414432,
+          "cliffs_delta": -1.0
+        },
+        "gtft": {
+          "baseline_mean": 1.0,
+          "baseline_ci95": [
+            1.0,
+            1.0
+          ],
+          "mann_whitney_u": 0.0,
+          "p_two_sided": 0.0,
+          "significant_bonferroni": true,
+          "cohens_d": -13.738790157621244,
+          "hedges_g": -13.633377445414432,
+          "cliffs_delta": -1.0
+        },
+        "tf2t": {
+          "baseline_mean": 1.0,
+          "baseline_ci95": [
+            1.0,
+            1.0
+          ],
+          "mann_whitney_u": 0.0,
+          "p_two_sided": 0.0,
+          "significant_bonferroni": true,
+          "cohens_d": -13.738790157621244,
+          "hedges_g": -13.633377445414432,
+          "cliffs_delta": -1.0
+        },
+        "dum": {
+          "baseline_mean": 0.966,
+          "baseline_ci95": [
+            0.9646666666666667,
+            0.9666666666666667
+          ],
+          "mann_whitney_u": 0.0,
+          "p_two_sided": 0.0,
+          "significant_bonferroni": true,
+          "cohens_d": -12.465840790049857,
+          "hedges_g": -12.370194952786047,
+          "cliffs_delta": -1.0
+        },
+        "fdg": {
+          "baseline_mean": 0.0,
+          "baseline_ci95": [
+            0.0,
+            0.0
+          ],
+          "mann_whitney_u": 2500.0,
+          "p_two_sided": 0.0,
+          "significant_bonferroni": true,
+          "cohens_d": 21.2199634241122,
+          "hedges_g": 21.057150405512875,
+          "cliffs_delta": 1.0
+        }
+      }
+    },
+    "M7_S7_recovery": {
+      "metric": "recovery_time",
+      "comparisons": {
+        "tft": {
+          "n_intersection": 10,
+          "lemniscation_mean": 1.2,
+          "baseline_mean": 0,
+          "mann_whitney_u": 85.0,
+          "p_two_sided": 0.0018245581086739904,
+          "significant_bonferroni": true,
+          "cohens_d": 1.6431676725154984,
+          "hedges_g": 1.5737380525500548,
+          "cliffs_delta": 0.7
+        },
+        "gtft": {
+          "n_intersection": 10,
+          "lemniscation_mean": 1.2,
+          "baseline_mean": 0,
+          "mann_whitney_u": 85.0,
+          "p_two_sided": 0.0018245581086739904,
+          "significant_bonferroni": true,
+          "cohens_d": 1.6431676725154984,
+          "hedges_g": 1.5737380525500548,
+          "cliffs_delta": 0.7
+        },
+        "tf2t": {
+          "n_intersection": 10,
+          "lemniscation_mean": 1.2,
+          "baseline_mean": 0,
+          "mann_whitney_u": 85.0,
+          "p_two_sided": 0.0018245581086739904,
+          "significant_bonferroni": true,
+          "cohens_d": 1.6431676725154984,
+          "hedges_g": 1.5737380525500548,
+          "cliffs_delta": 0.7
+        },
+        "ac": {
+          "n_intersection": 10,
+          "lemniscation_mean": 1.2,
+          "baseline_mean": 0,
+          "mann_whitney_u": 85.0,
+          "p_two_sided": 0.0018245581086739904,
+          "significant_bonferroni": true,
+          "cohens_d": 1.6431676725154984,
+          "hedges_g": 1.5737380525500548,
+          "cliffs_delta": 0.7
+        },
+        "dum": {
+          "n_intersection": 10,
+          "lemniscation_mean": 1.2,
+          "baseline_mean": 0,
+          "mann_whitney_u": 85.0,
+          "p_two_sided": 0.0018245581086739904,
+          "significant_bonferroni": true,
+          "cohens_d": 1.6431676725154984,
+          "hedges_g": 1.5737380525500548,
+          "cliffs_delta": 0.7
+        },
+        "fdg": {
+          "n_intersection": 5,
+          "lemniscation_mean": 0.8,
+          "baseline_mean": 0,
+          "mann_whitney_u": 20.0,
+          "p_two_sided": 0.052807511416113506,
+          "significant_bonferroni": false,
+          "cohens_d": 1.3522468075656267,
+          "hedges_g": 1.221384213285082,
+          "cliffs_delta": 0.6
+        }
+      }
+    }
+  },
+  "outcome": "C",
+  "interpretation_flags": [
+    "Section 8.3(a): registered wording is ambiguous (apparent double negative). Implemented as 'Lemniscation mean Hobbesian exploit_rate <= mean baseline Hobbesian exploit_rate', with NO significance test despite the word 'statistically'. Requires human confirmation.",
+    "Section 8.3(b): implemented as a literal warning-COUNT comparison (BASELINE phase = 10 rounds vs HOBBESIAN phase = 30 rounds) via two-sided Mann-Whitney U at p<0.05. The unequal phase lengths make this a weak specificity test as literally written. Requires human confirmation."
+  ]
+}
